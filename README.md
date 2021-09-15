@@ -2,8 +2,11 @@ Reccommended Forge Version: Forge-1.16.5-36.2.0
 Please set the following in your server.properties files when it generates, for stability and compatibility:
 
 allow-flight=true
+
 difficulty=hard
+
 max-tick-time=256000
+
 view-distance=7
 
 =========================
