@@ -5,7 +5,7 @@
 	#Remember, more mobs = more server lag, so set this number responsibly!
 	#Default is 5.0. aka 70 * 5.0 = 350 total mobs
 	#Range: 1.5 ~ 30.0
-	MonsterSpawnCapMultiplier = 5.0
+	MonsterSpawnCapMultiplier = 2
 	#The chance of Blood Moon occurring each night. Chance is rolled at the daytime 12000.
 	#Default 0.05
 	#Range: 0.01 ~ 1.0

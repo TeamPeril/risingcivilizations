@@ -1,10 +1,25 @@
-# Rising Civilizations 1.16.5
-![BH_RC_Header](https://www.bisecthosting.com/images/CF/Rising_Civilizations/BH_RC_Header.png)
-Rising Civilizations is a modpack that focus on starting your own civilization and progressing through three distinct ages of technology. The quest system in place guides players on how to progress through and to each age of technology.
+Reccommended Forge Version: Forge-1.16.5-36.2.0
+Please set the following in your server.properties files when it generates, for stability and compatibility:
 
-As a civilization, you are able to claim land using deeds/deed pedestals and you can raid other civilizations' lands by destroying their deed pedestal. Blocks destroyed in explosions regenerate over time. Various small and large dungeons spawn throughout the world for you to conquer. There is no unnecessary or artificial grind in order to ensure that the players have fun (I'm looking at you SevTech: Ages). The difficulty of the modpack also increases when you reach certain milestones. This modpack is best played with friends. 
+allow-flight=true
+difficulty=hard
+max-tick-time=256000
+view-distance=7
 
-![BH_RC_Progression](https://www.bisecthosting.com/images/CF/Rising_Civilizations/BH_RC_ProgressionList.png)
-![BH_RC_Features_Header](https://www.bisecthosting.com/images/CF/Rising_Civilizations/BH_RC_Features.png)
-![BH_RC_Features](https://www.bisecthosting.com/images/CF/Rising_Civilizations/BH_RC_FeaturesList.png)
-![BH_RC_Promo](https://www.bisecthosting.com/images/CF/Rising_Civilizations/BH_RC_PromoCard.png)
+=========================
+
+SERVER START PARAMETERS/JVM FLAGS YOU SHOULD USE
+
+https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/
+
+=========================
+
+allow flight needs to be true for things like mounts that fly and fairy ring, or the server will kick players using those.
+
+difficulty needs to be hard difficulty mode because everything is balanced around it.
+
+max-tick-time need to be 256000 for big structures and for players first time joining the server.
+
+view distance should be 7 for performance reasons, raising it higher can cause lag.
+
+
