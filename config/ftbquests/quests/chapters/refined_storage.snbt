@@ -1,0 +1,457 @@
+{
+	id: "6253D2FBAD44D3D6"
+	group: ""
+	order_index: 5
+	filename: "refined_storage"
+	title: "Refined Storage"
+	icon: "refinedstorage:creative_controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -3.0d
+			subtitle: "This is where disk drives are inserted so that your network can store items."
+			description: ["Disk Drives hold all your storage drives."]
+			id: "6FC21421FE43DFF3"
+			tasks: [{
+				id: "7F5100BD0330D2B4"
+				type: "item"
+				item: "refinedstorage:disk_drive"
+			}]
+			rewards: [
+				{
+					id: "63633F7E71005905"
+					type: "item"
+					item: "refinedstorage:quartz_enriched_iron"
+					count: 16
+				}
+				{
+					id: "4F7DA1A7F76CE8DB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			title: "The 1k Storage Disk"
+			x: -2.0d
+			y: 4.0d
+			subtitle: "The storage drives is what actually stores items you input into your system. Stores approximately 1,000 items."
+			description: [""]
+			dependencies: ["019A8773C9CD021F"]
+			id: "3034999710DA04C7"
+			tasks: [{
+				id: "4733E9C90A7DF926"
+				type: "item"
+				item: "refinedstorage:1k_storage_disk"
+			}]
+			rewards: [
+				{
+					id: "043F0E113353341F"
+					type: "item"
+					item: "refinedstorage:processor_binding"
+					count: 16
+				}
+				{
+					id: "7902E685D594153E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0599A0D56AB827DD"
+					type: "item"
+					item: "refinedstorage:1k_storage_disk"
+				}
+			]
+		}
+		{
+			title: "The Controller"
+			x: 0.0d
+			y: -1.0d
+			subtitle: "This is the brain of your storage system and every storage system needs one."
+			dependencies: ["6FC21421FE43DFF3"]
+			id: "3E140220C84581B6"
+			tasks: [{
+				id: "3ED21292BF5E9E1B"
+				type: "item"
+				item: "refinedstorage:controller"
+			}]
+			rewards: [{
+				id: "12C6B4E07F75E1BE"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "Networking"
+			x: 0.0d
+			y: 1.0d
+			subtitle: "Cables allow for a storage system to be extended for longer distances without the need of placing every block next to each other."
+			description: ["Cables is the skeleton that connects everything to your storage system."]
+			dependencies: ["3E140220C84581B6"]
+			id: "28415482A0FF955B"
+			tasks: [{
+				id: "2A67668543AC976E"
+				type: "item"
+				item: "refinedstorage:cable"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "4EE8841AE127DF1A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "095D8054B0181630"
+					type: "item"
+					item: "refinedstorage:cable"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 4.0d
+			subtitle: "Stores around 4,000 items."
+			dependencies: ["3034999710DA04C7"]
+			id: "65A303D8B52DF93F"
+			tasks: [{
+				id: "3765AF43D364196A"
+				type: "item"
+				item: "refinedstorage:4k_storage_disk"
+			}]
+			rewards: [
+				{
+					id: "7B9E50C279D57273"
+					type: "item"
+					item: "refinedstorage:processor_binding"
+					count: 16
+				}
+				{
+					id: "523CE3292F55EB41"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 4.0d
+			subtitle: "Stores around 16,000 items."
+			dependencies: ["65A303D8B52DF93F"]
+			id: "5C9D597367C3C270"
+			tasks: [{
+				id: "1D402AA7A9A9CE75"
+				type: "item"
+				item: "refinedstorage:16k_storage_disk"
+			}]
+			rewards: [
+				{
+					id: "1C3714BB3FC8D8A9"
+					type: "item"
+					item: "refinedstorage:processor_binding"
+					count: 16
+				}
+				{
+					id: "00664BBDFD452A03"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 4.0d
+			subtitle: "Stores around 64,000 items."
+			dependencies: ["5C9D597367C3C270"]
+			id: "39AC1C92FF442C08"
+			tasks: [{
+				id: "21FAE9BFBCD946AE"
+				type: "item"
+				item: "refinedstorage:64k_storage_disk"
+			}]
+			rewards: [
+				{
+					id: "36E2D3514E32574F"
+					type: "item"
+					item: "refinedstorage:processor_binding"
+					count: 16
+				}
+				{
+					id: "5A778E855C03593B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "Convenience At Its Best"
+			x: 0.0d
+			y: 7.0d
+			subtitle: "Craft a Crafting Grid"
+			description: ["The Crafting Grid Allows you to craft directly inside your storage system."]
+			dependencies: ["019A8773C9CD021F"]
+			id: "4FEC1289D86DA26C"
+			tasks: [{
+				id: "6B0460E7245A8AD7"
+				type: "item"
+				item: "refinedstorage:crafting_grid"
+			}]
+			rewards: [{
+				id: "61EAE6A8F619665A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "The Grid"
+			x: 0.0d
+			y: 5.0d
+			subtitle: "The grid is the visual interface of your network and allows you to view all items inside."
+			description: ["The Grid allows you to access the contents of your storage system."]
+			dependencies: ["28415482A0FF955B"]
+			id: "019A8773C9CD021F"
+			tasks: [{
+				id: "2CD5614AEF808C96"
+				type: "item"
+				item: "refinedstorage:grid"
+			}]
+			rewards: [{
+				id: "40E682E21016034D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "Wireless"
+			x: 0.0d
+			y: 9.0d
+			subtitle: "This setup allows you to access a storage system wirelessly."
+			dependencies: ["4FEC1289D86DA26C"]
+			id: "296F53103E67A727"
+			tasks: [
+				{
+					id: "7EEFCBC5627EA3DE"
+					type: "item"
+					item: "refinedstorage:wireless_transmitter"
+				}
+				{
+					id: "01E14127D3DB4E68"
+					type: "item"
+					item: "refinedstorage:wireless_grid"
+				}
+			]
+			rewards: [{
+				id: "7D4B65C26C4FF00F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: 9.0d
+			dependencies: ["296F53103E67A727"]
+			id: "0E70F0F1CFB6A97D"
+			tasks: [{
+				id: "3B264C28C7C483DC"
+				type: "item"
+				item: "refinedstorage:range_upgrade"
+			}]
+			rewards: [
+				{
+					id: "4926D7E424BBD9E1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "65FAE010DE0820C6"
+					type: "item"
+					item: "refinedstorage:range_upgrade"
+				}
+			]
+		}
+		{
+			title: "Security Manager"
+			x: 2.0d
+			y: 5.0d
+			subtitle: "Controls who has access to your Storage System. "
+			description: ["The security manager allows you to manage who is able to access your storage system and what actions they are able to perform."]
+			dependencies: ["019A8773C9CD021F"]
+			id: "7CB27555AEB01A14"
+			tasks: [{
+				id: "2D3195141AF4D0C0"
+				type: "item"
+				item: "refinedstorage:security_manager"
+			}]
+			rewards: [
+				{
+					id: "05E591D57742C7B6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "19F76FFC00F0520E"
+					type: "item"
+					item: "refinedstorage:security_card"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			subtitle: "Allows items to enter your system."
+			description: ["Importers are used to import items directily into your storage system."]
+			dependencies: ["28415482A0FF955B"]
+			id: "67AEECAD2115B3E7"
+			tasks: [{
+				id: "12685AB33A9F6FD1"
+				type: "item"
+				item: "refinedstorage:importer"
+			}]
+			rewards: [{
+				id: "5C782F18FA3F7463"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			subtitle: "Allows your system to export items."
+			description: ["Exporters are used to export items out of your storage system. Filter highly-recommended."]
+			dependencies: ["28415482A0FF955B"]
+			id: "75625E737E5B1667"
+			tasks: [{
+				id: "5C4ADFCB98CCBD86"
+				type: "item"
+				item: "refinedstorage:exporter"
+			}]
+			rewards: [{
+				id: "50FF536B1F036D09"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "Filter"
+			x: 2.0d
+			y: 2.5d
+			subtitle: "Allows you to specify what items you want to import/export."
+			description: ["Filters are used to control what goes in/out of importers/exporters."]
+			dependencies: ["28415482A0FF955B"]
+			id: "684359A79C2C247C"
+			tasks: [{
+				id: "6D94DB039D1F8D5E"
+				type: "item"
+				item: "refinedstorage:filter"
+			}]
+			rewards: [
+				{
+					id: "7B8DF929865C21D1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "5F7EA5EF2E518D9A"
+					type: "item"
+					item: "refinedstorage:filter"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 6.0d
+			subtitle: "Stores around 64,000 mili-buckets worth of fluids."
+			dependencies: ["29BAACBF1CCA781C"]
+			id: "59064015BCF909A3"
+			tasks: [{
+				id: "1B11FDA6BF0F4474"
+				type: "item"
+				item: "refinedstorage:64k_fluid_storage_disk"
+			}]
+			rewards: [
+				{
+					id: "153AED384D532EB5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "2665B1454B4137C5"
+					type: "item"
+					item: "refinedstorage:64k_fluid_storage_disk"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 6.0d
+			subtitle: "Stores around 256,000 mili-buckets worth of fluids."
+			dependencies: ["59064015BCF909A3"]
+			id: "3C791161F440DB7D"
+			tasks: [{
+				id: "618913F80B8F6E4E"
+				type: "item"
+				item: "refinedstorage:256k_fluid_storage_disk"
+			}]
+			rewards: [{
+				id: "7F580979DFFBE333"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -8.0d
+			y: 6.0d
+			subtitle: "Stores around 1,024,000 mili-buckets worth of fluids."
+			dependencies: ["3C791161F440DB7D"]
+			id: "6585E884AE35AB4C"
+			tasks: [{
+				id: "5555C954BAB14D7B"
+				type: "item"
+				item: "refinedstorage:1024k_fluid_storage_disk"
+			}]
+			rewards: [{
+				id: "6CDCCDD02F206CA8"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -10.0d
+			y: 6.0d
+			subtitle: "Stores around 4,096,000 mili-buckets worth of fluids."
+			dependencies: ["6585E884AE35AB4C"]
+			id: "314E0925EFD1DB2D"
+			tasks: [{
+				id: "06D6E74DB623C7E7"
+				type: "item"
+				item: "refinedstorage:4096k_fluid_storage_disk"
+			}]
+			rewards: [{
+				id: "40FE393A46255A70"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: 6.0d
+			subtitle: "Allows you to see what fluids are in your storage system."
+			description: ["A fluid grid allows you to access the contents of your fluid storage solution."]
+			dependencies: ["019A8773C9CD021F"]
+			id: "29BAACBF1CCA781C"
+			tasks: [{
+				id: "0890D162ACCA7CDD"
+				type: "item"
+				item: "refinedstorage:fluid_grid"
+			}]
+			rewards: [{
+				id: "3E58764AFF003143"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+	]
+}

@@ -1,0 +1,1564 @@
+{
+	id: "5F28B990A3689F0D"
+	group: ""
+	order_index: 3
+	filename: "rats"
+	title: "Rats"
+	icon: "rats:creative_cheese"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Preperation"
+			icon: "rats:cauldron_milk"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Make cheese by putting milk in a cauldron."
+			id: "5F8725C484BC6FF8"
+			tasks: [
+				{
+					id: "64E820B5AB6B1B1F"
+					type: "item"
+					item: "minecraft:cauldron"
+				}
+				{
+					id: "61C79B3FA72F3F8F"
+					type: "item"
+					item: "minecraft:milk_bucket"
+				}
+			]
+			rewards: [{
+				id: "7DE1DF749DBA3C7E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Never Enough Cheese"
+			x: 0.0d
+			y: 2.0d
+			subtitle: "Make 8 Blocks of Cheese"
+			dependencies: ["5F8725C484BC6FF8"]
+			id: "49719D85AEF0D162"
+			tasks: [{
+				id: "50D9404F07792D50"
+				type: "item"
+				item: "rats:block_of_cheese"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "3E83AF50B0FBBB26"
+					type: "item"
+					item: "rats:spawn_egg_rat"
+				}
+				{
+					id: "383256F9099432A2"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			subtitle: "Rats are tamable by giving them cheese."
+			description: ["Tame a rat by giving it 15-20 cheese (NOT BLOCKS). You can pick up rats by sneak-right clicking them. To dismount them, sneak-left click the air."]
+			dependencies: ["49719D85AEF0D162"]
+			id: "592A45C2E08B08FF"
+			tasks: [{
+				id: "07EA40941A70E351"
+				type: "checkmark"
+				title: "Taming the Rats"
+				icon: "rats:rat_skull"
+			}]
+			rewards: [
+				{
+					id: "02A06EF4DF52DE1F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "7A97D480C9FFC559"
+					type: "item"
+					item: "rats:spawn_egg_rat"
+				}
+			]
+		}
+		{
+			title: "Alternate Leather"
+			icon: "rats:rat_pelt"
+			x: -4.0d
+			y: 6.0d
+			subtitle: "Rat pelt can be used to make leather."
+			description: ["Placing rat pelt in a 2x2 area in a crafting table can make leather. Rat pelt can be obtained from killing rats."]
+			dependencies: ["3DFFCE0EA001A71C"]
+			id: "221FAB4CE2321F8A"
+			tasks: [{
+				id: "177030BA0F4D817F"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "792888B15373DA20"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Rat Commander"
+			x: 0.0d
+			y: 6.0d
+			subtitle: "Make a Cheese Staff to command your rats."
+			description: ["Depending on the task that you assign a rat. You can use the cheese staff to tell them where to deposit the items they collect in their mouths. To assign rats task, right click them and assign their command in the GUI."]
+			dependencies: ["592A45C2E08B08FF"]
+			id: "6A2E5324783BEE71"
+			tasks: [{
+				id: "348954A6FA8CA556"
+				type: "item"
+				item: "rats:cheese_stick"
+			}]
+			rewards: [
+				{
+					id: "18BFBD5F35F2AE0C"
+					type: "item"
+					item: "rats:cheese"
+					count: 20
+				}
+				{
+					id: "4C6BD9DC5832BF63"
+					type: "item"
+					item: "rats:spawn_egg_rat"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "A Rat's Home"
+			x: -1.5d
+			y: 7.0d
+			subtitle: "Rat Cages can store rats and be their home."
+			description: ["You can use the cheese staff to assign a rat to a cage. You can also manually put them in cages by picking them up and right-clicking the cage. However, they may not obey you. Cages are also multi-block structures."]
+			dependencies: ["6A2E5324783BEE71"]
+			id: "6094667FB7868F34"
+			tasks: [{
+				id: "0809856A9E1F0040"
+				type: "item"
+				item: "rats:rat_cage"
+			}]
+			rewards: [
+				{
+					id: "3BCBEA4B7DB38177"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "15EDB01B00C4FFF4"
+					type: "item"
+					item: "rats:rat_cage"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Upgrading Your Rats"
+			x: 0.0d
+			y: 11.0d
+			subtitle: "Craft the Basic Rat Upgrade."
+			description: ["This upgrade does not do anything, but is the base to make all other upgrades."]
+			dependencies: ["6A2E5324783BEE71"]
+			id: "6738C56331F96F25"
+			tasks: [{
+				id: "1BE456379F4A543E"
+				type: "item"
+				item: "rats:rat_upgrade_basic"
+			}]
+			rewards: [
+				{
+					id: "6DA7C5483AFC45A6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "7617FBE71E2BBFD8"
+					type: "item"
+					item: "rats:rat_upgrade_basic"
+					count: 3
+				}
+				{
+					id: "129F10457C004E40"
+					type: "item"
+					item: "rats:spawn_egg_rat"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 10.5d
+			subtitle: "Craft the speed upgrade to make your rats work faster."
+			dependencies: ["34B5BF7CDFFE619C"]
+			id: "7ACFA01751691E18"
+			tasks: [{
+				id: "38F4F3280A59C3FD"
+				type: "item"
+				item: "rats:rat_upgrade_speed"
+			}]
+			rewards: [{
+				id: "7636171E0FF88A39"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "Rat Trap"
+			x: -2.0d
+			y: 6.0d
+			subtitle: "Craft a rat trap to kill rats."
+			description: ["You can put cheese on the rat trap to bait rats. Rat traps need to be right-clicked before they are activated."]
+			dependencies: ["6A2E5324783BEE71"]
+			id: "3DFFCE0EA001A71C"
+			tasks: [
+				{
+					id: "1921D024FD9F8BDF"
+					type: "item"
+					item: "rats:rat_trap"
+				}
+				{
+					id: "318408E1A6AC3EE3"
+					type: "item"
+					item: "rats:cheese"
+				}
+			]
+			rewards: [
+				{
+					id: "44B5D55E0F4FE8F8"
+					type: "item"
+					item: "rats:cheese"
+				}
+				{
+					id: "2F0BECE68F702EDD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 11.5d
+			subtitle: "Craft a platter rat upgrade to allow rats to carry more."
+			description: ["The rat platter upgrade lets a rat carry an entire stack of 1 item. This makes item transporation more efficient."]
+			dependencies: ["34B5BF7CDFFE619C"]
+			id: "04F61AB711E56455"
+			tasks: [{
+				id: "7DE2FE77B2B44DF8"
+				type: "item"
+				item: "rats:rat_upgrade_platter"
+			}]
+			rewards: [{
+				id: "2EB998F296168ABE"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: 10.0d
+			subtitle: "Craft a health upgrade to increase rat health."
+			description: ["This upgrade increases the health of a rat by 20 points or 10 full hearts."]
+			dependencies: ["30E8843C521B732C"]
+			id: "74662C3902A07AB8"
+			tasks: [{
+				id: "4B5BA4F155D327A2"
+				type: "item"
+				item: "rats:rat_upgrade_health"
+			}]
+			rewards: [{
+				id: "5C6232FB17F616F7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 5.0d
+			y: 11.0d
+			subtitle: "Craft a rat armor upgrade to increase the rat's armor."
+			description: ["The rat armor upgrade increases the rat's armor by 10 points."]
+			dependencies: ["30E8843C521B732C"]
+			id: "27AA5C63D9FCD5FB"
+			tasks: [{
+				id: "519F91891E86ED05"
+				type: "item"
+				item: "rats:rat_upgrade_armor"
+			}]
+			rewards: [{
+				id: "603F35870DD60423"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 5.0d
+			y: 12.0d
+			subtitle: "Craft the upgrade to increase rat damage."
+			description: ["This upgrade increases the rat's damage by 5 points or 2.5 hearts."]
+			dependencies: ["30E8843C521B732C"]
+			id: "12316FA373997DCB"
+			tasks: [{
+				id: "253EDE4E416022A4"
+				type: "item"
+				item: "rats:rat_upgrade_strength"
+			}]
+			rewards: [{
+				id: "2203A889885EECB6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -1.0d
+			y: 15.5d
+			subtitle: "Craft the chef upgrade to allow your rat to cook items."
+			description: ["This upgrade lets rats cook food in their hands like a furnace. No fuel needed."]
+			dependencies: ["3F1C8D18F717D4ED"]
+			id: "79D5FE6BE08620C0"
+			tasks: [{
+				id: "4CE0F0424D1186FA"
+				type: "item"
+				item: "rats:rat_upgrade_chef"
+			}]
+			rewards: [{
+				id: "509C51E24E84775F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 9.0d
+			y: 11.0d
+			subtitle: "Craft this upgrade to increase health, armor, and strength."
+			dependencies: ["42B684FC6A5EA112"]
+			id: "424100DEE0B47C07"
+			tasks: [{
+				id: "78AD9BD09A170576"
+				type: "item"
+				item: "rats:rat_upgrade_warrior"
+			}]
+			rewards: [
+				{
+					id: "768DC009D9BBA4F0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5C78C8B0A67EF7FB"
+					type: "item"
+					item: "rats:spawn_egg_rat"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 13.0d
+			subtitle: "Allows the rat to use a bow in combat."
+			dependencies: ["30E8843C521B732C"]
+			id: "7580C55237F68C4F"
+			tasks: [{
+				id: "357DEAFBC895920E"
+				type: "item"
+				item: "rats:rat_upgrade_bow"
+			}]
+			rewards: [{
+				id: "309C219A597B07FF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 5.0d
+			y: 9.0d
+			subtitle: "Allows the rat to use a crossbow in combat."
+			dependencies: ["30E8843C521B732C"]
+			id: "0EB2FC568BC9F287"
+			tasks: [{
+				id: "0ACAC5EA3E286234"
+				type: "item"
+				item: "rats:rat_upgrade_crossbow"
+			}]
+			rewards: [{
+				id: "1335AFD2E0D537B7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 11.0d
+			y: 11.0d
+			subtitle: "Turns your rat into an OP Battle God."
+			dependencies: ["424100DEE0B47C07"]
+			id: "6E761A7443E4C5A6"
+			tasks: [{
+				id: "70383A75858AFE69"
+				type: "item"
+				item: "rats:rat_upgrade_god"
+			}]
+			rewards: [{
+				id: "699BAB5A01C4DFD7"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+		}
+		{
+			icon: "rats:raw_rat"
+			x: -3.0d
+			y: 8.0d
+			subtitle: "Breed rats by putting a female and male rat into the same spot in a cage."
+			dependencies: ["6094667FB7868F34"]
+			id: "384525C4A029A4F7"
+			tasks: [{
+				id: "559EC77129485CB2"
+				type: "checkmark"
+				title: "Rat Breeding"
+				icon: "quark:paper_wall_sakura"
+			}]
+			rewards: [{
+				id: "5B26F54693C66E6B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "The Rats Love You"
+			x: -3.0d
+			y: 4.0d
+			subtitle: "Craft or obtain a Piper Hat so untamed rats do not run away."
+			description: ["This hat prevents untamed rats from running away. This can be obtained from killing the Piper which is an illager that summons rats to attack you. He is wearing yellow clothing and has a flute."]
+			dependencies: ["1391C974C558F9A5"]
+			id: "4404E681D3A9E1FF"
+			tasks: [{
+				id: "66F9DE7977F8D875"
+				type: "item"
+				item: {
+					id: "rats:piper_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "346149C3B1EA9AF6"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+		}
+		{
+			x: 0.0d
+			y: 15.5d
+			subtitle: "This upgrade allows your rats to go mining."
+			description: ["When rat is set to harvest mode, the rat will dig a path to ore blocks."]
+			dependencies: ["3F1C8D18F717D4ED"]
+			id: "4E142A187AF925C0"
+			tasks: [{
+				id: "010138FA8E864D8E"
+				type: "item"
+				item: "rats:rat_upgrade_miner_ore"
+			}]
+			rewards: [{
+				id: "72C95CA7BBF2CA30"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 20.5d
+			subtitle: "Have your rat mine specific ores."
+			description: ["Ray will attempt to mine ores in a given list."]
+			dependencies: ["16E80ACF92844A9B"]
+			id: "4E3BC84DB839D2BE"
+			tasks: [{
+				id: "441267A8D3F513C8"
+				type: "item"
+				item: "rats:rat_upgrade_miner"
+			}]
+			rewards: [{
+				id: "78A68AF4F2DF0CDA"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: -3.0d
+			y: 21.5d
+			subtitle: "The block needed to allow rats to craft complex recipies."
+			dependencies: ["140100FF6601ACB0"]
+			id: "40FBF7ADB4CA51F8"
+			tasks: [{
+				id: "2A3DDBE6E1A8099F"
+				type: "item"
+				item: "rats:rat_crafting_table"
+			}]
+			rewards: [{
+				id: "58AD3F4D3E657F57"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Automatic Cheese Maker"
+			x: -3.0d
+			y: 16.5d
+			subtitle: "Make a curding station to allow for rats to automate cheese making."
+			description: ["To have cheese automation, have a rat insert milk and then have another rat take out the resulting cheese. You can put multiple buckets of cheese in here."]
+			dependencies: ["6E57D572A809C2C8"]
+			id: "41975203316B36CF"
+			tasks: [{
+				id: "5D2CE3DF7157C081"
+				type: "item"
+				item: "rats:auto_curdler"
+			}]
+			rewards: [
+				{
+					id: "7177B5F70C8C4B94"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "47D29B511C50D1E5"
+					type: "item"
+					item: "minecraft:milk_bucket"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 20.5d
+			subtitle: "Allows rats to craft."
+			dependencies: ["16E80ACF92844A9B"]
+			id: "140100FF6601ACB0"
+			tasks: [{
+				id: "44118DAFFB0D91FC"
+				type: "item"
+				item: "rats:rat_upgrade_crafting"
+			}]
+			rewards: [{
+				id: "2D03FBA4369039FA"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "Infinite Rats"
+			x: 2.5d
+			y: 3.0d
+			subtitle: "Make garbage by putting blocks in the trash can. Spawns rats and plague rats."
+			dependencies: ["43C10C8E18C0814C"]
+			id: "34398DA1100C8B24"
+			tasks: [{
+				id: "17F206A0022120E0"
+				type: "item"
+				item: "rats:garbage_pile"
+			}]
+			rewards: [{
+				id: "5A1BFB0B412363A6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Garbage Maker"
+			x: 2.5d
+			y: 5.0d
+			dependencies: ["6A2E5324783BEE71"]
+			id: "43C10C8E18C0814C"
+			tasks: [{
+				id: "0E403F8C2644869A"
+				type: "item"
+				item: "rats:trash_can"
+			}]
+			rewards: [{
+				id: "0F037E7066FC84EE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -3.0d
+			y: 15.5d
+			subtitle: "Allows the rat to milk cows."
+			dependencies: ["3F1C8D18F717D4ED"]
+			id: "6E57D572A809C2C8"
+			tasks: [{
+				id: "6523A0165C63DCD1"
+				type: "item"
+				item: "rats:rat_upgrade_milker"
+			}]
+			rewards: [{
+				id: "67BE0059556F8ED5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -2.0d
+			y: 15.5d
+			subtitle: "Rats will plant seeds or use bonemeal."
+			dependencies: ["3F1C8D18F717D4ED"]
+			id: "3527A70DA5AA7EF6"
+			tasks: [{
+				id: "2EB980189DCF7081"
+				type: "item"
+				item: "rats:rat_upgrade_farmer"
+			}]
+			rewards: [
+				{
+					id: "63440533A9C1D968"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4267223DB81FE332"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 16.5d
+			subtitle: "Rat replants crop when harvesting it."
+			dependencies: ["3527A70DA5AA7EF6"]
+			id: "01CC8DEE1A71C530"
+			tasks: [{
+				id: "24E8136B2143E5BA"
+				type: "item"
+				item: "rats:rat_upgrade_replanter"
+			}]
+			rewards: [{
+				id: "3B125DEFADFAEF02"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.0d
+			dependencies: ["6A2E5324783BEE71"]
+			id: "1391C974C558F9A5"
+			tasks: [{
+				id: "0183A7AB71C2990B"
+				type: "item"
+				item: "rats:pied_wool"
+			}]
+			rewards: [{
+				id: "13D545391B9AECC3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.0d
+			subtitle: "Spawns Plague Rats"
+			dependencies: [
+				"34398DA1100C8B24"
+				"6B24045DA1EBB557"
+			]
+			id: "570A52BD3BC5AD27"
+			tasks: [{
+				id: "7074BA82BC15D93C"
+				type: "item"
+				item: "rats:cursed_garbage"
+			}]
+			rewards: [{
+				id: "20AB0A27BA60455C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			subtitle: "Does not spawns non-infected rats."
+			dependencies: [
+				"34398DA1100C8B24"
+				"66E87B73E5B61F0A"
+			]
+			id: "3EBCD2EE87428A73"
+			tasks: [{
+				id: "3C3803AA66AF7562"
+				type: "item"
+				item: "rats:purified_garbage"
+			}]
+			rewards: [{
+				id: "23E9C75C701ECA5C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			subtitle: "Spawns more rats than regular garbage."
+			dependencies: ["34398DA1100C8B24"]
+			id: "137578608E08D86D"
+			tasks: [{
+				id: "459A2488BFAA517E"
+				type: "item"
+				item: "rats:compressed_garbage"
+			}]
+			rewards: [{
+				id: "2337B08F8F560898"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			subtitle: "Spawns Pied Pipers."
+			dependencies: ["34398DA1100C8B24"]
+			id: "4B564DDE554B750A"
+			tasks: [{
+				id: "72F2B94ADDC48717"
+				type: "item"
+				item: "rats:pied_garbage"
+			}]
+			rewards: [{
+				id: "00B55C819A6C7FFA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 1.0d
+			y: 15.5d
+			subtitle: "Allows rats to cut down trees."
+			dependencies: ["3F1C8D18F717D4ED"]
+			id: "6CB98E3A5380E544"
+			tasks: [{
+				id: "035499670C12D3D4"
+				type: "item"
+				item: "rats:rat_upgrade_lumberjack"
+			}]
+			rewards: [{
+				id: "468DB06FA62E16F5"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -9.0d
+			y: 8.0d
+			subtitle: "This upgrade allows your rats to teleport at will."
+			dependencies: ["3686750797195ACE"]
+			id: "20CCF0FC50D4D744"
+			tasks: [{
+				id: "0497C3A4D9E8ECDD"
+				type: "item"
+				item: "rats:rat_upgrade_ender"
+			}]
+			rewards: [{
+				id: "4E3C5BAD2945484F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 9.0d
+			y: 10.0d
+			subtitle: "If the rat is in range, it will take damage instead of you."
+			dependencies: ["42B684FC6A5EA112"]
+			id: "0CA8A3B117463CE7"
+			tasks: [{
+				id: "225F21B829458282"
+				type: "item"
+				item: "rats:rat_upgrade_voodoo"
+			}]
+			rewards: [{
+				id: "67DEABAAEF32C0D6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 13.5d
+			dependencies: ["6738C56331F96F25"]
+			id: "3F1C8D18F717D4ED"
+			tasks: [{
+				id: "16D0A18CDB88F8D9"
+				type: "checkmark"
+				title: "Utility Upgrades"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 11.0d
+			dependencies: ["6738C56331F96F25"]
+			id: "30E8843C521B732C"
+			tasks: [{
+				id: "3302AEF92410D49F"
+				type: "checkmark"
+				title: "Combat Upgrades"
+			}]
+		}
+		{
+			title: "General Rat Upgrades"
+			x: -3.0d
+			y: 11.0d
+			dependencies: ["6738C56331F96F25"]
+			id: "34B5BF7CDFFE619C"
+			tasks: [{
+				id: "6048CA99C1F9E823"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 9.0d
+			subtitle: "This upgrade allows for your rat to fly."
+			dependencies: ["3686750797195ACE"]
+			id: "3E08AECDB76DCD13"
+			tasks: [{
+				id: "01EC1750CE24F2CC"
+				type: "item"
+				item: "rats:rat_upgrade_flight"
+			}]
+			rewards: [{
+				id: "28F2B7B818CE3B6E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -9.0d
+			y: 14.0d
+			subtitle: "Allows rat to swim and breathe under water."
+			dependencies: ["3686750797195ACE"]
+			id: "67394B25CE5B6ECB"
+			tasks: [{
+				id: "771EE31AAE89FD57"
+				type: "item"
+				item: "rats:rat_upgrade_aquatic"
+			}]
+			rewards: [{
+				id: "668380E8A77B1CA0"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -5.0d
+			y: 9.5d
+			subtitle: "Rats will not pick up items on this list."
+			dependencies: ["34B5BF7CDFFE619C"]
+			id: "2DD28A86CD71DFF1"
+			tasks: [{
+				id: "41D7FE817A4262FC"
+				type: "item"
+				item: "rats:rat_upgrade_blacklist"
+			}]
+			rewards: [{
+				id: "6C3907648C3B30C9"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -5.0d
+			y: 12.5d
+			subtitle: "Items will only pick up items on this list."
+			dependencies: ["34B5BF7CDFFE619C"]
+			id: "1226EABFF272D98C"
+			tasks: [{
+				id: "028ED3F6C7E80497"
+				type: "item"
+				item: "rats:rat_upgrade_whitelist"
+			}]
+			rewards: [{
+				id: "2800862757860282"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: 20.5d
+			subtitle: "This upgrade allows rats to place blocks in hand."
+			dependencies: ["16E80ACF92844A9B"]
+			id: "07D8EBF22068A474"
+			tasks: [{
+				id: "3AB7B5E8D320F744"
+				type: "item"
+				item: "rats:rat_upgrade_placer"
+			}]
+			rewards: [{
+				id: "0257B712801983BF"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -9.0d
+			y: 13.0d
+			subtitle: "Allows the rat to respawn after death."
+			dependencies: ["3686750797195ACE"]
+			id: "29C72E43A2247F3A"
+			tasks: [{
+				id: "7F22DFA649A8ABF3"
+				type: "item"
+				item: "rats:rat_upgrade_angel"
+			}]
+			rewards: [{
+				id: "0B579BA25A9DBB4B"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+		}
+		{
+			x: 2.0d
+			y: 15.5d
+			subtitle: "This upgrade will allow your rat to use shears."
+			dependencies: ["3F1C8D18F717D4ED"]
+			id: "5435FF580975445C"
+			tasks: [{
+				id: "2D63C678AC14549E"
+				type: "item"
+				item: "rats:rat_upgrade_shears"
+			}]
+			rewards: [{
+				id: "5683B0A4F44C4723"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -1.0d
+			y: 20.5d
+			subtitle: "This upgrade allows your rats to eat ores and turn them into nuggets. These nuggets can be turned into ingots."
+			dependencies: ["16E80ACF92844A9B"]
+			id: "62E6C08037174B06"
+			tasks: [{
+				id: "78D5650FE06FEFD3"
+				type: "item"
+				item: "rats:rat_upgrade_ore_doubling"
+			}]
+			rewards: [{
+				id: "3C216ED203F3B6BD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -2.0d
+			y: 20.5d
+			subtitle: "This upgrade makes rats dig a quarry. It will deposit in quarry block."
+			dependencies: ["16E80ACF92844A9B"]
+			id: "5237BA93B9B8657E"
+			tasks: [{
+				id: "3DFFEA53B7F2341F"
+				type: "item"
+				item: "rats:rat_upgrade_quarry"
+			}]
+			rewards: [{
+				id: "581FAB0D7217CA84"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -2.0d
+			y: 21.5d
+			subtitle: "Rats will dig quarry under this block."
+			dependencies: ["5237BA93B9B8657E"]
+			id: "10089A8E0B9EE2FE"
+			tasks: [{
+				id: "71285307401AECF1"
+				type: "item"
+				item: "rats:rat_quarry"
+			}]
+			rewards: [{
+				id: "7E4374AAC64CBEAE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 11.0d
+			y: 10.0d
+			subtitle: "This upgrade allows rats to fly and breathe fire."
+			dependencies: ["424100DEE0B47C07"]
+			id: "06FB3DAE1D24609D"
+			tasks: [{
+				id: "31338712FE56230D"
+				type: "item"
+				item: "rats:rat_upgrade_dragon"
+			}]
+			rewards: [{
+				id: "49BB1D6AB47A5E8C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -9.0d
+			y: 7.0d
+			subtitle: "This upgrade makes it so rats will not be attacked by undead mobs."
+			dependencies: ["3686750797195ACE"]
+			id: "2A48926497AE1665"
+			tasks: [{
+				id: "14E0256C9E448CE1"
+				type: "item"
+				item: "rats:rat_upgrade_undead"
+			}]
+		}
+		{
+			title: "More Advanced Upgrades"
+			x: -7.0d
+			y: 11.0d
+			min_required_dependencies: 1
+			dependencies: [
+				"2DD28A86CD71DFF1"
+				"7ACFA01751691E18"
+				"04F61AB711E56455"
+				"1226EABFF272D98C"
+			]
+			id: "3686750797195ACE"
+			tasks: [{
+				id: "33CB35D7F42FE045"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "More Advanced Upgrades"
+			x: 7.0d
+			y: 11.0d
+			min_required_dependencies: 1
+			dependencies: [
+				"0EB2FC568BC9F287"
+				"74662C3902A07AB8"
+				"27AA5C63D9FCD5FB"
+				"12316FA373997DCB"
+				"7580C55237F68C4F"
+			]
+			id: "42B684FC6A5EA112"
+			tasks: [{
+				id: "68499401EE234BC4"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 15.5d
+			subtitle: "This upgrade allows rats to fish."
+			dependencies: ["3F1C8D18F717D4ED"]
+			id: "048650FF1F3AEFDF"
+			tasks: [{
+				id: "14A267A339B118B3"
+				type: "item"
+				item: "rats:rat_upgrade_fisherman"
+			}]
+		}
+		{
+			title: "More Advanced Upgrades"
+			x: 0.0d
+			y: 18.5d
+			dependencies: [
+				"048650FF1F3AEFDF"
+				"41975203316B36CF"
+				"01CC8DEE1A71C530"
+				"5435FF580975445C"
+				"6CB98E3A5380E544"
+				"4E142A187AF925C0"
+				"79D5FE6BE08620C0"
+			]
+			dependency_requirement: "one_completed"
+			id: "16E80ACF92844A9B"
+			tasks: [{
+				id: "02A6635C8E236BA9"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 20.5d
+			subtitle: "This upgrade lets your rats transfer fluids."
+			dependencies: ["16E80ACF92844A9B"]
+			id: "1AA9B5BCEF4F51AD"
+			tasks: [{
+				id: "2A617951FA895D4F"
+				type: "item"
+				item: "rats:rat_upgrade_bucket"
+			}]
+			rewards: [{
+				id: "1D4B970727ACA0FE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -4.0d
+			y: 21.5d
+			subtitle: "This upgrade lets your rats carry more fluids."
+			dependencies: ["1AA9B5BCEF4F51AD"]
+			id: "6868078A780880DE"
+			tasks: [{
+				id: "4E925CFFCEAC51AA"
+				type: "item"
+				item: "rats:rat_upgrade_big_bucket"
+			}]
+			rewards: [{
+				id: "2E61238591EE18C1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 2.0d
+			y: 20.5d
+			subtitle: "This upgrade allows rats to increase tick speed of blocks below and above it."
+			dependencies: ["16E80ACF92844A9B"]
+			id: "491D833CDEEC1C5F"
+			tasks: [{
+				id: "16B34F2CE8619A09"
+				type: "item"
+				item: "rats:rat_upgrade_tick_accelerator"
+			}]
+			rewards: [{
+				id: "0E2E01EA3455ACF1"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: -10.0d
+			y: 9.0d
+			subtitle: "This upgrade allows the rat to fly, do poison damage, and randomly grow crops."
+			dependencies: ["3E08AECDB76DCD13"]
+			id: "491936317419371E"
+			tasks: [{
+				id: "0F2DF14199E478F7"
+				type: "item"
+				item: "rats:rat_upgrade_bee"
+			}]
+			rewards: [{
+				id: "639C0C23C48C9836"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 3.0d
+			y: 20.5d
+			subtitle: "Allows a rat holding food to breed animals."
+			dependencies: ["16E80ACF92844A9B"]
+			id: "0E474E985A7863C3"
+			tasks: [{
+				id: "7529B1389A4A6A16"
+				type: "item"
+				item: "rats:rat_upgrade_breeder"
+			}]
+			rewards: [{
+				id: "075B4396A461C8E8"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 3.5d
+			y: 6.0d
+			subtitle: "Drops from plague rats. Plague rats can be obtained from regular and diseased garbage."
+			dependencies: ["6A2E5324783BEE71"]
+			id: "6B24045DA1EBB557"
+			tasks: [{
+				id: "4673EF32A7F62439"
+				type: "item"
+				item: "rats:plague_essence"
+			}]
+			rewards: [{
+				id: "47080328DC4B147F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 3.5d
+			y: 7.5d
+			subtitle: "Converts a villager into a plague doctor."
+			description: ["Plague doctor villagers have extremely useful trades to help you progress or obtain rare items."]
+			dependencies: ["6B24045DA1EBB557"]
+			id: "60287290E40A3C46"
+			tasks: [{
+				id: "787F8E2635F843C1"
+				type: "item"
+				item: "rats:plague_doctorate"
+			}]
+			rewards: [{
+				id: "376718FF8F8A7326"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.0d
+			subtitle: "Cures the plague from players and mobs. Also cures zombie villagers."
+			dependencies: ["6B24045DA1EBB557"]
+			id: "66E87B73E5B61F0A"
+			tasks: [{
+				id: "2CE0928DAD7A4895"
+				type: "item"
+				item: "rats:purifying_liquid"
+			}]
+			rewards: [{
+				id: "5844CBCB4A92FD5C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 5.0d
+			y: 7.5d
+			subtitle: "Rare drop from plague rats. Using it on a plague doctor will summon a boss."
+			dependencies: ["6B24045DA1EBB557"]
+			id: "36ECABCD232E6B01"
+			tasks: [{
+				id: "0A4A513008662A51"
+				type: "item"
+				item: "rats:plague_tome"
+			}]
+			rewards: [{
+				id: "1EB0875DD2634863"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 6.5d
+			y: 7.0d
+			subtitle: "A powerful weapon that has the ability to give living things the plague."
+			description: ["This clothing item drops from the black death boss."]
+			dependencies: ["36ECABCD232E6B01"]
+			id: "010CE41F8CED738C"
+			tasks: [{
+				id: "01F380121D43CBDF"
+				type: "item"
+				item: {
+					id: "rats:plague_scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "775E0501A5C29048"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 6.5d
+			y: 8.0d
+			subtitle: "A wearable cosmetic that reduces chances of catching plague and plague rats will not attack on sight."
+			description: ["This clothing item drops from the black death boss."]
+			dependencies: ["36ECABCD232E6B01"]
+			id: "7345B39995FEA467"
+			tasks: [{
+				id: "4F7A28801B0F3ED1"
+				type: "item"
+				item: {
+					id: "rats:black_death_mask"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4F6D67DE17584B3C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -9.0d
+			y: 10.0d
+			subtitle: "Rats are immune against Fire, Lava, and Magma."
+			dependencies: ["3686750797195ACE"]
+			id: "773F26FFAED80644"
+			tasks: [{
+				id: "570A26118A0EF7E2"
+				type: "item"
+				item: "rats:rat_upgrade_asbestos"
+			}]
+			rewards: [{
+				id: "799E9332A82BCC39"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -9.0d
+			y: 11.0d
+			subtitle: "Will prevent a rat from drowning and suffocating."
+			dependencies: ["3686750797195ACE"]
+			id: "477A0FCEDCDCDFA9"
+			tasks: [{
+				id: "6E0851A42CD18EEC"
+				type: "item"
+				item: "rats:rat_upgrade_underwater"
+			}]
+			rewards: [{
+				id: "0B1942611FAD229D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -9.0d
+			y: 12.0d
+			subtitle: "Prevents a rat from taking Potion, Magic, or Wither damage."
+			dependencies: ["3686750797195ACE"]
+			id: "4188D9F730E27B09"
+			tasks: [{
+				id: "4E5A1F5FF99270F1"
+				type: "item"
+				item: "rats:rat_upgrade_poison"
+			}]
+			rewards: [{
+				id: "518EAAE1FB28538D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -10.0d
+			y: 11.0d
+			subtitle: "Protects againt all damage forms that this upgrade is made from."
+			dependencies: [
+				"773F26FFAED80644"
+				"477A0FCEDCDCDFA9"
+				"4188D9F730E27B09"
+			]
+			id: "0C1ED6170A4E3037"
+			tasks: [{
+				id: "786A14CC801815C7"
+				type: "item"
+				item: "rats:rat_upgrade_damage_protection"
+			}]
+			rewards: [{
+				id: "2BCBA725520D1CF6"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: -5.0d
+			y: 20.5d
+			subtitle: "Allows for a rat to transfer 100kRF energy."
+			dependencies: ["16E80ACF92844A9B"]
+			id: "41B6A87217E40AE1"
+			tasks: [{
+				id: "74237AC264D63AB9"
+				type: "item"
+				item: "rats:rat_upgrade_basic_energy"
+			}]
+			rewards: [{
+				id: "6B8C40D8A6E8F7DE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -5.0d
+			y: 21.5d
+			subtitle: "Allows for a rat to transfer 500kRF energy."
+			dependencies: ["41B6A87217E40AE1"]
+			id: "1333B38B8618C80F"
+			tasks: [{
+				id: "5F5B36DA585C8ED1"
+				type: "item"
+				item: "rats:rat_upgrade_advanced_energy"
+			}]
+			rewards: [{
+				id: "5435FCE2239AF834"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -5.0d
+			y: 22.5d
+			subtitle: "Allows for a rat to transfer 1,000kRF energy."
+			dependencies: ["1333B38B8618C80F"]
+			id: "353E2BBF4067BA70"
+			tasks: [{
+				id: "0991D958A966C762"
+				type: "item"
+				item: "rats:rat_upgrade_elite_energy"
+			}]
+			rewards: [{
+				id: "02A77F2C50A1440C"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: -5.0d
+			y: 23.5d
+			subtitle: "Allows for a rat to transfer 100,000kRF energy."
+			dependencies: ["353E2BBF4067BA70"]
+			id: "1AED374E42793BD7"
+			tasks: [{
+				id: "1F54F94C5F49335D"
+				type: "item"
+				item: "rats:rat_upgrade_extreme_energy"
+			}]
+			rewards: [{
+				id: "5A1BE8C7FDFE500C"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+		}
+		{
+			x: 9.0d
+			y: 12.0d
+			subtitle: "Causes a rat to explode when it attacks."
+			dependencies: ["42B684FC6A5EA112"]
+			id: "727A929A9B9CA15F"
+			tasks: [{
+				id: "40E851115BBD501E"
+				type: "item"
+				item: "rats:rat_upgrade_tnt"
+			}]
+			rewards: [{
+				id: "712BD42D9D1C5A43"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 11.0d
+			y: 12.0d
+			subtitle: "Rat explodes on attack. Rat does not take damage from explosion. Ray does not take damage from falling or explosions."
+			dependencies: ["727A929A9B9CA15F"]
+			id: "774738CBF66A307A"
+			tasks: [{
+				id: "362DD04E1420D21A"
+				type: "item"
+				item: "rats:rat_upgrade_tnt_survivor"
+			}]
+			rewards: [{
+				id: "325F6D81A352E298"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+		}
+		{
+			x: 5.0d
+			y: 20.5d
+			subtitle: "Rats can cut gems into specific shapes and form."
+			dependencies: ["16E80ACF92844A9B"]
+			id: "5976961497A6E524"
+			tasks: [{
+				id: "0ACC4BCC89A73531"
+				type: "item"
+				item: "rats:rat_upgrade_gemcutter"
+			}]
+			rewards: [{
+				id: "257EC1D058520E35"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 4.0d
+			y: 20.5d
+			subtitle: "Rat drops coins randomly."
+			dependencies: ["16E80ACF92844A9B"]
+			id: "48F4106DE2A05041"
+			tasks: [{
+				id: "10EC8A6E657A788D"
+				type: "item"
+				item: "rats:rat_upgrade_aristocrat"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			dependencies: ["137578608E08D86D"]
+			id: "00C719435D1B2CE0"
+			tasks: [{
+				id: "7E5B46D7303B16A7"
+				type: "item"
+				item: "rats:filth"
+			}]
+			rewards: [{
+				id: "1FE5C44F7A9C1C2C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			subtitle: "Converts a Rat into a Rat King"
+			dependencies: ["00C719435D1B2CE0"]
+			id: "0BF5B9718D1590B8"
+			tasks: [{
+				id: "0C9C20422B6C01E3"
+				type: "item"
+				item: "rats:filth_corruption"
+			}]
+			rewards: [{
+				id: "4FF3C5A01BB59D6D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 5.0d
+			y: 6.0d
+			subtitle: "Used to set the origin and radius a rat searches."
+			dependencies: ["6B24045DA1EBB557"]
+			id: "7863BB4FB8254859"
+			tasks: [{
+				id: "6307B831A141A8A5"
+				type: "item"
+				item: "rats:radius_stick"
+			}]
+			rewards: [
+				{
+					id: "1C870B68A51D7908"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2DE4B7AB788B0132"
+					type: "item"
+					item: "rats:cheese"
+					count: 40
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			subtitle: "Attracks rats to it when powered by redstone."
+			dependencies: ["49719D85AEF0D162"]
+			id: "2DBC540A905609D3"
+			tasks: [{
+				id: "08D2E536A82666D7"
+				type: "item"
+				item: "rats:rat_attractor"
+			}]
+			rewards: [{
+				id: "0BC7B39B7F410D99"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+	]
+}

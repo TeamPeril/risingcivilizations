@@ -1,0 +1,5037 @@
+{
+	id: "29A4757430A0666B"
+	group: ""
+	order_index: 1
+	filename: "create"
+	title: "Technology Progression"
+	icon: "create:large_cogwheel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Create"
+			icon: "create:wrench"
+			x: 7.0d
+			y: -4.0d
+			shape: "gear"
+			description: [
+				"Welcome to Create! At its core, Create follows the same primary purpose as Vanilla Redstone: Give the player items to enable fanciful creations. "
+				""
+				"What sort of creations, you ask? Well, just about anything. Make rideable trains, tunnel bores, massive functional windmills, or even a working Rubik’s Cube!"
+				""
+				"Your imagination is the limit. "
+				""
+				"Naturally, with so much ground to cover, these quests will not be exhaustive. Instead, the goal will be to introduce basic concepts of Create to give you a solid footing to begin experimenting on your own. "
+				""
+				""
+			]
+			id: "0000000000000C40"
+			tasks: [{
+				id: "3F310569B2351E66"
+				type: "item"
+				item: "minecraft:andesite"
+			}]
+			rewards: [{
+				id: "0000000000000CB9"
+				type: "item"
+				item: "create:wrench"
+			}]
+		}
+		{
+			title: "Rotational Force"
+			icon: "create:goggles"
+			x: 7.0d
+			y: -1.0d
+			subtitle: "Some Assembly Required"
+			description: [
+				"As with many systems, power is required. For Create, this generally means making something spin. There are, of course, multiple ways to do this, but let’s go over some basics briefly. "
+				""
+				"First, there are Generators and Consumers. Naturally, Generators will make things spin, while Consumers operate with the Rotation provided. But not all Generators and Consumers are equal. "
+				""
+				"Each Generator is capable of outputting a given number of Stress Units which are divided up among all connected Consumers. If the consumers need more SU than is being output, then the entire system will grind to a halt. "
+				""
+				"The faster a Consumer is operating, the higher its impact and the more SU it uses. "
+				""
+				"To get an idea of how many SU are being generated or consumed, wear a pair of Engineer’s Goggles while looking at a block. "
+				""
+				"As a final note, while Create has no in game guidebook, each component does have very detailed information in the tooltip to help guide you. Read them carefully."
+			]
+			dependencies: ["318C0138E981D51D"]
+			min_width: 300
+			id: "0000000000000CBA"
+			tasks: [{
+				id: "0000000000000D67"
+				type: "checkmark"
+				title: "Rotational Force"
+			}]
+			rewards: [
+				{
+					id: "0000000000000D66"
+					type: "item"
+					item: "create:goggles"
+				}
+				{
+					id: "2BFE9CF80CA7B1C6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			title: "Windmill"
+			icon: "create:white_sail"
+			x: 7.0d
+			y: 0.0d
+			subtitle: "Produce rotation from wind."
+			description: [
+				"Perhaps the first multi part contraption to be made is the Windmill. This is a High SU generator capable of operating at high RPMs. Generating more SU and higher speed is merely a function of adding more Sails or Wool Blocks to the structure."
+				""
+				"Where to begin? Place down the Windmill Bearing. The sticky looking green side is where the rest of the structure will be built. Power will come out the opposite end. Note that they may be built in any orientation."
+				""
+				"Next, attach the Radial Chassis to the sticky side of the bearing. The Radial Chassis here acts as the axle for the windmill and the blades will extend from it. "
+				"Glue should be applied to each side of the Chassis and most any decorative block may be attached out to the connection limit of the windmill."
+				""
+				"To view the current connective radius of the Chassis, hold your wrench and look at the chassis. The highlighted blocks will be part of the structure. The radius may be adjusted with your scroll-wheel."
+				""
+				"Note that glue is only needed for these initial connections, or if your structure extends in beyond the plane of the chassis. Glue is not needed at all if sails are attached directly to the Chassis, but then, where’s the fun of that? Make it Pretty!"
+			]
+			dependencies: ["0000000000000CBA"]
+			min_width: 250
+			id: "0000000000000CBD"
+			tasks: [
+				{
+					id: "0000000000000CBE"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+				{
+					id: "0000000000000CBF"
+					type: "item"
+					item: "create:radial_chassis"
+				}
+				{
+					id: "0000000000000CC1"
+					type: "item"
+					item: "create:white_sail"
+					count: 32L
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000CC0"
+					type: "item"
+					item: {
+						id: "create:super_glue"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "40363C5A96959114"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0EEE9C34F5B6E4FF"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			subtitle: "Produce rotation from water."
+			description: [
+				"The Water Wheel, while considerably simpler to set up than a Windmill, also produces far fewer SU and operates at a much lower speed. "
+				""
+				"It is useful for applications where small size is more important than speed. For instance, when making a fancy door to your base. "
+				""
+				"To get it going, simply allow water to flow past it. Max speed is achieved by having flowing water on five sides of it. "
+			]
+			dependencies: ["0000000000000CBA"]
+			id: "0000000000000CC2"
+			tasks: [{
+				id: "0000000000000CC3"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+			rewards: [{
+				id: "2EDB59C2FE1A720D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			icon: "create:propeller"
+			x: 6.0d
+			y: 5.5d
+			subtitle: "Produce rotation from fire."
+			description: [
+				"More compact still than water, an Encased fan can serve to create small amounts of Rotational Force, in addition to its other functions. More on those later."
+				""
+				"To use it to generate Rotational Force, it must be facing down over top of some hot block, like lava or magma blocks. Do be mindful not to burn the place down."
+				""
+				"Apply a redstone signal to the fan begin producing power."
+				""
+				"--------------------------------"
+				""
+				"To use the fan for crafting, it must be set up to blow through Lava, Water, or Fire. Items dropped in the stream of air on the far side will be Smelted, Washed, or Smoked, respectively."
+				""
+				"The air stream can pass through certain blocks like Iron Bars and Trap Doors, allowing safe containment of your Lava and Water. "
+				""
+				"Of special note, the Fan can be used to process items directly on a Depot or Belt, however the items on a belt do not stop moving while they are being processed. "
+				""
+				"To make efficient use of a fan and belt setup, make it blow across the length of the belt. Faster spin speeds mean the air stream blows farther. This also allows the fan to process multiple stacks at once. "
+			]
+			dependencies: ["0000000000000D06"]
+			id: "0000000000000CC4"
+			tasks: [{
+				id: "0000000000000CC5"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+			rewards: [
+				{
+					id: "0000000000000CCA"
+					type: "item"
+					item: "create:analog_lever"
+				}
+				{
+					id: "0000000000000D73"
+					type: "item"
+					item: "minecraft:magma_block"
+					count: 4
+				}
+				{
+					id: "3730694E98C4E28C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			icon: "create:flywheel"
+			x: 10.0d
+			y: 5.0d
+			subtitle: "The Furnace Engine can be used to generate Rotational Force when a furnace burns."
+			description: [
+				"The Furnace Engine is the most powerful source of SU. In order to generate power, it must be connected to a Furnace, Smoker, or Blast Furnace, as well as a Flywheel."
+				""
+				""
+				""
+				""
+			]
+			dependencies: ["0000000000000D1A"]
+			id: "0000000000000CC6"
+			tasks: [
+				{
+					id: "0000000000000CC7"
+					type: "item"
+					item: "create:furnace_engine"
+				}
+				{
+					id: "0000000000000CC8"
+					type: "item"
+					item: "create:flywheel"
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000D8A"
+					type: "item"
+					item: "minecraft:blast_furnace"
+				}
+				{
+					id: "0474FFA4E6BF1A07"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0355821E5EBECF6C"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			subtitle: "A common crafting component and decoration."
+			description: [
+				"Tired of unsightly holes in your base? Shivering from drafty shaft seals? Look no further. "
+				""
+				"Right click a Casing onto your shaft to convert it to a full block. Perfect for those times when the shaft is passing through walls or floors. "
+				""
+				"They also look great under Mechanical Belts."
+			]
+			dependencies: [
+				"0000000000000CC2"
+				"0000000000000CBD"
+				"087F86F7B5AE549D"
+			]
+			dependency_requirement: "one_completed"
+			id: "0000000000000CCE"
+			tasks: [{
+				id: "0000000000000CCF"
+				type: "item"
+				item: "create:andesite_casing"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "4158E01D8991E04E"
+					type: "item"
+					item: "create:andesite_casing"
+					count: 48
+				}
+				{
+					id: "7A7DDA2FFC53EA4C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "7F8B21D6C3B79B24"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			subtitle: "Allows you to change rotational power in different directions. The output rotation is always opposite of input."
+			description: [
+				"Slightly more costly than a pair of cogs, Gear Boxes serve the same purpose as perpendicular cogs, to change the direction of a shaft line. "
+				""
+				"However, they have a slight advantage in that they can be used to split power off in two directions. They also have a vertical variant to get a shaft line running up or down. "
+			]
+			dependencies: ["0000000000000CCE"]
+			id: "0000000000000CD4"
+			tasks: [{
+				id: "0000000000000CD5"
+				type: "item"
+				item: "create:gearbox"
+			}]
+			rewards: [
+				{
+					id: "722099F5CBE5342E"
+					type: "item"
+					item: "create:gearbox"
+					count: 8
+				}
+				{
+					id: "673B2F7734BDCB7A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "6285E66A08698564"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			subtitle: "A Mechanical Belt is a mechanical component that conveys rotation and moves items and entities."
+			description: [
+				"As with many things in Create, the Mechanical Belt is a multi-purpose item."
+				""
+				"Its primary purpose is item transportation and can carry items along horizontally, as well as up and down 45-degree slopes. "
+				""
+				"However, it can also convey power from one shaft to another. This can be an excellent way to power multiple parallel shafts while maintaining the direction of rotation. "
+				""
+				"A single belt can stretch up to 20 blocks and each block space could conceivably attach it to another shaft line if necessary. To attach them, simply place the two shafts and then right click each with the belt in hand."
+			]
+			dependencies: ["0000000000000CD4"]
+			id: "0000000000000CD8"
+			tasks: [{
+				id: "0000000000000CD9"
+				type: "item"
+				item: "create:belt_connector"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "3BDAF306E05EE91B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "035113053A531CCE"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			subtitle: "The Encased Chain Drive is a block that can transfer rotation much like the Mechanical Belt."
+			description: [
+				"Encased Chain Drives may be used much like belts, connecting perpendicular shafts together."
+				""
+				"They may also be used to change the direction of power by placing multiple of them in-line and rotating them 90-degrees from one another. "
+			]
+			dependencies: ["0000000000000CD8"]
+			id: "0000000000000CE0"
+			tasks: [{
+				id: "0000000000000CE1"
+				type: "item"
+				item: "create:encased_chain_drive"
+			}]
+			rewards: [{
+				id: "08DE39CE1545C8DB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			icon: "create:rotation_speed_controller"
+			x: 8.5d
+			y: 9.0d
+			subtitle: "The Rotation Speed Controller is a mechanical component that allows the player to precisely control rotational speed without gear ratios."
+			description: [
+				"It is not always practical to chain hundreds of cogs to achieve the exact right speed. Enter, the Rotation Speed Controller. Place a Large Cogwheel in the top slot and power it. "
+				""
+				"The Controller will automatically adjust to any RPM on its two output shafts. Set the speed with the scroll-wheel. "
+			]
+			dependencies: ["37447E73C68AFC27"]
+			hide: false
+			id: "0000000000000CE2"
+			tasks: [
+				{
+					id: "0000000000000CE3"
+					type: "item"
+					item: "create:rotation_speed_controller"
+				}
+				{
+					id: "6E4D401602DD4D4E"
+					type: "item"
+					item: "create:large_cogwheel"
+				}
+			]
+			rewards: [
+				{
+					id: "6420D44D91A7C3EF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "49CD01AAAF4040E5"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 5.0d
+			subtitle: "Input/Output items. Only 1 item at a time. No Filters."
+			description: [
+				"Funnels serve both to push into and pull from inventories. "
+				""
+				"A funnel attached to a chest, for instance, can extract from the chest and dump onto an adjacent Belt line. Similarly, a belt feeding into a funnel will push items into the attached inventory."
+			]
+			dependencies: ["0000000000000CD8"]
+			id: "0000000000000CE5"
+			tasks: [{
+				id: "0000000000000CE6"
+				type: "item"
+				item: "create:andesite_funnel"
+			}]
+			rewards: [{
+				id: "0C2731C76F63FE8E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			subtitle: "Chutes transport items vertically, similarly to Mechanical Belts."
+			description: [
+				" The chute is a simple yet fast way to convey items downwards. Simply drop them in the top and they’ll come out the bottom. "
+				""
+				"The advantage that chutes offer over simply dropping an item in the world is that they can move items at a 45-degree angle and multiple chutes can converge into a single chute, allowing better control of where the item ends up."
+				""
+				"Chutes may also be used to convey items upwards. If a chute has an encased fan set up directly on top of it, it can be used to pull items off a Belt. Of course, getting that item out requires some way of extracting from the chute, such as a Funnel."
+			]
+			dependencies: ["0000000000000CD8"]
+			id: "0000000000000CE7"
+			tasks: [{
+				id: "0000000000000CE8"
+				type: "item"
+				item: "create:chute"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "0000000000000CF1"
+					type: "item"
+					item: "create:encased_fan"
+				}
+				{
+					id: "16C2A8C4910DDAA1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 5.0d
+			subtitle: "A decorative Tunnel for Mechanical Belts."
+			description: [
+				"Far from simple covers for your Mechanical Belts, Tunnels serve a useful purpose in splitting items. "
+				""
+				"As a stack of items passes through an Andesite Tunnel, it will automatically take 1 item from the stack and place it onto adjacent belts or depots. "
+			]
+			dependencies: ["0000000000000CD8"]
+			id: "0000000000000CE9"
+			tasks: [{
+				id: "0000000000000CEA"
+				type: "item"
+				item: "create:andesite_tunnel"
+			}]
+			rewards: [
+				{
+					id: "59DC12EF1E7D1C5B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "688554C6249E77A6"
+					type: "item"
+					item: "create:andesite_tunnel"
+					count: 32
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 6.0d
+			subtitle: "Input/Output items. One stack item at a time. Can have filters."
+			description: ["Brass Funnels function similarly to Andesite Funnels, although they can accept a filter, either in the form of a single item clicked into the filter slot, or a configured filter item."]
+			dependencies: ["0000000000000CE5"]
+			id: "0000000000000CED"
+			tasks: [{
+				id: "0000000000000CEE"
+				type: "item"
+				item: "create:brass_funnel"
+			}]
+			rewards: [
+				{
+					id: "11A253341D082D4C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0BD5706BD8762048"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 6.0d
+			subtitle: "The Brass Tunnel is a machine that can only be placed on Mechanical Belts. It can sort items that pass through."
+			description: [
+				"Brass Tunnels work a bit differently than Andesite Tunnels. Rather than splitting onto adjacent belts, a line of Tunnels can be formed along multiple parallel belts. "
+				""
+				"As items pass into one tunnel, they’ll be evenly split among all connected tunnels on the other side. "
+				""
+				"Filters are respected during these split operations, so a sorting system can be made that takes a lot of mixed inputs and sorts them out onto individual belts. "
+			]
+			dependencies: ["0000000000000CE9"]
+			id: "0000000000000CEF"
+			tasks: [{
+				id: "0000000000000CF0"
+				type: "item"
+				item: "create:brass_tunnel"
+			}]
+			rewards: [
+				{
+					id: "1B050CE7BE13DC84"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "11F9A72CB4AA3F26"
+					type: "item"
+					item: "create:brass_tunnel"
+					count: 32
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 5.5d
+			subtitle: "A block that holds 1 type of item. An interaction point for machines such as the Mechanical Arm."
+			description: [
+				"A simple item buffer. "
+				""
+				"Depots will hold a single stack of items, but they will also interact with Encased Fan Washing, Blasting, and Smoking recipes, as well as the Plate Press. "
+			]
+			dependencies: ["0000000000000CD8"]
+			id: "0000000000000CF2"
+			tasks: [{
+				id: "0000000000000CF3"
+				type: "item"
+				item: "create:depot"
+			}]
+			rewards: [
+				{
+					id: "45AE47F963BB631D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "51A48E51A5857E22"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 6.5d
+			subtitle: "The Mechanical Arm is a block used to transfer items with extreme flexibility."
+			description: [
+				"Mechanical Arms serve as advanced short range item transport. They may be linked to multiple points at once for both extraction and insertion."
+				""
+				"For instance, an Arm could be configured to pull sand from funnel and place it on a depot where an overhead Encased Fan smelts it to glass. That same Arm can then take the glass and insert it into another filtered Funnel to send it on its way.  "
+				""
+				"Linking occurs prior to placing the Arm, simply right click it onto permitted inventory types to set it. Right click again to toggle between input and output. The arm reaches four blocks in total. "
+			]
+			dependencies: ["0000000000000CD8"]
+			id: "0000000000000CF4"
+			tasks: [{
+				id: "0000000000000CF5"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+			rewards: [
+				{
+					id: "41549EEC8DA54A5C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "57072C8B6C84EC8D"
+					type: "item"
+					item: "create:mechanical_arm"
+				}
+				{
+					id: "1EC424CCD95D68E5"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 2.5d
+			subtitle: "The Millstone is a more basic equivalent of the Crushing Wheels, capable of applying milling recipes to any items inserted from above. A Millstone can be powered by a shaft from below or by a cogwheel from the side."
+			description: [
+				"Millstones have been used for ages, representing some of our oldest technology still in use. They’re far more efficient than grinding things by hand."
+				""
+				"Create’s Millstone is an excellent early way to stretch your ores a little further. Be sure to wash the resulting Crushed Ore pieces to further enhance the yield! "
+			]
+			dependencies: ["0000000000000CCE"]
+			id: "0000000000000CFC"
+			tasks: [{
+				id: "0000000000000CFD"
+				type: "item"
+				item: "create:millstone"
+			}]
+			rewards: [{
+				id: "25E6D2E95EADFF75"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Crushing Wheels"
+			x: 11.0d
+			y: 7.5d
+			subtitle: "It's Crunch Time"
+			description: [
+				"Crushing Wheels are the big brother to the Millstone you have used until now. In general, they do a better job, allowing you to get more for your inputs than you would in the Millstone. "
+				"Their harder milling surface is also capable of dealing with materials that the Millstone cannot. "
+				""
+				"Setting up a pair of Crushing Wheels will require a little bit of clever thinking as both wheels must be rotated in opposite directions with the tops rotating towards the point where the two wheels meet. "
+				""
+				"Place the wheels with a single block gap between them. Items may be either dropped in the top or inserted in a more controlled manner by funneling them into the ‘block’ space where the two wheels meet. "
+			]
+			dependencies: ["0000000000000D1A"]
+			id: "0000000000000CFE"
+			tasks: [{
+				id: "0000000000000CFF"
+				type: "item"
+				item: "create:crushing_wheel"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "3DEDB6795DC087A8"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0BFA0E87293D6715"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+			]
+		}
+		{
+			icon: "create:brass_hand"
+			x: 8.0d
+			y: 5.0d
+			subtitle: "The Deployer simulates player actions on blocks or entities up to 2 blocks away from it."
+			description: [
+				"A Deployer while useful for many things, is the primary means of automating Polished Rose quartz. "
+				""
+				"The held item may be inserted into the Deployer by Belt and Funnel, Hopper, or most any other item transport method. When powered, it will continuously attempt to ‘use’ the held item on any entity in front of it, be it item or mob. "
+				""
+				"To polish quartz, it is simply a matter of dropping the quartz in the path of the moving deployer hand."
+			]
+			dependencies: ["0000000000000D02"]
+			id: "0000000000000D00"
+			tasks: [
+				{
+					id: "0000000000000D01"
+					type: "item"
+					item: "create:deployer"
+				}
+				{
+					id: "0000000000000D21"
+					type: "item"
+					item: {
+						id: "create:sand_paper"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "40C775F5432421C2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 8.0d
+			y: 3.5d
+			subtitle: "A common crafting component."
+			description: [
+				"Electron Tubes are used to craft the most advanced machinery in Create and they pose a bit of an automation challenge in the form of Polished Rose Quartz."
+				""
+				"Rose Quartz is polished with Sandpaper. At the start, this will be done by manually by holding a piece of sandpaper in one hand and Rose Quartz in another. Hold right click to grind it to a shiny finish."
+				""
+				"But what’s this you say? Can this not be automated with all these fancy gears and whistles? Of course! But the machines to do so need Electron tubes themselves!"
+			]
+			dependencies: ["0000000000000CFC"]
+			id: "0000000000000D02"
+			tasks: [{
+				id: "0000000000000D03"
+				type: "item"
+				item: "create:electron_tube"
+			}]
+			rewards: [{
+				id: "731D9B252211A9DA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 7.0d
+			y: 4.0d
+			subtitle: "The Mechanical Press is a mechanical component that applies Pressing, Packing, and Compacting recipes to items below it."
+			description: [
+				"The Mechanical Press is powered by an internal Shaft, accessed from two opposite sides. Much like Shafts, Presses will relay rotation along their axis. It processes items faster when it receives faster rotational power."
+				""
+				"When placed one space above any block, it will process all stacks of valid items on the block when given a rotational power and a redstone signal(like a lever). Items with no pressing recipe are unaffected."
+				""
+				"When placed one space above a Mechanical Belt, it will automatically press stacks of incoming items, stalling the belt until each operation is done. Items with no pressing recipe are ignored."
+				""
+				"When a Mechanical Press is placed above a Basin, it will apply Packing or Compacting recipes to ingredients in the Basin. Packing and Compacting recipes are applied one at a time and cannot be applied in bulk."
+				""
+				""
+			]
+			dependencies: ["0000000000000CFC"]
+			id: "0000000000000D06"
+			tasks: [{
+				id: "0000000000000D07"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+			rewards: [
+				{
+					id: "2CBF9E97BD653F4C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2AA406C52FC8AB75"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			icon: "create:mechanical_mixer"
+			x: 7.0d
+			y: 5.5d
+			subtitle: "The Mechanical Mixer is a mechanical component that applies Mixing recipes and shapeless Crafting recipes to items in Basins."
+			description: [
+				"The Mechanical Mixer is powered by an internal cogwheel, and will behave as one to any adjacent components, relaying and reversing rotation sideways."
+				""
+				"The Mixer requires a minimum rotational speed of 128 RPM from its power source to work. Mixers will process ingredients faster the more speed it is given."
+				""
+				"To work, a Mixer must be placed directly above a Basin, with a 1 block gap. When a valid recipe is inserted by throwing the ingredients in the Mixer, the Mixer will automatically combine the ingredients."
+			]
+			dependencies: ["0000000000000D06"]
+			id: "0000000000000D08"
+			tasks: [
+				{
+					id: "0000000000000D09"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "0000000000000D0A"
+					type: "item"
+					item: "create:basin"
+				}
+			]
+			rewards: [
+				{
+					id: "6B160D4729AB99B2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5E0071493FA5F520"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 7.0d
+			subtitle: "A Blaze Burner is a heating component that is required for certain Mixing recipes."
+			description: [
+				"Blaze Burners must have Blazes in them to function. To put a Blaze in an Empty Blaze Burner, right-click on a Blaze to capture it. Alternatively, an Empty Blaze Burner can be filled by clicking on a Blaze Spawner."
+				""
+				"Blaze Burners are used for Heating and Super-Heating Basins when doing Mixing recipes. Right-clicking a Blaze Burner with any item that can be used as Furnace fuel will temporarily allow Heated recipes. Right-clicking a Blaze Burner with a Blaze Cake will temporarily allow Super-Heated recipes."
+				""
+				""
+			]
+			dependencies: ["0000000000000D08"]
+			id: "0000000000000D0B"
+			tasks: [{
+				id: "0000000000000D0C"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+			rewards: [
+				{
+					id: "672C6D45CBFBD72B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5AF1D15A08CA31FE"
+					type: "item"
+					item: "minecraft:blaze_powder"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 8.0d
+			subtitle: "Forbidden Snacks"
+			description: [
+				"What do you mean that’s not hot enough? Well, let them eat cake!"
+				""
+				"Making Blaze Cake will really test your skills as it combines a lot of different mechanics. How far can you take your automation?"
+			]
+			dependencies: [
+				"0000000000000D0B"
+				"0000000000000D23"
+			]
+			id: "0000000000000D0D"
+			tasks: [{
+				id: "0000000000000D0E"
+				type: "item"
+				item: "create:blaze_cake"
+			}]
+			rewards: [
+				{
+					id: "107FE34397C729B9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "18D4335D7DA03CF8"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			subtitle: "Fluid Pumps move liquids up to 16 blocks around them. Need rotational force."
+			description: [
+				"Just as moving items isn’t free, so to does it require some rotational force to pump and work with fluids."
+				""
+				"The Mechanical Pump accepts power from a cog, pressurizing a section of pipe to cause fluid to flow in one direction or the other, depending on the direction of rotation. "
+				""
+				"The block has a handy little directional indicator to help visualize the flow. A single pump can pressurize a large section of pipe, so be sure to spread them out. "
+			]
+			dependencies: ["0000000000000CD4"]
+			id: "0000000000000D0F"
+			tasks: [{
+				id: "0000000000000D10"
+				type: "item"
+				item: "create:mechanical_pump"
+			}]
+			rewards: [{
+				id: "197DD7E93F316C6A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			subtitle: "Fluid Pipes are blocks used to transport and deal with fluids."
+			description: ["Fluid Pipes can be adjacent without connecting if they have been made transparent with a Wrench or have a Wooden or Metal Bracket."]
+			dependencies: ["0000000000000D0F"]
+			id: "0000000000000D11"
+			tasks: [{
+				id: "0000000000000D12"
+				type: "item"
+				item: "create:fluid_pipe"
+				count: 16L
+			}]
+			rewards: [{
+				id: "77610348111D0D9E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			icon: "create:fluid_valve"
+			x: 0.5d
+			y: 5.0d
+			subtitle: "Fluid Valves can be given Rotational power to toggle a flow."
+			description: ["Fluid valves may be opened and closed by applying some rotational force, for example with a Valve Handle. "]
+			dependencies: ["0000000000000D0F"]
+			id: "0000000000000D13"
+			tasks: [
+				{
+					id: "0000000000000D14"
+					type: "item"
+					item: "create:fluid_valve"
+				}
+				{
+					id: "0000000000000D19"
+					type: "item"
+					item: "create:copper_valve_handle"
+				}
+			]
+			rewards: [{
+				id: "3CEDD3ED2CAC83AD"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			subtitle: "Smart Pipes can allow only a certain liquid to pass through them."
+			description: ["Doing the impossible is just another Tuesday in modded. Smart Fluid Pipes act as a fluid filter, either controlling what is allowed to be pulled from a connected tank, or what is allowed to continue down the line. "]
+			dependencies: ["0000000000000D0F"]
+			id: "0000000000000D15"
+			tasks: [{
+				id: "0000000000000D16"
+				type: "item"
+				item: "create:smart_fluid_pipe"
+			}]
+			rewards: [{
+				id: "57BB7A4FF8768D58"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.5d
+			subtitle: "Stores Fluids."
+			description: [
+				"The Fluid Tank is a fluid storage mechanism that can store up to 8 buckets of fluid per block. Fluid tanks will also merge with adjacent tanks, up to 3x32x3, allowing to store up to 2,304 buckets of any fluid."
+				""
+				"Fluids can be stored and extracted from fluid tanks via Fluid Pipe. The fluid pipes can be placed on any face of the fluid tank: top, bottom, or sides."
+				""
+				"The direction of flow in the fluid pipe indicates whether fluids will be put into the tank or extracted from the tank; if fluid is flowing towards the tank, the fluid will be stored in the tank. Likewise, if a fluid pipe is flowing away from the tank (via Mechanical Pump), then fluid from the tank will be extracted into that pipe."
+			]
+			dependencies: ["0000000000000D11"]
+			id: "0000000000000D17"
+			tasks: [{
+				id: "0000000000000D18"
+				type: "item"
+				item: "create:fluid_tank"
+				count: 4L
+			}]
+			rewards: [{
+				id: "32724913C830AEA7"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			icon: "create:mechanical_crafter"
+			x: 10.0d
+			y: 6.5d
+			subtitle: "Mechanical Crafters are machines that can automatically craft items."
+			description: [
+				"For those times when a simple 3x3 grid simply isn’t good enough, there’s the Mechanical Crafter. Or, Crafters, to be precise. These interlocking blocks connect to form a large crafting interface. Each block accepting a single item for the craft."
+				""
+				"Several advanced items may only be crafted this way."
+				""
+				"Take note when placing the crafters themselves as there will be an arrow pointing towards the block that was clicked to place it. This arrow indicates which way items will travel as the crafters work and all arrows must connect to a single crafter."
+				""
+				"For example, placing the first crafter on the ground will make the arrow point down, this would be the output. A crafter to the side of the first would need to be placed against the side so that its arrow points into the first, making a channel. "
+				""
+				"Crafter Slot Covers can be used to disable a given slot, which is required for any craft that has empty spaces in it. For instance, when crafting a chest with a 3x3 grid of Mechanical Crafters, the middle slot must be covered. "
+				""
+				"Items may be inserted with hoppers, belts and funnels, mechanical arms and more. Experiment to see what you can come up with!"
+			]
+			dependencies: ["0000000000000D02"]
+			min_width: 250
+			id: "0000000000000D1A"
+			tasks: [
+				{
+					id: "0000000000000D1B"
+					type: "item"
+					item: "create:mechanical_crafter"
+				}
+				{
+					id: "0000000000000D1C"
+					type: "item"
+					item: "create:crafter_slot_cover"
+				}
+			]
+			rewards: [
+				{
+					id: "6F358E7FF78A491A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6E852B05A73A0A30"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 6.5d
+			subtitle: "The Spout is a block used for filling liquid containers such as bottles or buckets, or crafting with liquids."
+			description: ["The Spout can be filled with up to 1 bucket of any one liquid via Fluid Pipes. It will then spout the fluid at appropriate items that pass under it via a Conveyor Belt or Depot."]
+			dependencies: ["0000000000000D11"]
+			id: "0000000000000D23"
+			tasks: [{
+				id: "0000000000000D24"
+				type: "item"
+				item: "create:spout"
+			}]
+			rewards: [
+				{
+					id: "0B5077A93AD2C5E7"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "728137F93F8D33E9"
+					type: "item"
+					item: "create:depot"
+				}
+				{
+					id: "72AF4D99CA94A029"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			title: "Modular Contraptions"
+			icon: {
+				id: "create:minecart_contraption"
+				Count: 1b
+				tag: {
+					Contraption: {
+						Blocks: [
+							{
+								Pos: {
+									X: 0
+									Y: 0
+									Z: 0
+								}
+								Block: {
+									Properties: {
+										axis: "z"
+									}
+									Name: "create:minecart_anchor"
+								}
+							}
+							{
+								Pos: {
+									X: 0
+									Y: 1
+									Z: 0
+								}
+								Block: {
+									Name: "minecraft:spruce_planks"
+								}
+							}
+						]
+						BoundsFront: [
+							0.0f
+							0.0f
+							0.0f
+							1.0f
+							2.0f
+							1.0f
+						]
+						SubContraptions: [ ]
+						Actors: [ ]
+						Seats: [ ]
+						Type: "mounted"
+						Anchor: {
+							X: 108
+							Y: 84
+							Z: -93
+						}
+						Superglue: [ ]
+						Storage: [ ]
+						Passengers: [ ]
+						RotationMode: "ROTATE"
+						FluidStorage: [ ]
+						Stalled: 0b
+					}
+					display: { }
+				}
+			}
+			x: 10.0d
+			y: 2.0d
+			description: [
+				"Modular Contraptions are a build it yourself multiblock structures with nearly endless possibilities. "
+				""
+				"They can either be fixed in place and run using rotational power, or they can be attached to a minecart and run for free, requiring only powered rails to keep the cart moving. "
+				""
+				"The following are some of the specialized blocks that may be used for these contraptions."
+			]
+			dependencies: ["0000000000000CCE"]
+			id: "0000000000000D2B"
+			tasks: [{
+				id: "0000000000000D2C"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "0000000000000D65"
+					type: "item"
+					item: "minecraft:minecart"
+				}
+				{
+					id: "109A9FDA669BD2AA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			icon: "create:mechanical_piston"
+			x: 10.5d
+			y: 3.0d
+			subtitle: "Engineering Outreach Program"
+			description: [
+				"When it comes to moving contraptions, Mechanical Pistons can be a great early start. "
+				""
+				"As a simple example of where one might use these, imagine a long field of crops. A Mechanical Piston could be used to push a harvesting contraption back and forth over the field periodically to gather crops. "
+			]
+			dependencies: ["0000000000000D2B"]
+			id: "0000000000000D2D"
+			tasks: [{
+				id: "0000000000000D2E"
+				type: "item"
+				item: "create:mechanical_piston"
+			}]
+			rewards: [
+				{
+					id: "0000000000000D8C"
+					type: "item"
+					item: "create:piston_extension_pole"
+					count: 8
+				}
+				{
+					id: "1C496DD55DC99B7B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 4.0d
+			subtitle: "Putting the Cart Before the Horse"
+			description: [
+				"Cart Assemblers are used to build a contraption destined to ride a mine cart. "
+				""
+				"The contraption should be built on top of the Assembler. Once prepared, giving the assembler a Redstone signal will convert all connected blocks into one entity. "
+				""
+				"The entire cart can then be picked up by using a wrench on it, allowing for easy transport of the device. "
+				""
+				"A great example of a mine cart-based contraption would be a tunnel bore mining machine. It could be set up to lay down its own track in front of it and pull up track behind it. It could even build its own bridges to avoid ravines!"
+			]
+			dependencies: ["0000000000000D2B"]
+			id: "0000000000000D2F"
+			tasks: [{
+				id: "0000000000000D30"
+				type: "item"
+				item: "create:cart_assembler"
+			}]
+			rewards: [{
+				id: "2FD2EE07BBF1B586"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 11.5d
+			y: 5.0d
+			subtitle: "Getting Out of an Unbearable Situation"
+			description: [
+				"Similar to Windmill Bearings, Mechanical Bearings may be used to build rotating contraptions. "
+				""
+				"For instance, a long sweeping armed contraption could be built that swings through a tree farm, cutting down all the trees it encounters. "
+			]
+			dependencies: ["0000000000000D2B"]
+			id: "0000000000000D31"
+			tasks: [{
+				id: "0000000000000D32"
+				type: "item"
+				item: "create:mechanical_bearing"
+			}]
+			rewards: [{
+				id: "2AB8E0EDEB179F2A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "Chassis"
+			x: 12.5d
+			y: 4.0d
+			description: [
+				"Chassis blocks serve to form a base for larger creations. "
+				""
+				"Linear chassis connect to one another along the darker edge and will automatically be treated as a ‘whole’ piece that other parts may be glued to. "
+				"They will also capture a line of blocks attached to the lighter side if glue is placed on the chassis itself. "
+				""
+				"Similarly, Radial chassis can capture blocks in a circular plane so long as they all touch and the one in contact with the light face of the chassis has been glued in place."
+				""
+				"This results in the ability to build very large contraptions with very little glue. However, they are not required. Instead, blocks may simply be glued together to form a larger piece in an irregular shape."
+				""
+				"Worry not, once the contraption is formed, the glue marks will become invisible, allowing for very aesthetic builds."
+				""
+				"Use your scroll wheel while holding a wrench and looking at the chassis to configure its capture range. "
+				""
+				"Note: A slime ball may be used infinitely to set glue marks on Chassis blocks themselves. Right-Click with the slime ball to apply to one side. Double Right-Click to apply to all sides."
+			]
+			dependencies: [
+				"0000000000000D2D"
+				"0000000000000D2F"
+				"0000000000000D31"
+				"0000000000000D45"
+			]
+			dependency_requirement: "one_completed"
+			min_width: 300
+			id: "0000000000000D33"
+			tasks: [
+				{
+					id: "0000000000000D34"
+					type: "item"
+					item: "create:radial_chassis"
+				}
+				{
+					id: "0000000000000D35"
+					type: "item"
+					item: "create:linear_chassis"
+				}
+			]
+			rewards: [{
+				id: "2D8D03C7AA681EE9"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 14.5d
+			y: 4.0d
+			subtitle: "The Mechanical Harvester is a component used on Contraptions to harvest crops."
+			description: ["The Mechanical Harvester will harvest all mature crops it comes in contact with while moving forward. It will then either deposit the items to an inventory on the Contraption, or, if no inventories are available, it will drop the items on to the ground."]
+			dependencies: ["0000000000000D33"]
+			id: "0000000000000D3A"
+			tasks: [{
+				id: "0000000000000D3B"
+				type: "item"
+				item: "create:mechanical_harvester"
+			}]
+			rewards: [
+				{
+					id: "3FD50D4A337BDD10"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "682DE139E2D0BF4E"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: 5.0d
+			subtitle: "The Mechanical Drill is a block used to break blocks."
+			description: ["Mobile or Stationary, the Mechanical Drill serves as a capable mining apparatus. "]
+			dependencies: ["0000000000000D33"]
+			id: "0000000000000D3C"
+			tasks: [{
+				id: "0000000000000D3D"
+				type: "item"
+				item: "create:mechanical_drill"
+			}]
+			rewards: [{
+				id: "2AC7E1971E4555E7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 13.0d
+			y: 6.5d
+			subtitle: "The Mechanical Plough is a component used to break non-collidable blocks like rails or snow. The Mechanical Plough will also move entities and till soil blocks"
+			description: [
+				"Ploughing Fields is hard work. Make a machine to do it for you!"
+				""
+				"The Mechanical Plow is useful for more than simple farm maintenance, however, and can make a great addition to a moving minecart machine for pulling up extra track behind it."
+			]
+			dependencies: ["0000000000000D33"]
+			id: "0000000000000D3E"
+			tasks: [{
+				id: "0000000000000D3F"
+				type: "item"
+				item: "create:mechanical_plough"
+			}]
+			rewards: [{
+				id: "4982B7A1EF288AE8"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 14.0d
+			y: 6.0d
+			subtitle: "Can be stationary and mobile. Cuts down entire trees at once."
+			description: [
+				"From Chopping Trees to Carving Stone, this Saw has seen it all. "
+				""
+				"When stationary and powered, it can serve both for cutting logs to planks and for any stonecutter recipe. Stonecutter recipes will give a random output unless a filter is set on the Saw itself."
+				""
+				"When attached to a moving machine, it will chop whole trees in one swoop. Handy for a simple tree farm. "
+			]
+			dependencies: ["0000000000000D33"]
+			id: "0000000000000D40"
+			tasks: [{
+				id: "0000000000000D41"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+			rewards: [
+				{
+					id: "35B7E0A363061742"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "580F72E1C2A7B5E3"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: 3.0d
+			subtitle: "Used to transfer fluids/items from moving contraptions to stationary inventories."
+			description: [
+				"In many cases, the tools that can be attached to a moving contraption will also automatically pick up the items they’re harvesting, so long as there is ample storage on the device. "
+				""
+				"Simply gluing a chest in place is sufficient for providing that storage place, but getting items out again is another matter. "
+				""
+				"Interfaces act as a proxy for the inventories on moving machines. Whenever a Portable Interface on a contraption meets an Interface sitting in the world, the contraption will pause briefly, creating a connection."
+				""
+				"If something is set up to pull from, or push to that interface, the machine will remain paused until nothing is flowing through the Interface. Once the flow has stopped, it will move on."
+				""
+				"To prevent this pause, or interrupt it early, a Redstone signal can be supplied to the fixed position Interface. "
+			]
+			dependencies: ["0000000000000D33"]
+			id: "0000000000000D42"
+			tasks: [
+				{
+					id: "0000000000000D43"
+					type: "item"
+					item: "create:portable_fluid_interface"
+				}
+				{
+					id: "0000000000000D44"
+					type: "item"
+					item: "create:portable_storage_interface"
+				}
+			]
+			rewards: [
+				{
+					id: "25DA16DEFC45B01D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "210DCD31D2E17105"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 6.0d
+			subtitle: "It Has It's Ups and Downs"
+			description: [
+				"Need a Lift? "
+				""
+				"Build your own with a Rope Pulley by attaching your own platform. "
+				""
+				"Use a Gearshift to reverse direction with ease."
+			]
+			dependencies: ["0000000000000D2B"]
+			id: "0000000000000D45"
+			tasks: [{
+				id: "0000000000000D46"
+				type: "item"
+				item: "create:rope_pulley"
+			}]
+			rewards: [
+				{
+					id: "21F4D0A8273D0C35"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "7F78BBA9E19ACD5B"
+					type: "item"
+					item: "create:hand_crank"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			subtitle: "Shifting Into Higher Gear"
+			description: [
+				"Slightly finer control than messing with gear ratios, an Adjustable Chain Gearshift uses a Redstone signal to set the variable speed, up to twice the input speed. "
+				""
+				"Consider using an Analogue Lever to easily set a fixed speed. "
+			]
+			dependencies: ["0000000000000CD4"]
+			id: "0000000000000D47"
+			tasks: [{
+				id: "0000000000000D48"
+				type: "item"
+				item: "create:adjustable_chain_gearshift"
+			}]
+			rewards: [{
+				id: "037527A66F28E651"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -2.5d
+			y: 5.0d
+			subtitle: "The Hose Pulley lets down a hose that can drain bodies of liquids."
+			description: [
+				"When Rotational Force is given to the Hose Pully, it can extend the hose infinitely. A Fluid Pump is required for the hose to drain liquids. It will drain a body of liquid down to the level of the hose."
+				""
+				"If a liquid source is at least 10,000 blocks, the Hose Pulley considers it to be infinite, drawing the liquid from it without actually draining the source."
+				""
+				""
+			]
+			dependencies: ["0000000000000D11"]
+			id: "0000000000000D49"
+			tasks: [{
+				id: "0000000000000D4A"
+				type: "item"
+				item: "create:hose_pulley"
+			}]
+			rewards: [{
+				id: "3F4280A62F73BB8B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			subtitle: "Reverse rotation on redstone input."
+			description: [
+				"Need to reverse direction? Then the Gearshift is what you’re looking for. "
+				""
+				"Applying a Redstone signal to the block will cause the output side to start spinning in the opposite direction relative to the drive side. "
+			]
+			dependencies: ["0000000000000CD4"]
+			id: "0000000000000D4B"
+			tasks: [{
+				id: "0000000000000D4C"
+				type: "item"
+				item: "create:gearshift"
+			}]
+			rewards: [
+				{
+					id: "23D15AE59B9927B1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "686DFEB7B831EC8D"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			subtitle: "Stops rotation on redstone input."
+			description: [
+				"Quite the simple device, really. A Clutch disengages power on a shaft line, making for a simple on/off switch. "
+				""
+				"It could useful for more advanced contraptions that need precise timing, as well."
+			]
+			dependencies: ["0000000000000CD4"]
+			id: "0000000000000D4D"
+			tasks: [{
+				id: "0000000000000D4E"
+				type: "item"
+				item: "create:clutch"
+			}]
+			rewards: [
+				{
+					id: "6C3BAFB37BE82742"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "60C96F9E05D36D67"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 9.0d
+			subtitle: "A potion that restores a single hunger point and grants the drinker haste for 3 minutes."
+			description: [
+				""
+				""
+				""
+			]
+			dependencies: ["0000000000000D23"]
+			id: "0000000000000D52"
+			tasks: [{
+				id: "0000000000000D53"
+				type: "item"
+				item: "create:builders_tea"
+			}]
+			rewards: [{
+				id: "34CB46FDABC78417"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 7.0d
+			y: 9.0d
+			subtitle: "Used to create Shadow Steel and Refined Radiance."
+			description: ["Chromatic Compound is created by mixing 3 Glowstone Dust, 3 Powdered Obsidian and a Polished Rose Quartz in a Mechanical Mixer over a Super-Heated Blaze Burner."]
+			dependencies: [
+				"0000000000000D0B"
+				"0000000000000D0D"
+			]
+			hide: false
+			id: "42F4C523EEA4588F"
+			tasks: [{
+				id: "4F45FF3ED09B09DD"
+				type: "item"
+				item: {
+					id: "create:chromatic_compound"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "04269D070B8CD311"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "761A7CD73CE2EF99"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+			]
+		}
+		{
+			title: "Transfering Rotational Force"
+			x: 7.0d
+			y: -2.5d
+			subtitle: "These blocks can be used to transfer rotational force to and from blocks."
+			dependencies: ["0000000000000C40"]
+			id: "318C0138E981D51D"
+			tasks: [
+				{
+					id: "037965D2F342006A"
+					type: "item"
+					item: "create:shaft"
+				}
+				{
+					id: "7B51F238BB566952"
+					type: "item"
+					item: "create:cogwheel"
+				}
+				{
+					id: "389884283EDE014A"
+					type: "item"
+					item: "create:large_cogwheel"
+				}
+			]
+			rewards: [{
+				id: "6E6256D14E7B9AC7"
+				type: "item"
+				item: "minecraft:andesite"
+				count: 16
+			}]
+		}
+		{
+			x: 7.0d
+			y: 10.5d
+			subtitle: "Created by throwing Chromatic Compound in a beacon light."
+			description: ["Refined Radiance is created by dropping Chromatic Compound into a Beacon's light beam. This material is required to advance into the next stage of technology. Highly-reccomend automating the making process."]
+			dependencies: ["42F4C523EEA4588F"]
+			hide: false
+			id: "2FBE01C57D2D9AC6"
+			tasks: [{
+				id: "049E2446D9BE990B"
+				type: "item"
+				item: "create:refined_radiance"
+			}]
+			rewards: [
+				{
+					id: "66F240FDF2482250"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "1815EFFB993C0499"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 10.5d
+			subtitle: "Furthering the state of technology."
+			description: ["This material is required to advance into the next stage of technology. Highly-reccomend automating the making process."]
+			dependencies: ["0000000000000D1A"]
+			hide: false
+			id: "37447E73C68AFC27"
+			tasks: [{
+				id: "6C750F874ACCFA03"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+			rewards: [
+				{
+					id: "7297414557ABD600"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "75DD6C3D6F71988F"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+				{
+					id: "5E1CA8BFAD0336EC"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			icon: "mekanism:basic_control_circuit"
+			x: 8.5d
+			y: 12.5d
+			shape: "gear"
+			subtitle: "Work In Progress"
+			dependencies: [
+				"2FBE01C57D2D9AC6"
+				"37447E73C68AFC27"
+			]
+			hide: false
+			id: "4C64E160BFB128C7"
+			tasks: [{
+				id: "54C81BC0A5A71EFA"
+				type: "checkmark"
+				title: "Tier 2 Technology"
+			}]
+			rewards: [
+				{
+					id: "56E5C3784A0A2372"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "538E11A24ACB161F"
+					type: "item"
+					item: {
+						id: "mekanism:configurator"
+						Count: 1b
+						tag: {
+							mekData: {
+								EnergyContainers: [{
+									Container: 0b
+									stored: "60000"
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "29D83851F5712AAB"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+				{
+					id: "792C84183E8CD8BD"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 8.5d
+			subtitle: "Honey + Apple = Honeyed Apple"
+			dependencies: ["0000000000000D23"]
+			id: "66A2444E57C6A180"
+			tasks: [{
+				id: "5CD75A90E7965188"
+				type: "item"
+				item: "create:honeyed_apple"
+			}]
+			rewards: [{
+				id: "07D923B9AD88B332"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.5d
+			subtitle: "Milk + Bread = Sweet Roll"
+			description: ["Eating one restores 6 hunger and 8.6 saturation."]
+			dependencies: ["0000000000000D23"]
+			id: "513BA1D82C2CD21A"
+			tasks: [{
+				id: "2607836D7F2008FF"
+				type: "item"
+				item: "create:sweet_roll"
+			}]
+			rewards: [{
+				id: "26E0FB22F7813119"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -2.5d
+			y: 7.5d
+			subtitle: "Chocolate + Sweet Berries = Chocolate Glazed Berries"
+			dependencies: ["0000000000000D23"]
+			id: "0803669091002548"
+			tasks: [{
+				id: "72824F0E12E277FD"
+				type: "item"
+				item: "create:chocolate_glazed_berries"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			subtitle: "Produce rotational power by right-clicking."
+			dependencies: ["0000000000000CBA"]
+			id: "087F86F7B5AE549D"
+			tasks: [{
+				id: "2318F1BB425C17EA"
+				type: "item"
+				item: "create:hand_crank"
+			}]
+			rewards: [{
+				id: "45138095BD4BC5B2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 8.5d
+			y: 14.5d
+			subtitle: "A Heat Generator converts heat energy into power."
+			dependencies: ["4C64E160BFB128C7"]
+			id: "335678B686FFEAB5"
+			tasks: [{
+				id: "4F95715BBC6A9990"
+				type: "item"
+				item: "mekanismgenerators:heat_generator"
+			}]
+			rewards: [
+				{
+					id: "0BE4AB461049B099"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2C1847EF41B1E360"
+					type: "item"
+					item: "minecraft:charcoal"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "Metallurgic Infuser"
+			x: 8.5d
+			y: 16.5d
+			subtitle: "Used to make several useful materials."
+			dependencies: ["335678B686FFEAB5"]
+			id: "316CE5A053F21EF6"
+			tasks: [{
+				id: "36423C0D84A564A6"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+			rewards: [
+				{
+					id: "79AB4416651A5E0A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "1727B8D7856DA87A"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 16
+				}
+				{
+					id: "45AF473A7963B52E"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "30780674F426A2D8"
+					type: "item"
+					item: "mekanism:ingot_osmium"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 20.0d
+			subtitle: "The Solar Generator harnesses sunlight to create power."
+			dependencies: ["3BAC521219BE70EE"]
+			id: "1894178D56BC4BEE"
+			tasks: [{
+				id: "3F4EB05E45DF2A56"
+				type: "item"
+				item: "mekanismgenerators:solar_generator"
+			}]
+			rewards: [
+				{
+					id: "250C549EAF59C06A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "56EC1E6B447CC298"
+					type: "item"
+					item: "mekanism:energy_tablet"
+				}
+				{
+					id: "4967DAFFB9024BDF"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 21.5d
+			subtitle: "The Advanced Solar Generator is a highly upgraded version of the basic Solar Generator."
+			dependencies: ["1894178D56BC4BEE"]
+			id: "619CC6395CC7260F"
+			tasks: [{
+				id: "2E44F98A991B766E"
+				type: "item"
+				item: "mekanismgenerators:advanced_solar_generator"
+			}]
+			rewards: [
+				{
+					id: "1733D3D208159310"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "6081F63B303E625A"
+					type: "item"
+					item: "mekanism:energy_tablet"
+				}
+				{
+					id: "5409B07518632911"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 19.0d
+			subtitle: "A Wind Turbine's giant blades harness the force of the wind to generate power. "
+			description: ["Each Wind Turbine requires a fairly large 1x1x5 area. The machine will generate power day and night, in sun or rain, but the turbine must have a clear view of the sky (over the rotor housing at the top of the tower).The power output increases linearly with its elevation, to a maximum output of 480 J/t (9.6kJ/s)."]
+			dependencies: ["1894178D56BC4BEE"]
+			id: "527A5DDE96ACF099"
+			tasks: [{
+				id: "1E97067DC61B3E1A"
+				type: "item"
+				item: "mekanismgenerators:wind_generator"
+			}]
+			rewards: [{
+				id: "07D6662CAD08C9ED"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: 24.5d
+			subtitle: "Bio-Generators produce electricity from Bio Fuel."
+			dependencies: ["1894178D56BC4BEE"]
+			id: "523676DC550ABF2F"
+			tasks: [
+				{
+					id: "0E3C5FDAAFE8F67C"
+					type: "item"
+					item: "mekanismgenerators:bio_generator"
+				}
+				{
+					id: "5868C962D9C21AB2"
+					type: "item"
+					item: "mekanism:bio_fuel"
+				}
+			]
+		}
+		{
+			x: 20.5d
+			y: 22.0d
+			subtitle: "An Energy Cube is an advanced type of battery that is compatible with multiple energy systems. Energy can be input from 5 sides, and output on 1 side."
+			dependencies: ["43D102FC70025975"]
+			id: "481F70847298A6AB"
+			tasks: [{
+				id: "130F5F60C2FF8C9C"
+				type: "item"
+				item: "mekanism:basic_energy_cube"
+			}]
+			rewards: [
+				{
+					id: "467A56AFF37BD325"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5B4FE85C143E22F5"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "44B507AC0E1E8B26"
+					type: "item"
+					item: "mekanism:ingot_osmium"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "Hydrogen Power"
+			x: 4.0d
+			y: 20.0d
+			subtitle: "Putting water into an electrolytic seperator, exctracting hydrogen, then giving it to the gas-burning generator; you can generate energy."
+			description: ["It is important to note that the pump and electrolytic generator require energy to kick-start the process. It is important to take note of which sides of the machins takes input and output. This can be viewed from the GUI when you right-click a machine. You can also modify which side outputs/inputs specific things. If you want to make this process more efficient, replace the electric pump with something else that can pump without electricity or use renewable energy to power pump."]
+			dependencies: ["1894178D56BC4BEE"]
+			dependency_requirement: "one_completed"
+			id: "410E8C0E8665FA49"
+			tasks: [
+				{
+					id: "154D36FFDD36B85C"
+					type: "item"
+					item: "mekanism:electric_pump"
+				}
+				{
+					id: "1A5E9ACF892C6F61"
+					type: "item"
+					item: "mekanism:electrolytic_separator"
+				}
+				{
+					id: "75C4FF5DFA5477CD"
+					type: "item"
+					item: "mekanismgenerators:gas_burning_generator"
+				}
+				{
+					id: "3D2EDF61080D2C2D"
+					type: "item"
+					item: "mekanism:basic_universal_cable"
+				}
+				{
+					id: "6318E838781CC3FF"
+					type: "item"
+					item: "mekanism:basic_mechanical_pipe"
+				}
+				{
+					id: "30E3B58757EAE6C7"
+					type: "item"
+					item: "mekanism:basic_pressurized_tube"
+				}
+			]
+			rewards: [
+				{
+					id: "19A4E0BA23172EA9"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "4CAB122DB936816A"
+					type: "item"
+					item: "mekanism:basic_chemical_tank"
+				}
+				{
+					id: "4B4C911DF07098D1"
+					type: "item"
+					item: "mekanism:ingot_osmium"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "2x Ingots"
+			x: 5.0d
+			y: 20.0d
+			subtitle: "By putting ore into a crusher, then feeding the output to a furnace, you can double the ingots you get from 1 ore."
+			dependencies: ["780B9F574A3426DC"]
+			id: "364594847718DED8"
+			tasks: [
+				{
+					id: "06153DFF32E52579"
+					type: "item"
+					item: "mekanism:crusher"
+				}
+				{
+					id: "51C60225DAEBF328"
+					type: "item"
+					item: "mekanism:basic_universal_cable"
+				}
+				{
+					id: "4FAEA112ECE10D21"
+					type: "item"
+					item: "mekanism:basic_logistical_transporter"
+				}
+				{
+					id: "329EFF5798F134BE"
+					type: "item"
+					item: "mekanism:energized_smelter"
+				}
+			]
+			rewards: [
+				{
+					id: "5F70DFE2C53E4C09"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "43D1FA0780335C99"
+					type: "item"
+					item: "mekanism:basic_bin"
+				}
+				{
+					id: "2F99ACF1CAFC8369"
+					type: "item"
+					item: "mekanism:ingot_osmium"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 18.0d
+			subtitle: "The Precision Sawmill is used for reclaiming wood from wooden items and turn logs into planks with a 50% better yield (6 instead of 4). Also makes sawdust for use in making Cardboard Box."
+			dependencies: ["780B9F574A3426DC"]
+			id: "39B39218C09CC832"
+			tasks: [{
+				id: "273B935B593F54C1"
+				type: "item"
+				item: "mekanism:precision_sawmill"
+			}]
+			rewards: [
+				{
+					id: "5F3A9CF6AC204F71"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "5FAC7877CE4852A8"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 8
+				}
+				{
+					id: "0D5B4F82E3BA3F61"
+					type: "item"
+					item: "mekanism:ingot_osmium"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 18.0d
+			subtitle: "Uses liquid Osmium to create useful materials."
+			dependencies: ["780B9F574A3426DC"]
+			id: "5537D5AB0F219D12"
+			tasks: [{
+				id: "5706A92E7F611AFF"
+				type: "item"
+				item: "mekanism:osmium_compressor"
+			}]
+			rewards: [
+				{
+					id: "3693CE790E5E7C35"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "7EA569341A761724"
+					type: "item"
+					item: "mekanism:ingot_osmium"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "3x Ingots"
+			x: 5.0d
+			y: 23.0d
+			subtitle: "By inputting ore into a purification chamber with oxygen, then feeding the output to a crusher, then feeding that output to a furnace; you can tripple the ingots you get from a single ore."
+			description: ["Note: You can get oxygen from the electrolytic seperator that is used in the hydrogen energy setput."]
+			dependencies: [
+				"364594847718DED8"
+				"565AA49E75D30C0C"
+				"410E8C0E8665FA49"
+			]
+			id: "77D0561C59D7FC0D"
+			tasks: [
+				{
+					id: "22B462CC5C3E6AFF"
+					type: "item"
+					item: "mekanism:purification_chamber"
+				}
+				{
+					id: "2ADF2867FF20E862"
+					type: "item"
+					item: "mekanism:basic_pressurized_tube"
+				}
+			]
+			rewards: [
+				{
+					id: "2B621F688268C1C8"
+					type: "item"
+					item: "mekanism:clump_osmium"
+					count: 16
+				}
+				{
+					id: "1D38E888C7CCEA2B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 20.0d
+			subtitle: "The Electrolytic Separator causes fluids to break down into useful gasses."
+			dependencies: ["780B9F574A3426DC"]
+			id: "565AA49E75D30C0C"
+			tasks: [{
+				id: "4FD287E3672A9B93"
+				type: "item"
+				item: "mekanism:electrolytic_separator"
+			}]
+			rewards: [
+				{
+					id: "5827859B908C19E2"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "7719D6A4443DFAEC"
+					type: "item"
+					item: "mekanism:basic_fluid_tank"
+				}
+				{
+					id: "736993A6697678B7"
+					type: "item"
+					item: "mekanism:ingot_osmium"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 20.5d
+			y: 24.0d
+			dependencies: ["481F70847298A6AB"]
+			id: "54AA7656FB10FDBA"
+			tasks: [{
+				id: "6732FEAA173F9368"
+				type: "item"
+				item: "mekanism:advanced_energy_cube"
+			}]
+			rewards: [
+				{
+					id: "31957E10F348538D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "70BA2D180FBFAF33"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "1E3A784A70FDA636"
+					type: "item"
+					item: {
+						id: "mekanism:basic_energy_cube"
+						Count: 1b
+						tag: {
+							mekData: {
+								EnergyContainers: [{
+									Container: 0b
+									stored: "4000000"
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "1936801D90D4CF87"
+					type: "item"
+					item: "mekanism:ingot_osmium"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 20.5d
+			y: 26.0d
+			dependencies: ["54AA7656FB10FDBA"]
+			id: "0AD7A689B9F15676"
+			tasks: [{
+				id: "18E98A1105F7EF97"
+				type: "item"
+				item: "mekanism:elite_energy_cube"
+			}]
+			rewards: [
+				{
+					id: "1557764E15128506"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "420C2D76A5407C03"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "5D6A0F2C352E467E"
+					type: "item"
+					item: {
+						id: "mekanism:advanced_energy_cube"
+						Count: 1b
+						tag: {
+							mekData: {
+								EnergyContainers: [{
+									Container: 0b
+									stored: "16000000"
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "1D9F127980BFBDEA"
+					type: "item"
+					item: "mekanism:ingot_osmium"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 20.5d
+			y: 28.0d
+			dependencies: ["0AD7A689B9F15676"]
+			id: "4652571505328262"
+			tasks: [{
+				id: "7AA2CE789037698D"
+				type: "item"
+				item: "mekanism:ultimate_energy_cube"
+			}]
+			rewards: [
+				{
+					id: "0C7598FE83D8D965"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "398B5AC7AD379914"
+					type: "item"
+					item: {
+						id: "mekanism:elite_energy_cube"
+						Count: 1b
+						tag: {
+							mekData: {
+								EnergyContainers: [{
+									Container: 0b
+									stored: "64000000"
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "37B54FF21C6B94EA"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+				{
+					id: "19523325E87CD4A5"
+					type: "item"
+					item: "mekanism:ingot_osmium"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 18.5d
+			dependencies: ["316CE5A053F21EF6"]
+			id: "780B9F574A3426DC"
+			tasks: [{
+				id: "5678F3D905A4834C"
+				type: "checkmark"
+				title: "Material Processing"
+			}]
+			rewards: [
+				{
+					id: "0BB9A350C1449395"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "2E8FD74CF1D28716"
+					type: "item"
+					item: "mekanism:basic_tier_installer"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 18.5d
+			dependencies: ["316CE5A053F21EF6"]
+			id: "3BAC521219BE70EE"
+			tasks: [{
+				id: "51E29A7FBFF6E4C6"
+				type: "checkmark"
+				title: "Energy Production"
+			}]
+			rewards: [{
+				id: "07B3B7C77284095B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 20.5d
+			y: 20.0d
+			dependencies: ["316CE5A053F21EF6"]
+			id: "43D102FC70025975"
+			tasks: [{
+				id: "7F83673C33046E26"
+				type: "checkmark"
+				title: "Energy Storage"
+			}]
+			rewards: [{
+				id: "56DCE8EA2B56C5D1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 7.0d
+			y: 23.0d
+			subtitle: "A machine that can be used to produce specific materials including plastic. Can also be used to produce hydrogen, oxygen, or ethylene as a by-product."
+			dependencies: ["41589E9E32815283"]
+			id: "39067CF351DBCBF8"
+			tasks: [{
+				id: "2D2B7A5FC22BC134"
+				type: "item"
+				item: "mekanism:pressurized_reaction_chamber"
+			}]
+			rewards: [
+				{
+					id: "3EFEDD5A52C49094"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0DE95095D3D00D9A"
+					type: "item"
+					item: "mekanism:ingot_osmium"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 20.0d
+			subtitle: "This machine uses energy to extract dusts out of certain blocks and ores, making it essential to producing different kinds of tools."
+			dependencies: ["780B9F574A3426DC"]
+			id: "41589E9E32815283"
+			tasks: [{
+				id: "3E837BB70CB5301A"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+			rewards: [
+				{
+					id: "70A088C4EBD48C8D"
+					type: "item"
+					item: "mekanism:enriched_carbon"
+					count: 4
+				}
+				{
+					id: "32B81DC018B0D9A1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "562D308F714FD78F"
+					type: "item"
+					item: "mekanism:ingot_osmium"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 26.0d
+			subtitle: "In a Pressurized Reaction Chamber, Ethylene + Oxygen = HDPE Pellets"
+			description: ["Besides burning it for power, Ethylene may also be re-processed to create HDPE, a high quality plastic useful for making several advanced machines."]
+			dependencies: ["195C5E1C6EF646B3"]
+			id: "3A76EE866A7A9340"
+			tasks: [{
+				id: "5E693A429B804CCC"
+				type: "item"
+				item: "mekanism:hdpe_pellet"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "7ACCCCA60C8DD86C"
+					type: "item"
+					item: "mekanism:ethene_bucket"
+				}
+				{
+					id: "21DDE6D8925D6FF5"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "5B3A925D94720745"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			icon: "mekanism:ultimate_chemical_tank"
+			x: 7.0d
+			y: 24.5d
+			subtitle: "A very useful material to have. Can be used in a gas-burning generator or used to produce other materials."
+			dependencies: [
+				"39067CF351DBCBF8"
+				"523676DC550ABF2F"
+			]
+			id: "195C5E1C6EF646B3"
+			tasks: [{
+				id: "0AB822406CDFCEC1"
+				type: "checkmark"
+				title: "Ethylene"
+			}]
+			rewards: [
+				{
+					id: "3EB540A6A59282B7"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "38711EC1767F6006"
+					type: "item"
+					item: "mekanism:basic_fluid_tank"
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 20.0d
+			dependencies: ["780B9F574A3426DC"]
+			id: "079298226D3FA2A1"
+			tasks: [{
+				id: "07B8E17BC4788184"
+				type: "item"
+				item: "mekanism:chemical_infuser"
+			}]
+			rewards: [
+				{
+					id: "5C90ABC31E557F63"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "549AD4A7A914D322"
+					type: "item"
+					item: "mekanism:ingot_osmium"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 20.0d
+			dependencies: ["780B9F574A3426DC"]
+			id: "5A8CC4A7FDD26807"
+			tasks: [{
+				id: "455F8F58D1391567"
+				type: "item"
+				item: "mekanism:chemical_oxidizer"
+			}]
+			rewards: [{
+				id: "705233556502BF4C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "Sulfur Dioxide"
+			icon: "mekanism:sulfur_dioxide_bucket"
+			x: 11.5d
+			y: 23.0d
+			subtitle: "In a Chemical Oxidizer, Sulfur Dust = Sulfur Dioxide."
+			dependencies: [
+				"5A8CC4A7FDD26807"
+				"4EDD7D9AD472AC55"
+			]
+			hide: true
+			id: "1B48CB38C1DBEF6A"
+			tasks: [{
+				id: "127DD2A0DA90FF16"
+				type: "item"
+				item: "mekanism:dust_sulfur"
+			}]
+			rewards: [
+				{
+					id: "03FE44E956F37CD0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "1CEE70B6F2F7DBFB"
+					type: "item"
+					item: "mekanism:basic_fluid_tank"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 20.0d
+			dependencies: ["780B9F574A3426DC"]
+			id: "0B2CF25DF3D3B8B4"
+			tasks: [{
+				id: "0C4910971396755A"
+				type: "item"
+				item: "mekanism:chemical_injection_chamber"
+			}]
+			rewards: [
+				{
+					id: "6F87855FBFFE37A0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "79E1FB7C1FE09EE8"
+					type: "item"
+					item: "mekanism:ingot_osmium"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 23.0d
+			subtitle: "Can be created from Pressurized Reaction Chamber or Chemical Injector."
+			dependencies: [
+				"0B2CF25DF3D3B8B4"
+				"39067CF351DBCBF8"
+			]
+			dependency_requirement: "one_completed"
+			id: "4EDD7D9AD472AC55"
+			tasks: [{
+				id: "7E42F2CC1F955A8C"
+				type: "item"
+				item: "mekanism:dust_sulfur"
+			}]
+			rewards: [
+				{
+					id: "66F2591E78039ABD"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "2335C5E492819F85"
+					type: "item"
+					item: "mekanism:dust_sulfur"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Sulfur Trioxide"
+			icon: "mekanism:sulfur_trioxide_bucket"
+			x: 13.0d
+			y: 23.0d
+			subtitle: "Sulfur Dioxide + Oxygen = Sulfur Trioxide"
+			description: ["Use a Chemical Influser."]
+			dependencies: [
+				"079298226D3FA2A1"
+				"1B48CB38C1DBEF6A"
+			]
+			id: "3D4ACC00A8610B11"
+			tasks: [
+				{
+					id: "74538F604A68DFAB"
+					type: "checkmark"
+					title: "Sulfur Dioxide"
+				}
+				{
+					id: "41B37CB92F0AA6C5"
+					type: "checkmark"
+					title: "Oxygen"
+				}
+			]
+			rewards: [
+				{
+					id: "40ED02243E36E571"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "3BDD89BF0D8A532C"
+					type: "item"
+					item: "mekanism:basic_fluid_tank"
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 20.0d
+			dependencies: ["780B9F574A3426DC"]
+			id: "0953EB130382742A"
+			tasks: [{
+				id: "1F733F750E84AAB0"
+				type: "item"
+				item: "mekanism:rotary_condensentrator"
+			}]
+			rewards: [
+				{
+					id: "4170F182F96D44B4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "5C7B91D2C2BFCE5D"
+					type: "item"
+					item: "mekanism:ingot_osmium"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 23.0d
+			subtitle: "Water inside a Rotary Condensenator creates Water Vapor."
+			dependencies: ["0953EB130382742A"]
+			id: "7F690EC5A2C62827"
+			tasks: [{
+				id: "52B0AE9C024824CD"
+				type: "checkmark"
+				title: "Water Vapor"
+				icon: {
+					id: "mekanism:creative_chemical_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0b
+								stored: {
+									gasName: "mekanism:water_vapor"
+									amount: 9223372036854775807L
+								}
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "63215B63F3C148D3"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "7534BE2AEFB69F74"
+					type: "item"
+					item: "mekanism:basic_chemical_tank"
+				}
+			]
+		}
+		{
+			title: "Sulfuric Acid"
+			icon: "mekanism:sulfuric_acid_bucket"
+			x: 14.0d
+			y: 24.0d
+			subtitle: "In a Chemical Infuser: Sulfur Trioxide + Water Vapor = Sulfuric Acid"
+			dependencies: [
+				"3D4ACC00A8610B11"
+				"7F690EC5A2C62827"
+			]
+			id: "24FEE2A70AD745EA"
+			tasks: [
+				{
+					id: "3EB4FB0589BC7570"
+					type: "checkmark"
+					title: "Sulfur Trioxide"
+				}
+				{
+					id: "71075E3014640175"
+					type: "checkmark"
+					title: "Water Vapor"
+				}
+			]
+			rewards: [
+				{
+					id: "334E08F42388223A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "4308A6BFEC5DB26A"
+					type: "item"
+					item: "mekanism:basic_fluid_tank"
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: 20.0d
+			dependencies: ["780B9F574A3426DC"]
+			id: "66918EF700E1B166"
+			tasks: [{
+				id: "257005BF70EE527A"
+				type: "item"
+				item: "mekanism:chemical_dissolution_chamber"
+			}]
+			rewards: [
+				{
+					id: "315BDE9BF8ABF072"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "565CEB5230253DBB"
+					type: "item"
+					item: "mekanism:ingot_osmium"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 17.5d
+			y: 20.0d
+			dependencies: ["780B9F574A3426DC"]
+			id: "3E246AAA1AA37511"
+			tasks: [{
+				id: "253F26EFE535C175"
+				type: "item"
+				item: "mekanism:isotopic_centrifuge"
+			}]
+			rewards: [
+				{
+					id: "66E6ADDD257C4E90"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0F2ADF9C5AEA92D3"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+				{
+					id: "6A1B443BC0932E4A"
+					type: "item"
+					item: "mekanism:ingot_osmium"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "Uranium Oxide"
+			icon: {
+				id: "mekanism:creative_chemical_tank"
+				Count: 1b
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								gasName: "mekanism:uranium_oxide"
+								amount: 9223372036854775807L
+							}
+						}]
+					}
+				}
+			}
+			x: 10.0d
+			y: 22.0d
+			subtitle: "In a Chemical Oxidizer, Yellow Cake Uranium = Uranium Oxide"
+			dependencies: [
+				"016DD987D28317D5"
+				"5A8CC4A7FDD26807"
+			]
+			id: "63A79D090C85237B"
+			tasks: [{
+				id: "0AB4AF4645E81EF9"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "18405AC3B971F421"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0C45BDF69DFE54F8"
+					type: "item"
+					item: "mekanism:basic_chemical_tank"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 22.0d
+			subtitle: "In an enrichment chamber, Uranium = Yellow Cake Uranium"
+			dependencies: ["41589E9E32815283"]
+			id: "016DD987D28317D5"
+			tasks: [{
+				id: "6877581BF057F265"
+				type: "item"
+				item: "mekanism:yellow_cake_uranium"
+			}]
+			rewards: [
+				{
+					id: "3413131647934D9F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7E3B3431CC8CD8FD"
+					type: "item"
+					item: "mekanism:clump_uranium"
+					count: 4
+				}
+				{
+					id: "17CB6B6296FCA5AC"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: 25.0d
+			subtitle: "In a Chemical Dissolution Chamber, Sulfuric Acid + Fluorite = Hydrofluoric Acid"
+			dependencies: [
+				"24FEE2A70AD745EA"
+				"66918EF700E1B166"
+			]
+			id: "331F77DE083C2EB7"
+			tasks: [
+				{
+					id: "5AB1D8AB1268544A"
+					type: "checkmark"
+					title: "Hydrofluoric Acid"
+					icon: {
+						id: "mekanism:creative_chemical_tank"
+						Count: 1b
+						tag: {
+							mekData: {
+								GasTanks: [{
+									Tank: 0b
+									stored: {
+										gasName: "mekanism:hydrofluoric_acid"
+										amount: 9223372036854775807L
+									}
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "3449AEBF80E4D828"
+					type: "item"
+					item: "mekanism:fluorite_gem"
+				}
+			]
+			rewards: [{
+				id: "5109B5EF29635898"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "Uranium Hexafluoride"
+			x: 12.0d
+			y: 25.0d
+			subtitle: "In a Chemical Infuser, Uranium Oxide + Hydrofluoric Acid = Uranium Hexafluoride"
+			dependencies: [
+				"079298226D3FA2A1"
+				"331F77DE083C2EB7"
+				"63A79D090C85237B"
+			]
+			id: "7A401FEEA875DAC8"
+			tasks: [{
+				id: "1B23976B742BA9CB"
+				type: "item"
+				item: {
+					id: "mekanism:creative_chemical_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0b
+								stored: {
+									gasName: "mekanism:uranium_hexafluoride"
+									amount: 9223372036854775807L
+								}
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6349AD09E49B6EEB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "3A0CCB429CC6E04C"
+					type: "item"
+					item: "mekanism:basic_chemical_tank"
+				}
+			]
+		}
+		{
+			title: "Fissle Fuel"
+			icon: "mekanism:ultimate_chemical_tank"
+			x: 16.5d
+			y: 26.0d
+			subtitle: "In an Isotopic Centrifuge, Uranium Hexafluoride = Fissile Fuel"
+			dependencies: [
+				"3E246AAA1AA37511"
+				"7A401FEEA875DAC8"
+			]
+			id: "1282541EBE022CC8"
+			tasks: [{
+				id: "3DAD20E73288DA28"
+				type: "checkmark"
+				title: "Uranium Hexafluoride"
+			}]
+			rewards: [
+				{
+					id: "337C700EADB1FB2E"
+					type: "item"
+					item: "mekanism:basic_chemical_tank"
+				}
+				{
+					id: "06D1AEC485A3570F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "Starter 3x3x4 Fission Reactor"
+			x: 9.0d
+			y: 26.0d
+			subtitle: "Input: Fission Fuel + Coolant (Water or Sodium). Output: Nuclear Waste + Steam."
+			description: [
+				"I highly recommend looking up a proper tutorial on this. If you fuck it up, your dead. "
+				""
+				"This reactor is 3 Wide x 3 Long x 4 Tall. Top-most layer and bottom-most layer must be made of casing. Edges of casing must be made from casing. Everything else can be made of casing or reactor glass, or ports, etc."
+				""
+				"Ports are used to input/output. Configure them using configurator tool."
+				""
+				"Inside is made up of air, Fission Fuel Assembly, and Control Rod Assembly. A control rod is formed by a 1x1 block wide column made of 1 to 15 Fission Fuel Assembly and a single Control Assembly at the top. Control rods must not touch each other. Maximum control rod density can be achieved by placing them in a checkerboard pattern."
+			]
+			dependencies: ["1282541EBE022CC8"]
+			id: "6C6547145844BBBE"
+			tasks: [
+				{
+					id: "4CF32F443379AE34"
+					type: "item"
+					item: "mekanismgenerators:fission_fuel_assembly"
+				}
+				{
+					id: "2F243D1169B20922"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_casing"
+					count: 24L
+				}
+				{
+					id: "71B0660A1499F9DA"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_port"
+					count: 4L
+				}
+				{
+					id: "682A9F0DF25106C7"
+					type: "item"
+					item: "mekanismgenerators:reactor_glass"
+					count: 3L
+				}
+				{
+					id: "09E953AB2C769277"
+					type: "item"
+					item: "mekanism:radioactive_waste_barrel"
+				}
+				{
+					id: "30D1D93FF046422B"
+					type: "item"
+					item: "mekanismgenerators:control_rod_assembly"
+				}
+			]
+			rewards: [
+				{
+					id: "2C4F38B12836388F"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "5C3F5A783A9D1CA7"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+				{
+					id: "60ECAC4552661CAA"
+					type: "item"
+					item: "mekanism:ingot_osmium"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "Turbine"
+			x: 9.0d
+			y: 28.0d
+			subtitle: "Input: Steam. Output: Water + Energy"
+			description: [
+				"1. Build the base out of turbine casings and optional structural glass. (must be square) [the perimeter must be casings not glass]"
+				""
+				"2. Place rotor shafts in the center, from the base to desired height."
+				""
+				"3. Add turbine blades to the rotor. (two for each rotor shaft)"
+				""
+				"4. Place a rotational complex on top of the rotor."
+				""
+				"5. Completely fill the interior layer around the rotational complex with pressure dispersers."
+				""
+				"6. Place electromagnetic coils above the dispersers. They must touch the rotational complex and each other."
+				""
+				"7. Build the frame (the perimeters of the walls) out of turbine casings. (you may have more empty layers above the coils to make room for more vents)"
+				""
+				"8. Fill the walls, up to the height of the rotor, with turbine casings and/or structural glass and at least 2 turbine valves."
+				""
+				"9. Fill the remaining walls and ceiling with turbine casings and/or turbine vents."
+			]
+			dependencies: ["6C6547145844BBBE"]
+			id: "5A85A7FE26543151"
+			tasks: [
+				{
+					id: "7500335E8209305F"
+					type: "item"
+					item: "mekanismgenerators:turbine_rotor"
+					count: 5L
+				}
+				{
+					id: "71F7C9E5842CE989"
+					type: "item"
+					item: "mekanismgenerators:turbine_blade"
+					count: 10L
+				}
+				{
+					id: "1F22080365DFF068"
+					type: "item"
+					item: "mekanismgenerators:electromagnetic_coil"
+					count: 3L
+				}
+				{
+					id: "09761770586382AA"
+					type: "item"
+					item: "mekanismgenerators:saturating_condenser"
+					count: 6L
+				}
+				{
+					id: "0A2B0D44E9A4BA99"
+					type: "item"
+					item: "mekanismgenerators:turbine_vent"
+					count: 33L
+				}
+				{
+					id: "297DEF70ACFFDD85"
+					type: "item"
+					item: "mekanismgenerators:turbine_valve"
+					count: 2L
+				}
+				{
+					id: "438266E452C9F834"
+					type: "item"
+					item: "mekanismgenerators:turbine_casing"
+					count: 78L
+				}
+				{
+					id: "3278F7CB5B1AC747"
+					type: "item"
+					item: "mekanism:structural_glass"
+					count: 58L
+				}
+				{
+					id: "4EEADEC4B43DE30A"
+					type: "item"
+					item: "mekanism:pressure_disperser"
+					count: 8L
+				}
+				{
+					id: "5D27D1F39DAA72FD"
+					type: "item"
+					item: "mekanismgenerators:rotational_complex"
+				}
+			]
+			rewards: [
+				{
+					id: "44C8023BD88BCED9"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "6446EB1C9B0DCAE2"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 28.0d
+			subtitle: "Input is on bottom, output is on front. Needs access to direct sunlight to work. Not affected by glass."
+			dependencies: [
+				"3A76EE866A7A9340"
+				"5A85A7FE26543151"
+			]
+			id: "2BD62A6355E24576"
+			tasks: [{
+				id: "3CF48788AAF518B8"
+				type: "item"
+				item: "mekanism:solar_neutron_activator"
+			}]
+			rewards: [
+				{
+					id: "0BE53ABFCB121DA5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "244973768A5D3A5E"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "2BBA1D38313C53E2"
+					type: "item"
+					item: "mekanism:ingot_osmium"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Polonium"
+			icon: "mekanism:elite_chemical_tank"
+			x: 7.0d
+			y: 30.0d
+			subtitle: "In a Solar Neutron Activator, Nuclear Waste = Polonium."
+			dependencies: ["2BD62A6355E24576"]
+			id: "11AEE38005346BC2"
+			tasks: [{
+				id: "0C58676D0B79773B"
+				type: "checkmark"
+				title: "Polonium"
+			}]
+			rewards: [{
+				id: "4FCC12BD50BAB69B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Thermal Evaporation Plant"
+			x: -1.0d
+			y: 23.0d
+			subtitle: "Turn Water Into Brine or Brine into Lithium"
+			dependencies: ["619CC6395CC7260F"]
+			id: "0CFB8ED64142069A"
+			tasks: [
+				{
+					id: "59B5E50C64787499"
+					type: "item"
+					item: "mekanism:thermal_evaporation_controller"
+				}
+				{
+					id: "0F52C3456266D701"
+					type: "item"
+					item: "mekanism:thermal_evaporation_valve"
+					count: 2L
+				}
+				{
+					id: "255E28959F6CB9CD"
+					type: "item"
+					item: "mekanism:thermal_evaporation_block"
+					count: 34L
+				}
+				{
+					id: "4AD5AC54655FFAA5"
+					type: "item"
+					item: "mekanismgenerators:advanced_solar_generator"
+				}
+				{
+					id: "224D0543E8EF59F3"
+					type: "item"
+					item: "mekanismgenerators:advanced_solar_generator"
+				}
+				{
+					id: "61D976A5D5B8437A"
+					type: "item"
+					item: "mekanismgenerators:advanced_solar_generator"
+				}
+				{
+					id: "3792872316ED2365"
+					type: "item"
+					item: "mekanismgenerators:advanced_solar_generator"
+				}
+			]
+			rewards: [{
+				id: "3D30BEBC1B497032"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: -1.0d
+			y: 24.5d
+			subtitle: "In a Thermal Evaporation Plant, Water = Brine."
+			dependencies: ["0CFB8ED64142069A"]
+			id: "6E02BB7547FB957D"
+			tasks: [{
+				id: "77DFF3058BD18B19"
+				type: "checkmark"
+				title: "Brine"
+				icon: "mekanism:brine_bucket"
+			}]
+			rewards: [
+				{
+					id: "193FA107F7F55758"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "66F1E99B8B705505"
+					type: "item"
+					item: "mekanism:basic_fluid_tank"
+				}
+			]
+		}
+		{
+			icon: "mekanism:lithium_bucket"
+			x: 0.5d
+			y: 24.5d
+			subtitle: "In a Thermal Evaporation Plant, Brine = Liquid Lithium."
+			dependencies: [
+				"6E02BB7547FB957D"
+				"0CFB8ED64142069A"
+			]
+			id: "1614B3755B8792BB"
+			tasks: [{
+				id: "2E11694E1663D07C"
+				type: "checkmark"
+				title: "Liquid Lithium"
+			}]
+			rewards: [
+				{
+					id: "0CF1763475054D20"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "077C4FFA1D465DB0"
+					type: "item"
+					item: "mekanism:basic_fluid_tank"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 32.0d
+			subtitle: "In a Pressurized Reaction Chamber, Polonium + Water = Polonium Pellet + Spent Nuclear Waste"
+			dependencies: ["11AEE38005346BC2"]
+			id: "3EB1B67CC783FC7C"
+			tasks: [{
+				id: "294A96AD5E5B3D1D"
+				type: "item"
+				item: "mekanism:pellet_polonium"
+			}]
+			rewards: [
+				{
+					id: "664F5939F0146167"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "79448D410A762103"
+					type: "item"
+					item: "mekanism:elite_tier_installer"
+				}
+				{
+					id: "1D4119FDDB6F3322"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			title: "Plutonium"
+			icon: "mekanism:elite_chemical_tank"
+			x: 17.5d
+			y: 28.0d
+			subtitle: "In an Isotopic Centrifuge,  Nuclear Waste = Plutonium"
+			dependencies: [
+				"3E246AAA1AA37511"
+				"5A85A7FE26543151"
+			]
+			id: "02CEF7499FB4191F"
+			tasks: [{
+				id: "17C49CEF2FD2A9AB"
+				type: "checkmark"
+				title: "Plutonium"
+			}]
+			rewards: [
+				{
+					id: "62C41A85B66A23D6"
+					type: "item"
+					item: "mekanism:basic_chemical_tank"
+				}
+				{
+					id: "7A784DD961EDE991"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 17.5d
+			y: 32.0d
+			subtitle: "In a Pressurized Reaction Chamber, Water + Plutonium = Plutonium Pellet + Spent Nuclear Waste"
+			dependencies: ["02CEF7499FB4191F"]
+			id: "11A67654E5F45183"
+			tasks: [{
+				id: "5D960BE8B5AD64AC"
+				type: "item"
+				item: "mekanism:pellet_plutonium"
+			}]
+			rewards: [
+				{
+					id: "2A358E2A159D893D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7A3F3B91C9CBE642"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 33.5d
+			subtitle: "Created as a bi-product from polonium and plutonium pellets."
+			dependencies: [
+				"3EB1B67CC783FC7C"
+				"11A67654E5F45183"
+			]
+			dependency_requirement: "one_completed"
+			id: "5CA40AE549F20F90"
+			tasks: [{
+				id: "480B497240FF0716"
+				type: "checkmark"
+				title: "Spent Nuclear Waste"
+				icon: "mekanism:advanced_chemical_tank"
+			}]
+			rewards: [
+				{
+					id: "64E86CD1D6C84ECB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1B3C89018C253E37"
+					type: "item"
+					item: "mekanism:basic_chemical_tank"
+				}
+			]
+		}
+		{
+			title: "Basic Induction Matrix"
+			x: 20.5d
+			y: 30.0d
+			subtitle: "Stores more power than a battery. "
+			description: [
+				"We will be building a basic, but very expandable induction matrix. The base of it is 3 x 3 with a height of 4."
+				""
+				"All edges of the block must be made using Induction Casing."
+				""
+				"All faces (other than edges) can be filled using either Induction Casing or Induction Port in any configuration (regardless of how the inside is set up)."
+				""
+				"The inside of the cube can be filled with either Induction Providers, Induction Cells or air blocks. However, you need at least 1 Induction Cell and 1 Induction Provider. Without at least 1 Induction Provider, the Induction Matrix cannot send or receive power."
+				""
+				"The inside of the cube components do not need to match in tier."
+			]
+			dependencies: ["4652571505328262"]
+			id: "54BCB9D250868D88"
+			tasks: [
+				{
+					id: "1D7DD272DDBA909D"
+					type: "item"
+					item: "mekanism:induction_casing"
+					count: 32L
+				}
+				{
+					id: "58D726AE8567A13C"
+					type: "item"
+					item: "mekanism:induction_port"
+					count: 2L
+				}
+				{
+					id: "4D2C170A80C9225F"
+					type: "item"
+					item: "mekanism:basic_induction_cell"
+				}
+				{
+					id: "2D16A08F96F48413"
+					type: "item"
+					item: "mekanism:basic_induction_provider"
+				}
+			]
+			rewards: [
+				{
+					id: "55A2AEF93ADFB26F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "14CA350EE5E323E8"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 20.5d
+			y: 32.0d
+			dependencies: ["54BCB9D250868D88"]
+			id: "656040978F96A29F"
+			tasks: [
+				{
+					id: "428B0917710AE398"
+					type: "item"
+					item: "mekanism:advanced_induction_cell"
+				}
+				{
+					id: "0AC83FF9E9C29057"
+					type: "item"
+					item: "mekanism:advanced_induction_provider"
+				}
+			]
+			rewards: [
+				{
+					id: "3463F243DDC3EB4E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "2FE2987D842DF0F4"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 20.5d
+			y: 34.0d
+			dependencies: ["656040978F96A29F"]
+			id: "788F1F4E83D81F85"
+			tasks: [
+				{
+					id: "2311F6B2E7B431DD"
+					type: "item"
+					item: "mekanism:elite_induction_cell"
+				}
+				{
+					id: "2CFA0B81D1C9C955"
+					type: "item"
+					item: "mekanism:elite_induction_provider"
+				}
+			]
+			rewards: [
+				{
+					id: "3DA19177C6D6DEFC"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "65DE50AC2149B564"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 20.5d
+			y: 36.0d
+			dependencies: ["788F1F4E83D81F85"]
+			id: "54BCB8BE6663CBEC"
+			tasks: [
+				{
+					id: "23FFA4536DAE24A3"
+					type: "item"
+					item: "mekanism:ultimate_induction_cell"
+				}
+				{
+					id: "35754F3F60319054"
+					type: "item"
+					item: "mekanism:ultimate_induction_provider"
+				}
+			]
+			rewards: [
+				{
+					id: "240580E23B069282"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "66B846667940B9E5"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 30.0d
+			subtitle: "The Atomic Disassembler is Mekanism's an all-in-one tool, essentially the ultimate, electronic version of the paxel."
+			dependencies: [
+				"3A76EE866A7A9340"
+				"3EB1B67CC783FC7C"
+			]
+			id: "460812F53EEB50EC"
+			tasks: [{
+				id: "0AFF9BAE95FB16EE"
+				type: "item"
+				item: {
+					id: "mekanism:atomic_disassembler"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "338CEFC97E5F2171"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "69FB9A99F3229261"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "172F8EE0AEC03DD7"
+					type: "item"
+					item: "mekanism:ingot_osmium"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 26.0d
+			subtitle: "The Jetpack is an item that allows the player to fly, equippable in the chestplate slot. It uses Hydrogen gas as a fuel, of which it can store up to 24,000 mB."
+			dependencies: ["3A76EE866A7A9340"]
+			id: "5C5E69C2B91F3E33"
+			tasks: [{
+				id: "3D9CB66DAC58A775"
+				type: "item"
+				item: {
+					id: "mekanism:jetpack"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "63BA4D48F19CDFAA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "398719789B7D1B48"
+					type: "item"
+					item: "mekanism:ingot_osmium"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 26.0d
+			subtitle: "The Armored Jetpack is an upgraded version of the Jetpack. It provides 12 armor points, offering slightly better protection than a diamond chestplate with Protection IV."
+			dependencies: ["5C5E69C2B91F3E33"]
+			id: "72926F3A948D92A5"
+			tasks: [{
+				id: "7D15FBDAB24B070B"
+				type: "item"
+				item: "mekanism:jetpack_armored"
+			}]
+			rewards: [
+				{
+					id: "5017C9654B092CC4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1EDE3CF9ADD3ABBC"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "27FCBD32F5D7D1A3"
+					type: "item"
+					item: "mekanism:ingot_osmium"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Guns!"
+			icon: {
+				id: "cgm:mini_gun"
+				Count: 1b
+				tag: {
+					AmmoCount: 100
+				}
+			}
+			x: 12.0d
+			y: 32.0d
+			subtitle: "These two workbenches can be used to make weapons."
+			dependencies: [
+				"3EB1B67CC783FC7C"
+				"11A67654E5F45183"
+			]
+			id: "7CD75735438C7334"
+			tasks: [
+				{
+					id: "4A938F6A98E2F609"
+					type: "item"
+					item: "cgm:workbench"
+				}
+				{
+					id: "04DA3A0D3D855585"
+					type: "item"
+					item: "timeless_and_classic:timeless_workbench"
+				}
+			]
+			rewards: [
+				{
+					id: "77AD4C520B3B3685"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "18E240E9F7169E06"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+			]
+		}
+		{
+			title: "QIO Mass Storage"
+			x: 7.0d
+			y: 34.0d
+			subtitle: "Used to store large quantities of different items."
+			description: ["QIO is a way of storing large amounts of items that can be stored, searched, and accessed remotely in late game. It's comprised of at least one QIO Drive (to store items), a QIO Drive Array (to hold the QIO Drives), and at least one QIO Dashboard (to access items in the QIO Drive Array). Both the drive and drive array must be set to the same frequency in order to work together."]
+			dependencies: ["3EB1B67CC783FC7C"]
+			id: "48AA304CCE2CD06E"
+			tasks: [
+				{
+					id: "588977860A732F97"
+					type: "item"
+					item: "mekanism:qio_drive_array"
+				}
+				{
+					id: "5163BF0F87E1E6B8"
+					type: "item"
+					item: "mekanism:qio_dashboard"
+				}
+			]
+			rewards: [
+				{
+					id: "3B9BAD41BBD511AF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4DF069A362A8AF99"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "30638D316A8EFB2C"
+					type: "item"
+					item: "mekanism:ingot_osmium"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 38.0d
+			subtitle: "Stores a total of 128,000 items. Can only have 256 different types of items."
+			dependencies: ["0FE994202F2E9F3F"]
+			id: "1A486CB56886EF94"
+			tasks: [{
+				id: "6634F46A39D43EDD"
+				type: "item"
+				item: "mekanism:qio_drive_hyper_dense"
+			}]
+			rewards: [{
+				id: "580EB9A02645BF34"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: 7.0d
+			y: 40.0d
+			subtitle: "Stores a total of 1,048,000 items. Can only have 1,024 different types of items."
+			dependencies: ["1A486CB56886EF94"]
+			id: "1B8D54CD5734FC17"
+			tasks: [{
+				id: "5C0396567E0339C9"
+				type: "item"
+				item: "mekanism:qio_drive_time_dilating"
+			}]
+			rewards: [{
+				id: "6BF41D89D3EF666A"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+		}
+		{
+			x: 7.0d
+			y: 42.0d
+			subtitle: "Stores a total of 16,000,000,000 items. Can only have 8,192 different types of items. Your fucking nuts if you think you can ever fill this bitch up."
+			dependencies: [
+				"1B8D54CD5734FC17"
+				"62C80F7C2365DB5D"
+			]
+			id: "1E6433D8761AF514"
+			tasks: [{
+				id: "4B2B5B4A2E6365AB"
+				type: "item"
+				item: "mekanism:qio_drive_supermassive"
+			}]
+			rewards: [
+				{
+					id: "5CEB8401A753EE8F"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "4ABE78B74418ED3D"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 36.0d
+			subtitle: "Access system from anywhere."
+			dependencies: ["48AA304CCE2CD06E"]
+			id: "3D32DEDD8C080B1D"
+			tasks: [{
+				id: "30DD978C13632780"
+				type: "item"
+				item: "mekanism:portable_qio_dashboard"
+			}]
+			rewards: [{
+				id: "5E92A33789BF95CA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "QIO Import/Export"
+			x: 5.0d
+			y: 36.0d
+			subtitle: "Take items in and out of your system."
+			dependencies: ["48AA304CCE2CD06E"]
+			id: "22382BD854DD82CE"
+			tasks: [
+				{
+					id: "681D55A133CBC2CA"
+					type: "item"
+					item: "mekanism:qio_importer"
+				}
+				{
+					id: "2C71C07C15D8C4F4"
+					type: "item"
+					item: "mekanism:qio_exporter"
+				}
+			]
+			rewards: [{
+				id: "3F59A1F1CB7C8D85"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 7.0d
+			y: 36.0d
+			subtitle: "Stores a total of 16,000 items. Can only have 128 different types of items."
+			dependencies: ["48AA304CCE2CD06E"]
+			id: "0FE994202F2E9F3F"
+			tasks: [{
+				id: "3F2A72C75BC6FE2C"
+				type: "item"
+				item: "mekanism:qio_drive_base"
+			}]
+			rewards: [{
+				id: "3FB7D4535F4E210E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Supercritical Phase Shifter (SPS)"
+			x: 12.0d
+			y: 35.0d
+			subtitle: "In a SPS, Polonium = Antimatter"
+			description: ["Look up a video for this one. Its a fucking circle and I'm not trying to explain that. I reccommend \"Surviving With Mekanism v10 :: E17 - Supercritical Phase Shifter\" by RagePlaysGames"]
+			dependencies: [
+				"3EB1B67CC783FC7C"
+				"11A67654E5F45183"
+			]
+			id: "537B46FB36E21525"
+			tasks: [
+				{
+					id: "3DFFAA94C45E6C05"
+					type: "item"
+					item: "mekanism:sps_casing"
+					count: 60L
+				}
+				{
+					id: "49F21E084347147A"
+					type: "item"
+					item: "mekanism:sps_port"
+					count: 3L
+				}
+				{
+					id: "04575F6634209775"
+					type: "item"
+					item: "mekanism:chemical_crystallizer"
+				}
+				{
+					id: "7AEC2A2095472283"
+					type: "item"
+					item: "mekanism:supercharged_coil"
+				}
+				{
+					id: "21C355188E2D53BF"
+					type: "item"
+					item: "mekanismgenerators:reactor_glass"
+					count: 123L
+				}
+			]
+			rewards: [
+				{
+					id: "3618F72DCAE0CB89"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "166C2AE4B32E107A"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+				{
+					id: "301F4B7ED9BA3168"
+					type: "item"
+					item: "mekanism:ingot_osmium"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 37.0d
+			subtitle: "In a chemical crystalizer, Antimatter = Antimatter Pellet."
+			dependencies: ["537B46FB36E21525"]
+			id: "62C80F7C2365DB5D"
+			tasks: [{
+				id: "090401453126CD96"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
+			}]
+			rewards: [
+				{
+					id: "2BB182197A82D290"
+					type: "item"
+					item: "mekanism:ultimate_tier_installer"
+				}
+				{
+					id: "642889DC6E040678"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "54E8AA9846E8AC27"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+			]
+		}
+		{
+			title: "Fusion Reactor"
+			x: 0.5d
+			y: 32.0d
+			subtitle: "Deuterium + Tritium = Energy"
+			description: [
+				"Look at a youtube tutorial for this one. I highly reccommend \"Surviving With Mekanism v10 :: E20 - Air Cooled Fusion Reactor\""
+				""
+				"The Fusion Reactor will not start on its own. It requires an outside burst of energy from a charged Laser Amplifier and a small amount of D-T Fuel to begin the fusion process. Once the reaction is jump started, it will begin consuming supplied Deuterium and Tritium, creating plasma and generating power."
+				""
+				"The Hohlraum stores 10 units of D-T Fuel required for the initial reaction. Place the Hohlraum into the Reactor Controller when it contains the required D-T Fuel."
+				""
+				"The statistics tab details the required ignition temperature for the reaction to begin. To reach this temperature, a Laser Amplifier must be charged with energy from several Lasers feeding into it, and fired into the Laser Focus Matrix.  It must be injected in one big burst to prevent temperature from dissipating, so adding Redstone sensitivity or increasing the minimum energy required by the Amplifier will prevent it from firing prematurely."
+				""
+				"With the Hohlraum in the Reactor Controller and enough energy stored in the Amplifier, fire the laser to begin the fusion reaction. If a high enough temperature was achieved, you should immediately see and hear the reactor running. To sustain the reaction, the temperature must not drop below the ignition temperature. Make sure the injection rate is high enough and fuel is constantly being supplied."
+			]
+			dependencies: [
+				"3EB1B67CC783FC7C"
+				"3DF8CD4D0DEB2265"
+				"598A12D61F9233AB"
+				"2F80F6DC9EB13A70"
+			]
+			id: "5B7CDEF0624F5576"
+			tasks: [
+				{
+					id: "0689E4C53E3C2028"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_frame"
+					count: 36L
+				}
+				{
+					id: "20DA3A301E704CED"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_port"
+					count: 3L
+				}
+				{
+					id: "2FB6C12FDE8ECF93"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_controller"
+				}
+				{
+					id: "4FF86D71CED7A6EF"
+					type: "item"
+					item: "mekanismgenerators:reactor_glass"
+					count: 25L
+				}
+				{
+					id: "6BD7B3FC56FB76BF"
+					type: "item"
+					item: "mekanism:laser"
+				}
+				{
+					id: "46F31FA7B043B598"
+					type: "item"
+					item: "mekanismgenerators:laser_focus_matrix"
+				}
+				{
+					id: "275194FAB642BAC1"
+					type: "item"
+					item: "mekanism:laser_amplifier"
+				}
+			]
+			rewards: [
+				{
+					id: "3606E286C8F51DF0"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "740503D766E401B3"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 28.0d
+			subtitle: "In a Solar Neutron Activation, Non-Liquid Lithium = Tritium"
+			dependencies: [
+				"2BD62A6355E24576"
+				"4B73B7E544C4A87D"
+			]
+			id: "598A12D61F9233AB"
+			tasks: [{
+				id: "0E2DFF53F862C850"
+				type: "checkmark"
+				title: "Tritium"
+				icon: "mekanism:basic_chemical_tank"
+			}]
+			rewards: [{
+				id: "735786BDE1AC8241"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Non-Liquid Lithium"
+			x: 0.5d
+			y: 26.0d
+			subtitle: "In a Rotary Condensentrator, Liquid Lithum = Non-Liquid Lithium"
+			dependencies: ["1614B3755B8792BB"]
+			id: "4B73B7E544C4A87D"
+			tasks: [{
+				id: "65097F8A7ED4D194"
+				type: "checkmark"
+				title: "Non-liquid Lithium"
+				icon: "mekanism:advanced_chemical_tank"
+			}]
+			rewards: [{
+				id: "153CE4DDADA7B0D6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			icon: "mekanism:heavy_water_bucket"
+			x: -6.0d
+			y: 32.0d
+			subtitle: "Created by putting a filter on a water pump. (Highly Reccommend Speed Upgrades)"
+			id: "4763E8FFEE3A245C"
+			tasks: [{
+				id: "026B07C48E1D46A0"
+				type: "checkmark"
+				title: "Heavy Water"
+			}]
+			rewards: [{
+				id: "79993405690D01F6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			icon: "mekanism:advanced_chemical_tank"
+			x: -3.5d
+			y: 32.0d
+			subtitle: "In an Electrolytic Seperator, Heavy Water = Deuterium + Oxygen"
+			dependencies: ["4763E8FFEE3A245C"]
+			id: "3DF8CD4D0DEB2265"
+			tasks: [{
+				id: "063123777E5E2120"
+				type: "checkmark"
+				title: "Deuterium"
+			}]
+			rewards: [{
+				id: "26EA9BEDA7842EB2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -0.5d
+			y: 31.0d
+			dependencies: ["5E103D8A95A0F0A0"]
+			id: "2F80F6DC9EB13A70"
+			tasks: [{
+				id: "158EF238DAB23C13"
+				type: "item"
+				item: "mekanismgenerators:hohlraum"
+			}]
+			rewards: [{
+				id: "6D0546A1C2CDA7EF"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			icon: "mekanism:ultimate_chemical_tank"
+			x: -1.5d
+			y: 30.0d
+			subtitle: "In a Chemical Infuser, Deuterium + Tritium = D-T Fuel."
+			dependencies: [
+				"3DF8CD4D0DEB2265"
+				"598A12D61F9233AB"
+			]
+			id: "5E103D8A95A0F0A0"
+			tasks: [{
+				id: "67E1724270E3F271"
+				type: "checkmark"
+				title: "D-T Fuel"
+			}]
+			rewards: [{
+				id: "2BD723BBF1D8D801"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 12.0d
+			y: 42.0d
+			subtitle: "Use Antimatter to turn cheap materials like coal, into expensive materials like Diamond."
+			dependencies: ["62C80F7C2365DB5D"]
+			id: "16DA71F7743DC9E2"
+			tasks: [{
+				id: "69DFAE51CA9977E3"
+				type: "item"
+				item: "mekanism:antiprotonic_nucleosynthesizer"
+			}]
+			rewards: [
+				{
+					id: "78937044C8E4E5E5"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "01F6640DFD42DE67"
+					type: "item"
+					item: "mekanism:ultimate_tier_installer"
+				}
+				{
+					id: "1067C19D5E8DCB86"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 10.5d
+			subtitle: "Used to Craft Vehicles"
+			dependencies: ["37447E73C68AFC27"]
+			id: "2573EB89E57E5D8F"
+			tasks: [{
+				id: "4181E0305858971E"
+				type: "item"
+				item: "vehicle:workstation"
+			}]
+			rewards: [
+				{
+					id: "1ABFB5B0AF36619E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "108267BB1B839E32"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 10.5d
+			subtitle: "Used to extract valueable fluids from enderpears and blaze rods."
+			dependencies: ["2573EB89E57E5D8F"]
+			id: "5B2612C5E9BC4F60"
+			tasks: [{
+				id: "5CE3B9099E3F3D1A"
+				type: "item"
+				item: "vehicle:fluid_extractor"
+			}]
+			rewards: [{
+				id: "09B283D2E7921CEE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 16.0d
+			y: 10.5d
+			subtitle: "Used to mix fluids to create fuelium."
+			dependencies: ["5B2612C5E9BC4F60"]
+			id: "6AAE4E786BB175E8"
+			tasks: [{
+				id: "7049CF8FCC8936BB"
+				type: "item"
+				item: "vehicle:fluid_mixer"
+			}]
+			rewards: [{
+				id: "71F412003E5679D0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 16.0d
+			y: 9.0d
+			subtitle: "In a fluid extractor, Ender Pears = Ender Sap."
+			dependencies: ["5B2612C5E9BC4F60"]
+			id: "0389566337207FA7"
+			tasks: [{
+				id: "26AA395B49904ED7"
+				type: "checkmark"
+				title: "Ender Sap Fluid"
+				icon: "vehicle:ender_sap_bucket"
+			}]
+			rewards: [
+				{
+					id: "37E2C31E8FA1B0AF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2ACF62BA63101E2D"
+					type: "item"
+					item: "vehicle:ender_sap_bucket"
+				}
+			]
+		}
+		{
+			x: 16.0d
+			y: 12.0d
+			subtitle: "In a fluid extractor, Blaze Rods = Blaze Juice"
+			dependencies: ["5B2612C5E9BC4F60"]
+			id: "6D6917BECCE59694"
+			tasks: [{
+				id: "267F37BA68CCC42D"
+				type: "checkmark"
+				title: "Blaze Juice"
+				icon: "vehicle:blaze_juice_bucket"
+			}]
+			rewards: [
+				{
+					id: "19755C01DFE9E37D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "47E7EBFB3FC2737C"
+					type: "item"
+					item: "vehicle:blaze_juice_bucket"
+				}
+			]
+		}
+		{
+			x: 18.0d
+			y: 10.5d
+			subtitle: "In a fluid mixer, Blaze Juice + Ender Sap = Fuelium"
+			dependencies: [
+				"0389566337207FA7"
+				"6D6917BECCE59694"
+				"6AAE4E786BB175E8"
+			]
+			id: "7080D5A22334538A"
+			tasks: [{
+				id: "0F52420C919E1A30"
+				type: "checkmark"
+				title: "Fuelium"
+				icon: "vehicle:fuelium_bucket"
+			}]
+			rewards: [
+				{
+					id: "250ECBA49C9D7191"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1B6E03FA19A043F5"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: 12.0d
+			subtitle: "Used to Refill Vehicle's Gas. Right-click to take fuel nossle, then hold down right-click on the gas input area of a vehicle."
+			dependencies: ["2573EB89E57E5D8F"]
+			id: "55FF20A2AA9449A1"
+			tasks: [{
+				id: "090A60C3987ADE87"
+				type: "item"
+				item: "vehicle:gas_pump"
+			}]
+			rewards: [{
+				id: "562418AAE455AB84"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 19.5d
+			y: 12.0d
+			dependencies: ["7080D5A22334538A"]
+			id: "0CCDA8FFA699FEE0"
+			tasks: [{
+				id: "55D269AC8945A570"
+				type: "item"
+				item: "vehicle:wood_small_engine"
+			}]
+			rewards: [{
+				id: "647A02C10C8DF0D0"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 19.5d
+			y: 10.5d
+			dependencies: ["7080D5A22334538A"]
+			id: "3D69DF5ED7190F37"
+			tasks: [{
+				id: "2720BCEB80B61FBB"
+				type: "item"
+				item: "vehicle:wood_large_engine"
+			}]
+			rewards: [{
+				id: "41B31CFCB150CDE6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 19.5d
+			y: 9.0d
+			dependencies: ["7080D5A22334538A"]
+			id: "76C92B2A60F7FE3F"
+			tasks: [{
+				id: "07971FAA6869C286"
+				type: "item"
+				item: "vehicle:wood_electric_engine"
+			}]
+			rewards: [{
+				id: "283EE105C08A501C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 21.0d
+			y: 12.0d
+			dependencies: ["0CCDA8FFA699FEE0"]
+			id: "230B9432CFD6DA2B"
+			tasks: [{
+				id: "64081603C26E9B46"
+				type: "item"
+				item: "vehicle:stone_small_engine"
+			}]
+			rewards: [{
+				id: "2F7496F54DD0FACA"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 22.5d
+			y: 12.0d
+			dependencies: ["230B9432CFD6DA2B"]
+			id: "79EA84D585CE13DA"
+			tasks: [{
+				id: "0D0CE6A701435CAE"
+				type: "item"
+				item: "vehicle:iron_small_engine"
+			}]
+			rewards: [{
+				id: "2873F2469F2D5ED4"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 24.0d
+			y: 12.0d
+			dependencies: ["79EA84D585CE13DA"]
+			id: "2C6F273767E25D17"
+			tasks: [{
+				id: "0FDBC4BBD052EA57"
+				type: "item"
+				item: "vehicle:gold_small_engine"
+			}]
+			rewards: [{
+				id: "7769FC6B60F22189"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 25.5d
+			y: 12.0d
+			dependencies: ["2C6F273767E25D17"]
+			id: "55242BC63E9A6B7E"
+			tasks: [{
+				id: "0D993A37E57324D4"
+				type: "item"
+				item: "vehicle:diamond_small_engine"
+			}]
+			rewards: [{
+				id: "7BA05C20C70783F9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 21.0d
+			y: 10.5d
+			dependencies: ["3D69DF5ED7190F37"]
+			id: "4B8E2C6188048932"
+			tasks: [{
+				id: "293F3C893A63559D"
+				type: "item"
+				item: "vehicle:stone_large_engine"
+			}]
+			rewards: [{
+				id: "67686C30F2E18337"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 22.5d
+			y: 10.5d
+			dependencies: ["4B8E2C6188048932"]
+			id: "3B4A9CD820DCED9C"
+			tasks: [{
+				id: "1581A47884A42892"
+				type: "item"
+				item: "vehicle:iron_large_engine"
+			}]
+			rewards: [{
+				id: "16CC48EE7BE589F0"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 24.0d
+			y: 10.5d
+			dependencies: ["3B4A9CD820DCED9C"]
+			id: "018ECB9B1652A201"
+			tasks: [{
+				id: "6F16B5D02365571B"
+				type: "item"
+				item: "vehicle:gold_large_engine"
+			}]
+			rewards: [{
+				id: "476C8636EC6ECD11"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 25.5d
+			y: 10.5d
+			dependencies: ["018ECB9B1652A201"]
+			id: "2AE8061C0A81D347"
+			tasks: [{
+				id: "511840B73FF90E33"
+				type: "item"
+				item: "vehicle:diamond_large_engine"
+			}]
+			rewards: [{
+				id: "6DF9DB9468D98F5B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 21.0d
+			y: 9.0d
+			dependencies: ["76C92B2A60F7FE3F"]
+			id: "07D0B3083E0ABE5B"
+			tasks: [{
+				id: "13E98CD62A9E3876"
+				type: "item"
+				item: "vehicle:stone_electric_engine"
+			}]
+			rewards: [{
+				id: "799A5C1A40AD1B41"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 22.5d
+			y: 9.0d
+			dependencies: ["07D0B3083E0ABE5B"]
+			id: "4A31869009152E10"
+			tasks: [{
+				id: "107E6725D9B6ED8D"
+				type: "item"
+				item: "vehicle:iron_electric_engine"
+			}]
+			rewards: [{
+				id: "53E1A1F20BEC66B3"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 24.0d
+			y: 9.0d
+			dependencies: ["4A31869009152E10"]
+			id: "36456628D7894742"
+			tasks: [{
+				id: "3FF45F674104D88A"
+				type: "item"
+				item: "vehicle:gold_electric_engine"
+			}]
+			rewards: [{
+				id: "15FD0ED2E02B1403"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 25.5d
+			y: 9.0d
+			dependencies: ["36456628D7894742"]
+			id: "3B2F49655AD5EB10"
+			tasks: [{
+				id: "291359B2BA026041"
+				type: "item"
+				item: "vehicle:diamond_electric_engine"
+			}]
+			rewards: [{
+				id: "4C0278D266E0E807"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 12.5d
+			y: 12.0d
+			subtitle: "Used to Lock Vehicles"
+			dependencies: ["2573EB89E57E5D8F"]
+			id: "0BB1079D1E4B5135"
+			tasks: [{
+				id: "1A26F83E84D6210F"
+				type: "item"
+				item: "vehicle:key"
+			}]
+			rewards: [{
+				id: "699C7D8993FFF83C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "Stock Wheel"
+			x: 17.0d
+			y: 7.5d
+			dependencies: ["7080D5A22334538A"]
+			id: "61B7E7D91219617A"
+			tasks: [{
+				id: "5A9DB8F846E6E476"
+				type: "item"
+				item: "vehicle:standard_wheel"
+			}]
+			rewards: [{
+				id: "2267374F6D45C8D1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "Sports Wheel"
+			x: 18.0d
+			y: 7.5d
+			dependencies: ["7080D5A22334538A"]
+			id: "7009F994E5DC5ABF"
+			tasks: [{
+				id: "3FECCAF5DB4A2CEC"
+				type: "item"
+				item: "vehicle:sports_wheel"
+			}]
+			rewards: [{
+				id: "28F838D99FDD828E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "Racing Wheel"
+			x: 19.0d
+			y: 7.5d
+			dependencies: ["7080D5A22334538A"]
+			id: "6B5818D91BFDB6B0"
+			tasks: [{
+				id: "3DB2BFECACF49CF3"
+				type: "item"
+				item: "vehicle:racing_wheel"
+			}]
+			rewards: [{
+				id: "08D6F4E67322B3A1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "Off Roading Wheel"
+			x: 16.5d
+			y: 13.5d
+			dependencies: ["7080D5A22334538A"]
+			id: "64DFC1A349597D7C"
+			tasks: [{
+				id: "5005939FA0110D7F"
+				type: "item"
+				item: "vehicle:off_road_wheel"
+			}]
+			rewards: [{
+				id: "5B02790E1FBC9B2E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "Snow Wheel"
+			x: 17.5d
+			y: 13.5d
+			dependencies: ["7080D5A22334538A"]
+			id: "14502DE2D4F61567"
+			tasks: [{
+				id: "0C450AF369AE55AE"
+				type: "item"
+				item: "vehicle:snow_wheel"
+			}]
+			rewards: [{
+				id: "470E8ED314E442C6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "All Terrain Wheel"
+			x: 18.5d
+			y: 13.5d
+			dependencies: ["7080D5A22334538A"]
+			id: "17EB318285C21F55"
+			tasks: [{
+				id: "4510BAAAC82D4318"
+				type: "item"
+				item: "vehicle:all_terrain_wheel"
+			}]
+			rewards: [{
+				id: "5F7965CFB7456BAB"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "Plastic Wheel"
+			x: 19.5d
+			y: 13.5d
+			dependencies: ["7080D5A22334538A"]
+			id: "0EB2DD655CB885ED"
+			tasks: [{
+				id: "2F294BA94E3776CB"
+				type: "item"
+				item: "vehicle:plastic_wheel"
+			}]
+			rewards: [{
+				id: "69D695F58F73B883"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 5.5d
+			y: 10.0d
+			subtitle: "The Wand Of Symmetry is a helpful building tool that mirrors blocks placed."
+			description: [
+				"Shift right click to adjust the wand's settings. It can be set to \"Mirror Once, Rectangular, or Octagonal,\" and told what axis to mirror along."
+				""
+				"Right click on the ground to place the wand. Right click again to place it elsewhere. While on the Mirror Once or Rectangular settings, the orientation can also be adjusted in-world. Right click on the air or remove the Wand from the hotbar to remove the wand from the world."
+				""
+				"Place or destroy blocks around the wand to have it mirror the action to the other side(s). Placing takes the appropriate blocks from the inventory, and destroying spawns all the items at the block destroyed by the player."
+			]
+			dependencies: ["2FBE01C57D2D9AC6"]
+			id: "2C50D38A471152F4"
+			tasks: [{
+				id: "0E26B383B7FFCA38"
+				type: "item"
+				item: "create:wand_of_symmetry"
+			}]
+			rewards: [
+				{
+					id: "6797D573C75EF0F9"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "3842F24051AA5F3D"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 10.5d
+			subtitle: "When in the offhand, the Extendo Grip increases the player's reach by 4 blocks and increases knockback. When used with Copper Backtank, does not consume durability."
+			description: [""]
+			dependencies: ["37447E73C68AFC27"]
+			id: "1F97DFDFA189D736"
+			tasks: [{
+				id: "0E2E60E98D02020E"
+				type: "item"
+				item: {
+					id: "create:extendo_grip"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0A59E28D596F5392"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0E02554C01DA7C11"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 17.5d
+			y: 34.5d
+			subtitle: "Allows for long distance teleportation using power."
+			description: ["Build a 3 x 4 ring with the bottom-middle block being the teleporter and the outer layer of the ring being telepoter frame. The two center-middle blocks should be air."]
+			dependencies: ["11A67654E5F45183"]
+			id: "2DF574725050642A"
+			tasks: [
+				{
+					id: "17085EECD57D079D"
+					type: "item"
+					item: "mekanism:teleporter"
+				}
+				{
+					id: "146B60E7BF03D213"
+					type: "item"
+					item: "mekanism:teleporter_frame"
+					count: 9L
+				}
+			]
+			rewards: [
+				{
+					id: "42773D2C364D4C2E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "68AC05191A95D8C6"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 17.5d
+			y: 37.0d
+			subtitle: "Allows for portable teleportation to telepoter multi-block structures."
+			dependencies: [
+				"2DF574725050642A"
+				"62C80F7C2365DB5D"
+			]
+			id: "60F289D160AC4355"
+			tasks: [{
+				id: "64F965AD63AD44AC"
+				type: "item"
+				item: "mekanism:portable_teleporter"
+			}]
+			rewards: [
+				{
+					id: "4B20FB7D9DEEE1B4"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "2CE20763A2781323"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 14.5d
+			subtitle: "Essential Crafting Component"
+			dependencies: ["37447E73C68AFC27"]
+			id: "51B6E7A472DD18FB"
+			tasks: [{
+				id: "47CB3EEF22A56788"
+				type: "item"
+				item: "calemiutils:motor"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 13.5d
+			subtitle: "Automatically places torches in dark areas when in your inventory."
+			dependencies: ["51B6E7A472DD18FB"]
+			dependency_requirement: "one_completed"
+			id: "3513CEEC9549CF05"
+			tasks: [{
+				id: "3BD67BC2F4697BFC"
+				type: "item"
+				item: {
+					id: "calemiutils:torch_belt"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3A9AA976B30D3666"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 12.5d
+			y: 14.0d
+			subtitle: "Places torches in dark areas within an upgradable radius."
+			dependencies: ["51B6E7A472DD18FB"]
+			id: "47F1BF48CF2D7DB9"
+			tasks: [{
+				id: "7A2213500EDF6519"
+				type: "item"
+				item: "calemiutils:torch_placer"
+			}]
+			rewards: [{
+				id: "5F504A06F6C87128"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 11.5d
+			y: 15.5d
+			subtitle: "Blends foods into a juice that you can drink."
+			dependencies: ["51B6E7A472DD18FB"]
+			dependency_requirement: "one_started"
+			id: "0D13B013910B2B12"
+			tasks: [{
+				id: "181C4813604F4249"
+				type: "item"
+				item: {
+					id: "calemiutils:blender"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "632163CF3FABFFA6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 12.5d
+			y: 15.0d
+			subtitle: "Prevents mobs from spawning in the chunk it is placed in."
+			dependencies: ["51B6E7A472DD18FB"]
+			dependency_requirement: "one_started"
+			id: "5B511D798747E469"
+			tasks: [{
+				id: "698C953C1082B377"
+				type: "item"
+				item: "calemiutils:mob_beacon"
+			}]
+			rewards: [{
+				id: "76837174D01EA2C9"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 14.0d
+			y: 13.5d
+			subtitle: "Increases speed of block its placed in."
+			dependencies: ["47F1BF48CF2D7DB9"]
+			id: "7253C276DAC35B0E"
+			tasks: [{
+				id: "132B0E352FE8DB8A"
+				type: "item"
+				item: "calemiutils:speed_upgrade"
+			}]
+			rewards: [{
+				id: "46DC4AAB86FBF743"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 14.0d
+			y: 14.5d
+			subtitle: "Increases range of block its placed in."
+			dependencies: ["47F1BF48CF2D7DB9"]
+			id: "60B8E772F577F32C"
+			tasks: [{
+				id: "090F10117B0B9D3A"
+				type: "item"
+				item: "calemiutils:range_upgrade"
+			}]
+			rewards: [{
+				id: "02D261D56AEEA8DB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 11.5d
+			y: 9.0d
+			subtitle: "The Potato Cannon is a weapon that shoots food. When used with a Copper Backtank, it does not use any durability to fire, and instead, 4.5 seconds of air is used."
+			dependencies: ["37447E73C68AFC27"]
+			id: "7864EB4F3A352730"
+			tasks: [{
+				id: "60FE4F6C730D583A"
+				type: "item"
+				item: {
+					id: "create:potato_cannon"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2A260DAF81448448"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+	]
+}

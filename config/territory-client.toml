@@ -1,0 +1,7 @@
+
+[render]
+	#Display owner's name above territory table.
+	displayOwnerName = true
+	#Render territory boundary.
+	displayBoundary = true
+

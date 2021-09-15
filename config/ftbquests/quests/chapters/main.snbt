@@ -1,0 +1,5277 @@
+{
+	id: "1AE8CBC7D8F01951"
+	group: ""
+	order_index: 0
+	filename: "main"
+	title: "Survival"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.5d
+			y: 0.0d
+			id: "3DC421264CA47325"
+			tasks: [{
+				id: "748CEF81F0B96CFE"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			dependencies: ["3DC421264CA47325"]
+			id: "049D865533E63AD0"
+			tasks: [{
+				id: "2F25222B8131E749"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4FCC1F38F9944CC5"
+					type: "item"
+					item: "minecraft:oak_sapling"
+				}
+				{
+					id: "1A6D21F719FE9F6E"
+					type: "item"
+					item: "minecraft:spruce_sapling"
+				}
+				{
+					id: "674C47B211B7F4CD"
+					type: "item"
+					item: "minecraft:birch_sapling"
+				}
+				{
+					id: "0D465B0A5EEB5B61"
+					type: "item"
+					item: "minecraft:jungle_sapling"
+					count: 4
+				}
+				{
+					id: "76E075DBFFE48457"
+					type: "item"
+					item: "minecraft:dark_oak_sapling"
+					count: 4
+				}
+				{
+					id: "633F1D001B2F651A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 9.0d
+			subtitle: "A cheap, but reliable pickaxe."
+			dependencies: ["5B3BF9A76FA2B11E"]
+			id: "7854878BEFB1487A"
+			tasks: [{
+				id: "476D91742A54F6B7"
+				type: "item"
+				item: {
+					id: "minecraft:stone_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0B641DB4A4A32F63"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 8
+				}
+				{
+					id: "28ACA87FBEABD3DE"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3A94578FF64841A7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			title: "Chapter: Combat"
+			icon: {
+				id: "minecraft:stone_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -8.0d
+			y: 6.0d
+			shape: "gear"
+			dependencies: ["049D865533E63AD0"]
+			id: "4D943BA614B61653"
+			tasks: [{
+				id: "7DE314A46BB82976"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Chapter: Storage"
+			icon: "minecraft:chest"
+			x: 1.5d
+			y: 6.0d
+			shape: "gear"
+			dependencies: ["049D865533E63AD0"]
+			id: "0F563605F9256D11"
+			tasks: [{
+				id: "4C3B821C7372AE6B"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Chapter: Mining"
+			icon: {
+				id: "minecraft:stone_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.5d
+			y: 6.0d
+			shape: "gear"
+			dependencies: ["049D865533E63AD0"]
+			id: "3472E448856AB5A9"
+			tasks: [{
+				id: "2B66C0BF7178EC07"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Chapter: Food"
+			icon: "minecraft:beef"
+			x: 4.0d
+			y: 6.0d
+			shape: "gear"
+			dependencies: ["049D865533E63AD0"]
+			id: "2FB222739017589E"
+			tasks: [{
+				id: "1E6827FA149C03A8"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 7.5d
+			subtitle: "Used to store items. Placing two chests next to each other creates a double chest with double the storage."
+			dependencies: ["0F563605F9256D11"]
+			id: "6549DF34460927B1"
+			tasks: [{
+				id: "669616AF9143C476"
+				type: "item"
+				title: "Chest"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:chest"
+								Count: 1b
+							}
+							{
+								id: "quark:oak_chest"
+								Count: 1b
+							}
+							{
+								id: "quark:spruce_chest"
+								Count: 1b
+							}
+							{
+								id: "quark:birch_chest"
+								Count: 1b
+							}
+							{
+								id: "quark:jungle_chest"
+								Count: 1b
+							}
+							{
+								id: "quark:dark_oak_chest"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "07D0544754EDA4BE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Get a Fuel Source"
+			x: -1.5d
+			y: 10.5d
+			subtitle: "Coal and Charcoal can be used as a fuel source for furnaces."
+			dependencies: ["7854878BEFB1487A"]
+			id: "26C5C048B1750470"
+			tasks: [{
+				id: "67BDB55EF7281349"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:charcoal"
+								Count: 1b
+							}
+							{
+								id: "minecraft:coal"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "03676DB2C2AA5954"
+					type: "item"
+					item: "minecraft:coal"
+					count: 8
+				}
+				{
+					id: "6C5F416BCD842E26"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 11.0d
+			subtitle: "Cheap simple combat weapon."
+			dependencies: ["4D943BA614B61653"]
+			id: "08ED006D99B62237"
+			tasks: [{
+				id: "670B9CC9E59712E1"
+				type: "item"
+				item: {
+					id: "minecraft:stone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5F33F67F994FD144"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+				{
+					id: "25D24050669BEE12"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 13.5d
+			subtitle: "One of the most resources in the game. Put ore into a furnace to cook it into ingots."
+			dependencies: ["2223E5231660ABD6"]
+			id: "01F098A347CDF82A"
+			tasks: [{
+				id: "0554227C3010DF98"
+				type: "item"
+				item: "minecraft:iron_ore"
+			}]
+			rewards: [
+				{
+					id: "2F03720E45761996"
+					type: "item"
+					item: "minecraft:flint"
+				}
+				{
+					id: "54AEF9F21680AFB6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 15.0d
+			subtitle: "Your standard mining tool. Can mine all ore types except obsidian."
+			dependencies: ["01F098A347CDF82A"]
+			id: "7B6F332CEAAA50E3"
+			tasks: [{
+				id: "6451106F5DB91859"
+				type: "item"
+				item: {
+					id: "minecraft:iron_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3626FF7E0FA4DE32"
+					type: "item"
+					item: {
+						id: "minecraft:iron_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5ED2D6407A3E7D86"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "35AD3AF57712447D"
+					type: "item"
+					item: {
+						id: "easypaxellite:stone_paxel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "49EAADCAC0362536"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 17.0d
+			subtitle: "Found between height levels between 1 and 33."
+			dependencies: ["7B6F332CEAAA50E3"]
+			id: "08BBFFC9038DC958"
+			tasks: [{
+				id: "20F523D9ACA1A833"
+				type: "item"
+				item: "minecraft:gold_ore"
+			}]
+			rewards: [
+				{
+					id: "41FC3ECC7E4E4493"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "43F8C88E0DD92B29"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 19.0d
+			subtitle: "Diamond ore is found between height levels 1 and 17."
+			dependencies: [
+				"2C467A82E19BBC54"
+				"08BBFFC9038DC958"
+			]
+			dependency_requirement: "one_completed"
+			id: "656C4565E976C460"
+			tasks: [{
+				id: "43BD0B607641F8EB"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+			rewards: [
+				{
+					id: "64E239EA4CD89921"
+					type: "item"
+					item: {
+						id: "easypaxellite:iron_paxel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1A23809D465B3F48"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "4D788CE79619948D"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 15.0d
+			subtitle: "Used to upgrade a wooden chest into an iron one. An iron chest has the same capacity as a double chest."
+			dependencies: [
+				"6549DF34460927B1"
+				"01F098A347CDF82A"
+			]
+			id: "69C09BDBCB1FB97F"
+			tasks: [{
+				id: "64ACDAA112EBAF68"
+				type: "item"
+				item: "ironchest:wood_to_iron_chest_upgrade"
+			}]
+			rewards: [{
+				id: "552AB75EC8FF03EC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 3.0d
+			y: 8.5d
+			subtitle: "Mobile storage on your character that you can open by pressing 'b'."
+			dependencies: ["6549DF34460927B1"]
+			id: "2C6DC21FC3E13A3D"
+			tasks: [{
+				id: "0E97C46F5184C44F"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+			rewards: [{
+				id: "40F0997A0F532575"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 3.0d
+			y: 14.5d
+			subtitle: "Increased Storage Capacity."
+			dependencies: [
+				"2C6DC21FC3E13A3D"
+				"01F098A347CDF82A"
+			]
+			id: "7429560B7EF95784"
+			tasks: [{
+				id: "6FE444F7BC3C6625"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+			rewards: [{
+				id: "2A730FEB6225A7F5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 3.0d
+			y: 18.0d
+			subtitle: "Increased Storage Capacity."
+			dependencies: [
+				"7429560B7EF95784"
+				"08BBFFC9038DC958"
+			]
+			id: "5C5C929D9AD1ABC5"
+			tasks: [{
+				id: "7E8954816F755C6E"
+				type: "item"
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+			rewards: [{
+				id: "673DBAB804D6C072"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 3.0d
+			y: 20.5d
+			subtitle: "Increased Storage Capacity."
+			dependencies: [
+				"5C5C929D9AD1ABC5"
+				"656C4565E976C460"
+			]
+			id: "0360F2D75356201D"
+			tasks: [{
+				id: "0042EAB4645011AF"
+				type: "item"
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+			rewards: [{
+				id: "4B5417CF61888367"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: 18.5d
+			subtitle: "Upgrades an iron chest to a gold one. Has even more capacity."
+			dependencies: [
+				"69C09BDBCB1FB97F"
+				"08BBFFC9038DC958"
+			]
+			id: "0EB3608C77C8A912"
+			tasks: [{
+				id: "2F38A62B7684585B"
+				type: "item"
+				item: "ironchest:iron_to_gold_chest_upgrade"
+			}]
+			rewards: [{
+				id: "0400F57BDD54D1B5"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: 21.0d
+			subtitle: "Upgrades a gold chest into a diamond one. Maximum amount of storage."
+			dependencies: [
+				"0EB3608C77C8A912"
+				"656C4565E976C460"
+			]
+			id: "442CB85E5957E987"
+			tasks: [{
+				id: "3945CFBC09F2494C"
+				type: "item"
+				item: "ironchest:gold_to_diamond_chest_upgrade"
+			}]
+			rewards: [{
+				id: "0D98A8A51265A67A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: -7.0d
+			y: 16.0d
+			subtitle: "Increased damage and durability."
+			dependencies: [
+				"08ED006D99B62237"
+				"01F098A347CDF82A"
+			]
+			id: "540C3F29A5A213C0"
+			tasks: [{
+				id: "3B6DA174C8D28450"
+				type: "item"
+				item: {
+					id: "minecraft:iron_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5E141914C31C53D8"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+				{
+					id: "475A67354DDA60CD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 10.0d
+			subtitle: "Used to till grass/dirt so that you can plant seeds. tilled land must b e within 4 blocks of a water source."
+			dependencies: ["63479147BF185C4B"]
+			id: "5610BA994F7BF6D3"
+			tasks: [{
+				id: "3B36CB692A72B2C6"
+				type: "item"
+				item: {
+					id: "minecraft:stone_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6761B9DD8018D603"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 5.0d
+			y: 14.0d
+			subtitle: "A better version of the hoe that has more durability."
+			dependencies: [
+				"01F098A347CDF82A"
+				"5610BA994F7BF6D3"
+			]
+			id: "32529ADAA7B3AC89"
+			tasks: [{
+				id: "4BCF5D9B9DEF65A9"
+				type: "item"
+				item: {
+					id: "minecraft:iron_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6451BACE8DC4C6D2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 5.0d
+			y: 8.0d
+			subtitle: "To find wheat seeds, break grass sticking out from the ground."
+			dependencies: ["2FB222739017589E"]
+			id: "63479147BF185C4B"
+			tasks: [{
+				id: "32420F59C056BE99"
+				type: "item"
+				item: "minecraft:wheat_seeds"
+			}]
+			rewards: [
+				{
+					id: "43C150C8C4A020A6"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+					count: 4
+				}
+				{
+					id: "5EC42C2CD45FC636"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 10.0d
+			subtitle: "Used to block damage."
+			dependencies: ["4D943BA614B61653"]
+			id: "0F46775EDEF5D669"
+			tasks: [{
+				id: "671183BBF72A7BF5"
+				type: "item"
+				item: {
+					id: "spartanshields:shield_basic_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6317697C4259933E"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+				{
+					id: "2F0C10699BD45277"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 15.0d
+			subtitle: "Increased durability."
+			dependencies: [
+				"0F46775EDEF5D669"
+				"01F098A347CDF82A"
+			]
+			id: "1CFF2CACC8099995"
+			tasks: [{
+				id: "5E3AF1A660EC76EB"
+				type: "item"
+				item: {
+					id: "minecraft:shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "52E80084EAEAF625"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+				{
+					id: "10854E6740092E22"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 12.0d
+			subtitle: "Used to cook/smelt items ranging from food to ore."
+			dependencies: ["26C5C048B1750470"]
+			id: "2223E5231660ABD6"
+			tasks: [{
+				id: "28D7113182EAD056"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+			rewards: [
+				{
+					id: "254AC298EE518568"
+					type: "item"
+					item: "minecraft:beef"
+				}
+				{
+					id: "2FEDBEBC32F88B17"
+					type: "item"
+					item: "minecraft:porkchop"
+				}
+				{
+					id: "611FE970A84B3FB2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 7.5d
+			subtitle: "Gathered from mining stone with a pickaxe."
+			description: ["Cobblestone is used to make stone tools. It is also a very cheap building material and can be smelted back into stone."]
+			dependencies: ["3472E448856AB5A9"]
+			id: "5B3BF9A76FA2B11E"
+			tasks: [{
+				id: "4B6F2B328F4B658B"
+				type: "item"
+				item: "minecraft:cobblestone"
+			}]
+			rewards: [{
+				id: "53AA725607CB4458"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.5d
+			subtitle: "A pickaxe-like mining tool that can mine in a 3x3 area all at once."
+			dependencies: ["7854878BEFB1487A"]
+			id: "28C064B2365C60F7"
+			tasks: [{
+				id: "08F6C15C2ADDF0E0"
+				type: "item"
+				item: {
+					id: "vanillahammers:stone_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4A9A0D73CAA5CEEE"
+					type: "item"
+					item: {
+						id: "minecraft:stone_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1A720546EDC403DB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 8.5d
+			subtitle: "A shovel-like mining tool that can mine in a 3x3 area all at once."
+			dependencies: ["7854878BEFB1487A"]
+			id: "4A265C22D4D60E51"
+			tasks: [{
+				id: "0111F640FCAE5536"
+				type: "item"
+				item: {
+					id: "vanillaexcavators:stone_excavator"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "27D20ADF7B0542DF"
+					type: "item"
+					item: {
+						id: "minecraft:stone_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "617588FFF6ED81BB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 13.0d
+			subtitle: "A pickaxe-like mining tool that can mine in a 3x3 area all at once."
+			dependencies: ["01F098A347CDF82A"]
+			id: "3C054E857E886AA6"
+			tasks: [{
+				id: "6B15659E30C0BDBE"
+				type: "item"
+				item: {
+					id: "vanillahammers:iron_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3F5AC11323FEAC38"
+					type: "item"
+					item: {
+						id: "minecraft:iron_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3F740F426CAD90F5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 13.0d
+			subtitle: "A shovel-like mining tool that can mine in a 3x3 area all at once."
+			dependencies: ["01F098A347CDF82A"]
+			id: "7B3D5F07209833DA"
+			tasks: [{
+				id: "2C501F5CF1ED4876"
+				type: "item"
+				item: {
+					id: "vanillaexcavators:iron_excavator"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5EE7BF9B31F058E4"
+					type: "item"
+					item: {
+						id: "minecraft:iron_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6F6CABCB8CF1D90B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 17.0d
+			subtitle: "Redstone ore is found between height levels 1 and 17."
+			dependencies: ["7B6F332CEAAA50E3"]
+			id: "2C467A82E19BBC54"
+			tasks: [{
+				id: "2FD2B9127C48C92D"
+				type: "item"
+				item: "minecraft:redstone"
+			}]
+			rewards: [
+				{
+					id: "260036549457FC0E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5525C80B831E1C40"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 18.5d
+			subtitle: "A pickaxe-like mining tool that can mine in a 3x3 area all at once."
+			dependencies: ["656C4565E976C460"]
+			id: "163470E3221593E5"
+			tasks: [{
+				id: "310E13794311CEB3"
+				type: "item"
+				item: {
+					id: "vanillahammers:diamond_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6763E05F54F3D483"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "11A647051E767684"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 18.5d
+			subtitle: "A shovel-like mining tool that can mine in a 3x3 area all at once."
+			dependencies: ["656C4565E976C460"]
+			id: "7B97C6E538BE13EE"
+			tasks: [{
+				id: "74368DD2E7B3647F"
+				type: "item"
+				item: {
+					id: "vanillaexcavators:diamond_excavator"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "41434261A6A7F8B1"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0942584B0C046A4E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 12.0d
+			subtitle: "Like a regular furnace, but cooks ore faster. Can only cook ore though."
+			dependencies: ["2223E5231660ABD6"]
+			id: "54BAEDB123F2B44C"
+			tasks: [{
+				id: "3ABD3FF5875953F6"
+				type: "item"
+				item: "minecraft:blast_furnace"
+			}]
+			rewards: [{
+				id: "708C71C9D8AFAA53"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 12.0d
+			subtitle: "The ultimate furance. Its upgradable and can store xp from cooking."
+			dependencies: ["54BAEDB123F2B44C"]
+			id: "6142727FDD6B3A9C"
+			tasks: [{
+				id: "57E6CCE8433BC8A6"
+				type: "item"
+				item: "furnacemk2:furnacemk2"
+			}]
+			rewards: [
+				{
+					id: "76FDBA489B7B629D"
+					type: "item"
+					item: "minecraft:hopper"
+					count: 2
+				}
+				{
+					id: "2449351CA2A6FE27"
+					type: "item"
+					item: "minecraft:chest"
+				}
+				{
+					id: "28213FDA7C10900B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6CF29D8F81FE04ED"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 12.0d
+			subtitle: "Like a furnace except faster and only cooks food."
+			dependencies: [
+				"2223E5231660ABD6"
+				"2FB222739017589E"
+			]
+			id: "4AD27B47A1682FC3"
+			tasks: [{
+				id: "4FC944563E480724"
+				type: "item"
+				item: "minecraft:smoker"
+			}]
+			rewards: [
+				{
+					id: "7860EAFF0B693002"
+					type: "item"
+					item: "minecraft:furnace"
+				}
+				{
+					id: "7A02A5780B606348"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 10.5d
+			subtitle: "Doubles the amount of XP gained."
+			dependencies: ["6142727FDD6B3A9C"]
+			id: "19C5BDD7E725FC3E"
+			tasks: [{
+				id: "2172A4FFE3DC2389"
+				type: "item"
+				item: "furnacemk2:experience_core"
+			}]
+			rewards: [{
+				id: "60D44C8BF4B3E1A5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -4.5d
+			y: 10.5d
+			subtitle: "Decreases the amount of fuel needed to cook something."
+			dependencies: ["6142727FDD6B3A9C"]
+			id: "56385CBF57539E1A"
+			tasks: [{
+				id: "35F5CA159C2A5DDD"
+				type: "item"
+				item: "furnacemk2:insulation_core"
+			}]
+			rewards: [{
+				id: "4EEDA6B51F2B2C33"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -3.5d
+			y: 10.5d
+			subtitle: "Increases cook speed."
+			dependencies: ["6142727FDD6B3A9C"]
+			id: "30DCF2B134B222E6"
+			tasks: [{
+				id: "5F8C13079ADBB023"
+				type: "item"
+				item: "furnacemk2:thermal_core"
+			}]
+			rewards: [{
+				id: "160C772C51AFFE98"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -5.5d
+			y: 12.0d
+			subtitle: "Used to store more xp from the furnace."
+			dependencies: ["6142727FDD6B3A9C"]
+			id: "61EAFF6C41CBFE05"
+			tasks: [{
+				id: "350E234DC66AB56D"
+				type: "item"
+				item: {
+					id: "furnacemk2:crystal_gem_item"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "726A03C421C99BFE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Iron Armor"
+			x: -8.0d
+			y: 15.5d
+			subtitle: "Reduces the amount of damage you take."
+			dependencies: [
+				"01F098A347CDF82A"
+				"308E42D9416A1642"
+			]
+			id: "12EDC574AAC45C4C"
+			tasks: [
+				{
+					id: "5708B36A32F3113F"
+					type: "item"
+					item: {
+						id: "minecraft:iron_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1216A47715AD6FD7"
+					type: "item"
+					item: {
+						id: "minecraft:iron_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0BD5A30267BD7BDB"
+					type: "item"
+					item: {
+						id: "minecraft:iron_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "40BC5A23F4D47453"
+					type: "item"
+					item: {
+						id: "minecraft:iron_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "63A7DB612DC841AE"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+				{
+					id: "7982954A932F23A9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "73AA04149EDE4A97"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 21.0d
+			subtitle: "Increased damage and durability."
+			dependencies: [
+				"540C3F29A5A213C0"
+				"656C4565E976C460"
+			]
+			id: "5D34F571CBFD2345"
+			tasks: [{
+				id: "41A63A0E3EC1205C"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "04AA066C2D3D8D8D"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+					count: 2
+				}
+				{
+					id: "596720A2AA2F6E12"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			title: "Diamond Armor"
+			x: -8.0d
+			y: 20.5d
+			subtitle: "Increased durability and damage prevention."
+			dependencies: [
+				"12EDC574AAC45C4C"
+				"656C4565E976C460"
+			]
+			id: "261754CE6D962D9B"
+			tasks: [
+				{
+					id: "0BA85CF55BC7907B"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "67E191EF88E3834E"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "469A09669B689763"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6329530F267D0830"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7FC0062007C6ACF6"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+					count: 2
+				}
+				{
+					id: "4A93825A0E448D4F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "78197C8197F988C1"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 20.0d
+			subtitle: "Increased durability and max damage absorbed. Can also Shield Bash."
+			dependencies: [
+				"1CFF2CACC8099995"
+				"656C4565E976C460"
+			]
+			id: "63E4A046AED1E5BA"
+			tasks: [{
+				id: "52A021A80170AC9E"
+				type: "item"
+				item: {
+					id: "spartanshields:shield_tower_diamond"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3F00330B9BD001F2"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+					count: 2
+				}
+				{
+					id: "0F85A6051CE7F021"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 20.0d
+			subtitle: "A better version of the iron hoe that has more durability."
+			dependencies: [
+				"32529ADAA7B3AC89"
+				"656C4565E976C460"
+			]
+			id: "66A7128EB18C7933"
+			tasks: [{
+				id: "3CFD30B2B4372F6F"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "350DDD18F5F1992B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -8.0d
+			y: 10.5d
+			subtitle: "Used to stop bleeding. You always want this on you."
+			dependencies: ["4D943BA614B61653"]
+			id: "308E42D9416A1642"
+			tasks: [{
+				id: "3845F976C5143502"
+				type: "item"
+				item: "majruszs_difficulty:bandage"
+			}]
+			rewards: [
+				{
+					id: "3C34D7108D4930CE"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+					count: 3
+				}
+				{
+					id: "290B41F014795B58"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 16.5d
+			subtitle: "Used to locate biomes."
+			dependencies: ["2C467A82E19BBC54"]
+			id: "149139F46405A3E2"
+			tasks: [{
+				id: "7758CF337DC3D681"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "70FEC5DE42BA2F69"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Sub-Chapter: Adventure"
+			icon: "minecraft:compass"
+			x: -13.5d
+			y: 9.5d
+			shape: "gear"
+			dependencies: ["4D943BA614B61653"]
+			id: "70BE0C8FE5726B1F"
+			tasks: [{
+				id: "40D0551A0EC409EB"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Visit the Twilight Forest"
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			x: -17.5d
+			y: 9.5d
+			dependencies: ["70BE0C8FE5726B1F"]
+			id: "0FEF5F3DB9D0A520"
+			tasks: [{
+				id: "2A94503F26FF2F90"
+				type: "dimension"
+				dimension: "twilightforest:twilightforest"
+			}]
+			rewards: [
+				{
+					id: "35BDC9670C712E88"
+					type: "item"
+					item: "twilightforest:magic_map_empty"
+				}
+				{
+					id: "4E044F733D701D0C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2241AFF3A62642DC"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "twilightforest:guide"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: 24.0d
+			subtitle: "Obtained From Mining Ancient Debris. Ancient Debris is most common below lava level in the nether. Will not spawn exposed to air."
+			dependencies: ["51F05AE61F38EA3F"]
+			id: "45B1EBBDC051D1E5"
+			tasks: [{
+				id: "2EA9BB2BF7AD53D3"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+			}]
+			rewards: [{
+				id: "0A467E7883B391E2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Visit The Nether"
+			x: -13.5d
+			y: 21.0d
+			subtitle: "Visit the Nether and obtain netherrack."
+			dependencies: [
+				"70BE0C8FE5726B1F"
+				"5D34F571CBFD2345"
+			]
+			id: "51F05AE61F38EA3F"
+			tasks: [{
+				id: "6F48F82B9C9D5B70"
+				type: "item"
+				item: "minecraft:netherrack"
+			}]
+			rewards: [
+				{
+					id: "317DACF0D5040ABA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "71872CD5B59BA738"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: 23.0d
+			subtitle: "Obtained from killing Blazes. Most commonly found in Nether Fortresses."
+			dependencies: ["51F05AE61F38EA3F"]
+			id: "36F2CEDF0BD422BC"
+			tasks: [{
+				id: "1F2D82CFB4E386BC"
+				type: "item"
+				item: "minecraft:blaze_rod"
+			}]
+			rewards: [{
+				id: "5AE1543556CAE642"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -14.5d
+			y: 23.0d
+			subtitle: "Obtained from killing Magma slimes."
+			dependencies: ["51F05AE61F38EA3F"]
+			id: "13E663BC3632608E"
+			tasks: [{
+				id: "5C609634BED4F6DD"
+				type: "item"
+				item: "minecraft:magma_cream"
+			}]
+			rewards: [{
+				id: "09EBC0A4C80FFCBF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -1.5d
+			y: 24.0d
+			subtitle: "Crafted from netherite scrap and gold."
+			hide_dependency_lines: false
+			dependencies: [
+				"45B1EBBDC051D1E5"
+				"656C4565E976C460"
+			]
+			id: "3AD016CBFF6F7A87"
+			tasks: [{
+				id: "1C8C2D5B46627F91"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
+			rewards: [
+				{
+					id: "421C740B0EE48EDE"
+					type: "item"
+					item: {
+						id: "easypaxellite:diamond_paxel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00283B59A8B1F880"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "74FFAF7489B5761F"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 23.0d
+			subtitle: "A shovel-like mining tool that can mine in a 3x3 area all at once."
+			dependencies: ["3AD016CBFF6F7A87"]
+			id: "03814D206EB0DACA"
+			tasks: [{
+				id: "0233F07CF8ECCDAA"
+				type: "item"
+				item: {
+					id: "vanillaexcavators:netherite_excavator"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1F63300F5B78F6C0"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "77ED6806933FB8EE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 23.0d
+			subtitle: "A pickaxe-like mining tool that can mine in a 3x3 area all at once."
+			dependencies: ["3AD016CBFF6F7A87"]
+			id: "303D8680F1C6D4E4"
+			tasks: [{
+				id: "6C141262316A509B"
+				type: "item"
+				item: {
+					id: "vanillahammers:netherite_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0E04E1291CC7DCD3"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5787A72004D4F11D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 25.5d
+			subtitle: "Increased damage and durability."
+			dependencies: [
+				"5D34F571CBFD2345"
+				"3AD016CBFF6F7A87"
+			]
+			id: "09FDEE2C982F10A3"
+			tasks: [{
+				id: "711F9C6C6E5F20AC"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "22E1ED57C936C392"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+					count: 3
+				}
+				{
+					id: "11FE9C3D98D67308"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "Netherite Armor"
+			x: -8.0d
+			y: 25.0d
+			subtitle: "Increased durability and damage prevention."
+			dependencies: [
+				"261754CE6D962D9B"
+				"3AD016CBFF6F7A87"
+			]
+			id: "0595F29847C7AF15"
+			tasks: [
+				{
+					id: "7DA54AE334CF625E"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0313C0368082A4FE"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0E110ACAA087BBD1"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2B44AE85AA74A2D3"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4DF333309A315D9C"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+					count: 3
+				}
+				{
+					id: "1365E5B623D0499B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "69C5D55B0C3B2576"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 24.5d
+			subtitle: "Increased durability and max damage absorbed. Can also Shield Bash."
+			dependencies: [
+				"63E4A046AED1E5BA"
+				"3AD016CBFF6F7A87"
+			]
+			id: "54E4EC073D9406F1"
+			tasks: [{
+				id: "5968C31149483A65"
+				type: "item"
+				item: {
+					id: "spartanshields:shield_tower_netherite"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "172531EE31221336"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+					count: 3
+				}
+				{
+					id: "3669657E291D59DE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 25.5d
+			subtitle: "Increased Storage Capacity."
+			dependencies: ["0360F2D75356201D"]
+			id: "3548CC2CE57D70BC"
+			tasks: [{
+				id: "4981734F47D223B0"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+			rewards: [{
+				id: "19DC25B568C1F5C1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 5.0d
+			y: 25.0d
+			subtitle: "A better version of the diamond hoe that has more durability."
+			dependencies: ["66A7128EB18C7933"]
+			id: "7AA0ADD251DAE228"
+			tasks: [{
+				id: "4D7465A4AA0CA777"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "720AD0B5201DBF58"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -12.5d
+			y: 25.0d
+			subtitle: "Used to Find the End Stronghold. Craft with Blaze Powder and Ender Pearl."
+			dependencies: ["36F2CEDF0BD422BC"]
+			id: "16D6856CBD466A7F"
+			tasks: [{
+				id: "45EB7DA7779C96BC"
+				type: "item"
+				item: "minecraft:ender_eye"
+				count: 12L
+			}]
+			rewards: [{
+				id: "61A1C7DB3413E3FB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -16.0d
+			y: 21.0d
+			subtitle: "Obtained from killing Wither Skeletons. Wither Skeletons can be found in mega dungeons in the overworld or Nether Fortresses in the Nether."
+			dependencies: ["51F05AE61F38EA3F"]
+			id: "209CB5AE645C20BF"
+			tasks: [{
+				id: "12F46C8EBD828EC8"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+			}]
+			rewards: [{
+				id: "4BD50D79EEEEA8AB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Spawn The Wither"
+			x: -16.0d
+			y: 23.0d
+			subtitle: "Build a T-Shape with the soul sand and place 3 wither skulls on top."
+			dependencies: ["209CB5AE645C20BF"]
+			id: "609F8C92C3618FC7"
+			tasks: [
+				{
+					id: "5C62448B277B2B92"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+					count: 3L
+				}
+				{
+					id: "708D3C1B683F4823"
+					type: "item"
+					item: "minecraft:soul_sand"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "5A9B0683E9842FFD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Nether Star"
+			x: -16.0d
+			y: 25.0d
+			subtitle: "Kill the Wither to get a Nether Star"
+			dependencies: ["609F8C92C3618FC7"]
+			id: "1D857369B41BAA44"
+			tasks: [{
+				id: "4AE228D421B5C831"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
+			rewards: [
+				{
+					id: "153FCAE6BCCED0F1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7D4DDA6400756092"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+			]
+		}
+		{
+			title: "Kill the Naga"
+			icon: "twilightforest:naga_trophy"
+			x: -19.0d
+			y: 9.5d
+			subtitle: "Defeat The Naga and touch one of his magic scales to enter the next area. It can be found in a maze that commonly spawns."
+			dependencies: ["0FEF5F3DB9D0A520"]
+			id: "60C57571561C7F90"
+			tasks: [{
+				id: "04A5DA5BE2BC3DF3"
+				type: "item"
+				item: "twilightforest:naga_scale"
+			}]
+			rewards: [
+				{
+					id: "40CD3A615F3D94DB"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "3BCD0692CE4F2E83"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_regeneration"
+						}
+					}
+				}
+				{
+					id: "054D2929B8C2759F"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+				}
+				{
+					id: "6AA5437391DF5695"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			title: "Kill The Litch"
+			x: -22.0d
+			y: 9.5d
+			subtitle: "Find the Litch's Tower and Kill Him."
+			dependencies: ["60C57571561C7F90"]
+			id: "151E3BD24CEEBDD3"
+			tasks: [{
+				id: "0784966EAC14B499"
+				type: "item"
+				item: "twilightforest:lich_trophy"
+			}]
+			rewards: [
+				{
+					id: "19558A274C600603"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "3832FF7364A483B4"
+					type: "item"
+					item: "minecraft:enchanted_golden_apple"
+				}
+				{
+					id: "0037CAC426E8B75F"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			title: "Kill the Alpha Yeti"
+			x: -26.0d
+			y: 5.5d
+			subtitle: "Find and kill the Alpha Yeti in the Snow Forest."
+			description: ["These somewhat square-shaped hills are placed near the center of the snow forest regions. There are four natural entrances. Inside, you may find a pack of yetis, lorded over by the massive Alpha Yeti. Defeating the Alpha Yeti in combat, and claiming some of his downy fur will make the Glacier available to you."]
+			dependencies: ["151E3BD24CEEBDD3"]
+			id: "68D2CE7E89D2BFAC"
+			tasks: [{
+				id: "0F36E507305D6327"
+				type: "item"
+				item: "twilightforest:yeti_trophy"
+			}]
+			rewards: [
+				{
+					id: "40E87243BC719B0B"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "6B29F75776EB8FAB"
+					type: "item"
+					item: "minecraft:golden_apple"
+				}
+				{
+					id: "6E0F08A9BC1FADBA"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			title: "Kill The Snow Queen"
+			x: -30.0d
+			y: 5.5d
+			subtitle: "Kill the Snow Queen in the Aurora Palace"
+			description: ["Kill the Snow Queen in the Aurora Palace"]
+			dependencies: ["68D2CE7E89D2BFAC"]
+			id: "318A1300B2C8FA65"
+			tasks: [{
+				id: "4FEF04C1E80330B6"
+				type: "item"
+				item: "twilightforest:snow_queen_trophy"
+			}]
+			rewards: [
+				{
+					id: "1584CBA1D9874C26"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "14D9948CF64F579F"
+					type: "item"
+					item: "minecraft:golden_apple"
+				}
+				{
+					id: "7556B2A05964EC26"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			title: "You got the beans?"
+			x: -34.0d
+			y: 9.5d
+			subtitle: "Find the Troll's Cave and steal his beans."
+			description: ["The Troll Caves lie beneath the highlands. They consist of both tunnel-style caves and vast underground chambers. Your first destination is in the underground mushroom gardens. Inside a small obsidian vault, you'll find a chest holding the troll's treasure, namely the Magic Beans."]
+			dependencies: [
+				"318A1300B2C8FA65"
+				"3E91B3FB9DB26728"
+				"6EDD701162F24EE8"
+			]
+			id: "59CF938B9D1090B6"
+			tasks: [{
+				id: "1BB436C5679472FA"
+				type: "item"
+				item: "twilightforest:magic_beans"
+			}]
+			rewards: [
+				{
+					id: "27B809FE5F7FA71B"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "53EFECAF02A2C2C6"
+					type: "item"
+					item: "minecraft:golden_apple"
+				}
+			]
+		}
+		{
+			title: "Kill The Knight Phantom"
+			x: -26.0d
+			y: 13.5d
+			subtitle: "Enter the Dark Forest and Kill a Knight Phantom"
+			description: ["Beneath the Dark Forest (and sometimes the surrounding areas) lay the fallen Strongholds of the Twilight Knights. The lower levels of the strongholds are completely sealed, and before you enter, you will have to complete a small initiation ceremony. You will have to find a specific room in the upper ruins of the stronghold. The room contains a Trophy Pedestal and a shallow pit blocked by Stronghold Shields. Placing a trophy from one of the previous bosses on the pedestal will remove the shield and allow access to the lower levels.Once inside the main part of the stronghold, you will eventually have to find the Knight Phantoms to proceed. Sending the phantoms to their final rest will make the strange devices of the Dark Tower obey you."]
+			dependencies: ["151E3BD24CEEBDD3"]
+			id: "2CC93F6F589E8906"
+			tasks: [{
+				id: "17DC783973DA5887"
+				type: "item"
+				item: "twilightforest:knight_phantom_trophy"
+			}]
+			rewards: [
+				{
+					id: "463E41781F80CEB7"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "229E4057322CE838"
+					type: "item"
+					item: "minecraft:golden_apple"
+				}
+				{
+					id: "68CE0ADA06D578AD"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			title: "Kill the Ur-Ghast"
+			x: -30.0d
+			y: 13.5d
+			subtitle: "Kill the Ur-Ghast in the Dark Tower."
+			description: ["The Dark Tower is found in a small clearing in the center of the dark forest. The center area has reddish, autumnal leaves and faded grass. The Dark Tower is the site of many eldritch experiments. The Ur-Ghast has taken over the top of the tower and must be vanquished to complete the Dark Forest phase of the adventure."]
+			dependencies: ["2CC93F6F589E8906"]
+			id: "3E91B3FB9DB26728"
+			tasks: [{
+				id: "1F02C139A0CE66E5"
+				type: "item"
+				item: "twilightforest:ur_ghast_trophy"
+			}]
+			rewards: [
+				{
+					id: "7385683632271042"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "38E2BA496C03C365"
+					type: "item"
+					item: "upgradednetherite:netherite_apple"
+				}
+				{
+					id: "257A76BCC8DD1255"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			title: "Kill the Minoshroom."
+			icon: "twilightforest:minoshroom_trophy"
+			x: -26.0d
+			y: 9.5d
+			description: ["There are several Labyrinths buried under the swamp. You may locate a natural entrance through a chasm or cave, or you may find the entrance in a small mound. There is more information on the Labyrinth page. Your goal is to find and slay the Minoshroom.Killing the Minoshroom, and eating some of his Meef Stroganoff will allow you to enter the Fire Swamp without being burnt."]
+			dependencies: ["151E3BD24CEEBDD3"]
+			id: "5CFE3641D12B2270"
+			tasks: [{
+				id: "42B11F21D30C1308"
+				type: "item"
+				item: "twilightforest:meef_stroganoff"
+			}]
+			rewards: [
+				{
+					id: "6DDB327FAE446B36"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "1C4629B7AF7C731A"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+				}
+				{
+					id: "14652281A1CCEC25"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_regeneration"
+						}
+					}
+				}
+				{
+					id: "4BC9354B7669E18D"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			title: "Find and Kill the Hydra."
+			x: -30.0d
+			y: 9.5d
+			description: ["The fearsome Hydra is found in a converted Hollow Hill in the middle of the Fire Swamp. There is no maze or dungeon to navigate, as the hydra does not need any protection from intruders. Good luck! If you survive, make contact with the Hydra's Fiery Blood and the Swamp phase of the adventure will be complete."]
+			dependencies: ["5CFE3641D12B2270"]
+			id: "6EDD701162F24EE8"
+			tasks: [{
+				id: "0B3D1940612E7F29"
+				type: "item"
+				item: "twilightforest:hydra_trophy"
+			}]
+			rewards: [
+				{
+					id: "3135338C7619EC70"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "6D6F1EB77C5A57B7"
+					type: "item"
+					item: "minecraft:golden_apple"
+				}
+				{
+					id: "4E987F1AAA59F0EF"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			title: "The Cottages"
+			x: -36.0d
+			y: 9.5d
+			subtitle: "Steal a Giant's Pickaxe from the Cloud Cottages and enter the thorn forest."
+			description: ["Take what treasure you can, but you will need the Giant's Pickaxe to continue.With the Giant's Pickaxe you can open the huge obsidian vault in the center of the Troll Caves. Inside the vault, you will find the Lamp of Cinders. The power of the lamp can burn the thorns in the nearby Thornlands."]
+			dependencies: ["59CF938B9D1090B6"]
+			id: "071D7EC3732B396E"
+			tasks: [
+				{
+					id: "093B445000EC61FA"
+					type: "item"
+					item: {
+						id: "twilightforest:giant_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4A1DE4BC4055C936"
+					type: "item"
+					item: {
+						id: "twilightforest:lamp_of_cinders"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "20A383C792B14501"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "46D22E6FD8F21C51"
+					type: "item"
+					item: "minecraft:enchanted_golden_apple"
+				}
+			]
+		}
+		{
+			title: "Kill The Enderdragon"
+			x: -12.5d
+			y: 27.0d
+			dependencies: ["16D6856CBD466A7F"]
+			id: "7AD2834D795BB7B3"
+			tasks: [{
+				id: "3E20A630DD70051E"
+				type: "item"
+				item: "majruszs_difficulty:ender_dragon_treasure_bag"
+			}]
+			rewards: [
+				{
+					id: "50F1470730D1D287"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "60D0C1E6F2D5BC1F"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+				{
+					id: "7EF27A4370EE68DF"
+					type: "item"
+					item: "weirdinggadget:weirding_gadget"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 7.0d
+			subtitle: "Grows Carrots"
+			dependencies: ["63479147BF185C4B"]
+			id: "4F448F5ADE13014A"
+			tasks: [{
+				id: "6233C8EC39226D7B"
+				type: "item"
+				item: "minecraft:carrot"
+			}]
+			rewards: [{
+				id: "0F767D8CF686A99F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 7.0d
+			y: 8.0d
+			subtitle: "Grows Potatos"
+			dependencies: ["63479147BF185C4B"]
+			id: "55A8E5477F091A23"
+			tasks: [{
+				id: "5593ED4535BBD527"
+				type: "item"
+				item: "minecraft:potato"
+			}]
+			rewards: [{
+				id: "32A281266AE7C4A7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 7.0d
+			y: 9.0d
+			subtitle: "Grows Beetroots"
+			dependencies: ["63479147BF185C4B"]
+			id: "434B053C50CC20B7"
+			tasks: [{
+				id: "7ECF8B7E236359CF"
+				type: "item"
+				item: "minecraft:beetroot_seeds"
+			}]
+			rewards: [{
+				id: "3FEC92F54A262ADC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 7.0d
+			y: 6.0d
+			subtitle: "Grows Melons. Needs an adjecent empty space with a dirt block under it for melons to grow."
+			description: [""]
+			dependencies: ["63479147BF185C4B"]
+			id: "14BF0E6E7D05AC8F"
+			tasks: [{
+				id: "2C81938F5B87E632"
+				type: "item"
+				item: "minecraft:melon_seeds"
+			}]
+			rewards: [{
+				id: "0725A782FFB991BC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 7.0d
+			y: 10.0d
+			subtitle: "Grows Pumkins. Needs an adjecent empty space with a dirt block under it for pumkin to grow."
+			dependencies: ["63479147BF185C4B"]
+			id: "3BD11EC570D4B9E3"
+			tasks: [{
+				id: "01DB87199E094E12"
+				type: "item"
+				item: "minecraft:pumpkin_seeds"
+			}]
+			rewards: [{
+				id: "7EAA0B00D8C780C2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 9.0d
+			y: 7.0d
+			dependencies: ["4F448F5ADE13014A"]
+			id: "155148BEA4A95393"
+			tasks: [{
+				id: "777B979C4F10AB1B"
+				type: "item"
+				item: "minecraft:golden_carrot"
+			}]
+			rewards: [{
+				id: "3B537D1511E7DFCD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 9.0d
+			y: 8.0d
+			subtitle: "Taste way better than raw potatos"
+			dependencies: ["55A8E5477F091A23"]
+			id: "09ABDDDAF97AB252"
+			tasks: [{
+				id: "6A71411D12AADE32"
+				type: "item"
+				item: "minecraft:baked_potato"
+			}]
+			rewards: [{
+				id: "489FA3295A041559"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 9.0d
+			y: 9.0d
+			dependencies: ["434B053C50CC20B7"]
+			id: "1AB8B24975B8A738"
+			tasks: [{
+				id: "22DF03FAE414F83D"
+				type: "item"
+				item: "minecraft:beetroot_soup"
+			}]
+			rewards: [{
+				id: "31BD23E9163E0869"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 9.0d
+			y: 6.0d
+			dependencies: ["14BF0E6E7D05AC8F"]
+			id: "11FC3E7DD6F2A27E"
+			tasks: [{
+				id: "6FA33BD5AFC780BD"
+				type: "item"
+				item: "minecraft:glistering_melon_slice"
+			}]
+			rewards: [{
+				id: "43C5F995C140F82A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 9.0d
+			y: 10.0d
+			subtitle: "One of the best foods in the game"
+			dependencies: ["3BD11EC570D4B9E3"]
+			id: "74C043DC4256D0DE"
+			tasks: [{
+				id: "2DFB3C60E850BDEF"
+				type: "item"
+				item: "minecraft:pumpkin_pie"
+			}]
+			rewards: [{
+				id: "2DB7763E37E083B6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -2.0d
+			y: 30.5d
+			subtitle: "Fire damage, fire immunity, increased lava movement speed, and auto smelting."
+			description: [
+				" Armor and Horse Armor Effect : Fire damage immune and increase movement speed in lava."
+				""
+				" Sword and Axe  Effect : Increase damage dealt to targets NOT immune to fire by 1. Fire Aspect II(or more) increase damage bonus dealt by 1 and Auto-Smelting. "
+				""
+				"Bow Effect : Increase damage dealt to targets NOT immune to fire by 1. Flame increase damage bonus dealt by 1 and Auto-Smelting."
+				""
+				"Pickaxe and Shovel : Auto-smelting."
+			]
+			dependencies: ["3AD016CBFF6F7A87"]
+			id: "554B5D8A82C2C602"
+			tasks: [{
+				id: "352C30FE4D387B99"
+				type: "item"
+				item: "upgradednetherite:fire_upgraded_netherite_ingot"
+			}]
+			rewards: [
+				{
+					id: "4D80298B7543F284"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5F05EBBFA664756A"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 30.5d
+			subtitle: "Saves from the void, loot teleportation into chest, prevent enderman anger, prevent enemy teleportation, increased damage to endermen."
+			description: [
+				"Armor Effect : Saves from the void (by teleporting player) and Prevent Enderman Anger. "
+				""
+				"Horse Armor Effect : Saves from the void (by teleporting horse,but if you ride him without the ender armor effect you not get teleported with him !)."
+				""
+				"Sword and Axe Effect : Prevent teleporting for 10s and increase damage dealt to Enderman by 1 and Teleport Loot to target chest."
+				""
+				" Bow Effect : Teleport Loot to target chest. "
+				""
+				"Pickaxe and Shovel Effect : Teleport Loot to target chest."
+			]
+			dependencies: ["3AD016CBFF6F7A87"]
+			id: "4710E492A373F4D4"
+			tasks: [{
+				id: "187AA682F49AB763"
+				type: "item"
+				item: "upgradednetherite:ender_upgraded_netherite_ingot"
+			}]
+			rewards: [
+				{
+					id: "2A7C83C8889209C8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "300E9255E1093518"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 30.0d
+			subtitle: "Wither effect immunity and chance to apply wither effect on hit."
+			description: [
+				"Armor and Horse Armor Effect : Wither effect immune.  "
+				""
+				"Sword and Axe and Bow Effect : Chance to apply Wither (Sometimes Wither II) on hit."
+			]
+			dependencies: ["3AD016CBFF6F7A87"]
+			id: "7816988DAF2D0F29"
+			tasks: [{
+				id: "5E451F4EDECCAED9"
+				type: "item"
+				item: "upgradednetherite:wither_upgraded_netherite_ingot"
+			}]
+			rewards: [
+				{
+					id: "327EFB2D7F313F50"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "68D02208F826450F"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 29.5d
+			subtitle: "Poison effect immunity, climb walls, chance to apply poison on hit."
+			description: [
+				"Armor and Horse Armor Effect : Poison effect immune and Climbs Walls.  "
+				""
+				"Sword and Axe and Bow Effect : Chance to apply Poison on hit."
+			]
+			dependencies: ["3AD016CBFF6F7A87"]
+			id: "1F9EAFD5E9E70619"
+			tasks: [{
+				id: "041EC95E2782B12F"
+				type: "item"
+				item: "upgradednetherite:poison_upgraded_netherite_ingot"
+			}]
+			rewards: [
+				{
+					id: "3BE57A933E7E8372"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "155C73E44CB914C6"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 29.0d
+			subtitle: "Fall damage immunity, increased step-height, all living entities around you glow, increased damage delt to phantom, increased reach."
+			description: [
+				"Armor Effect : Fall damage immune and Increase step height. "
+				""
+				"Horse Armor Effect : Fall damage immune. "
+				""
+				"Sword and Axe and Bow Effect : All the living entities around you glowing and Increase damage dealt to phantom by 2 and Increase Block Reach by 2."
+				""
+				"Pickaxe, Shovel and Bow Effect : All the living entities around you glowing and Increase Reach by 2."
+			]
+			dependencies: ["3AD016CBFF6F7A87"]
+			id: "479E6EE63CC98040"
+			tasks: [{
+				id: "5A701364843FE954"
+				type: "item"
+				item: "upgradednetherite:phantom_upgraded_netherite_ingot"
+			}]
+			rewards: [
+				{
+					id: "066B52041130F638"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "127AA71AFEE48D90"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 29.5d
+			subtitle: "Reduced fall damage, water and lava walking, double jump, item magnet, attract entities with bow."
+			description: [
+				" Armor and Horse Armor Effect : Reduce fall damage and Water/Lava Walking."
+				""
+				"Armor : Double Jump."
+				""
+				"Sword, Bow and Tool Effect : Attracts items near you."
+				""
+				"Bow Effect : Apply Attraction effect. (Attract nearby Living Entity.)"
+			]
+			dependencies: ["3AD016CBFF6F7A87"]
+			id: "7C564F8B11C5E52F"
+			tasks: [{
+				id: "600DE57116E21DB8"
+				type: "item"
+				item: "upgradednetherite:feather_upgraded_netherite_ingot"
+			}]
+			rewards: [
+				{
+					id: "1B5C5DD9EABCE0A6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "777F2DEDF83E164C"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 30.0d
+			subtitle: "Luck, Looting, Fortune, and Piglin Neutrality."
+			description: [
+				" Armor Effect : Piglin become neutral and Increase Luck by 2."
+				""
+				"Horse Armor Effect : Increase rider looting by 1."
+				""
+				" Sword, Axe and Bow Effect : Increase damage dealt to Piglin Brute by 2 and Increase Looting Level by 1. Looting III(or more) increase Looting Level by 1."
+				""
+				" Axe Effect : Increase damage dealt to Piglin Brute by 2 and Increase Fortune Level by 1. Fortune III(or more) increase Fortune Level by 1. "
+				""
+				"Pickaxe and Shovel Effect : Increase Fortune Level by 1. Fortune III(or more) increase Fortune Level by 1."
+			]
+			dependencies: ["3AD016CBFF6F7A87"]
+			id: "3EA6F0522B45F771"
+			tasks: [{
+				id: "7EE4ACACB29B2899"
+				type: "item"
+				item: "upgradednetherite:gold_upgraded_netherite_ingot"
+			}]
+			rewards: [
+				{
+					id: "0DE470CB008E12CA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1CBAE1AE958B01CC"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 29.0d
+			subtitle: "Water Breathing, increased underwater movement speed, increased damage to fire immune mobs, increased damage to endermen, increased mining speed underwater."
+			description: [
+				"Armor and Horse Armor Effect : Water Breathing and Increase Movement speed in water. "
+				""
+				" Sword and Axe and Bow Effect : Increase damage dealt to targets immune to fire by 2 and Increase damage dealt to enderman by 2 and Increase Mining Speed underwater. "
+				""
+				"Pickaxe and Shovel Effect : Increase Mining Speed underwater."
+			]
+			dependencies: ["3AD016CBFF6F7A87"]
+			id: "78AC0C0B9BECAD6F"
+			tasks: [{
+				id: "5B4BD92489017FBE"
+				type: "item"
+				item: "upgradednetherite:water_upgraded_netherite_ingot"
+			}]
+			rewards: [
+				{
+					id: "4C2571D14E8C61F9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "763554F10DD1C7A3"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			title: "Phantom Armor"
+			x: -26.5d
+			y: 15.5d
+			subtitle: "This armor is never lost on death."
+			dependencies: ["2CC93F6F589E8906"]
+			id: "7FF509372CA698D6"
+			tasks: [
+				{
+					id: "7EF503A448C7B178"
+					type: "item"
+					item: {
+						id: "twilightforest:phantom_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "03F4C98E3ECA4241"
+					type: "item"
+					item: {
+						id: "twilightforest:phantom_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7819ABBCE6FB78CA"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: -22.5d
+			y: 11.5d
+			subtitle: "Summons shields around the player or target entity."
+			dependencies: ["151E3BD24CEEBDD3"]
+			id: "1926DC5D1192E841"
+			tasks: [{
+				id: "406E70D3797F5960"
+				type: "item"
+				item: {
+					id: "twilightforest:shield_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "12BD1B4E1F15B31A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "7C07FE39B085FD36"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -22.5d
+			y: 7.5d
+			subtitle: "This scepter shoots projectiles identical to the Lich's projectiles whenever it is right-clicked."
+			dependencies: ["151E3BD24CEEBDD3"]
+			id: "47C0914CAD893A8D"
+			tasks: [{
+				id: "202B10F8FC115448"
+				type: "item"
+				item: {
+					id: "twilightforest:twilight_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7F7FF30FC359E587"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "4D75449096109D36"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -21.5d
+			y: 7.5d
+			subtitle: "Summons zombie minions. Zombies summoned are extra-strong, extra-fast, immune to sunlight, and instantly ready to attack your enemies."
+			dependencies: ["151E3BD24CEEBDD3"]
+			id: "7D941EE1295E4303"
+			tasks: [{
+				id: "76911EDCC13915E1"
+				type: "item"
+				item: {
+					id: "twilightforest:zombie_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0D3015B8150FFCA8"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "5ACB2986C823DCE8"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -21.5d
+			y: 11.5d
+			subtitle: "Drains the life energy of whatever mob is right-clicked."
+			dependencies: ["151E3BD24CEEBDD3"]
+			id: "1A5DB297B589EAD9"
+			tasks: [{
+				id: "092A287215BFA281"
+				type: "item"
+				item: {
+					id: "twilightforest:lifedrain_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "43591DD4720A377A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "7FE4E11B11A69CF9"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -30.0d
+			y: 12.0d
+			subtitle: "Used to craft Fiery Ingots. This then can be made to make a new set of tools and armor."
+			dependencies: ["3E91B3FB9DB26728"]
+			id: "6E43ECAECFDC90F8"
+			tasks: [{
+				id: "46BE52A60313202C"
+				type: "item"
+				item: "twilightforest:fiery_tears"
+			}]
+			rewards: [{
+				id: "48D544AFA5563F27"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -30.0d
+			y: 11.0d
+			subtitle: "Used to craft Fiery Ingots. This then can be made to make a new set of tools and armor."
+			dependencies: ["6EDD701162F24EE8"]
+			id: "6F402492AC4FF812"
+			tasks: [{
+				id: "2CAD838F5EA1F731"
+				type: "item"
+				item: "twilightforest:fiery_blood"
+			}]
+		}
+		{
+			x: -30.0d
+			y: 15.5d
+			subtitle: "Carminite is an item that is used for various crafting recipies. Can be used to craft the various Dark Tower Devices."
+			dependencies: ["3E91B3FB9DB26728"]
+			id: "30D01917A24B71A3"
+			tasks: [{
+				id: "14A86D892B7E949C"
+				type: "item"
+				item: "twilightforest:carminite"
+			}]
+			rewards: [{
+				id: "36A8E470A68D8A7B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "Yeti Armor"
+			x: -26.0d
+			y: 7.5d
+			subtitle: "Chills attackers, default protection II, and reduced fall damage."
+			dependencies: ["68D2CE7E89D2BFAC"]
+			id: "21C715595B04DCDD"
+			tasks: [
+				{
+					id: "56004913BA7F2935"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "71DFD9455E4FA9BD"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "674A0F185BEAE976"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "65F25966F064436C"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									lvl: 2s
+									id: "minecraft:protection"
+								}
+								{
+									lvl: 4s
+									id: "minecraft:feather_falling"
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "01AD08B41D39E765"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: -26.0d
+			y: 3.5d
+			subtitle: "Throwable bombs that freeze and kill enenmies in a radius."
+			dependencies: ["68D2CE7E89D2BFAC"]
+			id: "1DF6B272CAE19AED"
+			tasks: [{
+				id: "0170B9B9BA13722B"
+				type: "item"
+				item: "twilightforest:ice_bomb"
+			}]
+			rewards: [{
+				id: "7F3DD9F1031DD789"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -30.5d
+			y: 3.5d
+			subtitle: "Shoots 3 arrows at once vertically, while only using up 1 arrow and 1 durability."
+			dependencies: ["318A1300B2C8FA65"]
+			id: "2F19FCC7BC524C09"
+			tasks: [{
+				id: "6D3E7E3D0E9689C7"
+				type: "item"
+				item: {
+					id: "twilightforest:triple_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0F5944018FBF8B15"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "56C944B1BCDBF1E5"
+					type: "item"
+					item: "minecraft:arrow"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -30.0d
+			y: 7.5d
+			subtitle: "This bow's projectiles rarely miss."
+			dependencies: ["318A1300B2C8FA65"]
+			id: "647F5D82A919CF2A"
+			tasks: [{
+				id: "43854060CDA7E181"
+				type: "item"
+				item: {
+					id: "twilightforest:seeker_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2BA88BAB6355C801"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "72805179D13BAB17"
+					type: "item"
+					item: "minecraft:arrow"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -26.0d
+			y: 11.5d
+			subtitle: "Bonus damage while sprinting."
+			dependencies: ["5CFE3641D12B2270"]
+			id: "2956BDFA1BED4AE1"
+			tasks: [{
+				id: "066AFBCAD8F73150"
+				type: "item"
+				item: {
+					id: "twilightforest:minotaur_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "68BB1DF86B74F694"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5A4D8B05DFEB55D5"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Fiery Armor"
+			x: -29.0d
+			y: 11.5d
+			subtitle: "Burns attackers."
+			dependencies: [
+				"6F402492AC4FF812"
+				"6E43ECAECFDC90F8"
+			]
+			dependency_requirement: "one_completed"
+			id: "127F307F0E3C7ED0"
+			tasks: [
+				{
+					id: "66216370B6E05737"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "43C0420F1D70C703"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6B44AD744AE97EC6"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "20EE9E6CB2980816"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "00FD6EE121A531FD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "631AB25770A227C5"
+					type: "item"
+					item: "minecraft:golden_apple"
+				}
+			]
+		}
+		{
+			title: "Fiery Sword and Pickaxe"
+			x: -31.0d
+			y: 11.5d
+			subtitle: "Sword does fire damage. Pickaxe auto-smelts."
+			dependencies: [
+				"6F402492AC4FF812"
+				"6E43ECAECFDC90F8"
+			]
+			dependency_requirement: "one_completed"
+			id: "7C8FE1879BF25305"
+			tasks: [
+				{
+					id: "7C60819E0244EDC1"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "42E3A785BF2A2E7B"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "397B35FBDD6375EE"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "46DAEA90707FC7A5"
+					type: "item"
+					item: "minecraft:golden_apple"
+				}
+			]
+		}
+		{
+			x: -29.5d
+			y: 3.5d
+			subtitle: "The Ice Bow acts like a normal bow, but when an arrow from an Ice Bow hits a target, they will be covered in ice and inflicted with Frosted III for 10 seconds."
+			dependencies: ["318A1300B2C8FA65"]
+			id: "554C35D39CCAB1FC"
+			tasks: [{
+				id: "687F095AFFB9A55B"
+				type: "item"
+				item: {
+					id: "twilightforest:ice_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "08818C8A62FDCFA4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3BDB8B840EF40BA1"
+					type: "item"
+					item: "minecraft:arrow"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -25.5d
+			y: 15.5d
+			subtitle: "Armor Shards are dropped from slain Block and Chain Goblins, Goblin Knights and Helmet Crabs, as well as loot from Goblin Knight Strongholds."
+			dependencies: ["2CC93F6F589E8906"]
+			id: "79D27E1857D7B6C5"
+			tasks: [{
+				id: "7D78A06C977FBDCC"
+				type: "item"
+				item: "twilightforest:armor_shard"
+			}]
+			rewards: [{
+				id: "778B4988EDD85A7C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -25.5d
+			y: 17.0d
+			subtitle: "Used to create various tools."
+			dependencies: ["79D27E1857D7B6C5"]
+			id: "001FB660A30ADEE7"
+			tasks: [{
+				id: "7C9FDC70ABFDDE54"
+				type: "item"
+				item: "twilightforest:knightmetal_ingot"
+			}]
+			rewards: [{
+				id: "194D1B0361385BAD"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "Knightmetal Armor"
+			x: -25.5d
+			y: 18.5d
+			subtitle: "High protection and durability armor."
+			dependencies: ["001FB660A30ADEE7"]
+			id: "6D52DD21CD358336"
+			tasks: [
+				{
+					id: "67C747B9C794E9D8"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2C784050E9EDFEA9"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "19A5ECF112AD5585"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "070554C19BD64980"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "22474CA108D0195C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -24.0d
+			y: 17.0d
+			subtitle: "Extra damage to armored foes."
+			dependencies: ["001FB660A30ADEE7"]
+			id: "54C862E27F8999D0"
+			tasks: [{
+				id: "4CDF9FC9D6EF0E44"
+				type: "item"
+				item: {
+					id: "twilightforest:knightmetal_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "32249CD8F5D3C0DA"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -24.0d
+			y: 18.5d
+			subtitle: "High durability shield."
+			dependencies: ["001FB660A30ADEE7"]
+			id: "47293EAAF1C25F53"
+			tasks: [{
+				id: "0B60FD67D7A50475"
+				type: "item"
+				item: {
+					id: "twilightforest:knightmetal_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7CCE3A39E4E99877"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -27.0d
+			y: 18.5d
+			subtitle: "A beast mid-range weapon capable of doing high damage and breaking blocks."
+			dependencies: ["001FB660A30ADEE7"]
+			id: "22D925BB009E8D79"
+			tasks: [{
+				id: "5F1CE30EB25F4FC5"
+				type: "item"
+				item: {
+					id: "twilightforest:block_and_chain"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "05C207D2FEBABBF1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Naga Scale Armor"
+			x: -19.0d
+			y: 11.5d
+			subtitle: "Similar to Diamond Armor."
+			dependencies: ["60C57571561C7F90"]
+			id: "492669EC35FE5AF8"
+			tasks: [
+				{
+					id: "400308C2D95A3DEC"
+					type: "item"
+					item: {
+						id: "twilightforest:naga_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 3s
+								id: "minecraft:fire_protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "4F28B4002A7DC19B"
+					type: "item"
+					item: {
+						id: "twilightforest:naga_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 3s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "261622BD923AC27F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "Visit Atum"
+			x: -22.5d
+			y: -1.5d
+			dependencies: ["70BE0C8FE5726B1F"]
+			id: "3BF24EEFBBE8951B"
+			tasks: [{
+				id: "0EE6F1ECC730D241"
+				type: "item"
+				item: "atum:scarab"
+			}]
+		}
+		{
+			icon: "atum:limestone_brick_large"
+			x: -22.5d
+			y: -3.0d
+			subtitle: "Pyramids spawn in Atum partially above surface. They only have one enterance that is burried. Watch out for Traps!"
+			dependencies: ["3BF24EEFBBE8951B"]
+			id: "04536B00483E1C63"
+			tasks: [{
+				id: "1539013772651580"
+				type: "checkmark"
+				title: "Pyramids"
+			}]
+		}
+		{
+			x: -22.5d
+			y: -4.5d
+			subtitle: "This item is needed to summon the boss."
+			dependencies: ["04536B00483E1C63"]
+			id: "6892BDC33D32CCD8"
+			tasks: [{
+				id: "141CBB3BA0F6CECD"
+				type: "item"
+				item: "atum:nebu_torch"
+			}]
+		}
+		{
+			title: "Pharoah Boss"
+			icon: "atum:sarcophagus"
+			x: -22.5d
+			y: -6.5d
+			subtitle: "To summon the boss, find the sarcophagus room and place 4 Nebu torches on the 4 pedestals."
+			dependencies: ["6892BDC33D32CCD8"]
+			id: "79E999027A3EF81F"
+			tasks: [{
+				id: "5A03A8EEA81E33D5"
+				type: "checkmark"
+				title: "Phar"
+			}]
+		}
+		{
+			icon: "atum:ra_godforged_block"
+			x: -25.0d
+			y: -10.5d
+			subtitle: "The God of Wrath"
+			dependencies: ["79E999027A3EF81F"]
+			id: "01746421BD1DBB2A"
+			tasks: [{
+				id: "277B68B86D862880"
+				type: "checkmark"
+				title: "Loot of Ra"
+			}]
+		}
+		{
+			title: "Armor of Ra"
+			x: -25.0d
+			y: -12.0d
+			subtitle: "Reduced Fog, Increased Speed, Knockback Resistance. Set Bonus: Fire Immunity"
+			dependencies: ["01746421BD1DBB2A"]
+			id: "333F82DBB7F5446A"
+			tasks: [
+				{
+					id: "63247B7B3AF465CD"
+					type: "item"
+					item: {
+						id: "atum:halo_of_ra"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "137FE110E3C0DAC5"
+					type: "item"
+					item: {
+						id: "atum:body_of_ra"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4F4D83BD297DF236"
+					type: "item"
+					item: {
+						id: "atum:legs_of_ra"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4B67CAABA4B6D355"
+					type: "item"
+					item: {
+						id: "atum:feet_of_ra"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1CA06AFDF72D394E"
+					type: "item"
+					item: "atum:torch_of_ra"
+				}
+				{
+					id: "325C4F35DD534896"
+					type: "item"
+					item: "atum:lantern_of_ra"
+				}
+				{
+					id: "5BFF2304F86BF7D7"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "4C7C3178D53DDC90"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -24.0d
+			y: -12.0d
+			subtitle: "Lava Walking"
+			dependencies: ["01746421BD1DBB2A"]
+			id: "7FD8A11C0A19AD0E"
+			tasks: [{
+				id: "2E164ABB8D931C83"
+				type: "item"
+				item: "atum:ras_step"
+			}]
+			rewards: [
+				{
+					id: "4A37ADB42ECE0E77"
+					type: "item"
+					item: "atum:torch_of_ra"
+				}
+				{
+					id: "180AB14A7AAF5587"
+					type: "item"
+					item: "atum:lantern_of_ra"
+				}
+				{
+					id: "569160196CBCB782"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "550E5F481637A362"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -26.0d
+			y: -12.0d
+			subtitle: "Flaming Arrows"
+			dependencies: ["01746421BD1DBB2A"]
+			id: "3098DAD6B5569FCE"
+			tasks: [{
+				id: "556FA4DE17A147E6"
+				type: "item"
+				item: {
+					id: "atum:ras_fury"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "203C06F04EFCC4EE"
+					type: "item"
+					item: "atum:torch_of_ra"
+				}
+				{
+					id: "02E19FE503E661BA"
+					type: "item"
+					item: "atum:lantern_of_ra"
+				}
+				{
+					id: "165E63B0ACC6E159"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "08601FCDA34E8EF1"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			icon: "atum:tefnut_godforged_block"
+			x: -22.5d
+			y: -10.5d
+			subtitle: "The God of Rain"
+			dependencies: ["79E999027A3EF81F"]
+			id: "43C427D970B20D67"
+			tasks: [{
+				id: "1577F3C2E267D1E9"
+				type: "checkmark"
+				title: "Loot of Tefnut"
+			}]
+		}
+		{
+			x: -23.0d
+			y: -12.0d
+			subtitle: "When fully charged, arrows multiply."
+			dependencies: ["43C427D970B20D67"]
+			id: "735497BE2119AB8E"
+			tasks: [{
+				id: "45994BAAB11F062A"
+				type: "item"
+				item: {
+					id: "atum:tefnuts_rain"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "66EF82437500999D"
+					type: "item"
+					item: "atum:torch_of_tefnut"
+				}
+				{
+					id: "41F4254A64A5929A"
+					type: "item"
+					item: "atum:lantern_of_tefnut"
+				}
+				{
+					id: "63A9D31D3CC8382B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "19A2900ABC5EDA5A"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -22.0d
+			y: -12.0d
+			subtitle: "Summons lightning when target is hit."
+			dependencies: ["43C427D970B20D67"]
+			id: "41AE22D9BF4CDAC6"
+			tasks: [{
+				id: "3671637C26AE5F64"
+				type: "item"
+				item: {
+					id: "atum:tefnuts_call"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5F4D0C40758719A7"
+					type: "item"
+					item: "atum:torch_of_tefnut"
+				}
+				{
+					id: "19BD3D50267F1680"
+					type: "item"
+					item: "atum:lantern_of_tefnut"
+				}
+				{
+					id: "2539737921671C70"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "19FE02E16DF6BB75"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			icon: "atum:shu_godforged_block"
+			x: -28.0d
+			y: -10.5d
+			subtitle: "The God of Speed"
+			dependencies: ["79E999027A3EF81F"]
+			id: "499E3FD3362C6DB3"
+			tasks: [{
+				id: "0C6CA528F3844613"
+				type: "checkmark"
+				title: "Loot of Shu"
+			}]
+		}
+		{
+			x: -28.0d
+			y: -12.0d
+			subtitle: "Bow charges extremely swiftly."
+			dependencies: ["499E3FD3362C6DB3"]
+			id: "4C27A0CDBB1C061A"
+			tasks: [{
+				id: "30CD5E5A8820798F"
+				type: "item"
+				item: {
+					id: "atum:shus_breath"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "19B1F5F4171CF899"
+					type: "item"
+					item: "atum:torch_of_shu"
+				}
+				{
+					id: "761C5A866AC68A29"
+					type: "item"
+					item: "atum:lantern_of_shu"
+				}
+				{
+					id: "37F8D275B30F4B76"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "681213D4FFDFBB7B"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -29.0d
+			y: -12.0d
+			subtitle: "Additional movement speed when worn."
+			dependencies: ["499E3FD3362C6DB3"]
+			id: "1982D59D99D59A1D"
+			tasks: [{
+				id: "184A6680C6D9E5B7"
+				type: "item"
+				item: "atum:shus_swiftness"
+			}]
+			rewards: [
+				{
+					id: "2F5CF04C156376E2"
+					type: "item"
+					item: "atum:torch_of_shu"
+				}
+				{
+					id: "7EC1B41B721A3FDD"
+					type: "item"
+					item: "atum:lantern_of_shu"
+				}
+				{
+					id: "11BF1CA18E074AC0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1163A259990438B1"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -27.0d
+			y: -12.0d
+			subtitle: "Extra knockback on hit."
+			dependencies: ["499E3FD3362C6DB3"]
+			id: "40DF7F818B27BBD1"
+			tasks: [{
+				id: "67F3B0E35D34C982"
+				type: "item"
+				item: {
+					id: "atum:shus_exile"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7FE7CC9551A6C718"
+					type: "item"
+					item: "atum:torch_of_shu"
+				}
+				{
+					id: "54340883C9BBEE4E"
+					type: "item"
+					item: "atum:lantern_of_shu"
+				}
+				{
+					id: "2D92C1E08556F4D6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2066F1695B6B14D0"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			icon: "atum:ptah_godforged_block"
+			x: -21.0d
+			y: -10.5d
+			subtitle: "The God of Building"
+			dependencies: ["79E999027A3EF81F"]
+			id: "0E61FD896DCEDFB0"
+			tasks: [{
+				id: "64F6D913A462BEFE"
+				type: "checkmark"
+				title: "Loot of Ptah"
+			}]
+		}
+		{
+			x: -21.0d
+			y: -12.0d
+			subtitle: "Chance to turn iron into gold."
+			dependencies: ["0E61FD896DCEDFB0"]
+			id: "61C677CA72BCE234"
+			tasks: [{
+				id: "461AEB623BA0988D"
+				type: "item"
+				item: {
+					id: "atum:ptahs_decadence"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2F9E7F1AD3038B3C"
+					type: "item"
+					item: "atum:torch_of_ptah"
+				}
+				{
+					id: "0B42FD6F6A4459D0"
+					type: "item"
+					item: "atum:lantern_of_ptah"
+				}
+				{
+					id: "266C6DCA1BE36E10"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "53A99DC86101C5C6"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -30.0d
+			y: -12.0d
+			subtitle: "A weapon that stuns enemies on full charge."
+			dependencies: ["7BF313540306125E"]
+			id: "3CC686F76E1A967F"
+			tasks: [{
+				id: "134C2807C6D0BF72"
+				type: "item"
+				item: {
+					id: "atum:gebs_might"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6310D4433C3E9DFB"
+					type: "item"
+					item: "atum:torch_of_geb"
+				}
+				{
+					id: "693335B5F599FFE9"
+					type: "item"
+					item: "atum:lantern_of_geb"
+				}
+				{
+					id: "23767699C809D2F7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5C4623F13AFF916D"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -31.5d
+			y: -12.0d
+			subtitle: "A weapon/tool that gives bonus XP and does not use hunger to swing."
+			dependencies: ["7BF313540306125E"]
+			id: "3DC73389AAA9B698"
+			tasks: [{
+				id: "02BE682CFA0D5043"
+				type: "item"
+				item: {
+					id: "atum:gebs_toil"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "40F74D44C0B3AF36"
+					type: "item"
+					item: "atum:torch_of_geb"
+				}
+				{
+					id: "79012A42202A506D"
+					type: "item"
+					item: "atum:lantern_of_geb"
+				}
+				{
+					id: "407BE7BC33677710"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5F7BEBCF024D38EC"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -31.5d
+			y: -10.5d
+			subtitle: "Deals double damage to stone enemies. Acts as both a pickaxe and a sword."
+			dependencies: ["7BF313540306125E"]
+			id: "676F7935F08824EC"
+			tasks: [{
+				id: "67FA99B7621D4B70"
+				type: "item"
+				item: {
+					id: "atum:gebs_undoing"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "384E8D68BDB00691"
+					type: "item"
+					item: "atum:torch_of_geb"
+				}
+				{
+					id: "5871C819A76C00F9"
+					type: "item"
+					item: "atum:lantern_of_geb"
+				}
+				{
+					id: "5952EB859F7DED5C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5356E920E7ADF53B"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			icon: "atum:geb_godforged_block"
+			x: -30.0d
+			y: -10.5d
+			subtitle: "God of the Earth. Creator of Stone Guards."
+			dependencies: ["79E999027A3EF81F"]
+			id: "7BF313540306125E"
+			tasks: [{
+				id: "018B75EABA59E9F0"
+				type: "checkmark"
+				title: "Loot of Geb"
+			}]
+		}
+		{
+			title: "Armor of Atem"
+			x: -20.0d
+			y: -12.0d
+			subtitle: "Reduced Fog, Increased Movement Speed. Knockback Resistance. Set Bonus: Recall on fatal damage."
+			dependencies: ["552AD84041CF9DD8"]
+			id: "2B0624AB67B9540A"
+			tasks: [
+				{
+					id: "1C8343C4C8B04330"
+					type: "item"
+					item: {
+						id: "atum:eyes_of_atem"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "649D9775D3DD8BCC"
+					type: "item"
+					item: {
+						id: "atum:body_of_atem"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4C4CA51CE1A21CC6"
+					type: "item"
+					item: {
+						id: "atum:legs_of_atem"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6EA8D9A7E37A65F3"
+					type: "item"
+					item: {
+						id: "atum:feet_of_atem"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "42825D128D2ED3E4"
+					type: "item"
+					item: "atum:torch_of_atem"
+				}
+				{
+					id: "2B4FAC430C18DE4B"
+					type: "item"
+					item: "atum:lantern_of_atem"
+				}
+				{
+					id: "047059143DA4BEFA"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "3B0259E937CE76A7"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -19.0d
+			y: -12.0d
+			subtitle: "Can catch rare and unique fish in Atum."
+			dependencies: ["552AD84041CF9DD8"]
+			id: "3098B3E979E84CF5"
+			tasks: [{
+				id: "4DE695455367B863"
+				type: "item"
+				item: {
+					id: "atum:atems_bounty"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1A65A840286D99E4"
+					type: "item"
+					item: "atum:torch_of_atem"
+				}
+				{
+					id: "2875179479496E12"
+					type: "item"
+					item: "atum:lantern_of_atem"
+				}
+				{
+					id: "7F6385A522F97D9C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4C92933859C4C42C"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -18.0d
+			y: -12.0d
+			subtitle: "Teleports you to your spawn point."
+			dependencies: ["552AD84041CF9DD8"]
+			id: "1DA12206FD8594A0"
+			tasks: [{
+				id: "47182CDA77E95FF1"
+				type: "item"
+				item: {
+					id: "atum:atems_homecoming"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4360F5E9A4947113"
+					type: "item"
+					item: "atum:torch_of_atem"
+				}
+				{
+					id: "5367635760D317F2"
+					type: "item"
+					item: "atum:lantern_of_atem"
+				}
+				{
+					id: "56C2A1ED52CE62D7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3335F1F606765975"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -17.0d
+			y: -12.0d
+			subtitle: "20% chance to negate all damage for 10 seconds when blocking."
+			dependencies: ["552AD84041CF9DD8"]
+			id: "5ACE46D1750FFA4F"
+			tasks: [{
+				id: "66EF006D5493BDF9"
+				type: "item"
+				item: {
+					id: "atum:atems_protection"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1846C6F1ED647D0C"
+					type: "item"
+					item: "atum:torch_of_atem"
+				}
+				{
+					id: "22C3C3F4DADDA206"
+					type: "item"
+					item: "atum:lantern_of_atem"
+				}
+				{
+					id: "75F3E32CD6DC21B8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "13B99907A1D75C15"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -16.0d
+			y: -12.0d
+			subtitle: "15% Chance to gain resistance when attacking."
+			dependencies: ["552AD84041CF9DD8"]
+			id: "2374EB126E3937A2"
+			tasks: [{
+				id: "78C0A6CC1942C3F8"
+				type: "item"
+				item: {
+					id: "atum:atems_will"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "48FA8CB28BB20D2A"
+					type: "item"
+					item: "atum:torch_of_atem"
+				}
+				{
+					id: "3B47D11E1CBE218C"
+					type: "item"
+					item: "atum:lantern_of_atem"
+				}
+				{
+					id: "4385720DA773DC8B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "624F0972CB5495E9"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			icon: "atum:atem_godforged_block"
+			x: -18.0d
+			y: -10.5d
+			subtitle: "The God of Atum"
+			description: [""]
+			dependencies: ["79E999027A3EF81F"]
+			id: "552AD84041CF9DD8"
+			tasks: [{
+				id: "2F041DA61C82CBB4"
+				type: "checkmark"
+				title: "Loot of Atem"
+			}]
+		}
+		{
+			x: -31.5d
+			y: -9.5d
+			subtitle: "Fully charged attack launches foes in the air."
+			dependencies: ["281B490D1E23A6CE"]
+			id: "192460869552C8E2"
+			tasks: [{
+				id: "1C7AE36367FBFA28"
+				type: "item"
+				item: {
+					id: "atum:horus_ascension"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "19886ACBBBFAB9B9"
+					type: "item"
+					item: "atum:torch_of_horus"
+				}
+				{
+					id: "73D141E4122E4561"
+					type: "item"
+					item: "atum:lantern_of_horus"
+				}
+				{
+					id: "6823B0BA64D40D9E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5220A33CA64E0A64"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -31.5d
+			y: -8.5d
+			subtitle: "Fully charged bow shots fly straight."
+			dependencies: ["281B490D1E23A6CE"]
+			id: "21AEABC0E9FBCF67"
+			tasks: [{
+				id: "5746C48D5F9473CC"
+				type: "item"
+				item: {
+					id: "atum:horus_soaring"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5A440B12B4864124"
+					type: "item"
+					item: "atum:torch_of_horus"
+				}
+				{
+					id: "3C4D581FA6A07A10"
+					type: "item"
+					item: "atum:lantern_of_horus"
+				}
+				{
+					id: "7E3E7CBCDFBA9919"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3BBCA42D86C6781E"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			icon: "atum:horus_godforged_block"
+			x: -30.0d
+			y: -9.0d
+			dependencies: ["79E999027A3EF81F"]
+			id: "281B490D1E23A6CE"
+			tasks: [{
+				id: "3D60216127316A4D"
+				type: "checkmark"
+				title: "Loot of Horus"
+			}]
+		}
+		{
+			icon: "atum:isis_godforged_block"
+			x: -15.0d
+			y: -10.5d
+			dependencies: ["79E999027A3EF81F"]
+			id: "628FE537D4EC7B9C"
+			tasks: [{
+				id: "7F84FCD65358BD16"
+				type: "checkmark"
+				title: "Loot of Isis"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -12.0d
+			dependencies: ["628FE537D4EC7B9C"]
+			id: "37A02228567086D0"
+			tasks: [{
+				id: "6C6C424F29549641"
+				type: "item"
+				item: {
+					id: "atum:isis_division"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2E4B17B88C74DEE9"
+					type: "item"
+					item: "atum:torch_of_isis"
+				}
+				{
+					id: "259D2E76BB2BD578"
+					type: "item"
+					item: "atum:lantern_of_isis"
+				}
+				{
+					id: "69EF706973C2006D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1517FEC9F33FE4D1"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: -10.5d
+			dependencies: ["628FE537D4EC7B9C"]
+			id: "2185F69202E73C66"
+			tasks: [{
+				id: "3A7A283A55282F95"
+				type: "item"
+				item: "atum:isis_healing"
+			}]
+			rewards: [
+				{
+					id: "1656FC8A9B165877"
+					type: "item"
+					item: "atum:torch_of_isis"
+				}
+				{
+					id: "0A5E219042C58248"
+					type: "item"
+					item: "atum:lantern_of_isis"
+				}
+				{
+					id: "4135874FF224B330"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1E3DA883A5467108"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			icon: "atum:montu_godforged_block"
+			x: -30.0d
+			y: -7.0d
+			dependencies: ["79E999027A3EF81F"]
+			id: "70C179FE6E9C083B"
+			tasks: [{
+				id: "78584484F92DC8C9"
+				type: "checkmark"
+				title: "Loot of Montu"
+			}]
+		}
+		{
+			x: -31.5d
+			y: -7.5d
+			subtitle: "Fully charged shots explode on impact."
+			dependencies: ["70C179FE6E9C083B"]
+			id: "58D350B312AB448A"
+			tasks: [{
+				id: "4BBB2A017B23D5C7"
+				type: "item"
+				item: {
+					id: "atum:montus_blast"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0F41E4B88F19D1CD"
+					type: "item"
+					item: "atum:torch_of_montu"
+				}
+				{
+					id: "7A809512F0CE512C"
+					type: "item"
+					item: "atum:lantern_of_montu"
+				}
+				{
+					id: "694B47F992E31E88"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6536C2EEF3582DC3"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -31.5d
+			y: -6.5d
+			subtitle: "Increased Knockback and Area of Effect."
+			dependencies: ["70C179FE6E9C083B"]
+			id: "320BA9B6E6484B8F"
+			tasks: [{
+				id: "27C0BC837F5CF8D8"
+				type: "item"
+				item: {
+					id: "atum:montus_strike"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "35EA330860CC0D3C"
+					type: "item"
+					item: "atum:torch_of_montu"
+				}
+				{
+					id: "6099D6870D409919"
+					type: "item"
+					item: "atum:lantern_of_montu"
+				}
+				{
+					id: "02AF9BF49F7151CA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "595DC5734F24BD36"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: -9.5d
+			subtitle: "Deals double damage to undead foes."
+			dependencies: ["18D1499F27A859AA"]
+			id: "6F4A5F14DEDB6D16"
+			tasks: [{
+				id: "5E148E3798644E66"
+				type: "item"
+				item: {
+					id: "atum:nepthys_banishing"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "01951ED9DB60BF48"
+					type: "item"
+					item: "atum:torch_of_nepthys"
+				}
+				{
+					id: "2139D3492261F36F"
+					type: "item"
+					item: "atum:lantern_of_nepthys"
+				}
+				{
+					id: "2A3D8EB0EDABDE5E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: -8.5d
+			subtitle: "Halfs damage by the undead."
+			dependencies: ["18D1499F27A859AA"]
+			id: "02570E23F8A4848D"
+			tasks: [{
+				id: "648C965D14A41131"
+				type: "item"
+				item: "atum:nepthys_guard"
+			}]
+			rewards: [
+				{
+					id: "3FD6A8CDB6CDD9CE"
+					type: "item"
+					item: "atum:torch_of_nepthys"
+				}
+				{
+					id: "42D544072D9827BB"
+					type: "item"
+					item: "atum:lantern_of_nepthys"
+				}
+				{
+					id: "73BC03245FE4D990"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2203FA59A497AA52"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			icon: "atum:nepthys_godforged_block"
+			x: -15.0d
+			y: -9.0d
+			dependencies: ["79E999027A3EF81F"]
+			id: "18D1499F27A859AA"
+			tasks: [{
+				id: "2FA1809AC901CC0B"
+				type: "checkmark"
+				title: "Loot of Nepthys"
+			}]
+		}
+		{
+			icon: "atum:nuit_godforged_block"
+			x: -30.0d
+			y: -5.5d
+			dependencies: ["79E999027A3EF81F"]
+			id: "17C1AADC13E92DEF"
+			tasks: [{
+				id: "4CF798275CCBE0B4"
+				type: "checkmark"
+				title: "Loot of Nuit"
+			}]
+		}
+		{
+			x: -31.5d
+			y: -5.5d
+			subtitle: "Chance to apply wither to foe on hit or block."
+			dependencies: ["17C1AADC13E92DEF"]
+			id: "0063DB06E9C4D8E2"
+			tasks: [{
+				id: "2554E4A1A6DC7E4B"
+				type: "item"
+				item: {
+					id: "atum:nuits_ire"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4DC0308DFB5B1594"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "54B1EC908070670D"
+					type: "item"
+					item: "atum:torch_of_nuit"
+				}
+				{
+					id: "09D0CD014C4C6079"
+					type: "item"
+					item: "atum:lantern_of_nuit"
+				}
+				{
+					id: "25E457218A9B9BDB"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -30.0d
+			y: -4.0d
+			subtitle: "Chance to apply weakness to foe on hit or block."
+			dependencies: ["17C1AADC13E92DEF"]
+			id: "624D870E713BD28D"
+			tasks: [{
+				id: "7918C905AF5FB3FA"
+				type: "item"
+				item: {
+					id: "atum:nuits_quarter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3E6BE7B109F8CD5D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2F2490830221F7EB"
+					type: "item"
+					item: "atum:torch_of_nuit"
+				}
+				{
+					id: "7E0E5F5EA8710FC1"
+					type: "item"
+					item: "atum:lantern_of_nuit"
+				}
+				{
+					id: "6A913324D4A05544"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -31.5d
+			y: -4.0d
+			subtitle: "Invisibility while not moving."
+			dependencies: ["17C1AADC13E92DEF"]
+			id: "5FB4657D29A59EBA"
+			tasks: [{
+				id: "39DFA82D430CF985"
+				type: "item"
+				item: "atum:nuits_vanishing"
+			}]
+			rewards: [
+				{
+					id: "52E425EB30211868"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "647569CE4D127DC7"
+					type: "item"
+					item: "atum:torch_of_nuit"
+				}
+				{
+					id: "60DC76B28E8530B6"
+					type: "item"
+					item: "atum:lantern_of_nuit"
+				}
+				{
+					id: "37A19243ECEBF41A"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: -7.5d
+			subtitle: "When this hoe tills land, its always fertile, doesnt require water, and grows crops faster."
+			dependencies: ["046BF02582529B90"]
+			id: "47842B570A88AA3B"
+			tasks: [{
+				id: "0A9343B47B4C5B47"
+				type: "item"
+				item: {
+					id: "atum:osiris_blessing"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6991FB94441FC29C"
+					type: "item"
+					item: "atum:torch_of_osiris"
+				}
+				{
+					id: "3A9EEA08CBDD9CEE"
+					type: "item"
+					item: "atum:lantern_of_osiris"
+				}
+				{
+					id: "4A78879BF338CDB7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "74DF02EF2B331486"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: -6.5d
+			subtitle: "On death, you keep your equipment and your active items."
+			dependencies: ["046BF02582529B90"]
+			id: "42E24ADB47DF426F"
+			tasks: [{
+				id: "79DB44561E883A52"
+				type: "item"
+				item: {
+					id: "atum:osiris_mercy"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "20B368CE9F8A09F9"
+					type: "item"
+					item: "atum:torch_of_osiris"
+				}
+				{
+					id: "0D3D150473BA32B9"
+					type: "item"
+					item: "atum:lantern_of_osiris"
+				}
+				{
+					id: "29A6E62FCCA9A0DD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "567531FE1F9E4C49"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			icon: "atum:osiris_godforged_block"
+			x: -15.0d
+			y: -7.0d
+			dependencies: ["79E999027A3EF81F"]
+			id: "046BF02582529B90"
+			tasks: [{
+				id: "2658D2A452E4D7BF"
+				type: "checkmark"
+				title: "Loot of Osiris"
+			}]
+		}
+		{
+			x: -13.5d
+			y: -5.5d
+			subtitle: "Does poison damage."
+			dependencies: ["0C02C15A57F5595D"]
+			id: "6DDE1365F7B48A09"
+			tasks: [{
+				id: "02C4159FF0E383AD"
+				type: "item"
+				item: {
+					id: "atum:seths_sting"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "251ACB8225A9A30E"
+					type: "item"
+					item: "atum:torch_of_seth"
+				}
+				{
+					id: "73587B067CBBDEA4"
+					type: "item"
+					item: "atum:lantern_of_seth"
+				}
+				{
+					id: "78628222E93065DB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "275DAF478900D272"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: -4.0d
+			subtitle: "Does poison damage."
+			dependencies: ["0C02C15A57F5595D"]
+			id: "2587620542FB33FE"
+			tasks: [{
+				id: "1B0D103E20D9FB7B"
+				type: "item"
+				item: {
+					id: "atum:seths_venom"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "19962B6043D79DD9"
+					type: "item"
+					item: "atum:torch_of_seth"
+				}
+				{
+					id: "17AEC289139DAD90"
+					type: "item"
+					item: "atum:lantern_of_seth"
+				}
+				{
+					id: "2D8D2C5DCA3A9CAB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3F9CEAFF8F629EA7"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			icon: "atum:seth_godforged_block"
+			x: -15.0d
+			y: -5.5d
+			dependencies: ["79E999027A3EF81F"]
+			id: "0C02C15A57F5595D"
+			tasks: [{
+				id: "1B31460AC2B68750"
+				type: "checkmark"
+				title: "Loot of Seth"
+			}]
+		}
+		{
+			title: "Taming Desert Wolves"
+			x: -18.5d
+			y: -1.5d
+			subtitle: "Use desert bones to tame desert wolves."
+			dependencies: ["3BF24EEFBBE8951B"]
+			id: "426C64DAEB9AC370"
+			tasks: [{
+				id: "7C3EFB86C1C83BA9"
+				type: "item"
+				item: "atum:dusty_bone"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "1DC29B996089BECF"
+					type: "item"
+					item: "atum:dusty_bone"
+					count: 8
+				}
+				{
+					id: "4641A94B60C2DECF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -17.0d
+			y: -2.5d
+			subtitle: "Protects your Desert Doggo"
+			dependencies: ["426C64DAEB9AC370"]
+			id: "62CF8E3C4A7B87F2"
+			tasks: [{
+				id: "72D14B4CE75B2A7B"
+				type: "item"
+				item: "atum:desert_wolf_iron_armor"
+			}]
+			rewards: [
+				{
+					id: "76A6A39E04A428ED"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "6DFE1DD57B1B9326"
+					type: "item"
+					item: "minecraft:cooked_beef"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -17.0d
+			y: -1.5d
+			subtitle: "Protects your Desert Doggo"
+			dependencies: ["426C64DAEB9AC370"]
+			id: "342E56BA934CBC3E"
+			tasks: [{
+				id: "48F3B08D3590E790"
+				type: "item"
+				item: "atum:desert_wolf_gold_armor"
+			}]
+			rewards: [
+				{
+					id: "7732119491D532F6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "2F0CB5BC52850008"
+					type: "item"
+					item: "minecraft:cooked_beef"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -17.0d
+			y: -0.5d
+			subtitle: "Protects your Desert Doggo"
+			dependencies: ["426C64DAEB9AC370"]
+			id: "24F90F65CE971F9D"
+			tasks: [{
+				id: "1D23B0480F6065B5"
+				type: "item"
+				item: "atum:desert_wolf_diamond_armor"
+			}]
+			rewards: [
+				{
+					id: "64BD2020808B2E03"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0AC4C293890C706E"
+					type: "item"
+					item: "minecraft:cooked_beef"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 16.5d
+			subtitle: "Used to buy and sell items from/to other players."
+			dependencies: ["08BBFFC9038DC958"]
+			id: "57BDDBD32D833B52"
+			tasks: [{
+				id: "0491ED5DB00115A4"
+				type: "item"
+				item: "calemiutils:trading_post"
+			}]
+			rewards: [
+				{
+					id: "248B39818D60AADA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2B82EB850C485778"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			title: "Bank \\& Network Cable"
+			x: -0.5d
+			y: 15.5d
+			subtitle: "Collects money from all connected trade posts."
+			dependencies: ["08BBFFC9038DC958"]
+			id: "0F0A5E1B4D83A95A"
+			tasks: [
+				{
+					id: "371F3822C981E123"
+					type: "item"
+					item: "calemiutils:bank"
+				}
+				{
+					id: "106C869B4D55E030"
+					type: "item"
+					item: "calemiutils:network_cable"
+				}
+			]
+			rewards: [
+				{
+					id: "7F4BBBE6C7E9CF7F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "62DEBE1F1B2BA3EA"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 15.5d
+			subtitle: "Used to locate structures."
+			dependencies: ["2C467A82E19BBC54"]
+			id: "1F605853E1D608B9"
+			tasks: [{
+				id: "5D3C523B488F3A38"
+				type: "item"
+				item: {
+					id: "explorerscompass:explorerscompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "245AAB1EECB9D697"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+	]
+}

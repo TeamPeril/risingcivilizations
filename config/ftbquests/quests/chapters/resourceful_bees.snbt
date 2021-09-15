@@ -1,0 +1,686 @@
+{
+	id: "75C3B8704CF4B38A"
+	group: ""
+	order_index: 4
+	filename: "resourceful_bees"
+	title: "Resourceful Bees"
+	icon: {
+		id: "patchouli:guide_book"
+		Count: 1b
+		tag: {
+			"patchouli:book": "resourcefulbees:fifty_shades_of_bees"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "resourcefulbees:fifty_shades_of_bees"
+				}
+			}
+			x: 0.0d
+			y: -2.0d
+			shape: "gear"
+			subtitle: "Craft the Help Book"
+			id: "6927DF791C670A9B"
+			tasks: [{
+				id: "6C6799630F45AB0E"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "03BDC7C68A21AB4D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "248B61CCC0113547"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "resourcefulbees:fifty_shades_of_bees"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["7D0BE0D675A350BB"]
+			id: "04B025714200567F"
+			tasks: [{
+				id: "7BC0CA6979827884"
+				type: "item"
+				item: "minecraft:honeycomb"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["7D0BE0D675A350BB"]
+			id: "4D5D8E0A8D819AD4"
+			tasks: [{
+				id: "673045B00B5DBC96"
+				type: "item"
+				item: "resourcefulbees:t1_beehive"
+			}]
+			rewards: [
+				{
+					id: "584C9E73CE4334F2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1C35AFCD6B12D83B"
+					type: "item"
+					item: "minecraft:honeycomb"
+					count: 8
+				}
+				{
+					id: "68DDD01B9A45BE9E"
+					type: "item"
+					item: "resourcefulbees:beepedia"
+				}
+				{
+					id: "0E62E609B0986D7F"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["4D5D8E0A8D819AD4"]
+			id: "7037EF56B1807B50"
+			tasks: [{
+				id: "7DB52F86C1D2524B"
+				type: "item"
+				item: "resourcefulbees:t2_beehive"
+			}]
+			rewards: [
+				{
+					id: "6A93E7D51A3356A3"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "5AB34C7A8400A242"
+					type: "item"
+					item: "minecraft:honeycomb"
+					count: 8
+				}
+				{
+					id: "1F957010DE6F92CB"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			dependencies: ["7037EF56B1807B50"]
+			id: "0EDB53334D960629"
+			tasks: [{
+				id: "2F976B084FCAB202"
+				type: "item"
+				item: "resourcefulbees:t3_beehive"
+			}]
+			rewards: [
+				{
+					id: "5DF71BBDF303D4BB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "596DBAE87169361D"
+					type: "item"
+					item: "minecraft:honeycomb"
+					count: 16
+				}
+				{
+					id: "165A6ACE5BD0103E"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			dependencies: ["0EDB53334D960629"]
+			id: "651FC3EBCF16D77E"
+			tasks: [{
+				id: "22DAFE252CC6202C"
+				type: "item"
+				item: "resourcefulbees:t4_beehive"
+			}]
+			rewards: [
+				{
+					id: "3A865A0E3E04D1DD"
+					type: "item"
+					item: "minecraft:honeycomb"
+					count: 16
+				}
+				{
+					id: "70504192A019570E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0DC1C0CA581AF668"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			dependencies: ["04B025714200567F"]
+			id: "27B8BBBE79F51D67"
+			tasks: [{
+				id: "7C53594E1024A67C"
+				type: "item"
+				item: "minecraft:honeycomb_block"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			dependencies: ["04B025714200567F"]
+			id: "468296465CD13F9A"
+			tasks: [{
+				id: "7D6E26E8ABA26145"
+				type: "item"
+				item: "minecraft:honey_bottle"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			dependencies: [
+				"468296465CD13F9A"
+				"27B8BBBE79F51D67"
+			]
+			dependency_requirement: "one_completed"
+			id: "4CF879F017DFA0AB"
+			tasks: [{
+				id: "76083E18339396D8"
+				type: "item"
+				item: "minecraft:honey_block"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			subtitle: "Used to extract resources from honeycomb."
+			dependencies: ["7D0BE0D675A350BB"]
+			id: "78E4FD4775EE60C0"
+			tasks: [{
+				id: "4D003F142E79E242"
+				type: "item"
+				item: "resourcefulbees:mechanical_centrifuge"
+			}]
+			rewards: [
+				{
+					id: "6BFE3CA41DED9FC2"
+					type: "item"
+					item: "resourcefulbees:coal_honeycomb"
+					count: 32
+					only_one: true
+				}
+				{
+					id: "4AF0F5A58AC984D2"
+					type: "item"
+					item: "resourcefulbees:iron_honeycomb"
+					count: 32
+					only_one: true
+				}
+				{
+					id: "55012BE2E6CFD087"
+					type: "item"
+					item: "minecraft:honeycomb"
+					count: 32
+					only_one: true
+				}
+				{
+					id: "52E43BD91D5AC1A3"
+					type: "item"
+					item: "resourcefulbees:rgbee_honeycomb"
+					count: 32
+					only_one: true
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			subtitle: "Using energy, you can automate honeycomb resource extraction."
+			dependencies: ["78E4FD4775EE60C0"]
+			id: "1965DE4B961BF91C"
+			tasks: [{
+				id: "178866A2E70E9386"
+				type: "item"
+				item: "resourcefulbees:centrifuge"
+			}]
+			rewards: [{
+				id: "3FB5D208A905C50E"
+				type: "item"
+				item: "resourcefulbees:diamond_honeycomb"
+				count: 16
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			dependencies: ["651FC3EBCF16D77E"]
+			id: "442DC8B6440D56A2"
+			tasks: [{
+				id: "71FDBC89DFF85F1D"
+				type: "item"
+				item: "resourcefulbees:t1_apiary"
+			}]
+			rewards: [
+				{
+					id: "3F0F2656DE90BB7E"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "01A493CA99224B86"
+					type: "item"
+					item: "minecraft:honeycomb"
+					count: 32
+				}
+				{
+					id: "2203664510FB2063"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 7.5d
+			dependencies: ["442DC8B6440D56A2"]
+			id: "273DFC1DD42FFCB1"
+			tasks: [{
+				id: "1F355A05D3A48424"
+				type: "item"
+				item: "resourcefulbees:t2_apiary"
+			}]
+			rewards: [
+				{
+					id: "74230838EDFF52BA"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "1615D32A8807CCDA"
+					type: "item"
+					item: "minecraft:honeycomb"
+					count: 32
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 7.5d
+			dependencies: ["273DFC1DD42FFCB1"]
+			id: "40160E7E5E1B3BEA"
+			tasks: [{
+				id: "42E1FEBB279A1910"
+				type: "item"
+				item: "resourcefulbees:t3_apiary"
+			}]
+			rewards: [
+				{
+					id: "5848F84F5E9A50B1"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "6B1121BEC820B8B2"
+					type: "item"
+					item: "minecraft:honeycomb"
+					count: 32
+				}
+				{
+					id: "03D6C1548E847573"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 7.5d
+			dependencies: ["40160E7E5E1B3BEA"]
+			id: "2FA4259510957641"
+			tasks: [{
+				id: "196EADD2AAFAACF4"
+				type: "item"
+				item: "resourcefulbees:t4_apiary"
+			}]
+			rewards: [
+				{
+					id: "1865E1F2DF97EF5E"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "2DC3C892F068F73C"
+					type: "item"
+					item: "resourcefulbees:diamond_honeycomb"
+					count: 64
+				}
+				{
+					id: "6431E69485D888B5"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 7.5d
+			dependencies: ["442DC8B6440D56A2"]
+			id: "3B456AEDED35BB40"
+			tasks: [{
+				id: "088270FA9EF3B7EF"
+				type: "item"
+				item: "resourcefulbees:apiary_storage"
+			}]
+			rewards: [
+				{
+					id: "28DB0F6678232D61"
+					type: "item"
+					item: "minecraft:honeycomb"
+					count: 16
+				}
+				{
+					id: "6CD7A933041883AA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 9.0d
+			dependencies: ["442DC8B6440D56A2"]
+			id: "41D4380C6A470E5B"
+			tasks: [{
+				id: "1B77C81D6426D82B"
+				type: "item"
+				item: "resourcefulbees:apiary_breeder"
+			}]
+			rewards: [
+				{
+					id: "09899D37203F899F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3A51D556CCAC4E51"
+					type: "item"
+					item: "minecraft:honey_block"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 10.5d
+			dependencies: ["41D4380C6A470E5B"]
+			id: "14CCAA617213BD1B"
+			tasks: [{
+				id: "34FCA89A7EA27082"
+				type: "item"
+				item: "resourcefulbees:apiary_breeder_upgrade"
+			}]
+			rewards: [{
+				id: "4139FBFD14C5F882"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 1.0d
+			y: 10.5d
+			dependencies: ["41D4380C6A470E5B"]
+			id: "398E16B497A5CE4F"
+			tasks: [{
+				id: "4BF4864F2F1FB7EF"
+				type: "item"
+				item: "resourcefulbees:apiary_breed_time_upgrade"
+			}]
+			rewards: [{
+				id: "2320FF68C4223C72"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -3.0d
+			y: 7.5d
+			dependencies: ["3B456AEDED35BB40"]
+			id: "76CAE8AB3DA149C5"
+			tasks: [{
+				id: "1188499BD69A0F2F"
+				type: "item"
+				item: "resourcefulbees:iron_storage_upgrade"
+			}]
+			rewards: [{
+				id: "2ABBD712BF22857F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -4.5d
+			y: 7.5d
+			dependencies: ["76CAE8AB3DA149C5"]
+			id: "1CFA3897A3B2F84D"
+			tasks: [{
+				id: "41710832682A2421"
+				type: "item"
+				item: "resourcefulbees:gold_storage_upgrade"
+			}]
+			rewards: [{
+				id: "53051B174735BAF5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -6.0d
+			y: 7.5d
+			dependencies: ["1CFA3897A3B2F84D"]
+			id: "17D2035633BEE42E"
+			tasks: [{
+				id: "7DCD758F084A963C"
+				type: "item"
+				item: "resourcefulbees:diamond_storage_upgrade"
+			}]
+			rewards: [{
+				id: "6A79A69D0D2F0DDE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -7.5d
+			y: 7.5d
+			dependencies: ["17D2035633BEE42E"]
+			id: "493EDAFE5144F6AB"
+			tasks: [{
+				id: "74AEFE949A36E220"
+				type: "item"
+				item: "resourcefulbees:emerald_storage_upgrade"
+			}]
+			rewards: [{
+				id: "55A9C621A898812D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Multi-Block Centrifuge"
+			x: -6.0d
+			y: 0.0d
+			subtitle: "Use the Help Book to Construct."
+			dependencies: ["1965DE4B961BF91C"]
+			id: "2DF9BE46633DF8D3"
+			tasks: [
+				{
+					id: "7A969088CFC0D6FF"
+					type: "item"
+					item: "resourcefulbees:centrifuge_controller"
+				}
+				{
+					id: "603696CF9B4B173D"
+					type: "item"
+					item: "resourcefulbees:centrifuge_casing"
+					count: 35L
+				}
+			]
+			rewards: [{
+				id: "46829A1F0FC21BF9"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+		}
+		{
+			title: "Bee Catcher"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Craft Empty Jars to Catch Bees."
+			description: ["Right click a bee with the jar to catch it."]
+			dependencies: ["6927DF791C670A9B"]
+			id: "7D0BE0D675A350BB"
+			tasks: [{
+				id: "3912EFB301741B8A"
+				type: "item"
+				item: "resourcefulbees:bee_jar"
+				count: 8L
+			}]
+			rewards: [{
+				id: "677E43C133686368"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			subtitle: "Can be used to generate power from honey."
+			dependencies: ["468296465CD13F9A"]
+			id: "284BF6CBE1AC1248"
+			tasks: [{
+				id: "6BFA0CC0ACF0097F"
+				type: "item"
+				item: "resourcefulbees:honey_generator"
+			}]
+			rewards: [
+				{
+					id: "3C31234B7BCD367E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "144EB786E1C7E820"
+					type: "item"
+					item: "minecraft:honey_bottle"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 2.5d
+			subtitle: "Turns honey into blocks."
+			description: ["When rightclicked with a honey bucket or piped into directly, it can turn honey into blocks."]
+			dependencies: ["468296465CD13F9A"]
+			id: "469AADA0EF5FF055"
+			tasks: [{
+				id: "66A61D0CA135D7E2"
+				type: "item"
+				item: "resourcefulbees:honey_congealer"
+			}]
+			rewards: [
+				{
+					id: "40CBB0A066033EB8"
+					type: "item"
+					item: "minecraft:honey_block"
+				}
+				{
+					id: "2D4F80557421C1A9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			subtitle: "Stores 8 Buckets of Liquid Honey."
+			description: [""]
+			dependencies: ["468296465CD13F9A"]
+			id: "5AF14F5149DA0CF6"
+			tasks: [{
+				id: "28716DDD69590A9F"
+				type: "item"
+				item: "resourcefulbees:wooden_honey_tank"
+			}]
+			rewards: [{
+				id: "32A12C3478388EC6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			subtitle: "Stores 32 Buckets of Liquid Honey."
+			dependencies: ["5AF14F5149DA0CF6"]
+			id: "4E4EC3C4E69130A8"
+			tasks: [{
+				id: "2F39158CA7D81502"
+				type: "item"
+				item: "resourcefulbees:nether_honey_tank"
+			}]
+			rewards: [{
+				id: "069C2897DF78BF82"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.5d
+			subtitle: "Stores 128 Buckets of Liquid Honey."
+			dependencies: ["4E4EC3C4E69130A8"]
+			id: "3CC65CB917CAECA6"
+			tasks: [{
+				id: "605FF9FBC675C4B3"
+				type: "item"
+				item: "resourcefulbees:purpur_honey_tank"
+			}]
+			rewards: [{
+				id: "618410F38C5CB245"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+	]
+}
