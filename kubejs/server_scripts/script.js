@@ -27,24 +27,24 @@ onEvent('recipes', event => {
   event.remove({id: 'upgradednetherite:ender_upgraded_netherite_pearl_smithing'})
   
   //Remove OP Rat Stuff
-  event.remove({id: 'rats:rat_upgrade_god'})
-  event.remove({id: 'rats:ratlantis_helmet'}) 
-  event.remove({id: 'rats:ratlantis_chestplate'})
-  event.remove({id: 'rats:ratlantis_leggings'})
-  event.remove({id: 'rats:ratlantis_boots'})
-  event.remove({id: 'rats:ratlantis_sword'})  
-  event.remove({id: 'rats:ratlantis_pickaxe'})
-  event.remove({id: 'rats:ratlantis_shovel'})
-  event.remove({id: 'rats:ratlantis_axe'})
-  event.remove({id: 'rats:ratlantis_hoe'})
-  event.remove({id: 'rats:ratlantis_bow'})
+  //event.remove({id: 'rats:rat_upgrade_god'})
+  //event.remove({id: 'rats:ratlantis_helmet'}) 
+  //event.remove({id: 'rats:ratlantis_chestplate'})
+  //event.remove({id: 'rats:ratlantis_leggings'})
+  //event.remove({id: 'rats:ratlantis_boots'})
+  //event.remove({id: 'rats:ratlantis_sword'})  
+  //event.remove({id: 'rats:ratlantis_pickaxe'})
+  //event.remove({id: 'rats:ratlantis_shovel'})
+  //event.remove({id: 'rats:ratlantis_axe'})
+  //event.remove({id: 'rats:ratlantis_hoe'})
+  //event.remove({id: 'rats:ratlantis_bow'})
   
   //Energy
   event.remove({id: 'mekanism:upgrade/energy'})
   
   //Get rid of Assorted Veggies
-  event.remove({id: 'rats:assorted_vegetables'})
-  event.remove({id: 'rats:little_black_worm'})
+  //event.remove({id: 'rats:assorted_vegetables'})
+  //event.remove({id: 'rats:little_black_worm'})
   
   //Get rid of mekanism meka armor & upgrades
   event.remove({id: 'mekanism:mekasuit_helmet'})
@@ -116,31 +116,31 @@ onEvent('recipes', event => {
   event.replaceInput({id: 'calemiutils:blocks/mob_beacon'}, 'minecraft:iron_sword', 'minecraft:diamond')
   
   //Make Ratlantis Coin Craftable
-  event.remove({id: 'rats:chunky_cheese_token'})
-  event.recipes.create.mixing('rats:nether_cheese', [
-  'rats:cheese',
-  'minecraft:nether_star',
-  Fluid.of('create:potion', 500, {Potion:"minecraft:fire_resistance"}),
-  Fluid.of('minecraft:lava', 500)
-  ]).superheated()
+  //event.remove({id: 'rats:chunky_cheese_token'})
+  //event.recipes.create.mixing('rats:nether_cheese', [
+  //'rats:cheese',
+  //'minecraft:nether_star',
+  //Fluid.of('create:potion', 500, {Potion:"minecraft:fire_resistance"}),
+  //Fluid.of('minecraft:lava', 500)
+  //]).superheated()
   
-  event.recipes.create.mixing('rats:blue_cheese', [
-  'rats:cheese',
-  'minecraft:blue_ice'
-  ])
+  //event.recipes.create.mixing('rats:blue_cheese', [
+  //'rats:cheese',
+  //'minecraft:blue_ice'
+  //])
   
-  event.shaped('1x rats:chunky_cheese_token', [
-    'ECE',
-    'NTB',
-    'EUE'
-  ], {
-    T: 'rats:token_piece',
-	N: 'rats:nether_cheese',
-	B: 'rats:blue_cheese',
-	E: 'minecraft:ender_eye',
-	C: 'rats:corrupt_rat_skull',
-	U: 'minecraft:totem_of_undying'
-  })
+  //event.shaped('1x rats:chunky_cheese_token', [
+    //'ECE',
+    //'NTB',
+    //'EUE'
+  //], {
+    //T: 'rats:token_piece',
+	//N: 'rats:nether_cheese',
+	//B: 'rats:blue_cheese',
+	//E: 'minecraft:ender_eye',
+	//C: 'rats:corrupt_rat_skull',
+	//U: 'minecraft:totem_of_undying'
+  //})
   
   //Replace Recipies For Mekanism Energy Producing Machines
   event.replaceInput({id: 'mekanismgenerators:generator/heat'}, 'mekanism:ingot_osmium', 'create:refined_radiance')

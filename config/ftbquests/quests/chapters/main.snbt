@@ -3376,8 +3376,8 @@
 			}]
 		}
 		{
-			x: -25.5d
-			y: 17.0d
+			x: -22.5d
+			y: 15.5d
 			subtitle: "Used to create various tools."
 			dependencies: ["79D27E1857D7B6C5"]
 			id: "001FB660A30ADEE7"
@@ -3394,8 +3394,8 @@
 		}
 		{
 			title: "Knightmetal Armor"
-			x: -25.5d
-			y: 18.5d
+			x: -21.0d
+			y: 15.5d
 			subtitle: "High protection and durability armor."
 			dependencies: ["001FB660A30ADEE7"]
 			id: "6D52DD21CD358336"
@@ -3452,8 +3452,8 @@
 			}]
 		}
 		{
-			x: -24.0d
-			y: 17.0d
+			x: -22.5d
+			y: 14.0d
 			subtitle: "Extra damage to armored foes."
 			dependencies: ["001FB660A30ADEE7"]
 			id: "54C862E27F8999D0"
@@ -3475,8 +3475,8 @@
 			}]
 		}
 		{
-			x: -24.0d
-			y: 18.5d
+			x: -21.0d
+			y: 14.0d
 			subtitle: "High durability shield."
 			dependencies: ["001FB660A30ADEE7"]
 			id: "47293EAAF1C25F53"
@@ -3498,8 +3498,8 @@
 			}]
 		}
 		{
-			x: -27.0d
-			y: 18.5d
+			x: -24.0d
+			y: 14.0d
 			subtitle: "A beast mid-range weapon capable of doing high damage and breaking blocks."
 			dependencies: ["001FB660A30ADEE7"]
 			id: "22D925BB009E8D79"
@@ -5272,6 +5272,100 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+		}
+		{
+			x: 0.0d
+			y: 21.0d
+			subtitle: "The ultimate tool for breaking down entire trees."
+			description: ["This tool is the result of drunk engineering and a need for fast and effective destruction."]
+			dependencies: ["656C4565E976C460"]
+			id: "33734BB16442380D"
+			tasks: [{
+				id: "5634C48F76D37B1D"
+				type: "item"
+				item: {
+					id: "dynamaxe:dynamaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1A83C765A7CCCD1E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "31DD594D7470BBFF"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "The Everbright"
+			icon: "blue_skies:everbright_portal"
+			x: -18.5d
+			y: 21.0d
+			subtitle: "Quest line is work in progress."
+			description: ["The Everbright is a realm of eternal day and frigid cold. Home to large beasts and ethereal mobs, you’ll need to keep an eye on your back as you traverse through this world. Be sure to watch out for snow storms that bring thick fog and more enemies than usual. As you explore, you’ll encounter the Summoner’s Blinding Dungeon and the new Nature Dungeon, home of the Starlit Crusher."]
+			dependencies: ["70BE0C8FE5726B1F"]
+			id: "616AC808761A7B6D"
+			tasks: [{
+				id: "0DF434C6B29D77D0"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "155D943447EC744A"
+					type: "item"
+					item: "blue_skies:everbright_portal"
+				}
+				{
+					id: "7B4152C01B88AAC9"
+					type: "item"
+					item: "blue_skies:blue_journal"
+				}
+				{
+					id: "00BA24F9735A03D7"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			title: "The Everdawn"
+			icon: "blue_skies:everdawn_portal"
+			x: -20.5d
+			y: 21.0d
+			subtitle: "Quest line is work in progress."
+			description: ["The Everdawn has its sun forever rising. With this being a much more humid and warm world, insects and reptiles flourish. Before entering, it’s worth preparing for poison and fire as many parts of this world may inflict those on you. Venture across this diverse landscape to uncover the Alchemist’s Blinding Dungeon and then the new Poison Dungeon, lair of the Arachnarch."]
+			dependencies: ["70BE0C8FE5726B1F"]
+			id: "7F279364753F94EA"
+			tasks: [{
+				id: "718613D4F6A31CBE"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "319B8DD4F3DBE006"
+					type: "item"
+					item: "blue_skies:everdawn_portal"
+				}
+				{
+					id: "05DFE50D3790DFFC"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 		}
 	]
 }
