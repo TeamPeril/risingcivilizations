@@ -66,7 +66,7 @@
 	#
 	#RF/t consumed by the centrifuge when processing recipes. Mutliblock Centrifuge cuts this value in half.
 	#Range: 2 ~ 1000
-	centrifugeRfPerTick = 1000
+	centrifugeRfPerTick = 100
 	#
 	#Amount of hunger the player uses per click on mechanical centrifuge.
 	#Range: 0.0 ~ 1.0

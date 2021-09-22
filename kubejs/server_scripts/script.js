@@ -10,10 +10,7 @@ console.info('Hello, World! (You will see this line every time server resources 
 onEvent('recipes', event => {
   // Change recipes here
   
-  //Item Banning--------------------------------------------------
-  
-  //Remove Create Block Zapper because it can cause crashes
-  event.remove({id: 'create:crafting/curiosities/handheld_blockzapper'})
+  //--------------------------------------Item Banning Start
   
   //Remove OP Witherskeleton Tweaks Items
   event.remove({mod:'wstweaks', input: 'wstweaks:lava_blade'})
@@ -26,25 +23,8 @@ onEvent('recipes', event => {
   event.remove({output: 'upgradednetherite:corrupt_upgraded_netherite_ingot'})
   event.remove({id: 'upgradednetherite:ender_upgraded_netherite_pearl_smithing'})
   
-  //Remove OP Rat Stuff
-  //event.remove({id: 'rats:rat_upgrade_god'})
-  //event.remove({id: 'rats:ratlantis_helmet'}) 
-  //event.remove({id: 'rats:ratlantis_chestplate'})
-  //event.remove({id: 'rats:ratlantis_leggings'})
-  //event.remove({id: 'rats:ratlantis_boots'})
-  //event.remove({id: 'rats:ratlantis_sword'})  
-  //event.remove({id: 'rats:ratlantis_pickaxe'})
-  //event.remove({id: 'rats:ratlantis_shovel'})
-  //event.remove({id: 'rats:ratlantis_axe'})
-  //event.remove({id: 'rats:ratlantis_hoe'})
-  //event.remove({id: 'rats:ratlantis_bow'})
-  
   //Energy
   event.remove({id: 'mekanism:upgrade/energy'})
-  
-  //Get rid of Assorted Veggies
-  //event.remove({id: 'rats:assorted_vegetables'})
-  //event.remove({id: 'rats:little_black_worm'})
   
   //Get rid of mekanism meka armor & upgrades
   event.remove({id: 'mekanism:mekasuit_helmet'})
@@ -105,43 +85,9 @@ onEvent('recipes', event => {
   
   event.remove({id: 'calemiutils:blocks/book_stand'})
   event.remove({id: 'calemiutils:tools/link_book_location'})
-  //-------------------------------------------------------------------
+  //--------------------------------------Item Banning End
   
-  //Remove Recipe for Chunk Loader so its not spamable
-  event.remove({id: 'weirdinggadget:weirding_gadget'})
-  
-  
-  //Replace Calemi Recipes
-  event.replaceInput({id: 'calemiutils:ingredients/motor'}, 'minecraft:redstone', 'create:precision_mechanism')
-  event.replaceInput({id: 'calemiutils:blocks/mob_beacon'}, 'minecraft:iron_sword', 'minecraft:diamond')
-  
-  //Make Ratlantis Coin Craftable
-  //event.remove({id: 'rats:chunky_cheese_token'})
-  //event.recipes.create.mixing('rats:nether_cheese', [
-  //'rats:cheese',
-  //'minecraft:nether_star',
-  //Fluid.of('create:potion', 500, {Potion:"minecraft:fire_resistance"}),
-  //Fluid.of('minecraft:lava', 500)
-  //]).superheated()
-  
-  //event.recipes.create.mixing('rats:blue_cheese', [
-  //'rats:cheese',
-  //'minecraft:blue_ice'
-  //])
-  
-  //event.shaped('1x rats:chunky_cheese_token', [
-    //'ECE',
-    //'NTB',
-    //'EUE'
-  //], {
-    //T: 'rats:token_piece',
-	//N: 'rats:nether_cheese',
-	//B: 'rats:blue_cheese',
-	//E: 'minecraft:ender_eye',
-	//C: 'rats:corrupt_rat_skull',
-	//U: 'minecraft:totem_of_undying'
-  //})
-  
+  //--------------------------------------Mekanism Start
   //Replace Recipies For Mekanism Energy Producing Machines
   event.replaceInput({id: 'mekanismgenerators:generator/heat'}, 'mekanism:ingot_osmium', 'create:refined_radiance')
   event.replaceInput({id: 'mekanismgenerators:generator/solar'}, '#forge:ingots/iron', 'create:refined_radiance')
@@ -158,22 +104,6 @@ onEvent('recipes', event => {
 	B: 'mekanism:basic_control_circuit',
 	O: 'mekanism:ingot_osmium'
   })
-  
-  //Replace Recipe for Apirary
-  event.remove({id: 'resourcefulbees:t1_apiary'})  
-  event.shaped('1x resourcefulbees:t1_apiary', [
-    'PHP',
-    'HNH',
-    'PHP'
-  ], {
-    P: 'minecraft:purpur_block',
-	N: 'minecraft:nether_star',
-	H: 'resourcefulbees:t4_beehive'
-  })
-  
-  
-  //Replace Recipe for honey generator
-  event.replaceInput({id: 'resourcefulbees:honey_generator'}, 'minecraft:redstone', 'create:refined_radiance')
   
   //Replace Recipies For Mekanism utility Machines
   event.replaceInput({id: 'mekanism:steel_casing'}, 'mekanism:ingot_osmium', 'create:precision_mechanism')
@@ -198,12 +128,12 @@ onEvent('recipes', event => {
   event.remove({id: 'mekanism:upgrade/speed'})
   event.shaped('1x mekanism:upgrade_speed', [
     'HUH',
-    'HDH',
+    'HGH',
     'HUH'
   ], {
-    U: 'mekanism:ultimate_control_circuit',
+    U: 'mekanism:advanced_control_circuit',
 	H: 'mekanism:hdpe_sheet',
-	D: 'minecraft:diamond_block'
+	G: 'minecraft:gold_ingot'
   })
   
   //Filter
@@ -213,7 +143,7 @@ onEvent('recipes', event => {
     'HFH',
     'HUH'
   ], {
-    U: 'mekanism:ultimate_control_circuit',
+    U: 'mekanism:advanced_control_circuit',
 	H: 'mekanism:hdpe_sheet',
 	F: 'create:attribute_filter'
   })
@@ -225,7 +155,7 @@ onEvent('recipes', event => {
     'HWH',
     'HUH'
   ], {
-    U: 'mekanism:ultimate_control_circuit',
+    U: 'mekanism:advanced_control_circuit',
 	H: 'mekanism:hdpe_sheet',
 	W: '#forge:wool'
   })
@@ -237,12 +167,12 @@ onEvent('recipes', event => {
     'HRH',
     'HUH'
   ], {
-    U: 'mekanism:ultimate_control_circuit',
+    U: 'mekanism:advanced_control_circuit',
 	H: 'mekanism:hdpe_sheet',
 	R: 'minecraft:redstone_block'
   })
   
-  //Gas
+  //Anchor
   event.remove({id: 'mekanism:upgrade/anchor'})
   event.shaped('1x mekanism:upgrade_anchor', [
     'HUH',
@@ -300,10 +230,33 @@ onEvent('recipes', event => {
   //Recipie Compatability between create and mekanism  
   event.recipes.mekanism.crushing('create:cinder_flour', 'minecraft:netherrack')
   
-  //Replace Recipies for Land Claiming
-  event.replaceInput({id: 'craftabledeeds:deed_pedestal'}, 'minecraft:netherite_ingot', 'minecraft:obsidian')
-  event.replaceInput({id: 'craftabledeeds:deed_pedestal'}, 'minecraft:gold_ingot', 'minecraft:gold_block')
+  //--------------------------------------Mekanism End
   
+  //--------------------------------------Resourceful Bees Start
+  //Replace Recipe for Apirary
+  event.remove({id: 'resourcefulbees:t1_apiary'})  
+  event.shaped('1x resourcefulbees:t1_apiary', [
+    'PHP',
+    'HNH',
+    'PHP'
+  ], {
+    P: 'minecraft:purpur_block',
+	N: 'minecraft:nether_star',
+	H: 'resourcefulbees:t4_beehive'
+  })
+  
+  
+  //Replace Recipe for honey generator
+  event.replaceInput({id: 'resourcefulbees:honey_generator'}, 'minecraft:redstone', 'create:refined_radiance')
+  //--------------------------------------Resourceful Bees End
+  
+  
+
+  //--------------------------------------Create Start
+  
+  //Replace Recipe for Bread
+  event.remove({type:'minecraft:crafting_shaped', id:'minecraft:bread'}) 
+  event.shapeless('1x create:dough', '3x minecraft:wheat')
   //Create recipie for name tags
   event.remove({id: 'minecraft:name_tag'})
   event.remove({id: 'craftable_saddles:nametag'})
@@ -316,10 +269,87 @@ onEvent('recipes', event => {
 	P: 'minecraft:paper'
   })
   
-  //Replace Recipe for Bread
-  event.remove({type:'minecraft:crafting_shaped', id:'minecraft:bread'}) 
-  event.shapeless('1x create:dough', '3x minecraft:wheat')
+  //Create Recipie Replacement
+  event.replaceInput({mod: 'create'}, 'create:powdered_obsidian', '#forge:dusts/obsidian')
+  //--------------------------------------Create End
   
+  //--------------------------------------Stone Cutting Support Start
+  //Cream bricks and Cream stone bricks
+  event.stonecutting('2x structurize:cream_brick_slab', 'structurize:cream_bricks')
+  event.stonecutting('structurize:cream_brick_stairs', 'structurize:cream_bricks')
+  event.stonecutting('structurize:cream_brick_wall', 'structurize:cream_bricks')
+  event.stonecutting('2x structurize:cream_stone_brick_slab', 'structurize:cream_stone_bricks')
+  event.stonecutting('structurize:cream_stone_brick_stairs', 'structurize:cream_stone_bricks')
+  event.stonecutting('structurize:cream_stone_brick_wall', 'structurize:cream_stone_bricks')
+  
+  //Sandstone variations from chisel (because you cannot use the chisel for it)
+  event.stonecutting('chisel:sandstone/cracked', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/solid_bricks', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/small_bricks', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/soft_bricks', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/cracked_bricks', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/triple_bricks', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/encased_bricks', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/chaotic_bricks', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/array', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/tiles_medium', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/tiles_large', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/tiles_small', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/chaotic_medium', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/chaotic_small', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/braid', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/dent', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/french_1', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/french_2', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/jellybean', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/layers', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/mosaic', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/ornate', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/panel', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/road', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/slanted', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/road', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/zag', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/circular', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/circularct', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/weaver', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/pillar', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/twisted', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/prism', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/cuts', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/extra/bevel_creeper', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/extra/glyphs', 'minecraft:sandstone')
+  event.stonecutting('chisel:sandstone/extra/small', 'minecraft:sandstone')
+  
+  //Emerald variations from chisel (because you cannot use the chisel for it)
+  event.stonecutting('chisel:emerald/panel', 'minecraft:emerald_block')
+  event.stonecutting('chisel:emerald/panelclassic', 'minecraft:emerald_block')
+  event.stonecutting('chisel:emerald/smooth', 'minecraft:emerald_block')
+  event.stonecutting('chisel:emerald/chunk', 'minecraft:emerald_block')
+  event.stonecutting('chisel:emerald/panel', 'minecraft:emerald_block')
+  event.stonecutting('chisel:emerald/goldborder', 'minecraft:emerald_block')
+  event.stonecutting('chisel:emerald/zelda', 'minecraft:emerald_block')
+  event.stonecutting('chisel:emerald/cell', 'minecraft:emerald_block')
+  event.stonecutting('chisel:emerald/cellbismuth', 'minecraft:emerald_block')
+  event.stonecutting('chisel:emerald/four', 'minecraft:emerald_block')
+  event.stonecutting('chisel:emerald/fourornate', 'minecraft:emerald_block')
+  event.stonecutting('chisel:emerald/ornate', 'minecraft:emerald_block')
+  event.stonecutting('chisel:emerald/masonryemerald', 'minecraft:emerald_block')
+  event.stonecutting('chisel:emerald/emeraldcircle', 'minecraft:emerald_block')
+  event.stonecutting('chisel:emerald/emeraldprismatic', 'minecraft:emerald_block')
+  //--------------------------------------Stone Cutting Support End
+  
+  //Remove Recipe for Chunk Loader so its not spamable
+  event.remove({id: 'weirdinggadget:weirding_gadget'})
+  
+  
+  //Replace Calemi Recipes
+  event.replaceInput({id: 'calemiutils:ingredients/motor'}, 'minecraft:redstone', 'create:precision_mechanism')
+  event.replaceInput({id: 'calemiutils:blocks/mob_beacon'}, 'minecraft:iron_sword', 'minecraft:diamond')
+  
+  //Replace Recipies for Land Claiming
+  event.replaceInput({id: 'craftabledeeds:deed_pedestal'}, 'minecraft:netherite_ingot', 'minecraft:obsidian')
+  event.replaceInput({id: 'craftabledeeds:deed_pedestal'}, 'minecraft:gold_ingot', 'minecraft:gold_block')
   
   //Cobbled Deepslater  
   event.stonecutting('caves_and_cliffs_mod:cobbled_deepslate_stairs', 'caves_and_cliffs_mod:cobbled_deepslate')
@@ -351,8 +381,7 @@ onEvent('recipes', event => {
   //Deepslate Cobble to Deepslate
   event.smelting('1x caves_and_cliffs_mod:deepslate', 'caves_and_cliffs_mod:cobbled_deepslate')
   
-  //Create Recipie Replacement
-  event.replaceInput({mod: 'create'}, 'create:powdered_obsidian', '#forge:dusts/obsidian')
+  
   
   //Replace Gun Workbench Recipe
   event.remove({id: 'cgm:workbench'})
