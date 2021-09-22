@@ -69,7 +69,7 @@
 		#How much energy is produced per mB of Hydrogen, also affects Electrolytic Separator usage, Ethylene burn rate and Gas generator energy capacity.
 		HydrogenEnergyDensity = "200"
 		#Burn time for Ethylene (1mB hydrogen + 2*bioFuel/tick*200ticks/100mB * 20x efficiency bonus).
-		EthyleneBurnTime = 10
+		EthyleneBurnTime = 40
 		#Maximum Joules per mB of Steam. Also affects Thermoelectric Boiler.
 		maxEnergyPerSteam = "10"
 		#Displayed energy type in Mekanism GUIs.
