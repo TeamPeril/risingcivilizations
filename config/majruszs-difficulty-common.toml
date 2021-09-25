@@ -581,7 +581,7 @@
 	player_scale = 0.5
 	#Required amount of killed undead to start the Undead Army.
 	#Range: 10 ~ 1000
-	kill_requirement = 30
+	kill_requirement = 45
 	#Time between waves. (in seconds) (requires game/world restart!) 
 	#Range: 3.0 ~ 60.0
 	time_between_waves = 60.0
