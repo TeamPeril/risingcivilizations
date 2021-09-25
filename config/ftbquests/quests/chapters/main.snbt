@@ -2333,8 +2333,11 @@
 		}
 		{
 			title: "Kill The Enderdragon"
+			icon: "minecraft:dragon_head"
 			x: -12.5d
 			y: 27.0d
+			shape: "octagon"
+			subtitle: "Go to the end and kill the Ender Dragon!"
 			dependencies: ["16D6856CBD466A7F"]
 			id: "7AD2834D795BB7B3"
 			tasks: [{
@@ -2354,9 +2357,20 @@
 					item: "calemiutils:money_bag_rich"
 				}
 				{
-					id: "7EF27A4370EE68DF"
+					id: "599E9911DF2E062E"
 					type: "item"
-					item: "weirdinggadget:weirding_gadget"
+					item: "chunkloaders:basic_chunk_loader"
+				}
+				{
+					id: "3923D19F46E0FEED"
+					type: "item"
+					item: "majruszs_difficulty:golden_bandage"
+					count: 5
+				}
+				{
+					id: "2CD2A99A657CE427"
+					type: "item"
+					item: "minecraft:enchanted_golden_apple"
 				}
 			]
 		}
@@ -5366,6 +5380,810 @@
 					xp_levels: 2
 				}
 			]
+		}
+		{
+			title: "Thallasium"
+			icon: "betterendforge:thallasium_ore"
+			x: -18.0d
+			y: 29.0d
+			subtitle: "An ore found on the end."
+			dependencies: ["7AD2834D795BB7B3"]
+			id: "1F10C28D1EC6DC7A"
+			tasks: [{
+				id: "6CBBC08F6A177989"
+				type: "item"
+				item: "betterendforge:thallasium_ingot"
+			}]
+			rewards: [{
+				id: "48910883A397DAB2"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			icon: "betterendforge:ender_ore"
+			x: -14.0d
+			y: 29.0d
+			subtitle: "An ore found on the end."
+			dependencies: ["7AD2834D795BB7B3"]
+			id: "088B327504334A5C"
+			tasks: [{
+				id: "30076479AC002009"
+				type: "item"
+				item: "betterendforge:ender_shard"
+			}]
+			rewards: [{
+				id: "6075157933D7E639"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "End Shard"
+			icon: "majruszs_difficulty:end_shard_ore"
+			x: -9.5d
+			y: 29.0d
+			subtitle: "An ore found on the end."
+			dependencies: ["7AD2834D795BB7B3"]
+			id: "78674DAE16EB2528"
+			tasks: [{
+				id: "7A7ADCFAAFECD92F"
+				type: "item"
+				item: "majruszs_difficulty:end_shard"
+			}]
+			rewards: [{
+				id: "0561E2889D198D07"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			icon: "quark:biotite_ore"
+			x: -11.0d
+			y: 34.5d
+			subtitle: "An ore found on the end."
+			dependencies: ["7AD2834D795BB7B3"]
+			id: "27BA0F0B96446983"
+			tasks: [{
+				id: "3F4FB8A1F0B904B1"
+				type: "item"
+				item: "quark:biotite"
+			}]
+			rewards: [{
+				id: "740D375465882A71"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -9.5d
+			y: 31.0d
+			dependencies: ["78674DAE16EB2528"]
+			id: "0D347CA08ADF4262"
+			tasks: [{
+				id: "3BDCD27D0BDC4C22"
+				type: "item"
+				item: "majruszs_difficulty:end_ingot"
+			}]
+			rewards: [{
+				id: "233081F78B1E8D2E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -12.5d
+			y: 32.5d
+			subtitle: "Use an enderpearl to travel beyond the end island."
+			description: ["Locate the small pillar-like structure floating on the end island. Build up to this structure, then throw an enderpearl into it's core. Adventure awaits..."]
+			dependencies: ["7AD2834D795BB7B3"]
+			id: "6EC9917F54FAEAA6"
+			tasks: [{
+				id: "0B3F75B23F73726B"
+				type: "checkmark"
+				title: "Travel Beyond the Island"
+			}]
+			rewards: [{
+				id: "513EDE86C9613F8C"
+				type: "item"
+				item: "betterendforge:guidebook"
+			}]
+		}
+		{
+			title: "Thallasium Armor"
+			x: -20.0d
+			y: 29.0d
+			subtitle: "Armor that provides less protection than Iron."
+			dependencies: ["1F10C28D1EC6DC7A"]
+			id: "7B0B06804F094ADF"
+			tasks: [
+				{
+					id: "5AE308834B15B005"
+					type: "item"
+					item: {
+						id: "betterendforge:thallasium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "71B7AC780E8D79AC"
+					type: "item"
+					item: {
+						id: "betterendforge:thallasium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5634356B90157670"
+					type: "item"
+					item: {
+						id: "betterendforge:thallasium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "022C2962ADC122A4"
+					type: "item"
+					item: {
+						id: "betterendforge:thallasium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "08C77D20D89F59D9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Thallasium Tools"
+			x: -16.5d
+			y: 31.0d
+			dependencies: ["092DD143AF7DF4C4"]
+			id: "654D41F8D8EC58F4"
+			tasks: [
+				{
+					id: "43B7A86254C2BF19"
+					type: "item"
+					item: {
+						id: "betterendforge:thallasium_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6CF6CCF0BA97B83B"
+					type: "item"
+					item: {
+						id: "betterendforge:thallasium_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "70DFCF11A71E14E0"
+					type: "item"
+					item: {
+						id: "betterendforge:thallasium_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "324B43CE978EED43"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -16.0d
+			y: 29.0d
+			subtitle: "A tool used to craft things such as tools and ender dust."
+			dependencies: ["1F10C28D1EC6DC7A"]
+			id: "092DD143AF7DF4C4"
+			tasks: [{
+				id: "4D270BC4AE282F1A"
+				type: "item"
+				item: {
+					id: "betterendforge:thallasium_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "09D4FEF5ACBE6194"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -14.0d
+			y: 31.0d
+			subtitle: "An essential crafting component."
+			dependencies: [
+				"088B327504334A5C"
+				"092DD143AF7DF4C4"
+			]
+			id: "57037ED75EEF34BD"
+			tasks: [{
+				id: "599A14EE171B0FBB"
+				type: "item"
+				item: "betterendforge:ender_dust"
+			}]
+			rewards: [{
+				id: "113946DB69C87CD8"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "Aurora Crystals"
+			icon: "betterendforge:aurora_crystal"
+			x: -14.0d
+			y: 32.5d
+			subtitle: "Vibrant and multi-colored crystals that can be found in the outer-end islands. They spawn in clusters and are considerably large."
+			dependencies: [
+				"6EC9917F54FAEAA6"
+				"57037ED75EEF34BD"
+			]
+			id: "1C66ED97ABFBF68C"
+			tasks: [{
+				id: "05E96C4D5E003391"
+				type: "item"
+				item: "betterendforge:crystal_shards"
+			}]
+			rewards: [{
+				id: "784F1B17A6EC3D5A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -18.0d
+			y: 31.0d
+			subtitle: "Can be used to turn 2 ore into 3 ingots or make alloys."
+			dependencies: ["1F10C28D1EC6DC7A"]
+			id: "6E28095832F04D6A"
+			tasks: [{
+				id: "2A5323FB10EEBB4C"
+				type: "item"
+				item: "betterendforge:end_stone_smelter"
+			}]
+			rewards: [{
+				id: "116805DAE2F3814D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -18.0d
+			y: 32.5d
+			dependencies: ["6E28095832F04D6A"]
+			id: "39992FAA7449F053"
+			tasks: [{
+				id: "3AA8FB9EA65C45D1"
+				type: "item"
+				item: "betterendforge:terminite_ingot"
+			}]
+			rewards: [{
+				id: "1C3DCB05D678BA84"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -20.0d
+			y: 31.0d
+			dependencies: ["6E28095832F04D6A"]
+			id: "4E3FBF069862E6CB"
+			tasks: [{
+				id: "7B0E80B2137F652C"
+				type: "item"
+				item: "betterendforge:aeternium_ingot"
+			}]
+			rewards: [{
+				id: "7FCE13D0486299ED"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "Terminite Armor"
+			x: -17.5d
+			y: 34.5d
+			subtitle: "Armor that is 1 armor point less than diamond."
+			dependencies: ["39992FAA7449F053"]
+			id: "51653268FAA4366F"
+			tasks: [
+				{
+					id: "37751CB3F13CBBBC"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7E92483FFA2BB2C3"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "79B72344EBA41159"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6619226BE432FEAF"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5B21A1358C238F7E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -18.5d
+			y: 34.5d
+			subtitle: "A tool used to craft things such as tools and ender dust."
+			dependencies: ["39992FAA7449F053"]
+			id: "4985105B2C6C448E"
+			tasks: [{
+				id: "2DEEE3CCCBC84323"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1A8E02546EBC4679"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -15.5d
+			y: 31.0d
+			dependencies: ["092DD143AF7DF4C4"]
+			id: "5CC5B8BD8B8E0DB9"
+			tasks: [{
+				id: "4D8DC42FB0CA3307"
+				type: "item"
+				item: {
+					id: "betterendforge:thallasium_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6ED93CCE8D407788"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -12.5d
+			y: 34.5d
+			subtitle: "Used for crafting special items."
+			dependencies: ["6EC9917F54FAEAA6"]
+			id: "5F156D5BB7C69091"
+			tasks: [{
+				id: "3DE19861A0B51141"
+				type: "item"
+				item: "betterendforge:infusion_pedestal"
+			}]
+			rewards: [{
+				id: "728E0DA9CB96D9D6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -14.0d
+			y: 34.5d
+			subtitle: "An essential crafting component for rare items."
+			dependencies: [
+				"1C66ED97ABFBF68C"
+				"5F156D5BB7C69091"
+			]
+			id: "7AC9BCD615A1F629"
+			tasks: [{
+				id: "3A7EE164BC740A09"
+				type: "item"
+				item: "betterendforge:eternal_crystal"
+			}]
+			rewards: [{
+				id: "22A4F2B382F2109E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "Crystalite Armor"
+			x: -14.0d
+			y: 36.5d
+			subtitle: "Armor that is nearly equivalent to Netherite."
+			dependencies: [
+				"7AC9BCD615A1F629"
+				"51653268FAA4366F"
+			]
+			id: "400E44404B08715C"
+			tasks: [
+				{
+					id: "2220F78FA217AE99"
+					type: "item"
+					item: {
+						id: "betterendforge:crystalite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4E4FEFED51D1CA7F"
+					type: "item"
+					item: {
+						id: "betterendforge:crystalite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "27D9584A5B6D6146"
+					type: "item"
+					item: {
+						id: "betterendforge:crystalite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4BF392E2E194038C"
+					type: "item"
+					item: {
+						id: "betterendforge:crystalite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0BBC789A55088840"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: -20.0d
+			y: 34.5d
+			dependencies: ["4985105B2C6C448E"]
+			id: "13C53FDABF7C7C10"
+			tasks: [{
+				id: "74455EA29A83C7F2"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0EB24D120E565573"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "Terminite Tools"
+			x: -18.5d
+			y: 36.0d
+			dependencies: ["4985105B2C6C448E"]
+			id: "2D16E964ACAE3EA1"
+			tasks: [
+				{
+					id: "413AFC5237DBFA81"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "176610694665D543"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "249288E52217FEB1"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "457DF302325E1F04"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -12.5d
+			y: 36.5d
+			subtitle: "Loads an area of 3x3 chunks."
+			dependencies: [
+				"7AC9BCD615A1F629"
+				"27BA0F0B96446983"
+			]
+			hide: true
+			id: "0D9402D0AEFBA99A"
+			tasks: [{
+				id: "6DFA959E9A86ECAD"
+				type: "item"
+				item: "chunkloaders:basic_chunk_loader"
+			}]
+			rewards: [
+				{
+					id: "6201A7679853C3B7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "67DA9965D24F90CC"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: 38.5d
+			subtitle: "Loads an area of 5x5 chunks."
+			dependencies: ["0D9402D0AEFBA99A"]
+			id: "745A325DD20FDC2C"
+			tasks: [{
+				id: "3BA0FBD48356886A"
+				type: "item"
+				item: "chunkloaders:advanced_chunk_loader"
+			}]
+			rewards: [
+				{
+					id: "5C119D8A044C22EC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "50B1B3ED95DC688F"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: 40.5d
+			subtitle: "Loads an area of 7x7 chunks."
+			dependencies: ["745A325DD20FDC2C"]
+			id: "36EB907786D68C94"
+			tasks: [{
+				id: "4705AAEE7497D321"
+				type: "item"
+				item: "chunkloaders:ultimate_chunk_loader"
+			}]
+			rewards: [
+				{
+					id: "398C320E44F01721"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "64C8EEF4AB7F7A8B"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			title: "Aeternium Armor"
+			x: -22.0d
+			y: 31.0d
+			subtitle: "Armor stronger than netherite and upgraded netherite. However, does not provide the benefits of upgraded netherite."
+			dependencies: ["4E3FBF069862E6CB"]
+			id: "7775FA2108DBFE3F"
+			tasks: [
+				{
+					id: "432E8281BD640A1C"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "22C081181FFA95D1"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2004D7B2A105FC50"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2527356F3F8F88A6"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7E09C3C6E9F9931C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -22.0d
+			y: 32.0d
+			dependencies: ["4E3FBF069862E6CB"]
+			id: "7AFF0D1900C57E16"
+			tasks: [{
+				id: "17839184EE812B5B"
+				type: "item"
+				item: {
+					id: "betterendforge:aeternium_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "599C85CA47857DDF"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "Aeternium Tools"
+			x: -22.0d
+			y: 30.0d
+			dependencies: ["4E3FBF069862E6CB"]
+			id: "14061881053613CE"
+			tasks: [
+				{
+					id: "1C8BF26318CA375E"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2C01827BF74D9866"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1242589345CA8CD8"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4357A0D04A8F2545"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 	]
 }

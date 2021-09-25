@@ -88,6 +88,16 @@ onEvent('recipes', event => {
   //--------------------------------------Item Banning End
   
   //--------------------------------------Mekanism Start
+  
+  //Adding Compatability between Farmer's Delight and the Bio Generator
+  event.recipes.mekanism.crushing('5x mekanism:bio_fuel', 'farmersdelight:cabbage')
+  event.recipes.mekanism.crushing('5x mekanism:bio_fuel', 'farmersdelight:tomato')
+  event.recipes.mekanism.crushing('5x mekanism:bio_fuel', 'farmersdelight:onion')
+  event.recipes.mekanism.crushing('4x mekanism:bio_fuel', 'farmersdelight:rice_panicle')
+  event.recipes.mekanism.crushing('4x mekanism:bio_fuel', 'farmersdelight:rice')
+  event.recipes.mekanism.crushing('4x mekanism:bio_fuel', 'farmersdelight:cabbage_seeds')
+  event.recipes.mekanism.crushing('4x mekanism:bio_fuel', 'farmersdelight:tomato_seeds')
+  
   //Replace Recipies For Mekanism Energy Producing Machines
   event.replaceInput({id: 'mekanismgenerators:generator/heat'}, 'mekanism:ingot_osmium', 'create:refined_radiance')
   event.replaceInput({id: 'mekanismgenerators:generator/solar'}, '#forge:ingots/iron', 'create:refined_radiance')
@@ -339,39 +349,49 @@ onEvent('recipes', event => {
   event.stonecutting('chisel:emerald/emeraldprismatic', 'minecraft:emerald_block')
   //--------------------------------------Stone Cutting Support End
   
-  //Remove Recipe for Chunk Loader so its not spamable
-  event.remove({id: 'weirdinggadget:weirding_gadget'})
+  //Replace Recipes for Chunk Loaders
+  event.replaceInput({id: 'minecraft:end_crystal'}, 'outer_end:rose_crystal', 'minecraft:ender_eye')
   
+  event.remove({id: 'chunkloaders:basic_chunk_loader'})
+  event.shaped('1x chunkloaders:basic_chunk_loader', [
+    'BEB',
+    'ECE',
+    'BEB'
+  ], {
+    E: 'minecraft:ender_eye',
+	C: 'betterendforge:eternal_crystal',
+	B: 'quark:biotite'
+  })
   
   //Replace Calemi Recipes
   event.replaceInput({id: 'calemiutils:ingredients/motor'}, 'minecraft:redstone', 'create:precision_mechanism')
   event.replaceInput({id: 'calemiutils:blocks/mob_beacon'}, 'minecraft:iron_sword', 'minecraft:diamond')
   
-  //Replace Recipies for Land Claiming
+  //Replace Recipes for Land Claiming
   event.replaceInput({id: 'craftabledeeds:deed_pedestal'}, 'minecraft:netherite_ingot', 'minecraft:obsidian')
   event.replaceInput({id: 'craftabledeeds:deed_pedestal'}, 'minecraft:gold_ingot', 'minecraft:gold_block')
   
   //Cobbled Deepslater  
   event.stonecutting('caves_and_cliffs_mod:cobbled_deepslate_stairs', 'caves_and_cliffs_mod:cobbled_deepslate')
-  event.stonecutting('caves_and_cliffs_mod:cobbled_deepslate_slab', 'caves_and_cliffs_mod:cobbled_deepslate')
+  event.stonecutting('2x caves_and_cliffs_mod:cobbled_deepslate_slab', 'caves_and_cliffs_mod:cobbled_deepslate')
   event.stonecutting('caves_and_cliffs_mod:cobbled_deepslate_wall', 'caves_and_cliffs_mod:cobbled_deepslate')
   
   //Polished Deepslate  
   event.stonecutting('caves_and_cliffs_mod:polished_grimstone_stairs', 'caves_and_cliffs_mod:polished_grimstone')
-  event.stonecutting('caves_and_cliffs_mod:polished_grimstone_slab', 'caves_and_cliffs_mod:polished_grimstone')
+  event.stonecutting('2x caves_and_cliffs_mod:polished_grimstone_slab', 'caves_and_cliffs_mod:polished_grimstone')
   event.stonecutting('caves_and_cliffs_mod:polished_grimstone_wall', 'caves_and_cliffs_mod:polished_grimstone')
   
   //Deepslate Brick
   event.stonecutting('caves_and_cliffs_mod:grimstone_bricks', 'caves_and_cliffs_mod:polished_grimstone')
   event.stonecutting('caves_and_cliffs_mod:grimstone_bricks_stairs', 'caves_and_cliffs_mod:grimstone_bricks')
-  event.stonecutting('caves_and_cliffs_mod:grimstone_bricks_slab', 'caves_and_cliffs_mod:grimstone_bricks')
+  event.stonecutting('2x caves_and_cliffs_mod:grimstone_bricks_slab', 'caves_and_cliffs_mod:grimstone_bricks')
   event.stonecutting('caves_and_cliffs_mod:grimstone_bricks_wall', 'caves_and_cliffs_mod:grimstone_bricks')
   event.stonecutting('caves_and_cliffs_mod:cracked_deepslate_bricks', 'caves_and_cliffs_mod:grimstone_bricks')
   
   //Deepslate Tile
   event.stonecutting('caves_and_cliffs_mod:grimstone_tiles', 'caves_and_cliffs_mod:polished_grimstone')
   event.stonecutting('caves_and_cliffs_mod:grimstone_tiles_stairs', 'caves_and_cliffs_mod:grimstone_tiles')
-  event.stonecutting('caves_and_cliffs_mod:grimstone_tiles_slab', 'caves_and_cliffs_mod:grimstone_tiles')
+  event.stonecutting('2x caves_and_cliffs_mod:grimstone_tiles_slab', 'caves_and_cliffs_mod:grimstone_tiles')
   event.stonecutting('caves_and_cliffs_mod:grimstone_tiles_wall', 'caves_and_cliffs_mod:grimstone_tiles')
   event.stonecutting('caves_and_cliffs_mod:cracked_deepslate_tiles', 'caves_and_cliffs_mod:grimstone_tiles')
   
