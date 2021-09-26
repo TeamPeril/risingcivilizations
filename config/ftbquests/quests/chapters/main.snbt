@@ -6185,5 +6185,134 @@
 				xp_levels: 5
 			}]
 		}
+		{
+			x: -10.5d
+			y: 33.0d
+			dependencies: ["0D347CA08ADF4262"]
+			id: "63ED73C8629F05EF"
+			tasks: [{
+				id: "51DCC95832373427"
+				type: "item"
+				item: {
+					id: "majruszs_difficulty:end_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "09EFC02710634A24"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "End Armor"
+			x: -9.5d
+			y: 33.0d
+			subtitle: "Armor that is slightly better than Netherite."
+			dependencies: ["0D347CA08ADF4262"]
+			id: "7EAB730FE797CB95"
+			tasks: [
+				{
+					id: "119793C3092DBF43"
+					type: "item"
+					item: {
+						id: "majruszs_difficulty:end_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "716C7131D55CF3BE"
+					type: "item"
+					item: {
+						id: "majruszs_difficulty:end_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3F7C3B47A116A8D2"
+					type: "item"
+					item: {
+						id: "majruszs_difficulty:end_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							EndLeggingsArmorTag: { }
+						}
+					}
+				}
+				{
+					id: "43AD57F39FFECABB"
+					type: "item"
+					item: {
+						id: "majruszs_difficulty:end_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "526790CE31F4C26D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "End Tools"
+			x: -8.5d
+			y: 33.0d
+			dependencies: ["0D347CA08ADF4262"]
+			id: "31E9F8898612707B"
+			tasks: [
+				{
+					id: "22B2E882683E7A52"
+					type: "item"
+					item: {
+						id: "majruszs_difficulty:end_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "179685F30252C82E"
+					type: "item"
+					item: {
+						id: "majruszs_difficulty:end_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2074977BBDF85D2B"
+					type: "item"
+					item: {
+						id: "majruszs_difficulty:end_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3CEB9896ABFC5784"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
 	]
 }
