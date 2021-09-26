@@ -250,7 +250,7 @@ onEvent('recipes', event => {
     'HNH',
     'PHP'
   ], {
-    P: 'minecraft:purpur_block',
+    P: 'minecraft:end_stone',
 	N: 'minecraft:nether_star',
 	H: 'resourcefulbees:t4_beehive'
   })
