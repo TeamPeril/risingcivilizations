@@ -56,7 +56,7 @@
 	#Configuration for new late game ore.
 	[Features.EndShardOre]
 		#Should this ore be available in survival mode? (ore generation, loot tables etc.) (requires game restart!)
-		is_enabled = true
+		is_enabled = false
 		#Maximum distance within which all nearby Endermans will be triggered. (when block was mined)
 		#Range: 0.0 ~ 1000000.0
 		trigger_distance = 700.0
@@ -117,7 +117,7 @@
 	#Drowning inflicts Nausea and Drowning.
 	[Features.NauseaAndWeaknessWhenDrowning]
 		#Is this feature enabled?
-		is_enabled = true
+		is_enabled = false
 		#Chance of this feature to happen. 
 		#Range: 0.0 ~ 1.0
 		chance = 1.0
@@ -237,7 +237,7 @@
 		#Range: 1.0 ~ 600.0
 		duration = 10.0
 		#Is applying Nausea enabled?
-		nausea = true
+		nausea = false
 		#Is applying Slowness enabled?
 		slowness = true
 
@@ -423,7 +423,7 @@
 	#Increases size of all explosions. (creeper, tnt, ghast ball etc.)
 	[Features.BiggerExplosionSize]
 		#Is this feature enabled?
-		is_enabled = true
+		is_enabled = false
 		#Explosion radius multiplier. (this value is scaled by Clamped Regional Difficulty)
 		#Range: 1.0 ~ 10.0
 		maximum_multiplier = 1.2599
@@ -578,13 +578,13 @@
 	is_enabled = true
 	#Required amount of killed undead to start the Undead Army.
 	#Range: 10 ~ 1000
-	kill_requirement = 100
+	kill_requirement = 50
 	#Extra size multiplier for each extra player participating in the Undead Army.
 	#Range: 0.1 ~ 1.0
 	player_scale = 0.5
 	#Time between waves. (in seconds) (requires game/world restart!) 
 	#Range: 3.0 ~ 60.0
-	time_between_waves = 10.0
+	time_between_waves = 120
 	#The maximum duration before Undead Army will end if there is no player. (in seconds) (requires game/world restart!) 
 	#Range: 300.0 ~ 3200.0
 	inactive_duration = 900.0

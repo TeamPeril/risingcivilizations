@@ -31,7 +31,7 @@
 		#Range: 0.0 ~ 1.0
 		bulletHoleFadeThreshold = 0.98
 		#If true, blood will will spawn from entities that are hit from a projectile
-		enableBlood = false
+		enableBlood = true
 
 	#Properties relating to controls
 	[client.controls]
