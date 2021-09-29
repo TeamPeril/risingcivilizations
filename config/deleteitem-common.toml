@@ -1,9 +1,0 @@
-
-#General configuration settings
-[General]
-	#Use F3+H to show tooltips and get the name of the item, place it here. It get delete. Example: ["minecraft:stone"]
-	#or if you need to ban multiple ["minecraft:stone", "minecraft:dirt"]
-	"Items To Delete" = ["rats:ratlantis_helmet", "rats:ratlantis_chestplate", "rats:ratlantis_leggings", "rats:ratlantis_boots", "rats:ratlantis_sword", "rats:ratlantis_pickaxe", "rats:ratlantis_shovel", "rats:ratlantis_hoe", "rats:ratlantis_bow"]
-	#Enables/Disables the constant removal of items.
-	"Is it on?" = true
-

@@ -51,6 +51,10 @@
 			subtitle: "These buildings are highly suggested to be built first."
 			dependencies: ["336DDEEACC295C14"]
 			id: "4FA419FF24BBCB8E"
+			tasks: [{
+				id: "435179FDFD639018"
+				type: "checkmark"
+			}]
 		}
 		{
 			x: 0.0d

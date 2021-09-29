@@ -5213,7 +5213,7 @@
 		{
 			x: 0.5d
 			y: 16.5d
-			subtitle: "Used to buy and sell items from/to other players."
+			subtitle: "Used to buy and sell items from/to other players. Use a wrench to edit the post."
 			dependencies: ["08BBFFC9038DC958"]
 			id: "57BDDBD32D833B52"
 			tasks: [{
@@ -5231,6 +5231,11 @@
 					id: "2B82EB850C485778"
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "7F8E83EE1DAD44E7"
+					type: "item"
+					item: "calemiutils:security_wrench"
 				}
 			]
 		}
