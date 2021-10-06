@@ -56,7 +56,7 @@
 	#Configuration for new late game ore.
 	[Features.EndShardOre]
 		#Should this ore be available in survival mode? (ore generation, loot tables etc.) (requires game restart!)
-		is_enabled = false
+		is_enabled = true
 		#Maximum distance within which all nearby Endermans will be triggered. (when block was mined)
 		#Range: 0.0 ~ 1000000.0
 		trigger_distance = 700.0

@@ -530,7 +530,7 @@
 		{
 			x: 0.0d
 			y: 6.5d
-			subtitle: "After learning the soul chant from sacraficing animals, perform the soul chant while staring at pewter inlay to create this."
+			subtitle: "After learning the soul chant from sacraficing animals, perform the soul chant while staring at pewter inlay dropped on the ground to create this."
 			dependencies: ["35908CB84D37F321"]
 			id: "237E61658414058C"
 			tasks: [{
