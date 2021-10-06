@@ -1,17 +1,17 @@
 #Range: 9.999999747378752E-5 ~ 100.0
-"Wave 1 Armor Chances" = 0.30000001192092896
+"Wave 1 Armor Chances" = 40.0
 #Range: 9.999999747378752E-5 ~ 100.0
-"Wave 2 Armor Chances" = 0.3199999928474426
+"Wave 2 Armor Chances" = 50.0
 #Range: 9.999999747378752E-5 ~ 100.0
-"Wave 3 Armor Chances" = 0.3400000035762787
+"Wave 3 Armor Chances" = 60.0
 #Range: 9.999999747378752E-5 ~ 100.0
-"Wave 4 Armor Chances" = 0.36000001430511475
+"Wave 4 Armor Chances" = 70.0
 #Range: 9.999999747378752E-5 ~ 100.0
-"Wave 5 Armor Chances" = 0.3799999952316284
+"Wave 5 Armor Chances" = 80.0
 #Range: 9.999999747378752E-5 ~ 100.0
-"Wave 6 Armor Chances" = 0.4000000059604645
+"Wave 6 Armor Chances" = 90.0
 #Range: 9.999999747378752E-5 ~ 100.0
-"Wave 7 Armor Chances" = 0.41999998688697815
+"Wave 7 Armor Chances" = 100.0
 #This will make sure any entity id in this list wont spawn with armor.
 "Illager Armor BlackList" = []
 "Have Illagers spawn with armor at all?" = true

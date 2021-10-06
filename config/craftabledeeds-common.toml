@@ -9,7 +9,7 @@ claimCooldown = 12
 #The list of blocks that can be broken in an area even if it is claimed, supports regex
 breakableBlocks = []
 #The list of blocks that can be interacted with in an area even if it is claimed, supports regex
-interactableBlocks = ["minecraft:lever", ".*_door", ".*_fence_gate", ".*_button"]
+interactableBlocks = ["minecraft:lever", ".*_door", ".*_fence_gate", ".*_button", "^computercraft"]
 #The permission level required to bypass deed restrictions
 deedBypassPermissionLevel = 2
 #The registry names of additional mobs that should be considered loyal and attack players in a claim. Note that, if a mob is tameable, it only attacks if tamed

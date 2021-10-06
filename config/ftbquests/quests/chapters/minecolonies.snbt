@@ -1,7 +1,7 @@
 {
 	id: "07290B4D2FEFFF09"
 	group: ""
-	order_index: 6
+	order_index: 5
 	filename: "minecolonies"
 	title: "Minecolonies"
 	icon: "structurize:sceptergold"
@@ -16,6 +16,7 @@
 			description: [
 				"The Town Hall is used to create and manage a colony. The Build tool is used to place down buildings for your builders to build."
 				""
+				"Note: Citizens prefer to walk on stone-type vanilla blocks."
 			]
 			id: "0B03826EC62D211E"
 			tasks: [
