@@ -1,8 +1,17 @@
 {
   "retroGen": false,
   "swapper": {
-    "dummymodid:dummyblocktoreplace": "dummymodid2:replacer",
-    "dummymodid:dummyblocktoreplace2": "dummymodid2:replacer2",
-    "dummymodid:dummyblocktoreplace3": "dummymodid2:replacer3"
+    "caves_and_cliffs_mod:deeplsate": "quark:deeplsate",
+    "caves_and_cliffs_mod:cobbled_deeplsate": "quark:cobbled_deeplsate",
+    "caves_and_cliffs_mod:deepslate_diamond_ore": "minecraft:diamond_ore",
+	"caves_and_cliffs_mod:deepslate_gold_ore": "minecraft:gold_ore",
+	"caves_and_cliffs_mod:deepslate_lapis_ore": "minecraft:lapis_ore",
+	"caves_and_cliffs_mod:deepslate_iron_ore": "minecraft:iron_ore",
+	"caves_and_cliffs_mod:deepslate_redstone_ore": "minecraft:redstone_ore",
+	"caves_and_cliffs_mod:deepslate_copper_ore": "create:copper_ore",
+	"caves_and_cliffs_mod:deepslate_coal_ore": "minecraft:coal_ore",
+	"caves_and_cliffs_mod:deepslate_emerald_ore": "minecraft:emerald_ore",
+	"caves_and_cliffs_mod:copper_ore": "create:copper_ore",
+	"caves_and_cliffs_mod:smooth_basalt": "quark:smooth_basalt"
   }
 }
