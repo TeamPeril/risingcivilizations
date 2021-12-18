@@ -45,6 +45,22 @@ onEvent('jei.hide.items', event => {
   event.hide(/'upgradednetherite:ultimate_upgraded_netherite_boots'/)
   event.hide(/'upgradednetherite:corrupt_upgraded_netherite_ingot'/)
   
+  //event.hide(/rats:assorted_vegetables/)
+  //event.hide(/rats:little_black_worm/)
+  //event.hide(/rats:confit_byaldi/)
+  //event.hide(/rats:potato_pancake/)  
+  //event.hide(/rats:rat_upgrade_god/)
+  //event.hide(/rats:ratlantis_helmet/) //Doesnt Work
+  //event.hide(/rats:ratlantis_chestplate/) //Doesnt Work
+  //event.hide(/rats:ratlantis_leggings/) //Doesnt Work
+  //event.hide(/rats:ratlantis_boots/) //Doesnt Work
+  //event.hide(/rats:ratlantis_sword/)  //Doesnt Work
+  //event.hide(/rats:ratlantis_pickaxe/) //Doesnt Work
+  //event.hide(/rats:ratlantis_shovel/) //Doesnt Work
+  //event.hide(/rats:ratlantis_axe/) //Doesnt Work
+  //event.hide(/rats:ratlantis_hoe/) //Doesnt Work
+  //event.hide(/rats:ratlantis_bow/) //Doesnt Work
+  
   event.hide(/stalwart_dungeons:chorundum_sword/)
   event.hide(Item.of('stalwart_dungeons:chorundum_shovel').ignoreNBT()) //Doesnt Work
   event.hide(/stalwart_dungeons:chorundum_pickaxe/) //Doesnt Work
