@@ -9,18 +9,18 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "The Modern Age"
 			icon: "mekanism:basic_control_circuit"
 			x: 8.5d
 			y: 12.5d
 			shape: "gear"
-			subtitle: "Work In Progress"
+			subtitle: "Welcome to The Modern Age of Technology"
 			hide: false
 			id: "4C64E160BFB128C7"
 			tasks: [{
-				id: "2198CF8CAD9C4A43"
-				type: "gamestage"
-				title: "The Modern Age"
-				stage: "TheModernAge"
+				id: "754A13D6E32A94B7"
+				type: "item"
+				item: "create:precision_mechanism"
 			}]
 			rewards: [
 				{

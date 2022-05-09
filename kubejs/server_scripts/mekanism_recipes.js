@@ -49,6 +49,31 @@ onEvent('recipes', event => {
   event.recipes.mekanism.crushing('4x mekanism:bio_fuel', 'farmersdelight:cabbage_seeds')
   event.recipes.mekanism.crushing('4x mekanism:bio_fuel', 'farmersdelight:tomato_seeds')
   
+  //Crushing Ores for x2 yield
+  
+  event.recipes.mekanism.crushing('2x create:crushed_iron_ore', '#forge:ores/iron')
+  
+  event.recipes.mekanism.crushing('2x create:crushed_gold_ore', '#forge:ores/gold')
+  
+  event.recipes.mekanism.crushing('2x create:crushed_copper_ore', '#forge:ores/copper')
+  
+  event.recipes.mekanism.crushing('2x create:crushed_zinc_ore', '#forge:ores/zinc')
+  
+  //Smelting Ores
+  event.replaceInput({mod: 'mekanism'}, 'create:powdered_obsidian', '#forge:dusts/obsidian')  
+  
+  event.replaceInput({mod: 'mekanism'}, 'minecraft:coal_ore', '#forge:ores/coal')
+  
+  event.replaceInput({mod: 'mekanism'}, 'minecraft:lapis_ore', '#forge:ores/lapis')
+  
+  event.replaceInput({mod: 'mekanism'}, 'minecraft:diamond_ore', '#forge:ores/diamond')
+  
+  event.replaceInput({mod: 'mekanism'}, 'minecraft:emerald_ore', '#forge:ores/emerald')
+  
+  event.replaceInput({mod: 'mekanism'}, 'minecraft:redstone_ore', '#forge:ores/redstone')
+  
+  
+  
   //Replace Recipies For Mekanism Energy Producing Machines
   event.replaceInput({id: 'mekanismgenerators:generator/heat'}, 'mekanism:ingot_osmium', 'create:refined_radiance')
   event.replaceInput({id: 'mekanismgenerators:generator/solar'}, '#forge:ingots/iron', 'create:refined_radiance')

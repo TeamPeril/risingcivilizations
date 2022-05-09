@@ -31,10 +31,6 @@
 	#Max citizens in one colony. [Default: 250, min: 4, max: 500]
 	#Range: 4 ~ 500
 	maxcitizenpercolony = 250
-	#Should the Builder and Miner build without resources? (This also turns off what the Miner produces.) [Default: false]
-	builderinfiniteresources = true
-	#Should there be a max of 1 warehouse per colony? [Default: false]
-	limittoonewarehousepercolony = false
 	#Delay after each block placement (increasing it increases the delay). [Default: 15, min: 1, max: 500]
 	#Range: 1 ~ 500
 	builderbuildblockdelay = 15
@@ -45,9 +41,6 @@
 	enableindevelopmentfeatures = false
 	#Should citizen name tags be rendered? [Default: true]
 	alwaysrendernametag = true
-	#Child growth modifier. On average children take about 60min to grow at 1.0x modifier (the default). 5 = 5x as fast. [Default: 1.000000, min: 1.000000, max: 100.000000]
-	#Range: 1.0 ~ 100.0
-	growthmodifier = 1.0
 	#Should workers work during the rain? [Default: false]
 	workersalwaysworkinrain = false
 	#Should players be sent entering/leaving colony notifications? [Default: true]
@@ -66,16 +59,8 @@
 	#Chance for the Miner to get an ore when mining cobblestone or stone (by default, can be expanded with datapacks to other materials). This is a percentage. (To change which ores the Miner can find, see "List of Lucky Ores".) [Default: 1, min: 0, max: 100]
 	#Range: 0 ~ 100
 	luckyblockchance = 1
-	#Automatically fix orphaned chunks which were caused by chunk loading and saving issues. [Default: false]
-	fixorphanedchunks = false
 	#Should the Builder be slower when working underground? [Default: true]
 	restrictbuilderunderground = true
-	#Chance to get a sponge from the Fisher (starting at hut level 4). [Default: 0.100000, min: 0.000000, max: 100.000000]
-	#Range: 0.0 ~ 100.0
-	fisherspongechance = 0.1
-	#Chance to get a prismarine shard or crystal drop from the Fisher (starting at hut level 3). Overall chance of prismarine is 2x this number. [Default: 2.500000, min: 0.000000, max: 100.000000]
-	#Range: 0.0 ~ 100.0
-	fisherprismarinechance = 2.5
 	#The minimum level a Town Hall has to be to allow teleportation to allied colonies. [Default: 3, min: 0, max: 5]
 	#Range: 0 ~ 5
 	minthleveltoteleport = 3
@@ -95,11 +80,13 @@
 	#Chance to get an evil Tavern visitor that will run off with the resources you give them. This is a %. [Default: 2, min: 1, max: 100]
 	#Range: 1 ~ 100
 	badvisitorchance = 2
-	#Whether to generate supply ships and camps in loot chests. [Default: true]
-	generatesupplyloot = true
 	#Max log count in one tree for the Forester to check during their tree search. [Default: 400, min: 1, max: 1000]
 	#Range: 1 ~ 1000
 	maxtreesize = 400
+	#Disables supply camp placing restrictions, intended for skyworlds and similar [Default: false]
+	nosupplyplacementrestrictions = false
+	#Raiders will spawn in the sky if this is enabled [Default: false]
+	skyraiders = false
 
 #All configurations related to the research system
 [research]
@@ -205,7 +192,7 @@
 	enablecolonyprotection = true
 	#Independent from the colony protection, should explosions be turned off inside colonies? DAMAGE_NOTHING prevents explosions completely. DAMAGE_PLAYERS, allows explosions to damage players and hostile mobs, but not blocks or neutral or friendly mobs. DAMAGE_ENTITIES allows damage to all entities. DAMAGE_EVERYTHING allows explosions to damage entities and blocks. 
 	#Allowed Values: DAMAGE_NOTHING, DAMAGE_PLAYERS, DAMAGE_ENTITIES, DAMAGE_EVERYTHING
-	turnoffexplosionsincolonies = "DAMAGE_EVERYTHING"
+	turnoffexplosionsincolonies = "DAMAGE_ENTITIES"
 	#Players who have special permissions, especially to change citizen names (see "Name Changes" above). 
 	specialpermgroup = ["_Raycoms_"]
 	#Blocks players should be able to interact with in any colony (ex: vending machines) 

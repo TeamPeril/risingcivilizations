@@ -80,7 +80,7 @@
 		}
 		{
 			title: "What is my end goal?"
-			icon: "calemiutils:coin_dollar"
+			icon: "calemiutils:coin_gold"
 			x: 1.0d
 			y: 1.5d
 			subtitle: "Be the Superior Civilization"
