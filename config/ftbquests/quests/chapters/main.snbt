@@ -16,25 +16,8 @@
 	quests: [
 		{
 			x: -1.5d
-			y: 0.0d
-			id: "3DC421264CA47325"
-			tasks: [{
-				id: "748CEF81F0B96CFE"
-				type: "item"
-				item: "minecraft:crafting_table"
-			}]
-			rewards: [{
-				id: "61D8AF3BB9529214"
-				type: "gamestage"
-				title: "The Stone Age"
-				auto: "invisible"
-				stage: "StoneAge"
-			}]
-		}
-		{
-			x: -1.5d
 			y: 2.0d
-			dependencies: ["3DC421264CA47325"]
+			dependencies: ["24487B2093F492A1"]
 			id: "049D865533E63AD0"
 			tasks: [{
 				id: "2F25222B8131E749"
@@ -4643,6 +4626,23 @@
 				id: "3CEB9896ABFC5784"
 				type: "xp_levels"
 				xp_levels: 5
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			id: "24487B2093F492A1"
+			tasks: [{
+				id: "3D6B84A7297D8243"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+			rewards: [{
+				id: "583C04FB6BC3A4A0"
+				type: "gamestage"
+				title: "Entered The Stone Age"
+				auto: "invisible"
+				stage: "StoneAge"
 			}]
 		}
 	]

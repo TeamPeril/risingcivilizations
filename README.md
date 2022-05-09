@@ -1,4 +1,4 @@
-Reccommended Forge Version: Forge-1.16.5-36.2.0
+Reccommended Forge Version: Forge-1.16.5-36.2.34
 Please set the following in your server.properties files when it generates, for stability and compatibility:
 
 allow-flight=true
@@ -7,7 +7,7 @@ difficulty=hard
 
 max-tick-time=256000
 
-view-distance=7
+view-distance=12
 
 =========================
 
@@ -23,6 +23,6 @@ difficulty needs to be hard difficulty mode because everything is balanced aroun
 
 max-tick-time need to be 256000 for big structures and for players first time joining the server.
 
-view distance should be 7 for performance reasons, raising it higher can cause lag.
+view distance should be 12 for performance reasons, raising it higher can cause lag.
 
 
