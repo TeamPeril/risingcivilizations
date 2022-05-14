@@ -1,0 +1,11 @@
+{
+	id: "14AA03F323423393"
+	group: "061E125B4A827A51"
+	order_index: 1
+	filename: "exports"
+	title: "Exports"
+	icon: "calemiutils:coin_gold"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

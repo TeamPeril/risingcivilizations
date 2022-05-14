@@ -11,14 +11,9 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Rising Civilizations",
-  "version": "0.58",
+  "version": "0.59",
   "author": "GRMikeatron",
   "files": [
-    {
-      "projectID": 60329,
-      "fileID": 3100352,
-      "required": true
-    },
     {
       "projectID": 348521,
       "fileID": 3311352,
@@ -60,11 +55,6 @@
       "required": true
     },
     {
-      "projectID": 474817,
-      "fileID": 3495397,
-      "required": true
-    },
-    {
       "projectID": 300569,
       "fileID": 3170831,
       "required": true
@@ -85,11 +75,6 @@
       "required": true
     },
     {
-      "projectID": 255902,
-      "fileID": 3537512,
-      "required": true
-    },
-    {
       "projectID": 404465,
       "fileID": 3553840,
       "required": true
@@ -107,11 +92,6 @@
     {
       "projectID": 404468,
       "fileID": 3535953,
-      "required": true
-    },
-    {
-      "projectID": 224633,
-      "fileID": 3107222,
       "required": true
     },
     {
@@ -260,11 +240,6 @@
       "required": true
     },
     {
-      "projectID": 399022,
-      "fileID": 3161147,
-      "required": true
-    },
-    {
       "projectID": 384508,
       "fileID": 3765437,
       "required": true
@@ -282,11 +257,6 @@
     {
       "projectID": 401273,
       "fileID": 3548029,
-      "required": true
-    },
-    {
-      "projectID": 345425,
-      "fileID": 3659393,
       "required": true
     },
     {
@@ -352,11 +322,6 @@
     {
       "projectID": 461710,
       "fileID": 3627113,
-      "required": true
-    },
-    {
-      "projectID": 558905,
-      "fileID": 3592543,
       "required": true
     },
     {
@@ -515,6 +480,11 @@
       "required": true
     },
     {
+      "projectID": 556824,
+      "fileID": 3567248,
+      "required": true
+    },
+    {
       "projectID": 411623,
       "fileID": 3254115,
       "required": true
@@ -540,11 +510,6 @@
       "required": true
     },
     {
-      "projectID": 388219,
-      "fileID": 3302030,
-      "required": true
-    },
-    {
       "projectID": 241895,
       "fileID": 3222119,
       "required": true
@@ -557,6 +522,11 @@
     {
       "projectID": 267602,
       "fileID": 3137659,
+      "required": true
+    },
+    {
+      "projectID": 399413,
+      "fileID": 3520230,
       "required": true
     },
     {
@@ -670,18 +640,8 @@
       "required": true
     },
     {
-      "projectID": 264353,
-      "fileID": 3103028,
-      "required": true
-    },
-    {
       "projectID": 421850,
       "fileID": 3494919,
-      "required": true
-    },
-    {
-      "projectID": 416273,
-      "fileID": 3260734,
       "required": true
     },
     {
@@ -835,18 +795,13 @@
       "required": true
     },
     {
-      "projectID": 491264,
-      "fileID": 3395661,
+      "projectID": 365045,
+      "fileID": 3553317,
       "required": true
     },
     {
       "projectID": 465575,
       "fileID": 3412586,
-      "required": true
-    },
-    {
-      "projectID": 365045,
-      "fileID": 3553317,
       "required": true
     },
     {
@@ -885,11 +840,6 @@
       "required": true
     },
     {
-      "projectID": 244447,
-      "fileID": 3199158,
-      "required": true
-    },
-    {
       "projectID": 549394,
       "fileID": 3534475,
       "required": true
@@ -907,11 +857,6 @@
     {
       "projectID": 521480,
       "fileID": 3456514,
-      "required": true
-    },
-    {
-      "projectID": 382979,
-      "fileID": 3290845,
       "required": true
     },
     {
@@ -975,8 +920,8 @@
       "required": true
     },
     {
-      "projectID": 532724,
-      "fileID": 3526076,
+      "projectID": 530490,
+      "fileID": 3580244,
       "required": true
     },
     {
@@ -995,18 +940,8 @@
       "required": true
     },
     {
-      "projectID": 551736,
-      "fileID": 3574974,
-      "required": true
-    },
-    {
       "projectID": 383070,
       "fileID": 3102237,
-      "required": true
-    },
-    {
-      "projectID": 359619,
-      "fileID": 3441107,
       "required": true
     },
     {
@@ -1025,28 +960,18 @@
       "required": true
     },
     {
-      "projectID": 537247,
-      "fileID": 3523090,
-      "required": true
-    },
-    {
-      "projectID": 291509,
-      "fileID": 3750371,
-      "required": true
-    },
-    {
       "projectID": 225608,
       "fileID": 3283693,
       "required": true
     },
     {
-      "projectID": 492574,
-      "fileID": 3449703,
+      "projectID": 307152,
+      "fileID": 3742182,
       "required": true
     },
     {
-      "projectID": 307152,
-      "fileID": 3742182,
+      "projectID": 492574,
+      "fileID": 3449703,
       "required": true
     },
     {

@@ -213,7 +213,7 @@
 	#Makes all nearby enderman target player when it hits any of them.
 	[Features.EndermanAttack]
 		#Is this feature enabled?
-		is_enabled = true
+		is_enabled = false
 
 	#Shulker inflict Blindness.
 	[Features.ShulkerBlindness]
@@ -229,7 +229,7 @@
 	#Applies Nausea and Slowness on fall.
 	[Features.FallEffects]
 		#Is this feature enabled?
-		is_enabled = true
+		is_enabled = false
 		#Chance of this feature to happen. 
 		#Range: 0.0 ~ 1.0
 		chance = 1.0
@@ -352,7 +352,7 @@
 		is_enabled = true
 		#Chance of this feature to happen. (this value is scaled by Clamped Regional Difficulty)
 		#Range: 0.0 ~ 1.0
-		chance = 0.25
+		chance = 0.8
 
 	#Skeleton spawns in groups.
 	[Features.SkeletonGroup]
@@ -578,13 +578,13 @@
 	is_enabled = true
 	#Required amount of killed undead to start the Undead Army.
 	#Range: 10 ~ 1000
-	kill_requirement = 50
+	kill_requirement = 30
 	#Extra size multiplier for each extra player participating in the Undead Army.
 	#Range: 0.1 ~ 1.0
 	player_scale = 0.5
 	#Time between waves. (in seconds) (requires game/world restart!) 
 	#Range: 3.0 ~ 60.0
-	time_between_waves = 120
+	time_between_waves = 10.0
 	#The maximum duration before Undead Army will end if there is no player. (in seconds) (requires game/world restart!) 
 	#Range: 300.0 ~ 3200.0
 	inactive_duration = 900.0
@@ -629,11 +629,11 @@
 	[UndeadArmy.ArmorChance]
 		#Normal Mode
 		#Range: 0.0 ~ 1.0
-		normal = 0.25
+		normal = 0.8
 		#Expert Mode
 		#Range: 0.0 ~ 1.0
-		expert = 0.5
+		expert = 0.9
 		#Master Mode
 		#Range: 0.0 ~ 1.0
-		master = 0.75
+		master = 1
 

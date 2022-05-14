@@ -21,11 +21,6 @@ onEvent('recipes', event => {
 	C: 'mekanism:ultimate_control_circuit'
   })
   
-  //Remove timeless_and_classic bench recipe and just make it an alternative to the original workbench
-  event.remove({id: 'timeless_and_classic:craft_timeless_workbench'})
-  event.shapeless('1x timeless_and_classic:timeless_workbench', '1x cgm:workbench')
-  event.shapeless('1x cgm:workbench', '1x timeless_and_classic:timeless_workbench')
-  
   //Change Vehicle Workbench Recipe
   event.replaceInput({id: 'vehicle:workstation'}, 'minecraft:chest', 'create:precision_mechanism')
   

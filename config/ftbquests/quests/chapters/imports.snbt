@@ -1,0 +1,6083 @@
+{
+	id: "5E056CD20596765E"
+	group: "061E125B4A827A51"
+	order_index: 0
+	filename: "imports"
+	title: "Import Building Material"
+	icon: "quark:jasper_bricks"
+	subtitle: ["Buy Building Materials in Bulk!"]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Buy Andesite"
+			icon: "minecraft:andesite"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "64x for 32 Credits"
+			id: "51E9D5F6304B9D79"
+			tasks: [
+				{
+					id: "071009CA974AAF34"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 6L
+					consume_items: true
+				}
+				{
+					id: "1FA428C926E9CFE6"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 2L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "0F221AFCC40BB6AB"
+					type: "item"
+					team_reward: false
+					item: "minecraft:andesite"
+					count: 64
+				}
+				{
+					id: "27A590BF161CDC28"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Cobblestone"
+			icon: "minecraft:cobblestone"
+			x: -3.0d
+			y: 0.0d
+			subtitle: "64x for 4 Credits"
+			id: "66554F9F0F021022"
+			tasks: [{
+				id: "06966D73191D30A5"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "6AC0E5714EC96A30"
+					type: "item"
+					team_reward: false
+					item: "minecraft:cobblestone"
+					count: 64
+				}
+				{
+					id: "1B60F96DB493168F"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+					team_reward: false
+				}
+			]
+		}
+		{
+			title: "Buy Stone"
+			icon: "minecraft:stone"
+			x: -2.0d
+			y: 0.0d
+			subtitle: "64x for 8 Credits"
+			id: "66CF733D672D483B"
+			tasks: [{
+				id: "5F7D7DC60D577699"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4DA2900E0EC47248"
+					type: "item"
+					team_reward: false
+					item: "minecraft:stone"
+					count: 64
+				}
+				{
+					id: "2297EDE76A3B9986"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+					team_reward: false
+				}
+			]
+		}
+		{
+			title: "Buy Dolomite"
+			icon: "create:dolomite"
+			x: 7.0d
+			y: 0.0d
+			subtitle: "64x for 16 Credits"
+			id: "419032278E884555"
+			tasks: [
+				{
+					id: "0E9DF8D41D5EB1B1"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "41808BB1179FB794"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "50154678A2149CA4"
+					type: "item"
+					item: "create:dolomite"
+					count: 64
+				}
+				{
+					id: "09581F900250C25C"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Diorite"
+			icon: "minecraft:diorite"
+			x: 1.0d
+			y: 0.0d
+			subtitle: "64x for 24 Credits"
+			id: "26DB664738698029"
+			tasks: [
+				{
+					id: "6F07E8032D693649"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "20504ED124E4FFE1"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "0787541CE5BA990E"
+					type: "item"
+					item: "minecraft:diorite"
+					count: 64
+				}
+				{
+					id: "563CBA8F3C4E5245"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Granite"
+			icon: "minecraft:granite"
+			x: 2.0d
+			y: 0.0d
+			subtitle: "64x for 24 Credits"
+			id: "7EE82C55CAA27C85"
+			tasks: [
+				{
+					id: "63170827026506D3"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "0007A07ABF16AD5A"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "4767E21048CD19DD"
+					type: "item"
+					item: "minecraft:granite"
+					count: 64
+				}
+				{
+					id: "488B9F082AF7A3AD"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Limestone"
+			icon: "create:limestone"
+			x: 10.0d
+			y: 0.0d
+			subtitle: "64x for 8 Credits"
+			id: "4D1CEDA147D4BD93"
+			tasks: [{
+				id: "0C356DFBFA6BCFF9"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5563BA764CE7C99F"
+					type: "item"
+					item: "create:limestone"
+					count: 64
+				}
+				{
+					id: "6EAC3787CEECA7A9"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Weathered Limestone"
+			icon: "create:weathered_limestone"
+			x: 9.0d
+			y: 0.0d
+			subtitle: "64x for 8 Credits"
+			id: "39B027D99695F1D4"
+			tasks: [{
+				id: "63494CF47B67E517"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1FCECB14106E7E5B"
+					type: "item"
+					item: "create:weathered_limestone"
+					count: 64
+				}
+				{
+					id: "098A5F246D9758C2"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Gabbo"
+			icon: "create:gabbro"
+			x: 6.0d
+			y: 0.0d
+			subtitle: "64x for 8 Credits"
+			id: "640E42B02A1575C9"
+			tasks: [{
+				id: "17E86F353A3A78A1"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "03D1AA71EF206198"
+					type: "item"
+					item: "create:gabbro"
+					count: 64
+				}
+				{
+					id: "266D763090105260"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Blackstone"
+			icon: "minecraft:blackstone"
+			x: -2.0d
+			y: 12.5d
+			subtitle: "64x for 24 Credits"
+			id: "16171C9F17200D18"
+			tasks: [
+				{
+					id: "5E4312CA1DF8FFD6"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "344715B7EFEF043E"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "3347EA357ADF1356"
+					type: "item"
+					item: "minecraft:blackstone"
+					count: 64
+				}
+				{
+					id: "5C70C36397BE24A8"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Netherrack"
+			icon: "minecraft:netherrack"
+			x: 0.0d
+			y: 10.5d
+			subtitle: "64x for 16 Credits"
+			id: "1A225F3ABA623B3F"
+			tasks: [{
+				id: "0E0B1461EB78F2B9"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "18B5E55EA562C3D2"
+					type: "item"
+					item: "minecraft:netherrack"
+					count: 64
+				}
+				{
+					id: "7F245625FBB10F71"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Scoria"
+			icon: "create:scoria"
+			x: -2.0d
+			y: 10.5d
+			subtitle: "64x for 16 Credits"
+			id: "6A94AA7479E370BA"
+			tasks: [
+				{
+					id: "41D2B91599408BC0"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "62DE605B2D4E6D27"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "6978242B05894F6C"
+					type: "item"
+					item: "create:scoria"
+					count: 64
+				}
+				{
+					id: "051F4A5358081152"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Dark Scoria"
+			icon: "create:dark_scoria"
+			x: -2.0d
+			y: 11.5d
+			subtitle: "64x for 24 Credits"
+			id: "1A8B0FE40871D335"
+			tasks: [
+				{
+					id: "6DA91FEDEC1C6CFC"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "54E8EB020A88ACC7"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "1A66F7D28F5B5609"
+					type: "item"
+					item: "create:dark_scoria"
+					count: 64
+				}
+				{
+					id: "23F67F05DF3A5419"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Terracotta"
+			icon: "minecraft:terracotta"
+			x: 13.0d
+			y: 1.0d
+			subtitle: "64x for 8 Credits"
+			id: "7EE0F8AC32F16408"
+			tasks: [{
+				id: "4AD384191BA9B3C3"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "200B283B48473D94"
+					type: "item"
+					item: "minecraft:terracotta"
+					count: 64
+				}
+				{
+					id: "17492ACD49D7D640"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy White Concrete"
+			icon: "minecraft:white_concrete"
+			x: 12.0d
+			y: 0.0d
+			subtitle: "64x for 8 Credits"
+			description: ["You can turn me into different colors of concrete via dye."]
+			id: "4BA5E24C0D260256"
+			tasks: [{
+				id: "6608B916F957012D"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5B26BEBB94E5137B"
+					type: "item"
+					item: "minecraft:white_concrete"
+					count: 64
+				}
+				{
+					id: "32CACC8BD3F2C299"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Prismarine"
+			icon: "minecraft:prismarine"
+			x: 2.0d
+			y: 10.5d
+			subtitle: "64x for 24 Credits"
+			id: "776433BB71E0054D"
+			tasks: [
+				{
+					id: "4801AECDE79E2C2B"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "5301908C4036C770"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "572B04FEE9FC955D"
+					type: "item"
+					item: "minecraft:prismarine"
+					count: 64
+				}
+				{
+					id: "0A80E1F8357532A6"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Dark Prismarine"
+			icon: "minecraft:dark_prismarine"
+			x: 2.0d
+			y: 11.5d
+			subtitle: "64x for 24 Credits"
+			id: "35773A25AACD83CC"
+			tasks: [
+				{
+					id: "681ED99E20313FA1"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "32877F3AFD67A544"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "6AD1CC9FE9FBFE3F"
+					type: "item"
+					item: "minecraft:dark_prismarine"
+					count: 64
+				}
+				{
+					id: "54190EB8E12D1E8B"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Sea Lantern"
+			icon: "minecraft:sea_lantern"
+			x: 2.0d
+			y: 12.5d
+			subtitle: "16x for 16 Credits"
+			id: "68B58EF0F98EBB79"
+			tasks: [
+				{
+					id: "762BAD1D5C6CA0E5"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "5F2825EF3663EAD5"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "61DB8613DC81D163"
+					type: "item"
+					item: "minecraft:sea_lantern"
+					count: 16
+				}
+				{
+					id: "68D7FE5E1DF06394"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Jasper"
+			icon: "quark:jasper"
+			x: 3.0d
+			y: 0.0d
+			subtitle: "64x for 16 Credits"
+			id: "442CA85ECACDE195"
+			tasks: [
+				{
+					id: "45FE680E8F54D931"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "231FD18D15A4EC4F"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "08CD9E9E7156789A"
+					type: "item"
+					item: "quark:jasper"
+					count: 64
+				}
+				{
+					id: "7D3E9EBA291FFC18"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Sand"
+			icon: "minecraft:sand"
+			x: 16.0d
+			y: 0.0d
+			subtitle: "64x for 16 Credits"
+			id: "4B04EBDFD906E382"
+			tasks: [
+				{
+					id: "5757776BD1542091"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "5123A674625A9532"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "2BE9E0F67652BE99"
+					type: "item"
+					item: "minecraft:sand"
+					count: 64
+				}
+				{
+					id: "4AF07F68A199325A"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Sandstone"
+			icon: "minecraft:sandstone"
+			x: 16.0d
+			y: 1.0d
+			subtitle: "64x for 16 Credits"
+			id: "56D467B67B3304B3"
+			tasks: [
+				{
+					id: "5129C8AD4DBDA578"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "0116ACA1FA572F44"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "1BA13A8C08CEEC4E"
+					type: "item"
+					item: "minecraft:sandstone"
+					count: 64
+				}
+				{
+					id: "434192DE42F12A6A"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Smooth Sandstone"
+			icon: "minecraft:smooth_sandstone"
+			x: 16.0d
+			y: 2.0d
+			subtitle: "64x for 16 Credits"
+			id: "50B9C2492D58DDCA"
+			tasks: [
+				{
+					id: "10CA96AFF4E96995"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "68B071CE271B26FA"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "707DF74BFB8A2006"
+					type: "item"
+					item: "minecraft:smooth_sandstone"
+				}
+				{
+					id: "010DE0660CB57534"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Red Sand"
+			icon: "minecraft:red_sand"
+			x: 16.0d
+			y: 3.0d
+			subtitle: "64x for 16 Credits"
+			id: "296ED4AB79170CC4"
+			tasks: [
+				{
+					id: "2825432EE5CEB198"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "6A44953DD5C669B7"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "716B934BD3979FCC"
+					type: "item"
+					item: "minecraft:red_sand"
+					count: 64
+				}
+				{
+					id: "0E6ADA51BD302560"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Red Sandstone"
+			icon: "minecraft:red_sandstone"
+			x: 16.0d
+			y: 4.0d
+			subtitle: "64x for 16 Credits"
+			id: "3AD02C2A53BE7A6C"
+			tasks: [
+				{
+					id: "0FBAC034DE0D3D87"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "1888093AA0F3D860"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "1631B475D444AA0D"
+					type: "item"
+					item: "minecraft:red_sandstone"
+					count: 64
+				}
+				{
+					id: "77A5368ED75528E6"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Smooth Red Sandstone"
+			icon: "minecraft:smooth_red_sandstone"
+			x: 16.0d
+			y: 5.0d
+			subtitle: "64x for 16 Credits"
+			id: "185B139D35A43BB4"
+			tasks: [
+				{
+					id: "6216C5D700DF5D1A"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "5548820AA3FCD847"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "0EA8D3082F8F99D9"
+					type: "item"
+					item: "minecraft:smooth_red_sandstone"
+					count: 64
+				}
+				{
+					id: "2E200D8B165856C9"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Arid Sand"
+			icon: "atmospheric:arid_sand"
+			x: 17.0d
+			y: 0.0d
+			subtitle: "64x for 24 Credits"
+			id: "3F26804152532E8B"
+			tasks: [
+				{
+					id: "7C8352E0A7CED627"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "7DD0BB2D7670B13C"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "086CB0A8238ECA8C"
+					type: "item"
+					item: "atmospheric:arid_sand"
+					count: 64
+				}
+				{
+					id: "02962E4020A372EA"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			title: "Buy Arid Sandstone"
+			icon: "atmospheric:arid_sandstone"
+			x: 17.0d
+			y: 1.0d
+			subtitle: "64x for 24 Credits"
+			id: "6D141CF165CFF6D3"
+			tasks: [
+				{
+					id: "3F58A18C358BD472"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "49291D4DD5707B0C"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "127AE81102092AE6"
+					type: "item"
+					item: "atmospheric:smooth_arid_sandstone"
+					count: 64
+				}
+				{
+					id: "4225AB50E0162777"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Arid Smooth Sandstone"
+			icon: "atmospheric:smooth_arid_sandstone"
+			x: 17.0d
+			y: 2.0d
+			subtitle: "64x for 24 Credits"
+			id: "68BE40B52C40F4A0"
+			tasks: [
+				{
+					id: "73F9DF2B02444D1A"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "0F5141893EE790A7"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "7BD4DC5CCBAC03CB"
+					type: "item"
+					item: "atmospheric:smooth_arid_sandstone"
+					count: 64
+				}
+				{
+					id: "0F9D0C4D0A8BED73"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Red Arid Sand"
+			icon: "atmospheric:red_arid_sand"
+			x: 17.0d
+			y: 3.0d
+			subtitle: "64x for 24 Credits"
+			id: "762ACC86EC5EC7FC"
+			tasks: [
+				{
+					id: "20D92EF6E31BED35"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "297BD5052D7FAAD4"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "02258B0C5A5C43F9"
+					type: "item"
+					item: "atmospheric:red_arid_sand"
+					count: 64
+				}
+				{
+					id: "52FD17E03BBEDD5E"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Red Arid Sandstone"
+			icon: "atmospheric:red_arid_sandstone"
+			x: 17.0d
+			y: 4.0d
+			subtitle: "64x for 24 Credits"
+			id: "45AD76A677F673B6"
+			tasks: [
+				{
+					id: "13EE0D232AEC76FC"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "2F79A6BA8731ECA0"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "0E9F3E0BE525A330"
+					type: "item"
+					item: "atmospheric:red_arid_sandstone"
+					count: 64
+				}
+				{
+					id: "2C50873E789020AF"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Red Arid Smooth Sandstone"
+			icon: "atmospheric:smooth_red_arid_sandstone"
+			x: 17.0d
+			y: 5.0d
+			subtitle: "64x for 24 Credits"
+			id: "7EA748C55D1D5F37"
+			tasks: [
+				{
+					id: "5B5D523346A609E6"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "5A6801FFFDEDBAAE"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "695946CC1F13AFE7"
+					type: "item"
+					item: "atmospheric:smooth_red_arid_sandstone"
+					count: 64
+				}
+				{
+					id: "6A811D5E4CEB0B81"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy White Sand"
+			icon: "biomesoplenty:white_sand"
+			x: 15.0d
+			y: 0.0d
+			subtitle: "64x for 24 Credits"
+			id: "5FAB8DA12BB2C907"
+			tasks: [
+				{
+					id: "21223C2769E7EF0F"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "5F48709494C81102"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "5AACE39D4590291D"
+					type: "item"
+					item: "biomesoplenty:white_sand"
+					count: 64
+				}
+				{
+					id: "38628A9B44B9719B"
+					type: "custom"
+					title: "Confirm Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy White Sandstone"
+			icon: "biomesoplenty:white_sandstone"
+			x: 15.0d
+			y: 1.0d
+			subtitle: "64x for 24 Credits"
+			id: "7895415EC97E2E09"
+			tasks: [
+				{
+					id: "455528C3386286F6"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "01968744006E23E6"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "3E9B537D5EF19403"
+					type: "item"
+					item: "biomesoplenty:white_sandstone"
+					count: 64
+				}
+				{
+					id: "35A5C70579C9FF7C"
+					type: "custom"
+					title: "Confirm Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Smooth White Sandstone"
+			icon: "biomesoplenty:smooth_white_sandstone"
+			x: 15.0d
+			y: 2.0d
+			subtitle: "64x for 24 Credits"
+			id: "6823E16E65DA17D7"
+			tasks: [
+				{
+					id: "1FC58094F5EC0E16"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "501E04DA775E984C"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "74F0E6B8EC07CF24"
+					type: "item"
+					item: "biomesoplenty:smooth_white_sandstone"
+					count: 64
+				}
+				{
+					id: "141546BCD10E5DB7"
+					type: "custom"
+					title: "Confirm Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Padded Block"
+			icon: "dustrial_decor:padded_block"
+			x: 20.0d
+			y: 0.0d
+			subtitle: "64x for 16 Credits"
+			id: "686F034E347F1333"
+			tasks: [
+				{
+					id: "0DE51A945DF94C79"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "3DE9A0C87DEED23F"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "0A4DD4DEEEDD053A"
+					type: "item"
+					item: "dustrial_decor:padded_block"
+					count: 64
+				}
+				{
+					id: "2C3A5F77787806B7"
+					type: "custom"
+					title: "Confirm Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Mini Padded Block"
+			icon: "dustrial_decor:mini_padded_block"
+			x: 20.0d
+			y: 1.0d
+			subtitle: "64x for 16 Credits"
+			id: "3A8580E01D1A893F"
+			tasks: [
+				{
+					id: "597C0A6CFBB4B584"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "6AD92A72CD0DEA7C"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "7C18C2D56EDE9A94"
+					type: "item"
+					item: "dustrial_decor:mini_padded_block"
+					count: 64
+				}
+				{
+					id: "514DD8C1C2F98993"
+					type: "custom"
+					title: "Confirm Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Industrial Iron Blocks"
+			icon: "dustrial_decor:industrial_iron_block"
+			x: 21.0d
+			y: 0.0d
+			subtitle: "64x for 16 Credits"
+			id: "09085719249A61A9"
+			tasks: [
+				{
+					id: "4D7D73F68782A7C4"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "114F97D5198E9DCA"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "5DD2F7C7E6B729E6"
+					type: "item"
+					item: "dustrial_decor:industrial_iron_block"
+					count: 64
+				}
+				{
+					id: "20785E14EE4AEBB6"
+					type: "custom"
+					title: "Confirm Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Industrial Iron Pillar"
+			icon: "dustrial_decor:industrial_iron_pillar"
+			x: 21.0d
+			y: 1.0d
+			subtitle: "64x for 16 Credits"
+			id: "2D28870D78814ED4"
+			tasks: [
+				{
+					id: "0B695583F5EB6E4A"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "3904C918E9AC8C07"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "4275DB445C23C7E8"
+					type: "item"
+					item: "dustrial_decor:industrial_iron_pillar"
+					count: 64
+				}
+				{
+					id: "233A3E3BF7453C69"
+					type: "custom"
+					title: "Confirm Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Industrial Bolted Iron Block"
+			icon: "dustrial_decor:bolted_industrial_iron_block"
+			x: 21.0d
+			y: 2.0d
+			subtitle: "64x for 16 Credits"
+			id: "4AED17EC955BC2F1"
+			tasks: [
+				{
+					id: "7E3FBD49A25FE602"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "0DDEBAFC24ED87BA"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "305F8950674C6758"
+					type: "item"
+					item: "dustrial_decor:bolted_industrial_iron_block"
+					count: 64
+				}
+				{
+					id: "1ED78AE0C0E6FC1B"
+					type: "custom"
+					title: "Confirm Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Sheet Metal Plating"
+			icon: "dustrial_decor:sheet_metal_plating"
+			x: 22.0d
+			y: 0.0d
+			subtitle: "64x for 16 Credits"
+			id: "0814793B8E0EEB78"
+			tasks: [
+				{
+					id: "45B788B4946DC637"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "4332D70FBE4892B6"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "0AA145A1BB7DC71E"
+					type: "item"
+					item: "dustrial_decor:sheet_metal_plating"
+					count: 64
+				}
+				{
+					id: "49AD56FE6DE3C14E"
+					type: "custom"
+					title: "Confirm Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Sheet Metal Panneling"
+			icon: "dustrial_decor:sheet_metal_paneling"
+			x: 22.0d
+			y: 1.0d
+			subtitle: "64x for 16 Credits"
+			id: "62D5B24B4EC3E07A"
+			tasks: [
+				{
+					id: "6C36E1BDA05F6CB8"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "17C3963BEDD47A0C"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "1CE411A49985E7CA"
+					type: "item"
+					item: "dustrial_decor:sheet_metal_paneling"
+					count: 64
+				}
+				{
+					id: "1CFD127B3825109D"
+					type: "custom"
+					title: "Confirm Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Sheet Metal Siding"
+			icon: "dustrial_decor:sheet_metal_siding"
+			x: 22.0d
+			y: 2.0d
+			subtitle: "64x for 16 Credits"
+			id: "4FF76EE81779621E"
+			tasks: [
+				{
+					id: "667FE3AA2F0583EE"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "5AE6C91629674059"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "54DA29DF53A8D762"
+					type: "item"
+					item: "dustrial_decor:sheet_metal_siding"
+					count: 64
+				}
+				{
+					id: "394775228D5D847F"
+					type: "custom"
+					title: "Confirm Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Rusty Sheet Metal Plating"
+			icon: "dustrial_decor:rusty_sheet_metal_plating"
+			x: 23.0d
+			y: 1.0d
+			subtitle: "64x for 16 Credits"
+			id: "43758E4D791B4A13"
+			tasks: [
+				{
+					id: "62DF90BC1103169F"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "155BB0D18125B599"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "78A0707EDD14D99C"
+					type: "item"
+					item: "dustrial_decor:rusty_sheet_metal_plating"
+					count: 64
+				}
+				{
+					id: "6ED1CE7BF66157E4"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Rusty Sheet Metal Paneling"
+			icon: "dustrial_decor:rusty_sheet_metal_paneling"
+			x: 23.0d
+			y: 2.0d
+			subtitle: "64x for 16 Credits"
+			id: "2FE07CE34CD270E4"
+			tasks: [
+				{
+					id: "55169A249A9BD214"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "2C2AC65D59D09F94"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "69DE53CFD885885A"
+					type: "item"
+					item: "dustrial_decor:rusty_sheet_metal_paneling"
+					count: 64
+				}
+				{
+					id: "241134AF662B8F54"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Rusty Sheet Metal Siding"
+			icon: "dustrial_decor:rusty_sheet_metal_siding"
+			x: 23.0d
+			y: 3.0d
+			subtitle: "64x for 16 Credits"
+			id: "40C1D3A2054F70B8"
+			tasks: [
+				{
+					id: "3D349CDAF6DB2B6E"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "41D7B3098FF075D4"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "7AAFD109F638C179"
+					type: "item"
+					item: "dustrial_decor:rusty_sheet_metal_siding"
+					count: 64
+				}
+				{
+					id: "5D372F6FF4E30402"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Sheet Metal Walling"
+			icon: "dustrial_decor:sheet_metal_walling"
+			x: 22.0d
+			y: 3.0d
+			subtitle: "64x for 16 Credits"
+			id: "5D94288AD7CA4EC5"
+			tasks: [
+				{
+					id: "22BAA6D049F32820"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "3E25C0D71A46411B"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "7C64AC337497B825"
+					type: "item"
+					item: "dustrial_decor:sheet_metal_walling"
+					count: 64
+				}
+				{
+					id: "32AE4D985B06CE62"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Rusty Sheet Metal Walling"
+			icon: "dustrial_decor:rusty_sheet_metal_walling"
+			x: 23.0d
+			y: 4.0d
+			subtitle: "64x for 16 Credits"
+			id: "3D9B3F36851C94AA"
+			tasks: [
+				{
+					id: "05E2432101E12DC8"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "40B7268A506F7EF3"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "34D1AA23AFFF7EB2"
+					type: "item"
+					item: "dustrial_decor:rusty_sheet_metal_walling"
+					count: 64
+				}
+				{
+					id: "37EB018FBC9A9992"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Cinder Blocks"
+			icon: "dustrial_decor:cinder_block"
+			x: 20.0d
+			y: 2.0d
+			subtitle: "64x for 24 Credits"
+			id: "33CC063623EB02CA"
+			tasks: [
+				{
+					id: "78A4703547C88D65"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "617B0CB14327EFB7"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "04A5CAC4F1714491"
+					type: "item"
+					item: "dustrial_decor:cinder_block"
+					count: 64
+				}
+				{
+					id: "4DC39068EB045219"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Cinder Bricks"
+			icon: "dustrial_decor:cinder_bricks"
+			x: 20.0d
+			y: 4.0d
+			subtitle: "64x for 24 Credits"
+			id: "4F464EDEDA9E1D5E"
+			tasks: [
+				{
+					id: "775FA4602CA23796"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "6B78226BBF2BACC6"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "4976EFE4DC4406D7"
+					type: "item"
+					item: "dustrial_decor:polished_cinder_block"
+					count: 64
+				}
+				{
+					id: "6C1F4D3EE76A93F9"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Polished Cinder Bricks"
+			icon: "dustrial_decor:polished_cinder_block"
+			x: 20.0d
+			y: 3.0d
+			subtitle: "64x for 24 Credits"
+			id: "2C4AE2B0D428357A"
+			tasks: [
+				{
+					id: "2112EF95D8E73744"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "0616039497A7297A"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "29611EEDB43760F4"
+					type: "item"
+					item: "dustrial_decor:polished_cinder_block"
+					count: 64
+				}
+				{
+					id: "15DA409E5570499D"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Rust Iron Block"
+			icon: "dustrial_decor:rusty_iron_block"
+			x: 23.0d
+			y: 0.0d
+			subtitle: "64x for 16 Credits"
+			id: "1F104541EC0F049A"
+			tasks: [
+				{
+					id: "63C1DB14BDF02D9B"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "2C24E1D31FD78FF9"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "4365443FFF1DF5C2"
+				type: "item"
+				item: "dustrial_decor:rusty_iron_block"
+				count: 64
+			}]
+		}
+		{
+			title: "Buy Wrapped Chains"
+			icon: "dustrial_decor:wrapped_chains"
+			x: 21.0d
+			y: 3.0d
+			subtitle: "64x for 16 Credits"
+			id: "007C73DA4E716453"
+			tasks: [
+				{
+					id: "7F96977FDD44009F"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "2A1FFED347611567"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "1BF12C1E7897F8C1"
+					type: "item"
+					item: "dustrial_decor:wrapped_chains"
+					count: 64
+				}
+				{
+					id: "18DFCAB3F3403875"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Cast Iron Block"
+			icon: "dustrial_decor:cast_iron_block"
+			x: 24.0d
+			y: 0.0d
+			subtitle: "64x for 24 Credits"
+			id: "3DFABA7F4C5E5245"
+			tasks: [
+				{
+					id: "3A669A4B9219E03E"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "5A19EB6B622EE234"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "0CD0F66CE095B6FC"
+					type: "item"
+					item: "dustrial_decor:cast_iron_block"
+					count: 64
+				}
+				{
+					id: "7A3192989A830059"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Cast Iron Pillar"
+			icon: "dustrial_decor:cast_iron_pillar"
+			x: 24.0d
+			y: 1.0d
+			subtitle: "64x for 24 Credits"
+			id: "7EE14710F34C2A48"
+			tasks: [
+				{
+					id: "00EFB30A28E2E60A"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "13377DDB4A847882"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "02B65F781ABEF82C"
+					type: "item"
+					item: "dustrial_decor:cast_iron_pillar"
+					count: 64
+				}
+				{
+					id: "0F7BA9B0F20D6743"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Cast Iron Bricks"
+			icon: "dustrial_decor:cast_iron_bricks"
+			x: 24.0d
+			y: 2.0d
+			subtitle: "64x for 24 Credits"
+			id: "6E104205408664B7"
+			tasks: [
+				{
+					id: "409C167C770DBDA2"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "078D6B4554DA9470"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "0F39ED744BE11988"
+					type: "item"
+					item: "dustrial_decor:cast_iron_bricks"
+					count: 64
+				}
+				{
+					id: "7712C78528295F95"
+					type: "custom"
+					title: "Complete Transcation"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Engraved Cast Iron Block"
+			icon: "dustrial_decor:engraved_cast_iron_block"
+			x: 24.0d
+			y: 3.0d
+			subtitle: "64x for 24 Credits"
+			id: "039AD9B7F8B7489B"
+			tasks: [
+				{
+					id: "693BFD2B4B765C75"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "2B2B66521FAD7C94"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "3BAB287BC0EC6D2D"
+					type: "item"
+					item: "dustrial_decor:engraved_cast_iron_block"
+					count: 64
+				}
+				{
+					id: "047003321826FD28"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+					auto: "disabled"
+				}
+			]
+		}
+		{
+			title: "Buy Cast Iron Balustrade"
+			icon: "dustrial_decor:cast_iron_balustrade"
+			x: 24.0d
+			y: 4.0d
+			subtitle: "64x for 16 Credits"
+			id: "62DB142A94179D66"
+			tasks: [
+				{
+					id: "5497E85090617160"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "19AE7CBE288D526E"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "5D04F1B01226A58C"
+					type: "item"
+					item: "dustrial_decor:cast_iron_balustrade"
+					count: 64
+				}
+				{
+					id: "6173F5B63962B317"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Iron Plate"
+			icon: "quark:iron_plate"
+			x: 22.0d
+			y: 4.0d
+			subtitle: "64x for 16 Credits"
+			id: "18F5B257CF80F6D1"
+			tasks: [
+				{
+					id: "597E78B848FAD950"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "77E0D32238E91A16"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "2D51916F9691CC7D"
+					type: "item"
+					item: "quark:iron_plate"
+					count: 64
+				}
+				{
+					id: "69E6DFD3E58318F7"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Rusty Iron Plate"
+			icon: "quark:rusty_iron_plate"
+			x: 23.0d
+			y: 5.0d
+			subtitle: "64x for 16 Credits"
+			id: "3D19111F419EA11B"
+			tasks: [
+				{
+					id: "78F25B914EA89370"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "5D63E30E51EE0DB0"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "235E997F65EEC8B8"
+					type: "item"
+					item: "quark:rusty_iron_plate"
+					count: 64
+				}
+				{
+					id: "3EC7053C04479ADE"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Block of Quartz"
+			icon: "minecraft:quartz_block"
+			x: -3.0d
+			y: 10.5d
+			subtitle: "64x for 32 Credits"
+			id: "513B538BFD7098EA"
+			tasks: [
+				{
+					id: "515E47B42CC4E64B"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 6L
+					consume_items: true
+				}
+				{
+					id: "4B6C2CB8C0B1690C"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 2L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "019B9AD87BACD708"
+					type: "item"
+					item: "minecraft:quartz_block"
+					count: 64
+				}
+				{
+					id: "11D3D4236505CE4B"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Quartz Pillar"
+			icon: "minecraft:quartz_pillar"
+			x: -3.0d
+			y: 11.5d
+			subtitle: "64x for 32 Credits"
+			id: "4E4AF37B27081E1F"
+			tasks: [
+				{
+					id: "02477C45510F2198"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 6L
+					consume_items: true
+				}
+				{
+					id: "27E0DD517EE696C9"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 2L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "323FAAFDDBEE522F"
+					type: "item"
+					item: "minecraft:quartz_pillar"
+					count: 64
+				}
+				{
+					id: "3D1DAFC628B8A030"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Smooth Quartz"
+			icon: "minecraft:smooth_quartz"
+			x: -3.0d
+			y: 12.5d
+			subtitle: "64x for 32 Credits"
+			id: "71868F9D789C80CE"
+			tasks: [
+				{
+					id: "69FEF1B1AE44515A"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 6L
+					consume_items: true
+				}
+				{
+					id: "41DF4856BC1B4B2C"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 2L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "7EF456ACFA5E3843"
+					type: "item"
+					item: "minecraft:smooth_quartz"
+					count: 64
+				}
+				{
+					id: "25799DA5B3ECE677"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Chiseled Quartz"
+			icon: "minecraft:chiseled_quartz_block"
+			x: -3.0d
+			y: 13.5d
+			subtitle: "64x for 32 Credits"
+			id: "2E467902CDFACBBF"
+			tasks: [
+				{
+					id: "2737DDB7F97D5D80"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 6L
+					consume_items: true
+				}
+				{
+					id: "09CC95DCEBDF7AB3"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 2L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "1AAFFB75D27E4844"
+					type: "item"
+					item: "minecraft:chiseled_quartz_block"
+					count: 64
+				}
+				{
+					id: "080697AF368A6B4F"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Snail Block"
+			icon: "autumnity:snail_shell_block"
+			x: 19.0d
+			y: 0.0d
+			subtitle: "64x for 24 Credits"
+			id: "326308E215763D7A"
+			tasks: [
+				{
+					id: "40FA30A0A0FD303B"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "207915723DFD19C2"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "43FC691C9CB0422E"
+					type: "item"
+					item: "autumnity:snail_shell_block"
+					count: 64
+				}
+				{
+					id: "5634C30286DE799C"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Snail Bricks"
+			icon: "autumnity:snail_shell_bricks"
+			x: 19.0d
+			y: 1.0d
+			subtitle: "64x for 24 Credits"
+			id: "2A0A0B192BAEF751"
+			tasks: [
+				{
+					id: "57B87480D5F9D8B5"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "6287F624BD0E1451"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "4A8F7BDF368BE1FA"
+					type: "item"
+					item: "autumnity:snail_shell_bricks"
+					count: 64
+				}
+				{
+					id: "4EB6D7CD3A8B2CBA"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Chiseled Snail Shell Bricks"
+			icon: "autumnity:chiseled_snail_shell_bricks"
+			x: 19.0d
+			y: 2.0d
+			subtitle: "64x for 24 Credits"
+			id: "79459AD45B4E83E9"
+			tasks: [
+				{
+					id: "5EB6F8D5D46E03B9"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "218C0F2FE06B77DD"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "039AC8D7512B9437"
+					type: "item"
+					item: "autumnity:chiseled_snail_shell_bricks"
+					count: 64
+				}
+				{
+					id: "30C65B4C5FF25390"
+					type: "custom"
+					title: "Complete Transcaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Snail Shell Tiles"
+			icon: "autumnity:snail_shell_tiles"
+			x: 19.0d
+			y: 3.0d
+			subtitle: "64x for 24 Credits"
+			id: "21B4F664F0A7DD44"
+			tasks: [
+				{
+					id: "030FBF76B99A29F9"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "437EAF008991439D"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "7687F4EC4CBA1F6B"
+					type: "item"
+					item: "autumnity:snail_shell_tiles"
+					count: 64
+				}
+				{
+					id: "3047DA8C6EC41A09"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Basalt"
+			icon: "minecraft:basalt"
+			x: -1.0d
+			y: 10.5d
+			subtitle: "64x for 8 Credits"
+			id: "3DE227F2CFA17DC3"
+			tasks: [{
+				id: "5F650D15E0759763"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "07C982BC7996715D"
+					type: "item"
+					item: "minecraft:basalt"
+					count: 64
+				}
+				{
+					id: "09CF20F8771CC9C8"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Bricks"
+			icon: "minecraft:bricks"
+			x: 13.0d
+			y: 0.0d
+			subtitle: "64x for 8 Credits"
+			id: "465524A26442BBAE"
+			tasks: [{
+				id: "736FC98526410C1E"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3D6ABF074B68C4EE"
+					type: "item"
+					item: "minecraft:bricks"
+					count: 64
+				}
+				{
+					id: "1D8B47E9943C520B"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Dirt"
+			icon: "minecraft:dirt"
+			x: 18.0d
+			y: 0.0d
+			subtitle: "64x for 8 Credits"
+			id: "55396D0B8B10D33B"
+			tasks: [{
+				id: "24893B9372F98E70"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2E384BC620C65965"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 64
+				}
+				{
+					id: "03B2A7ADEF5C289B"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Course Dirt"
+			icon: "minecraft:coarse_dirt"
+			x: 18.0d
+			y: 1.0d
+			subtitle: "64x for 8 Credits"
+			id: "3A651CF71F552F83"
+			tasks: [{
+				id: "0C1673DB0D82ABC8"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "73AFFC0AEE3C106E"
+					type: "item"
+					item: "minecraft:coarse_dirt"
+					count: 64
+				}
+				{
+					id: "714F63931EC73CBD"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Grass Block"
+			icon: "minecraft:grass_block"
+			x: 18.0d
+			y: 2.0d
+			subtitle: "64x for 16 Credits"
+			id: "2572EADBD22DC607"
+			tasks: [
+				{
+					id: "330B8606690AE85E"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "23D5ABFA1AC27C1E"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "4BFA3BF388A85A2D"
+					type: "item"
+					item: "minecraft:grass_block"
+					count: 64
+				}
+				{
+					id: "28CD0A1E6467F070"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Algae Thatch"
+			icon: "bayou_blues:algae_thatch"
+			x: 18.0d
+			y: 3.0d
+			subtitle: "64x for 16 Credits"
+			id: "6E608D797000A01F"
+			tasks: [
+				{
+					id: "1828B016AA07207B"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "31311DED23722B1B"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "40FBBDB51126C208"
+					type: "item"
+					item: "bayou_blues:algae_thatch"
+					count: 64
+				}
+				{
+					id: "40A2393D73772546"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Beach Grass Thatch"
+			icon: "upgrade_aquatic:beachgrass_thatch"
+			x: 18.0d
+			y: 4.0d
+			subtitle: "64x for 16 Credits"
+			id: "29920C7BBBE31B8A"
+			tasks: [
+				{
+					id: "7DF81123F5504C93"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "4C9B3921B5C78EDB"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "585C936CBBD050AF"
+					type: "item"
+					item: "upgrade_aquatic:beachgrass_thatch"
+					count: 64
+				}
+				{
+					id: "13E1D04B09FF3007"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Scute Block"
+			icon: "upgrade_aquatic:scute_block"
+			x: 19.0d
+			y: 4.0d
+			subtitle: "64x for 24 Credits"
+			id: "593B378F67BD237A"
+			tasks: [
+				{
+					id: "0039CE8BF3524B80"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "3BEAF5FEB845079D"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "23B80F2D2B423056"
+					type: "item"
+					item: "upgrade_aquatic:scute_block"
+					count: 64
+				}
+				{
+					id: "32D8058BDBD58B05"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Scute Shingles"
+			icon: "upgrade_aquatic:scute_shingles"
+			x: 19.0d
+			y: 5.0d
+			subtitle: "64x for 24 Credits"
+			id: "42F54BEEC9B9F8EB"
+			tasks: [
+				{
+					id: "222EA5484E458C7B"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "439E357A745A6B76"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "09856F951C2B70A9"
+					type: "item"
+					item: "upgrade_aquatic:scute_shingles"
+					count: 64
+				}
+				{
+					id: "25A46D1079C21CB1"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Chiseled Scute Shingles"
+			icon: "upgrade_aquatic:chiseled_scute_shingles"
+			x: 19.0d
+			y: 6.0d
+			subtitle: "64x for 24 Credits"
+			id: "5B5DB5B69CB7392E"
+			tasks: [
+				{
+					id: "3D794881824FFD42"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "20584EB2396A7D6E"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "44F0547B4B0DC77B"
+					type: "item"
+					item: "upgrade_aquatic:chiseled_scute_shingles"
+					count: 64
+				}
+				{
+					id: "756660A72E75F6F9"
+					type: "custom"
+					title: "Complete Traansaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Scute Pavement"
+			icon: "upgrade_aquatic:scute_pavement"
+			x: 19.0d
+			y: 7.0d
+			subtitle: "64x for 24 Credits"
+			id: "2CC22A7365F2CDF8"
+			tasks: [
+				{
+					id: "62FC5FD9B1735ED8"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "06A1448E0448D4E4"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "32FF152936D28958"
+					type: "item"
+					item: "upgrade_aquatic:scute_pavement"
+					count: 64
+				}
+				{
+					id: "32716ED6DC9DB4F2"
+					type: "custom"
+					title: "Complete Transcation"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Mossy Cobblestone"
+			icon: "minecraft:mossy_cobblestone"
+			x: -3.0d
+			y: 1.0d
+			subtitle: "64x for 4 Credits"
+			id: "23A251A3AF0137AF"
+			tasks: [{
+				id: "40BDF08D154F5252"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6F6655CE0A3B972A"
+				type: "item"
+				item: "minecraft:mossy_cobblestone"
+				count: 64
+			}]
+		}
+		{
+			title: "Buy Cobbled Deepslate"
+			icon: "quark:cobbled_deepslate"
+			x: -1.0d
+			y: 0.0d
+			subtitle: "64x for 8 Credits"
+			id: "5278C6FEFA48B944"
+			tasks: [{
+				id: "18C7675542730BA3"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4FB16388469A40E2"
+					type: "item"
+					item: "quark:cobbled_deepslate"
+					count: 64
+				}
+				{
+					id: "61A6EB4CE89D02F9"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Stone Bricks"
+			icon: "minecraft:stone_bricks"
+			x: -2.0d
+			y: 1.0d
+			subtitle: "64x for 8 Credits"
+			id: "15FBDB2018C44E5C"
+			tasks: [{
+				id: "3721774C325C0F37"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7F6A80D3A09F4A53"
+					type: "item"
+					item: "minecraft:stone_bricks"
+					count: 64
+				}
+				{
+					id: "407EA3C51DEF6FB2"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Mossy Stone Brick"
+			icon: "minecraft:mossy_stone_bricks"
+			x: -2.0d
+			y: 2.0d
+			subtitle: "64x for 8 Credits"
+			id: "4055FF873A7500BD"
+			tasks: [{
+				id: "0C2307A282238CC4"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1C652154371C8C36"
+					type: "item"
+					item: "minecraft:mossy_stone_bricks"
+					count: 64
+				}
+				{
+					id: "75D9D9A7E470C250"
+					type: "custom"
+					title: "Complet Transactions"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Cracked Stone Bricks"
+			icon: "minecraft:cracked_stone_bricks"
+			x: -2.0d
+			y: 3.0d
+			subtitle: "64x for 8 Credits"
+			id: "13CE697A5FA5E9DA"
+			tasks: [{
+				id: "51B651B41B556143"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "151DBDD45841E5A7"
+					type: "item"
+					item: "minecraft:cracked_stone_bricks"
+					count: 64
+				}
+				{
+					id: "58742640407F1813"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Chiseled Stone Brick"
+			icon: "minecraft:chiseled_stone_bricks"
+			x: -2.0d
+			y: 4.0d
+			subtitle: "64x for 8 Credits"
+			id: "5B43F57D78891874"
+			tasks: [{
+				id: "398F2926641D6711"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4A358E58BA39602F"
+					type: "item"
+					item: "minecraft:chiseled_stone_bricks"
+					count: 64
+				}
+				{
+					id: "3E69E827A5660AFC"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Deepslate"
+			icon: "quark:deepslate"
+			x: -1.0d
+			y: 1.0d
+			subtitle: "64x for 16 Credits"
+			id: "395C3A57914FBD1E"
+			tasks: [
+				{
+					id: "0B2A10850219FD56"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "700D8508247125B4"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "350419CF17E00654"
+					type: "item"
+					item: "quark:deepslate"
+					count: 64
+				}
+				{
+					id: "2C98AEF28B24C348"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Polished Deepslate"
+			icon: "quark:polished_deepslate"
+			x: -1.0d
+			y: 2.0d
+			subtitle: "64x for 16 Credits"
+			id: "1AC6738253BA6CF1"
+			tasks: [
+				{
+					id: "32E38BA3B0B8320C"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "33478807554254DB"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "0620D6DFF15CE58E"
+					type: "item"
+					item: "quark:polished_deepslate"
+					count: 64
+				}
+				{
+					id: "218313DB80335346"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Deepslate Bricks"
+			icon: "quark:deepslate_bricks"
+			x: -1.0d
+			y: 3.0d
+			subtitle: "64x for 16 Credits"
+			id: "412667FC304392DE"
+			tasks: [
+				{
+					id: "726807C3719ABB41"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "7EDB1B1FA5955B99"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "2358BD183D19D88A"
+					type: "item"
+					item: "quark:deepslate_bricks"
+					count: 64
+				}
+				{
+					id: "67D9F60D9F54769C"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Deepslate Tiles"
+			icon: "quark:deepslate_tiles"
+			x: -1.0d
+			y: 4.0d
+			subtitle: "64x for 16 Credits"
+			id: "35A58F86901C4D35"
+			tasks: [
+				{
+					id: "2F4881D5E83DD0ED"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "16ADC4CF1EA5B769"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "53FF6FFD2A0FDD4B"
+					type: "item"
+					item: "quark:deepslate_tiles"
+					count: 64
+				}
+				{
+					id: "2830B7682DB2FE23"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Chiseled Deepslate"
+			icon: "quark:chiseled_deepslate"
+			x: -1.0d
+			y: 5.0d
+			subtitle: "64x for 16 Credits"
+			id: "40F5DFE808FB0876"
+			tasks: [
+				{
+					id: "4F83AA80BB3A07D4"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "67A4427E9016EA52"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "37D804026453559C"
+					type: "item"
+					item: "quark:chiseled_deepslate"
+					count: 64
+				}
+				{
+					id: "03A12928B6907427"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Polished Andesite"
+			icon: "minecraft:polished_andesite"
+			x: 0.0d
+			y: 1.0d
+			subtitle: "64x for 32 Credits"
+			id: "122C3A5AF5F5C243"
+			tasks: [
+				{
+					id: "28B7B6178716271D"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 6L
+					consume_items: true
+				}
+				{
+					id: "2DB9BFAAB77D91DD"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 2L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "7B9BAB4B7D41624C"
+					type: "item"
+					item: "minecraft:polished_andesite"
+					count: 64
+				}
+				{
+					id: "28EE606A86F162CB"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Polished Andesite Bricks"
+			icon: "quark:andesite_bricks"
+			x: 0.0d
+			y: 2.0d
+			subtitle: "64x for 32 Credits"
+			id: "3D01205E7302A598"
+			tasks: [
+				{
+					id: "3B107D6D36072DBF"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 6L
+					consume_items: true
+				}
+				{
+					id: "05C14DEC71028883"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 2L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "3D4EFF8D3CA088B7"
+					type: "item"
+					item: "quark:andesite_bricks"
+					count: 64
+				}
+				{
+					id: "606148D5C8200046"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Chiseled Polished Andesite Bricks"
+			icon: "quark:chiseled_andesite_bricks"
+			x: 0.0d
+			y: 3.0d
+			subtitle: "64x for 32 Credits"
+			id: "7490EBAF1BFCE90D"
+			tasks: [
+				{
+					id: "507D48D9C8FA2902"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 6L
+					consume_items: true
+				}
+				{
+					id: "185E768A3F448FB6"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 2L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "1B65EB195C3C2A19"
+					type: "item"
+					item: "quark:chiseled_andesite_bricks"
+					count: 64
+				}
+				{
+					id: "52C3F211C2E84981"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Polished Andesite Pavement"
+			icon: "quark:andesite_pavement"
+			x: 0.0d
+			y: 4.0d
+			subtitle: "64x for 32 Credits"
+			id: "02A71EEEC562A23E"
+			tasks: [
+				{
+					id: "4C538607D660B220"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 6L
+					consume_items: true
+				}
+				{
+					id: "47D9F0C6773945B7"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 2L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "182AF4A0B53281FE"
+					type: "item"
+					item: "quark:andesite_pavement"
+					count: 64
+				}
+				{
+					id: "54DDCD08DDCAB82C"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Polished Andesite Pillar"
+			icon: "quark:andesite_pillar"
+			x: 0.0d
+			y: 5.0d
+			subtitle: "64x for 32 Credits"
+			id: "15E0AAC4F4BE27ED"
+			tasks: [
+				{
+					id: "5A93ADFC503867FC"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 6L
+					consume_items: true
+				}
+				{
+					id: "6CC02D0FED90CC62"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 2L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "21EE922C479AC3DB"
+					type: "item"
+					item: "quark:andesite_pillar"
+					count: 64
+				}
+				{
+					id: "7EE9ABF6A0978575"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Polished Diorite"
+			icon: "minecraft:polished_diorite"
+			x: 1.0d
+			y: 1.0d
+			subtitle: "64x for 24 Credits"
+			id: "3D1E2DE05B6A2A76"
+			tasks: [
+				{
+					id: "62685C9F171CC25F"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "4093C7CB1B868986"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "2D3F53784D57936F"
+					type: "item"
+					item: "minecraft:polished_diorite"
+					count: 64
+				}
+				{
+					id: "118F8F1C896F0DE8"
+					type: "custom"
+					title: "Complete Transactions"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Polished Andesite Bricks"
+			icon: "quark:diorite_bricks"
+			x: 1.0d
+			y: 2.0d
+			subtitle: "64x for 24 Credits"
+			id: "0AFEC8A9DFC9CA0D"
+			tasks: [
+				{
+					id: "382F27070B72E69C"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "64FC0D252D134F0F"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "731E705F0C71ACC8"
+					type: "item"
+					item: "quark:diorite_bricks"
+					count: 64
+				}
+				{
+					id: "6D894972DA15E054"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Chiseled Polished Andesite Bricks"
+			icon: "quark:chiseled_diorite_bricks"
+			x: 1.0d
+			y: 3.0d
+			subtitle: "64x for 24 Credits"
+			id: "7807D3E83D141AA7"
+			tasks: [
+				{
+					id: "3D6B1ACD80346DAB"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "39B793292D9B4240"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "6688715F922C9B70"
+					type: "item"
+					item: "quark:chiseled_diorite_bricks"
+					count: 64
+				}
+				{
+					id: "2B5DD7922505185B"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Polished Diorite Pavement"
+			icon: "quark:diorite_pavement"
+			x: 1.0d
+			y: 4.0d
+			subtitle: "64x for 24 Credits"
+			id: "59415DCB617654ED"
+			tasks: [
+				{
+					id: "0C64574658F119D0"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "2BE0D28515067E8F"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "31ED2F94B487879F"
+					type: "item"
+					item: "quark:diorite_pavement"
+					count: 64
+				}
+				{
+					id: "2F98D68F2A65D16B"
+					type: "custom"
+					title: "Complete Transactions"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Polished Diorite Pillar"
+			icon: "quark:diorite_pillar"
+			x: 1.0d
+			y: 5.0d
+			subtitle: "64x for 24 Credits"
+			id: "78756DC1DBCE5CAA"
+			tasks: [
+				{
+					id: "69A20A0E7E415147"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "6B65D69F7783C3D7"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "49F2EC29D0968829"
+					type: "item"
+					item: "quark:diorite_pillar"
+					count: 64
+				}
+				{
+					id: "1147D7AB663E5B75"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Polished Granite"
+			icon: "minecraft:polished_granite"
+			x: 2.0d
+			y: 1.0d
+			subtitle: "64x for 24 Credits"
+			id: "316C716859963380"
+			tasks: [
+				{
+					id: "12688F63B4667134"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "7D93DC38FD7AE7ED"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "5DB6328CE86AFB17"
+					type: "item"
+					item: "minecraft:polished_granite"
+					count: 64
+				}
+				{
+					id: "356712D6DE8F4DEF"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Polished Granite Bricks"
+			icon: "quark:granite_bricks"
+			x: 2.0d
+			y: 2.0d
+			subtitle: "64x for 24 Credits"
+			id: "613890B6A228630C"
+			tasks: [
+				{
+					id: "7D3AA89CBBDEA8AD"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "0D6797959C3C62C5"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "41FEEE6C5C07D244"
+					type: "item"
+					item: "quark:granite_bricks"
+					count: 64
+				}
+				{
+					id: "33AF4062550E829C"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Chiseled Polished Granite Bricks"
+			icon: "quark:chiseled_granite_bricks"
+			x: 2.0d
+			y: 3.0d
+			subtitle: "64x for 24 Credits"
+			id: "2CDF482FAB0BEB85"
+			tasks: [
+				{
+					id: "1CD561D4B994B364"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "734ED313B53BCA6F"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "514AD165083D4807"
+					type: "item"
+					item: "quark:chiseled_granite_bricks"
+					count: 64
+				}
+				{
+					id: "24B9EFDEB5EBEF8D"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Polished Granite Pavement"
+			icon: "quark:granite_pavement"
+			x: 2.0d
+			y: 4.0d
+			subtitle: "64x for 24 Credits"
+			id: "636033FBDECB86C5"
+			tasks: [
+				{
+					id: "6F7601473910B9C5"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "20853CCFA7C22C89"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "35141A27D162E60C"
+					type: "item"
+					item: "quark:granite_pavement"
+					count: 64
+				}
+				{
+					id: "3C9BD9B1203C8F6C"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Polished Andesite Pillar"
+			icon: "quark:granite_pillar"
+			x: 2.0d
+			y: 5.0d
+			subtitle: "64x for 24 Credits"
+			id: "7A05270E38AA6213"
+			tasks: [
+				{
+					id: "5B1B3A2120D2461B"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "1F1B2473282F477B"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "0295F6FAA3682AE2"
+					type: "item"
+					item: "quark:granite_pillar"
+					count: 64
+				}
+				{
+					id: "62905B0632036BD8"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Polished Jasper"
+			icon: "quark:polished_jasper"
+			x: 3.0d
+			y: 1.0d
+			subtitle: "64x for 16 Credits"
+			id: "567667DCE43203BC"
+			tasks: [
+				{
+					id: "2A97F11A7FABA893"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "429CC9F1557F3855"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "3D72F4B159B89211"
+					type: "item"
+					item: "quark:polished_jasper"
+					count: 64
+				}
+				{
+					id: "32F7A02AEBA1CDF1"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Jasper Bricks"
+			icon: "quark:jasper_bricks"
+			x: 3.0d
+			y: 2.0d
+			subtitle: "64x for 16 Credits"
+			id: "24A3D036EED458C4"
+			tasks: [
+				{
+					id: "1FE5038333B3EFB5"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "35DBB2372C7E4408"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "55A02360453C6949"
+					type: "item"
+					item: "quark:jasper_bricks"
+					count: 64
+				}
+				{
+					id: "5A43A63589C3D04B"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Chiseled Polished Jasper Bricks"
+			icon: "quark:chiseled_jasper_bricks"
+			x: 3.0d
+			y: 3.0d
+			subtitle: "64x for 16 Credits"
+			id: "55BA9558E9DF6F26"
+			tasks: [
+				{
+					id: "55AEF0A362C22B36"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "3EE3706FD2ED1F28"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "08608B3ACBAE0247"
+					type: "item"
+					item: "quark:chiseled_jasper_bricks"
+					count: 64
+				}
+				{
+					id: "268B600E359BFDD7"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Polished Jasper Pavement"
+			icon: "quark:jasper_pavement"
+			x: 3.0d
+			y: 4.0d
+			subtitle: "64x for 16 Credits"
+			id: "0C7E7C51388ED963"
+			tasks: [
+				{
+					id: "57256AC1BC7A7C75"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "724C20831C5E1A12"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "0883E8B94EC753C7"
+					type: "item"
+					item: "quark:jasper_pavement"
+					count: 64
+				}
+				{
+					id: "24360FC85F192672"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Polished Jasper Pillar"
+			icon: "quark:jasper_pillar"
+			x: 3.0d
+			y: 5.0d
+			subtitle: "64x for 16 Credits"
+			id: "1ECCE5FC86113FA3"
+			tasks: [
+				{
+					id: "61BED95304BA8766"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "4F78EC6E147B673E"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "304FECC176DA6233"
+					type: "item"
+					item: "quark:jasper_pillar"
+					count: 64
+				}
+				{
+					id: "017D0E7FCCF381CD"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Slate"
+			icon: "quark:slate"
+			x: 4.0d
+			y: 0.0d
+			subtitle: "64x for 16 Credits"
+			id: "227A863CD9ED52E0"
+			tasks: [
+				{
+					id: "758C3CFE730CA045"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "6729D5F4E5ED1D58"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "04BFCEEDB2E444B5"
+					type: "item"
+					item: "quark:slate"
+					count: 64
+				}
+				{
+					id: "618B17FD487F8461"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			x: 18.0d
+			y: 5.0d
+			id: "77248E0E84449FFA"
+			tasks: [{
+				id: "273FEC17037305D1"
+				type: "item"
+				item: "quark:thatch"
+			}]
+		}
+		{
+			title: "Buy Limestone"
+			icon: "quark:limestone"
+			x: 8.0d
+			y: 0.0d
+			subtitle: "64x for 8 Credits"
+			description: [""]
+			id: "620D17E3C1725F85"
+			tasks: [{
+				id: "249C5EA52F27723F"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "62422CAC162C0107"
+					type: "item"
+					item: "quark:limestone"
+					count: 64
+				}
+				{
+					id: "6F38364068EC2551"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Midori Blocks"
+			icon: "quark:midori_block"
+			x: 5.0d
+			y: 0.0d
+			subtitle: "64x for 16 Credits"
+			id: "387AA4EFA6C6B5A8"
+			tasks: [
+				{
+					id: "1908DBA83BF61B32"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "3B2776F796EDEF70"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "30E9271B386B43C5"
+					type: "item"
+					item: "quark:midori_block"
+					count: 64
+				}
+				{
+					id: "61F814D02DBA571D"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Elder Prismarine"
+			icon: "quark:elder_prismarine"
+			x: 3.0d
+			y: 10.5d
+			subtitle: "64x for 24 Credits"
+			id: "2CB121EA0FDCA5EE"
+			tasks: [
+				{
+					id: "31A0B4B82A18A464"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "044F76E023E43EE7"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "7DF76191865FFBEA"
+					type: "item"
+					item: "quark:elder_prismarine"
+					count: 64
+				}
+				{
+					id: "0E62D085C393FF54"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Dark Elder Prismarine"
+			icon: "quark:dark_elder_prismarine"
+			x: 3.0d
+			y: 12.5d
+			subtitle: "64x for 24 Credits"
+			id: "154C64A6015FF81B"
+			tasks: [
+				{
+					id: "495E8043E090DD89"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "5ADB425107F227C7"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "6B4891A3CB8BD920"
+					type: "item"
+					item: "quark:dark_elder_prismarine"
+					count: 64
+				}
+				{
+					id: "3BBA01F6D29B5156"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Coralstone"
+			icon: "upgrade_aquatic:coralstone"
+			x: 4.0d
+			y: 10.5d
+			subtitle: "64x for 16 Credits"
+			id: "123519831892D028"
+			tasks: [
+				{
+					id: "32004A7EB3EA5107"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "1256A3F7C6B4135C"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "4EFD687BF5B3E904"
+					type: "item"
+					item: "upgrade_aquatic:coralstone"
+					count: 64
+				}
+				{
+					id: "3CE69507F09D38DA"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Polished Slate"
+			icon: "quark:polished_slate"
+			x: 4.0d
+			y: 1.0d
+			subtitle: "64x for 16 Credits"
+			id: "6D7FA27954B9B618"
+			tasks: [
+				{
+					id: "6ECFA974F69B245D"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "79CC9ED7F250CF3F"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "2D30BDB7E7CCD5B7"
+					type: "item"
+					item: "quark:polished_slate"
+					count: 64
+				}
+				{
+					id: "71E729D8862908AA"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Polished Slate Bricks"
+			icon: "quark:slate_bricks"
+			x: 4.0d
+			y: 2.0d
+			subtitle: "64x for 16 Credits"
+			id: "1297E33E3ADCB1C7"
+			tasks: [
+				{
+					id: "699229441BD6BFCF"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "70FB9711E624155E"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "16E405C94B0BFB8E"
+					type: "item"
+					item: "quark:slate_bricks"
+					count: 64
+				}
+				{
+					id: "228C3700980FEE6E"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Chiseled Polished Slate Bricks"
+			icon: "quark:chiseled_slate_bricks"
+			x: 4.0d
+			y: 3.0d
+			subtitle: "64x for 16 Credits"
+			id: "0AE1988E495FF7A0"
+			tasks: [
+				{
+					id: "37C9DE6471502681"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "3A020B023AEC6262"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "1AF85BBD22E637F3"
+					type: "item"
+					item: "quark:chiseled_slate_bricks"
+					count: 64
+				}
+				{
+					id: "3A4CEF0F5A459D6B"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Polished Slate Pavement"
+			icon: "quark:slate_pavement"
+			x: 4.0d
+			y: 4.0d
+			subtitle: "64x for 16 Credits"
+			id: "75E40062B4A72317"
+			tasks: [
+				{
+					id: "397483DB33614206"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "3DA8086EF5E60A66"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "4E0090038A9620BF"
+					type: "item"
+					item: "quark:slate_pavement"
+					count: 64
+				}
+				{
+					id: "76D5EF6173D44363"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Polished Slate Pillars"
+			icon: "quark:slate_pillar"
+			x: 4.0d
+			y: 5.0d
+			subtitle: "64x for 16 Credits"
+			id: "7BA47B3EA461E5C5"
+			tasks: [
+				{
+					id: "0E215094B3060BFB"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "27B2C3CA4670A027"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "278789C63239C416"
+					type: "item"
+					item: "quark:slate_pillar"
+					count: 64
+				}
+				{
+					id: "521A5E7FCF6A2384"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Midori Pillars"
+			icon: "quark:midori_pillar"
+			x: 5.0d
+			y: 1.0d
+			subtitle: "64x for 16 Credits"
+			id: "483EFD23156489B5"
+			tasks: [
+				{
+					id: "4ACE90EED79BBAD0"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "6631732CDD843859"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "71CAB9C94FE4D72E"
+					type: "item"
+					item: "quark:midori_pillar"
+					count: 64
+				}
+				{
+					id: "1EF08F0C290D3387"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Polished Gabbo"
+			icon: "create:polished_gabbro"
+			x: 6.0d
+			y: 1.0d
+			subtitle: "64x for 8 Credits"
+			id: "3DBB05974A372F40"
+			tasks: [{
+				id: "17ACE04E29932303"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "24FFDC1A2002D2B9"
+					type: "item"
+					item: "create:polished_gabbro"
+					count: 64
+				}
+				{
+					id: "6FFA747EC069EC38"
+					type: "custom"
+					title: "Complete Transactions"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Gabbo Bricks"
+			icon: "create:gabbro_bricks"
+			x: 6.0d
+			y: 2.0d
+			subtitle: "64x for 8 Credits"
+			id: "75756B416AA22AEB"
+			tasks: [{
+				id: "1C29091F81649A2A"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4E07F1F930F73868"
+					type: "item"
+					item: "create:gabbro_bricks"
+					count: 64
+				}
+				{
+					id: "183DB3F6C6725899"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Fancy Gabbo Bricks"
+			icon: "create:fancy_gabbro_bricks"
+			x: 6.0d
+			y: 3.0d
+			subtitle: "64x for 8 Credits"
+			id: "40A8ACD73C799449"
+			tasks: [{
+				id: "697EB7A7900A025F"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "425F62F0D1215060"
+					type: "item"
+					item: "create:fancy_gabbro_bricks"
+					count: 64
+				}
+				{
+					id: "34DBDE0747D10018"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Gabbo Pillar"
+			icon: "create:gabbro_pillar"
+			x: 6.0d
+			y: 4.0d
+			subtitle: "64x for 8 Credits"
+			id: "0DAEE0450AC4E41F"
+			tasks: [{
+				id: "4B80B9046CC0EF6B"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7188D5CC6C309C77"
+					type: "item"
+					item: "create:gabbro_pillar"
+					count: 64
+				}
+				{
+					id: "5ABB329537E9B337"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Paved Gabbo"
+			icon: "create:paved_gabbro"
+			x: 6.0d
+			y: 5.0d
+			subtitle: "64x for 8 Credits"
+			id: "6AA8E999287951DF"
+			tasks: [{
+				id: "1FC8BC0168EA31DC"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0BC393F2ABD1D22F"
+					type: "item"
+					item: "create:paved_gabbro"
+					count: 64
+				}
+				{
+					id: "08B813505ED7AC44"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Layered Gabbo"
+			icon: "create:layered_gabbro"
+			x: 6.0d
+			y: 6.0d
+			subtitle: "64x for 8 Credits"
+			id: "02EFF55D7034163B"
+			tasks: [{
+				id: "1DFA1F4E0A50E7C9"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1735A4A31180D163"
+					type: "item"
+					item: "create:layered_gabbro"
+					count: 64
+				}
+				{
+					id: "1F190EC39AD0C2A9"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Chiseled Gabbo"
+			icon: "create:chiseled_gabbro"
+			x: 6.0d
+			y: 7.0d
+			subtitle: "64x for 8 Credits"
+			id: "2CF63816A9C67DF4"
+			tasks: [{
+				id: "3E894EE6DCC86DC8"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "382B1CFB8F5585D6"
+					type: "item"
+					item: "create:chiseled_gabbro"
+					count: 64
+				}
+				{
+					id: "72092A9403E8B961"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Mossy Gabbo"
+			icon: "create:mossy_gabbro"
+			x: 6.0d
+			y: 8.0d
+			subtitle: "64x for 8 Credits"
+			id: "610781F9A875D155"
+			tasks: [{
+				id: "0A1186344A114543"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4CC01E12C39CCBED"
+					type: "item"
+					item: "create:mossy_gabbro"
+					count: 64
+				}
+				{
+					id: "06AFB200B38AB4DA"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Overgrown Gabbo"
+			icon: "create:overgrown_gabbro"
+			x: 6.0d
+			y: 9.0d
+			subtitle: "64x for 8 Credits"
+			id: "1E4C52302E2DF742"
+			tasks: [{
+				id: "5981C87A0EB51D07"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "6ACF43506FC45C45"
+					type: "item"
+					item: "create:overgrown_gabbro"
+					count: 64
+				}
+				{
+					id: "4618E1C54EA83E26"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Polished Dolomite"
+			icon: "create:polished_dolomite"
+			x: 7.0d
+			y: 1.0d
+			subtitle: "64x for 16 Credits"
+			description: [""]
+			id: "1C598D8103652486"
+			tasks: [
+				{
+					id: "4678E324A7B51BCA"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "5337CBA7E2AB13F6"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "561D2544682E68E8"
+					type: "item"
+					item: "create:polished_dolomite"
+					count: 64
+				}
+				{
+					id: "3C963FD9CB8F088A"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Dolomite Bricks"
+			icon: "create:dolomite_bricks"
+			x: 7.0d
+			y: 2.0d
+			subtitle: "64x for 16 Credits"
+			id: "0DD3769CC65C846B"
+			tasks: [
+				{
+					id: "78FA624B3572FC1C"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "2B6B31664DE6FF5C"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "786F23CAC0369157"
+					type: "item"
+					item: "create:dolomite_bricks"
+					count: 64
+				}
+				{
+					id: "621CF47298978613"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Fancy Dolomite"
+			icon: "create:fancy_dolomite_bricks"
+			x: 7.0d
+			y: 3.0d
+			subtitle: "64x for 16 Credits"
+			id: "1AA5FA2F07A7370D"
+			tasks: [
+				{
+					id: "5D04FC97E3062A70"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "227F88A8922E2DC0"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "5E1D4E9A014BAE0A"
+					type: "item"
+					item: "create:fancy_dolomite_bricks"
+					count: 64
+				}
+				{
+					id: "14690F7E84416AAE"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Polished Limestone"
+			icon: "quark:polished_limestone"
+			x: 8.0d
+			y: 1.0d
+			subtitle: "64x for 8 Credits"
+			id: "47D44FD16CD3930A"
+			tasks: [{
+				id: "73044800D2556C78"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "6A4309B2C4265D82"
+					type: "item"
+					item: "quark:polished_limestone"
+					count: 64
+				}
+				{
+					id: "412C11EEA33453AB"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Weathered Polished Limestone"
+			icon: "create:polished_weathered_limestone"
+			x: 9.0d
+			y: 1.0d
+			subtitle: "64x for 8 Credits"
+			id: "768A9892E30EB665"
+			tasks: [{
+				id: "627D288EB1852373"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3693CFF2DE20152F"
+					type: "item"
+					item: "create:polished_weathered_limestone"
+					count: 64
+				}
+				{
+					id: "46C7AAAB86CE6CA6"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Polished Limestone"
+			icon: "create:polished_limestone"
+			x: 10.0d
+			y: 1.0d
+			subtitle: "64x for 8 Credits"
+			id: "0718E65FB171C1D6"
+			tasks: [{
+				id: "23F2AD17DDEBAC9A"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "089FE458516AB648"
+					type: "item"
+					item: "create:polished_limestone"
+					count: 64
+				}
+				{
+					id: "051539276B0CFFDC"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Marble"
+			icon: "quark:marble"
+			x: 11.0d
+			y: 0.0d
+			subtitle: "64x for 16 Credits"
+			id: "3AD5D8B1BD252032"
+			tasks: [
+				{
+					id: "31AEDDCCC7B44E94"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "7069F83E9D0BD6A0"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "286EF9A0A977E1FB"
+					type: "item"
+					item: "quark:marble"
+					count: 64
+				}
+				{
+					id: "69640AEAB08B57EA"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Polsihed Marble"
+			icon: "quark:polished_marble"
+			x: 11.0d
+			y: 1.0d
+			subtitle: "64x for 16 Credits"
+			id: "1F71838D013F364E"
+			tasks: [
+				{
+					id: "3D1101574F3FA921"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "1AC4D37119DA7821"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "28C91D4E93D984D5"
+					type: "item"
+					item: "quark:polished_marble"
+					count: 64
+				}
+				{
+					id: "0DA0DBE758DA7901"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Limestone Bricks"
+			icon: "quark:limestone_bricks"
+			x: 8.0d
+			y: 2.0d
+			subtitle: "64x for 8 Credits"
+			id: "7F18C342A7FC96FF"
+			tasks: [{
+				id: "763B85BE5AA49D5B"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "62584D451069D908"
+					type: "item"
+					item: "quark:limestone_bricks"
+					count: 64
+				}
+				{
+					id: "2471FF9A4E095C3B"
+					type: "custom"
+					title: "Complete Transactions"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Weathered Limestone Bricks"
+			icon: "create:weathered_limestone_bricks"
+			x: 9.0d
+			y: 2.0d
+			subtitle: "64x for 8 Credits"
+			id: "6168EA45D37FE6D5"
+			tasks: [{
+				id: "2526C1F8D5FC4FF9"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "68DCD119AB7857AD"
+					type: "item"
+					item: "create:weathered_limestone_bricks"
+					count: 64
+				}
+				{
+					id: "5C7DA9126C74870C"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Limestone Bricks"
+			icon: "create:limestone_bricks"
+			x: 10.0d
+			y: 2.0d
+			subtitle: "64x for 8 Credits"
+			id: "650E623105E5F880"
+			tasks: [{
+				id: "446BBC815E94E506"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4022907E271C6380"
+					type: "item"
+					item: "create:limestone_bricks"
+					count: 64
+				}
+				{
+					id: "7788EFD1D30D116F"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Marble Bricks"
+			icon: "quark:marble_bricks"
+			x: 11.0d
+			y: 2.0d
+			subtitle: "64x for 16 Credits"
+			description: [""]
+			id: "777E1CEE81A0F509"
+			tasks: [
+				{
+					id: "3561A1F9A8BCDE88"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "155292FBE58A62AB"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "775F7B26698A2AD8"
+					type: "item"
+					item: "quark:marble_bricks"
+					count: 64
+				}
+				{
+					id: "186F206507E5E978"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Chiseled Limestone"
+			icon: "quark:chiseled_limestone_bricks"
+			x: 8.0d
+			y: 3.0d
+			subtitle: "64x for 8 Credits"
+			id: "2D2FC48123A8D147"
+			tasks: [{
+				id: "3EE11AA616261290"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "37B419DC6AEAA4B7"
+					type: "item"
+					item: "quark:chiseled_limestone_bricks"
+					count: 64
+				}
+				{
+					id: "6428DF299BAA3552"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Fancy Weathed Limestone"
+			icon: "create:fancy_weathered_limestone_bricks"
+			x: 9.0d
+			y: 3.0d
+			subtitle: "64x for 8 Credits"
+			id: "19D41ADE63A1CA0B"
+			tasks: [{
+				id: "14E477BF8C8C4455"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "525C7DD93C980650"
+					type: "item"
+					item: "create:fancy_weathered_limestone_bricks"
+					count: 64
+				}
+				{
+					id: "2EDFEE3C6C3189C8"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Fancy Limestone"
+			icon: "create:fancy_limestone_bricks"
+			x: 10.0d
+			y: 3.0d
+			subtitle: "64x for 8 Credits"
+			id: "2C8567EA6D8CDCD7"
+			tasks: [{
+				id: "017C27F06254B54C"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "744834AA3997DF7B"
+					type: "item"
+					item: "create:fancy_limestone_bricks"
+					count: 64
+				}
+				{
+					id: "1F15610E306D8ACF"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Chiseled Marble"
+			icon: "quark:chiseled_marble_bricks"
+			x: 11.0d
+			y: 3.0d
+			subtitle: "64x for 16 Credits"
+			id: "556E0915C8E5D602"
+			tasks: [
+				{
+					id: "7D7017C2C161B634"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "32773BA056A2D7BF"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "31A199940E211E2B"
+					type: "item"
+					item: "quark:chiseled_marble_bricks"
+					count: 64
+				}
+				{
+					id: "73A18AA9894B0B8A"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Dolomite Pillars"
+			icon: "create:dolomite_pillar"
+			x: 7.0d
+			y: 4.0d
+			subtitle: "64x for 16 Credits"
+			id: "6F826B4D385689A9"
+			tasks: [
+				{
+					id: "75FEB80F9CB19362"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "4C0742F50470B8DC"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "75D8801425666689"
+					type: "item"
+					item: "create:dolomite_pillar"
+					count: 64
+				}
+				{
+					id: "739C6F5440A71FEB"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Paved Limestone"
+			icon: "quark:limestone_pavement"
+			disable_toast: true
+			x: 8.0d
+			y: 4.0d
+			subtitle: "64x for 8 Credits"
+			id: "30EBBC53BE86B0D0"
+			tasks: [{
+				id: "7289CF65B80C74E0"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "279AB1E7215A9846"
+					type: "item"
+					item: "quark:limestone_pavement"
+					count: 64
+				}
+				{
+					id: "66C9C2D3C5EEC994"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Weathered Limestone Pillar"
+			icon: "create:weathered_limestone_pillar"
+			x: 9.0d
+			y: 4.0d
+			subtitle: "64x for 8 Credits"
+			id: "00FBCBC89FD8E032"
+			tasks: [{
+				id: "4CEB41AA622B9B0A"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "37B76C14952D4899"
+					type: "item"
+					item: "create:weathered_limestone_pillar"
+					count: 64
+				}
+				{
+					id: "786BD37FC341E822"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Limestone Pillar"
+			icon: "create:limestone_pillar"
+			x: 10.0d
+			y: 4.0d
+			subtitle: "64x for 8 Credits"
+			id: "21689470FEF1EC9E"
+			tasks: [{
+				id: "5B68904F035A2BAD"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5C1AC80B647AA7C0"
+					type: "item"
+					item: "create:limestone_pillar"
+					count: 64
+				}
+				{
+					id: "15277340B16F8EC5"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Paved Marble"
+			icon: "quark:marble_pavement"
+			x: 11.0d
+			y: 4.0d
+			subtitle: "64x for 16 Credits"
+			id: "756F083441859F11"
+			tasks: [
+				{
+					id: "3D5F21F239DB95B5"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "397CB39CF12A5628"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "28559F178876932F"
+					type: "item"
+					item: "quark:marble_pavement"
+					count: 64
+				}
+				{
+					id: "1880FFD6AF0B9964"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Paved Dolomiote"
+			icon: "create:paved_dolomite"
+			x: 7.0d
+			y: 5.0d
+			subtitle: "64x for 16 Credits"
+			id: "18B55CB74921F830"
+			tasks: [
+				{
+					id: "0550DC41CE7F0A13"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "08247F57F4B5E392"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "7C55B45346A37BDF"
+					type: "item"
+					item: "create:paved_dolomite"
+					count: 64
+				}
+				{
+					id: "49F58EBDC8FD8253"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Limestone Pillar"
+			icon: "quark:limestone_pillar"
+			x: 8.0d
+			y: 5.0d
+			subtitle: "64x for 8 Credits"
+			id: "3F3C01CC3C53DB4F"
+			tasks: [{
+				id: "4ADEA8AB7E6415C0"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3CEE9F854C8E4B9D"
+					type: "item"
+					item: "quark:limestone_pillar"
+					count: 64
+				}
+				{
+					id: "15BF8AF8ABBFE166"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Weathered Paved Limestone"
+			icon: "create:paved_weathered_limestone"
+			x: 9.0d
+			y: 5.0d
+			subtitle: "64x for 8 Credits"
+			id: "0F7C17E9D32E2602"
+			tasks: [{
+				id: "429D3086D3C4902F"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "517C0628A4344D7A"
+					type: "item"
+					item: "create:paved_weathered_limestone"
+					count: 64
+				}
+				{
+					id: "51F24FE6E23C6E6C"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Paved Limestone"
+			icon: "create:paved_limestone"
+			x: 10.0d
+			y: 5.0d
+			subtitle: "64x for 8 Credits"
+			id: "539F1A80E9D4C450"
+			tasks: [{
+				id: "0BCB5378D8211DC9"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "6297BB1F479849DC"
+					type: "item"
+					item: "create:paved_limestone"
+					count: 64
+				}
+				{
+					id: "7BEC11378BE4A621"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Marble Pillar"
+			icon: "quark:marble_pillar"
+			x: 11.0d
+			y: 5.0d
+			subtitle: "64x for 16 Credits"
+			id: "160B7C496649ED8B"
+			tasks: [
+				{
+					id: "3077C21D0769A30D"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "7298D1107E91F1AA"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "46E9743E8027C942"
+					type: "item"
+					item: "quark:marble_pillar"
+					count: 64
+				}
+				{
+					id: "30BE65FFB808B49F"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Layered Dolomite"
+			icon: "create:layered_dolomite"
+			x: 7.0d
+			y: 6.0d
+			subtitle: "64x for 16 Credits"
+			id: "15487FBAE6B129F4"
+			tasks: [
+				{
+					id: "195816ECEA6C076C"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "54983874E0CB41CE"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "1A95628F26FC1CFA"
+					type: "item"
+					item: "create:layered_dolomite"
+					count: 64
+				}
+				{
+					id: "12296C2ABF99416C"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Layered Weathered Limestone"
+			icon: "create:layered_weathered_limestone"
+			x: 9.0d
+			y: 6.0d
+			subtitle: "64x for 8 Credits"
+			id: "38C71D0741921EB1"
+			tasks: [{
+				id: "3CFA2CF09A59F2B1"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "754DBED973E00DB7"
+					type: "item"
+					item: "create:layered_weathered_limestone"
+					count: 64
+				}
+				{
+					id: "1849A6EA5B8FC2E5"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Layered Limestone"
+			icon: "create:layered_limestone"
+			x: 10.0d
+			y: 6.0d
+			subtitle: "64x for 8 Credits"
+			id: "127BE2FE4F6DB0B7"
+			tasks: [{
+				id: "2F798BF0B3C8651A"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "695AA3E67D7C817A"
+					type: "item"
+					item: "create:layered_limestone"
+					count: 64
+				}
+				{
+					id: "086672FE2EC0A63A"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Chiseled Dolomite"
+			icon: "create:chiseled_dolomite"
+			x: 7.0d
+			y: 7.0d
+			subtitle: "64x for 16 Credits"
+			id: "71A6F73705AACB45"
+			tasks: [
+				{
+					id: "5B197A280497246E"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "512FE7D178990547"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "459E3ED7B57E4570"
+					type: "item"
+					item: "create:chiseled_dolomite"
+					count: 64
+				}
+				{
+					id: "4DBA86AA929A3CA4"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Weathered Chiseled Limestone"
+			icon: "create:chiseled_weathered_limestone"
+			x: 9.0d
+			y: 7.0d
+			subtitle: "64x for 8 Credits"
+			id: "6E32E92CFB2245F3"
+			tasks: [{
+				id: "7507ABBDB5EC68B2"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2EEDBCE8042EE813"
+					type: "item"
+					item: "create:chiseled_weathered_limestone"
+					count: 64
+				}
+				{
+					id: "6C732CF3543F83E5"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Chiseled Limestone"
+			icon: "create:chiseled_limestone"
+			x: 10.0d
+			y: 7.0d
+			subtitle: "64x for 8 Credits"
+			id: "2A0846CCEB3B8C26"
+			tasks: [{
+				id: "215524072AAB058E"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "23127DBFFA33400C"
+					type: "item"
+					item: "create:chiseled_limestone"
+					count: 64
+				}
+				{
+					id: "5BC7F18C88DE2557"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Mossy Dolomite"
+			icon: "create:mossy_dolomite"
+			x: 7.0d
+			y: 8.0d
+			subtitle: "64x for 16 Credits"
+			id: "20B27016E583907C"
+			tasks: [
+				{
+					id: "594904D16BEFC139"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "00CA347050997F5C"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "36B2B9BBBBE113C7"
+					type: "item"
+					item: "create:mossy_dolomite"
+					count: 64
+				}
+				{
+					id: "4A53846DE8667470"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Weathered Mossy Limestone"
+			icon: "create:mossy_weathered_limestone"
+			x: 9.0d
+			y: 8.0d
+			subtitle: "64x for 8 Credits"
+			id: "7253457A44930559"
+			tasks: [{
+				id: "190F986A991719AC"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "53872B7E53FCB834"
+					type: "item"
+					item: "create:mossy_weathered_limestone"
+					count: 64
+				}
+				{
+					id: "4996322795D7923B"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Mossy Limestone"
+			icon: "create:mossy_limestone"
+			x: 10.0d
+			y: 8.0d
+			subtitle: "64x for 8 Credits"
+			id: "18D5A2B4A779EC59"
+			tasks: [{
+				id: "53DA0AD85B9A559F"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2CC111A0D88ABF16"
+					type: "item"
+					item: "create:mossy_limestone"
+					count: 64
+				}
+				{
+					id: "6ECBC064F32DA787"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Overgrown Dolomite"
+			icon: "create:overgrown_dolomite"
+			x: 7.0d
+			y: 9.0d
+			subtitle: "64x for 16 Credits"
+			id: "43D69EEC2682B61F"
+			tasks: [
+				{
+					id: "173EDE863EF18D26"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "46FF1B6A01149A1E"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "6E412CF53E9B3A20"
+					type: "item"
+					item: "create:overgrown_dolomite"
+					count: 64
+				}
+				{
+					id: "4A1F2566EF091129"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Weathered Overgrown Limestone"
+			icon: "create:overgrown_weathered_limestone"
+			x: 9.0d
+			y: 9.0d
+			subtitle: "64x for 8 Credits"
+			id: "3721FBD73BDAAC3A"
+			tasks: [{
+				id: "2D8B733E75EACBE2"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "584A4CFC6CFD8561"
+					type: "item"
+					item: "create:overgrown_weathered_limestone"
+					count: 64
+				}
+				{
+					id: "4F1E052F27A11244"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Overgrown Limestone"
+			icon: "create:overgrown_limestone"
+			x: 10.0d
+			y: 9.0d
+			subtitle: "64x for 8 Credits"
+			id: "75C332B1B4FADB71"
+			tasks: [{
+				id: "6E21784B300B734E"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1D1FCC6D8E701F10"
+					type: "item"
+					item: "create:overgrown_limestone"
+					count: 64
+				}
+				{
+					id: "27D6B1F1A69184AD"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Elder Prismarine Bricks"
+			icon: "quark:elder_prismarine_bricks"
+			x: 3.0d
+			y: 11.5d
+			subtitle: "64x for 24 Credits"
+			id: "432A4C3E4F2D49E5"
+			tasks: [
+				{
+					id: "0D263DDFFB596481"
+					type: "item"
+					item: "calemiutils:coin_silver"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "4D08F3B78896F448"
+					type: "item"
+					item: "calemiutils:coin_copper"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "55A39A8EFBD3127D"
+					type: "item"
+					item: "quark:elder_prismarine_bricks"
+					count: 64
+				}
+				{
+					id: "0AE545C4DC11E670"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+	]
+}
