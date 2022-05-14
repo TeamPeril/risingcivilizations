@@ -1207,6 +1207,7 @@
 		}
 		{
 			title: "Uranium Hexafluoride"
+			icon: "mekanism:basic_chemical_tank"
 			x: 12.0d
 			y: 25.0d
 			subtitle: "In a Chemical Infuser, Uranium Oxide + Hydrofluoric Acid = Uranium Hexafluoride"
@@ -1217,23 +1218,8 @@
 			]
 			id: "7A401FEEA875DAC8"
 			tasks: [{
-				id: "1B23976B742BA9CB"
-				type: "item"
-				item: {
-					id: "mekanism:creative_chemical_tank"
-					Count: 1b
-					tag: {
-						mekData: {
-							GasTanks: [{
-								Tank: 0b
-								stored: {
-									gasName: "mekanism:uranium_hexafluoride"
-									amount: 9223372036854775807L
-								}
-							}]
-						}
-					}
-				}
+				id: "116012B8C779BB10"
+				type: "checkmark"
 			}]
 			rewards: [
 				{

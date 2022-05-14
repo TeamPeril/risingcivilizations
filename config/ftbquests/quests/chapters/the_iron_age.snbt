@@ -2158,7 +2158,10 @@
 			y: 22.0d
 			shape: "gear"
 			subtitle: "You now posess the ability to progress to the modern era."
-			dependencies: ["10B5013DA804F25E"]
+			dependencies: [
+				"10B5013DA804F25E"
+				"534B571DC707ECBF"
+			]
 			id: "346B9E98482DFA3C"
 			tasks: [{
 				id: "1E26A7CBF55AC30D"
