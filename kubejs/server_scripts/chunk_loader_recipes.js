@@ -19,7 +19,7 @@ onEvent('recipes', event => {
     'BEB'
   ], {
     E: 'minecraft:ender_eye',
-	C: 'betterendforge:eternal_crystal',
+	C: 'minecraft:wither_star',
 	B: 'quark:biotite'
   })
 })

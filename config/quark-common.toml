@@ -127,8 +127,8 @@
 	"Variant Bookshelves" = true
 	"Variant Chests" = true
 	"Variant Ladders" = true
-	"Vertical Planks" = true
-	"Vertical Slabs" = true
+	"Vertical Planks" = false
+	"Vertical Slabs" = false
 	"Wooden Posts" = true
 	"Celebratory Lamps" = true
 
