@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Rising Civilizations",
-  "version": "0.59",
+  "version": "0.60",
   "author": "GRMikeatron",
   "files": [
     {
@@ -425,6 +425,11 @@
       "required": true
     },
     {
+      "projectID": 306555,
+      "fileID": 3421094,
+      "required": true
+    },
+    {
       "projectID": 486392,
       "fileID": 3535459,
       "required": true
@@ -537,6 +542,11 @@
     {
       "projectID": 228525,
       "fileID": 3474499,
+      "required": true
+    },
+    {
+      "projectID": 221826,
+      "fileID": 3791072,
       "required": true
     },
     {
@@ -795,13 +805,13 @@
       "required": true
     },
     {
-      "projectID": 365045,
-      "fileID": 3553317,
+      "projectID": 465575,
+      "fileID": 3412586,
       "required": true
     },
     {
-      "projectID": 465575,
-      "fileID": 3412586,
+      "projectID": 365045,
+      "fileID": 3553317,
       "required": true
     },
     {
@@ -817,11 +827,6 @@
     {
       "projectID": 252239,
       "fileID": 3292950,
-      "required": true
-    },
-    {
-      "projectID": 233255,
-      "fileID": 3242231,
       "required": true
     },
     {
@@ -965,13 +970,13 @@
       "required": true
     },
     {
-      "projectID": 307152,
-      "fileID": 3742182,
+      "projectID": 492574,
+      "fileID": 3449703,
       "required": true
     },
     {
-      "projectID": 492574,
-      "fileID": 3449703,
+      "projectID": 307152,
+      "fileID": 3742182,
       "required": true
     },
     {
