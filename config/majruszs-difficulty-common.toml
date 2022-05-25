@@ -578,13 +578,13 @@
 	is_enabled = true
 	#Required amount of killed undead to start the Undead Army.
 	#Range: 10 ~ 1000
-	kill_requirement = 30
+	kill_requirement = 40
 	#Extra size multiplier for each extra player participating in the Undead Army.
 	#Range: 0.1 ~ 1.0
 	player_scale = 0.5
 	#Time between waves. (in seconds) (requires game/world restart!) 
 	#Range: 3.0 ~ 60.0
-	time_between_waves = 10.0
+	time_between_waves = 20.0
 	#The maximum duration before Undead Army will end if there is no player. (in seconds) (requires game/world restart!) 
 	#Range: 300.0 ~ 3200.0
 	inactive_duration = 900.0

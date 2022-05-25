@@ -10,6 +10,41 @@ console.info('Hello, World! (You will see this line every time server resources 
 onEvent('recipes', event => {
   // Change recipes here
   
+  //Custom Recipe for Basic Control Circuit
+  
+  //Custom Recipe for Osmium Sheet
+  event.recipes.createPressing('kubejs:osmium_sheet', 'mekanism:ingot_osmium')
+  
+  //Custom Recipe for Large Osmium Sheet
+  event.recipes.createCompacting('kubejs:osmium_sheet_large', '4x kubejs:osmium_sheet')
+  
+  //Custom Recipe for Units
+  event.recipes.createCutting('4x kubejs:logic_unit', 'mekanism:enriched_redstone')
+  event.recipes.createCutting('4x kubejs:cache_unit', 'mekanism:enriched_redstone')  
+  event.recipes.createCutting('4x kubejs:bus_unit', 'mekanism:enriched_redstone')  
+  event.recipes.createCutting('4x kubejs:clock_unit', 'mekanism:enriched_redstone')
+  
+  event.shapeless('kubejs:cache_unit','kubejs:logic_unit')
+  event.shapeless('kubejs:bus_unit','kubejs:cache_unit')
+  event.shapeless('kubejs:clock_unit','kubejs:bus_unit')
+  event.shapeless('kubejs:logic_unit','kubejs:clock_unit')
+  
+  //Final Circuit Assembly
+  event.recipes.createSequencedAssembly
+  (
+  Item.of('8x kubejs:assembled_control_circuit'), 'kubejs:osmium_sheet_large', 
+  [
+  event.recipes.createDeploying('kubejs:incomplete_basic_control_circuit', ['kubejs:incomplete_basic_control_circuit', 'kubejs:logic_unit']),
+  event.recipes.createDeploying('kubejs:incomplete_basic_control_circuit', ['kubejs:incomplete_basic_control_circuit', 'kubejs:cache_unit']),
+  event.recipes.createDeploying('kubejs:incomplete_basic_control_circuit', ['kubejs:incomplete_basic_control_circuit', 'kubejs:bus_unit']),
+  event.recipes.createDeploying('kubejs:incomplete_basic_control_circuit', ['kubejs:incomplete_basic_control_circuit', 'kubejs:clock_unit']),
+  ]
+  ).transitionalItem('kubejs:incomplete_basic_control_circuit').loops(1)
+  
+  event.recipes.mekanism.enriching('mekanism:basic_control_circuit', 'kubejs:assembled_control_circuit')
+  
+  
+  
   //Energy
   event.remove({id: 'mekanism:upgrade/energy'})
   
