@@ -22,7 +22,7 @@
 				id: "3A45C2E903E7E7F1"
 				type: "gamestage"
 				title: "Enter the Iron Age to Unlock"
-				stage: "IronAge"
+				stage: "TheIronAge"
 			}]
 			rewards: [{
 				id: "0CB63081D0BEF842"

@@ -360,7 +360,7 @@
 		is_enabled = true
 		#Chance of this feature to happen. (this value is scaled by Clamped Regional Difficulty)
 		#Range: 0.0 ~ 1.0
-		chance = 0.25
+		chance = 0.1
 		#Chance for followers to have a Wooden Sword.
 		#Range: 0.0 ~ 0.5
 		wooden_sword_chance = 0.5
@@ -371,7 +371,7 @@
 	#Zombies spawns in groups.
 	[Features.ZombieGroup]
 		#Is this feature enabled?
-		is_enabled = true
+		is_enabled = false
 		#Chance of this feature to happen. (this value is scaled by Clamped Regional Difficulty)
 		#Range: 0.0 ~ 1.0
 		chance = 0.25
@@ -493,7 +493,7 @@
 		is_spawning = true
 		#Chance for Elite Skeleton to use Tipped Arrow instead of simple Arrow. (scaled by Clamped Regional Difficulty)
 		#Range: 0.0 ~ 1.0
-		tipped_arrow_chance = 0.75
+		tipped_arrow_chance = 1.0
 		#Chance for quick shot. (series of 4 shots in the shorter interval) (scaled by Clamped Regional Difficulty)
 		#Range: 0.0 ~ 1.0
 		quick_shot_chance = 0.5
@@ -578,7 +578,7 @@
 	is_enabled = true
 	#Required amount of killed undead to start the Undead Army.
 	#Range: 10 ~ 1000
-	kill_requirement = 40
+	kill_requirement = 50
 	#Extra size multiplier for each extra player participating in the Undead Army.
 	#Range: 0.1 ~ 1.0
 	player_scale = 0.5
@@ -608,10 +608,10 @@
 		normal = 1
 		#Expert Mode
 		#Range: 1 ~ 5
-		expert = 1
+		expert = 2
 		#Master Mode
 		#Range: 1 ~ 5
-		master = 2
+		master = 3
 
 	#Chance of the undead to have enchanted items. (separate for each item)
 	[UndeadArmy.EnchantedItems]
@@ -635,5 +635,5 @@
 		expert = 0.9
 		#Master Mode
 		#Range: 0.0 ~ 1.0
-		master = 1
+		master = 1.0
 

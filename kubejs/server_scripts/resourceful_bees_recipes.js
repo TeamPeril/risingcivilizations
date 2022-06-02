@@ -22,6 +22,49 @@ onEvent('recipes', event => {
 	H: 'resourcefulbees:t4_beehive'
   })
   
+  event.remove({id: 'resourcefulbees:t4_beehive_nests'})  
+  event.shaped('1x resourcefulbees:t4_beehive', [
+    'CHC',
+    'HBH',
+    'CHC'
+  ], {
+    C: 'resourcefulbees:gold_honeycomb_block',
+	B: 'minecraft:honey_block',
+	H: 'resourcefulbees:t3_beehive'
+  })
+  
+  event.remove({id: 'resourcefulbees:t3_beehive_nests'})  
+  event.shaped('1x resourcefulbees:t3_beehive', [
+    'CHC',
+    'HBH',
+    'CHC'
+  ], {
+    C: 'resourcefulbees:iron_honeycomb_block',
+	B: 'minecraft:honey_block',
+	H: 'resourcefulbees:t2_beehive'
+  })
+  
+  event.remove({id: 'resourcefulbees:t2_beehive_nests'})  
+  event.shaped('1x resourcefulbees:t2_beehive', [
+    'CHC',
+    'HBH',
+    'CHC'
+  ], {
+    C: 'resourcefulbees:coal_honeycomb_block',
+	B: 'minecraft:honey_block',
+	H: 'resourcefulbees:t1_beehive'
+  })
+  
+  event.remove({id: 'resourcefulbees:t1_beehive'})  
+  event.shaped('1x resourcefulbees:t1_beehive', [
+    'CCC',
+    'CHC',
+    'CCC'
+  ], {
+    C: 'minecraft:honeycomb_block',
+	H: '#minecraft:beehives',
+  })
+  
   
   //Replace Recipe for honey generator
   event.replaceInput({id: 'resourcefulbees:honey_generator'}, 'minecraft:redstone', 'create:refined_radiance')

@@ -12,16 +12,13 @@ onEvent('recipes', event => {
   
   event.remove({id: 'chunkloaders:basic_chunk_loader'})
   event.shaped('1x chunkloaders:basic_chunk_loader', [
-    'BEB',
-    'ECE',
-    'BEB'
+    'NEN',
+    'EHE',
+    'NDN'
   ], {
     E: 'minecraft:ender_eye',
-	C: 'minecraft:nether_star',
-	B: 'quark:biotite'
+	D: 'minecraft:diamond_block',
+	H: 'quark:diamond_heart',
+	N: 'minecraft:netherite_ingot'
   })
-})
-
-onEvent('item.tags', event => {
-
 })

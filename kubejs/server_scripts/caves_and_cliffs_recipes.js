@@ -8,6 +8,12 @@ settings.logErroringRecipes = true
 console.info('Hello, World! (You will see this line every time server resources reload)')
 
 onEvent('recipes', event => {
+
+	
+  //Remove All Instances of Recipes involving this copper
+  event.replaceInput({}, 'caves_and_cliffs_mod:copper_ingot', 'create:copper_ingot')
+  event.replaceOutput({}, 'caves_and_cliffs_mod:copper_ingot', 'create:copper_ingot')
+  
   //Cobbled Deepslate  
   event.stonecutting('caves_and_cliffs_mod:cobbled_deepslate_stairs', 'caves_and_cliffs_mod:cobbled_deepslate')
   event.stonecutting('2x caves_and_cliffs_mod:cobbled_deepslate_slab', 'caves_and_cliffs_mod:cobbled_deepslate')
@@ -58,8 +64,4 @@ onEvent('recipes', event => {
   event.recipes.create.crushing('12x minecraft:lapis_lazuli', 'caves_and_cliffs_mod:deepslate_lapis_ore')
   event.recipes.mekanism.smelting('2x minecraft:lapis_lazuli', 'caves_and_cliffs_mod:deepslate_lapis_ore')
   //event.recipes.mekanism.milling('2x minecraft:lapis_lazuli', 'caves_and_cliffs_mod:deepslate_lapis_ore')
-})
-
-onEvent('item.tags', event => {
-
 })

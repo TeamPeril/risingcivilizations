@@ -3749,10 +3749,10 @@
 			}]
 		}
 		{
-			x: -13.5d
-			y: 31.0d
+			x: -8.0d
+			y: 27.0d
 			subtitle: "Loads an area of 3x3 chunks."
-			dependencies: ["27BA0F0B96446983"]
+			dependencies: ["16D6856CBD466A7F"]
 			hide: true
 			id: "0D9402D0AEFBA99A"
 			tasks: [{
@@ -3774,8 +3774,8 @@
 			]
 		}
 		{
-			x: -13.5d
-			y: 33.0d
+			x: -8.0d
+			y: 29.0d
 			subtitle: "Loads an area of 5x5 chunks."
 			dependencies: ["0D9402D0AEFBA99A"]
 			id: "745A325DD20FDC2C"
@@ -3798,8 +3798,8 @@
 			]
 		}
 		{
-			x: -13.5d
-			y: 35.0d
+			x: -8.0d
+			y: 31.0d
 			subtitle: "Loads an area of 7x7 chunks."
 			dependencies: ["745A325DD20FDC2C"]
 			id: "36EB907786D68C94"
@@ -3966,6 +3966,38 @@
 				auto: "invisible"
 				stage: "StoneAge"
 			}]
+		}
+		{
+			title: "Deeds"
+			x: -16.0d
+			y: 26.5d
+			subtitle: "Deeds can be used to claim land."
+			dependencies: ["1D857369B41BAA44"]
+			id: "754BFFCC99449034"
+			tasks: [
+				{
+					id: "3D73D7496D6E4E22"
+					type: "item"
+					item: "craftabledeeds:deed_pedestal"
+				}
+				{
+					id: "02E7E4435EAD2EEB"
+					type: "item"
+					item: "craftabledeeds:empty_deed"
+				}
+			]
+			rewards: [
+				{
+					id: "434BD5233018F471"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+				{
+					id: "4BF05E76E44BC241"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 		}
 	]
 }
