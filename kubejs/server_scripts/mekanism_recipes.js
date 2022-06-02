@@ -10,6 +10,24 @@ console.info('Hello, World! (You will see this line every time server resources 
 onEvent('recipes', event => {
   // Change recipes here
   
+  //Replace All instances of other coppers with the create copper
+  event.remove({id: 'mekanism:processing/copper/ingot/from_ore_smelting'})
+  event.replaceInput({}, 'mekanism:ingot_copper', 'create:copper_ingot')
+  event.replaceOutput({}, 'mekanism:ingot_copper', 'create:copper_ingot')
+  
+  event.replaceInput({}, 'mekanism:nugget_copper', 'create:copper_nugget')
+  event.replaceOutput({}, 'mekanism:nugget_copper', 'create:copper_nugget')
+  event.shapeless('create:copper_ingot','mekanism:ingot_copper') //Convert Mekanism Copper to  Create Copper
+  
+  
+  //Replace All Instances of Mekanism Lead with Eidolon Lead
+  event.replaceInput({}, 'mekanism:ingot_lead', 'eidolon:lead_ingot')
+  event.replaceOutput({}, 'mekanism:ingot_lead', 'eidolon:lead_ingot')
+  
+  event.replaceInput({}, 'mekanism:nugget_lead', 'eidolon:lead_nugget')
+  event.replaceOutput({}, 'mekanism:nugget_lead', 'eidolon:lead_nugget')
+  event.shapeless('eidolon:lead_ingot','mekanism:ingot_lead') //Convert Mekanism Lead to Eidolon Lead
+  
   //Custom Recipe for Basic Control Circuit
   
   //Custom Recipe for Osmium Sheet
@@ -250,8 +268,4 @@ onEvent('recipes', event => {
   
   //Recipie Compatability between create and mekanism  
   event.recipes.mekanism.crushing('create:cinder_flour', 'minecraft:netherrack')
-})
-
-onEvent('item.tags', event => {
-
 })

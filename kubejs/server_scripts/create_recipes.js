@@ -10,10 +10,10 @@ console.info('Hello, World! (You will see this line every time server resources 
 onEvent('recipes', event => {
   // Change recipes here
   
-  //Custom Recipe to create lava from flint + hellbark 
+  //Custom Recipe to create lava from flint + Crimson Bark
   event.recipes.createMixing(Fluid.of('minecraft:lava', 250),[
   'minecraft:flint',
-  'biomesoplenty:hellbark_log'
+  '#minecraft:crimson_stems'
   ]).heated()
   
 

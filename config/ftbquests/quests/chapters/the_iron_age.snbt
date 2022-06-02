@@ -32,7 +32,7 @@
 					type: "gamestage"
 					title: "The Iron Age"
 					auto: "invisible"
-					stage: "IronAge"
+					stage: "TheIronAge"
 				}
 				{
 					id: "78583C1B76A3C11F"
