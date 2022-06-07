@@ -22,4 +22,4 @@ max-tick-time needs to be 256000 for big structures and for players first time j
 
 view distance should be 12 or less for performance reasons, raising it higher can cause lag.
 
-
+Simple Voice Chat must be set up manually in some cases
