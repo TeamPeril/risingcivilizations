@@ -1,3 +1,4 @@
+
 // priority: 0
 
 settings.logAddedRecipes = true
@@ -22,6 +23,18 @@ onEvent('recipes', event => {
 	H: 'resourcefulbees:t4_beehive'
   })
   
+  //Tier 4 Hive
+  event.remove({id: 'resourcefulbees:t4_hive_upgrade'})  
+  event.shaped('1x resourcefulbees:t4_hive_upgrade', [
+    'CHC',
+    'HBH',
+    'CHC'
+  ], {
+    C: 'resourcefulbees:gold_honeycomb_block',
+	B: 'minecraft:honey_block',
+	H: 'resourcefulbees:t3_hive_upgrade'
+  })
+  
   event.remove({id: 'resourcefulbees:t4_beehive_nests'})  
   event.shaped('1x resourcefulbees:t4_beehive', [
     'CHC',
@@ -31,6 +44,19 @@ onEvent('recipes', event => {
     C: 'resourcefulbees:gold_honeycomb_block',
 	B: 'minecraft:honey_block',
 	H: 'resourcefulbees:t3_beehive'
+  })
+  
+  //Tier 3 Hive
+  
+  event.remove({id: 'resourcefulbees:t3_hive_upgrade'})  
+  event.shaped('1x resourcefulbees:t3_hive_upgrade', [
+    'CHC',
+    'HBH',
+    'CHC'
+  ], {
+    C: 'resourcefulbees:iron_honeycomb_block',
+	B: 'minecraft:honey_block',
+	H: 'resourcefulbees:t2_hive_upgrade'
   })
   
   event.remove({id: 'resourcefulbees:t3_beehive_nests'})  
@@ -44,6 +70,19 @@ onEvent('recipes', event => {
 	H: 'resourcefulbees:t2_beehive'
   })
   
+  //Tier 2 Hive
+  
+  event.remove({id: 'resourcefulbees:t2_hive_upgrade'})  
+  event.shaped('1x resourcefulbees:t2_hive_upgrade', [
+    'CHC',
+    'HBH',
+    'CHC'
+  ], {
+    C: 'resourcefulbees:coal_honeycomb_block',
+	B: 'minecraft:honey_block',
+	H: 'resourcefulbees:t1_hive_upgrade'
+  })
+  
   event.remove({id: 'resourcefulbees:t2_beehive_nests'})  
   event.shaped('1x resourcefulbees:t2_beehive', [
     'CHC',
@@ -53,6 +92,18 @@ onEvent('recipes', event => {
     C: 'resourcefulbees:coal_honeycomb_block',
 	B: 'minecraft:honey_block',
 	H: 'resourcefulbees:t1_beehive'
+  })
+  
+ //Tier 1 Hive
+  
+  event.remove({id: 'resourcefulbees:t1_hive_upgrade'})  
+  event.shaped('1x resourcefulbees:t1_hive_upgrade', [
+    'CCC',
+    'CPC',
+    'CCC'
+  ], {
+    C: 'minecraft:honeycomb_block',
+	P: '#minecraft:planks',
   })
   
   event.remove({id: 'resourcefulbees:t1_beehive'})  

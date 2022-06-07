@@ -220,7 +220,7 @@ onEvent('recipes', event => {
   ], {
     U: 'mekanism:ultimate_control_circuit',
 	H: 'mekanism:hdpe_sheet',
-	N: 'minecraft:nether_star'
+	N: 'chunkloaders:single_chunk_loader'
   })
   
   //Replace Recipe Mekanism Jetpack

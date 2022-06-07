@@ -1271,11 +1271,11 @@
 			description: [
 				"I highly recommend looking up a proper tutorial on this. If you fuck it up, your dead. "
 				""
-				"This reactor is 3 Wide x 3 Long x 4 Tall. Top-most layer and bottom-most layer must be made of casing. Edges of casing must be made from casing. Everything else can be made of casing or reactor glass, or ports, etc."
-				""
 				"Ports are used to input/output. Configure them using configurator tool."
 				""
 				"Inside is made up of air, Fission Fuel Assembly, and Control Rod Assembly. A control rod is formed by a 1x1 block wide column made of 1 to 15 Fission Fuel Assembly and a single Control Assembly at the top. Control rods must not touch each other. Maximum control rod density can be achieved by placing them in a checkerboard pattern."
+				""
+				""
 			]
 			dependencies: ["1282541EBE022CC8"]
 			id: "6C6547145844BBBE"
@@ -1289,19 +1289,16 @@
 					id: "2F243D1169B20922"
 					type: "item"
 					item: "mekanismgenerators:fission_reactor_casing"
-					count: 24L
 				}
 				{
 					id: "71B0660A1499F9DA"
 					type: "item"
 					item: "mekanismgenerators:fission_reactor_port"
-					count: 4L
 				}
 				{
 					id: "682A9F0DF25106C7"
 					type: "item"
 					item: "mekanismgenerators:reactor_glass"
-					count: 3L
 				}
 				{
 					id: "09E953AB2C769277"
@@ -1328,8 +1325,8 @@
 				{
 					id: "60ECAC4552661CAA"
 					type: "item"
-					item: "mekanism:ingot_osmium"
-					count: 16
+					item: "mekanism:osmium_ore"
+					count: 32
 				}
 			]
 		}
@@ -1364,55 +1361,46 @@
 					id: "7500335E8209305F"
 					type: "item"
 					item: "mekanismgenerators:turbine_rotor"
-					count: 5L
 				}
 				{
 					id: "71F7C9E5842CE989"
 					type: "item"
 					item: "mekanismgenerators:turbine_blade"
-					count: 10L
 				}
 				{
 					id: "1F22080365DFF068"
 					type: "item"
 					item: "mekanismgenerators:electromagnetic_coil"
-					count: 3L
 				}
 				{
 					id: "09761770586382AA"
 					type: "item"
 					item: "mekanismgenerators:saturating_condenser"
-					count: 6L
 				}
 				{
 					id: "0A2B0D44E9A4BA99"
 					type: "item"
 					item: "mekanismgenerators:turbine_vent"
-					count: 33L
 				}
 				{
 					id: "297DEF70ACFFDD85"
 					type: "item"
 					item: "mekanismgenerators:turbine_valve"
-					count: 2L
 				}
 				{
 					id: "438266E452C9F834"
 					type: "item"
 					item: "mekanismgenerators:turbine_casing"
-					count: 78L
 				}
 				{
 					id: "3278F7CB5B1AC747"
 					type: "item"
 					item: "mekanism:structural_glass"
-					count: 58L
 				}
 				{
 					id: "4EEADEC4B43DE30A"
 					type: "item"
 					item: "mekanism:pressure_disperser"
-					count: 8L
 				}
 				{
 					id: "5D27D1F39DAA72FD"
@@ -1593,7 +1581,7 @@
 		{
 			x: 7.0d
 			y: 32.0d
-			subtitle: "In a Pressurized Reaction Chamber, Polonium + Water = Polonium Pellet + Spent Nuclear Waste"
+			subtitle: "In a Pressurized Reaction Chamber, Polonium + Water + Flourite Dust = Polonium Pellet + Spent Nuclear Waste"
 			dependencies: ["11AEE38005346BC2"]
 			id: "3EB1B67CC783FC7C"
 			tasks: [{
@@ -1615,7 +1603,7 @@
 				{
 					id: "1D4119FDDB6F3322"
 					type: "item"
-					item: "calemiutils:money_bag_cheap"
+					item: "calemiutils:money_bag_rich"
 				}
 			]
 		}
