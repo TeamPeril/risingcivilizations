@@ -10,6 +10,9 @@ console.info('Hello, World! (You will see this line every time server resources 
 onEvent('recipes', event => {
   // Change recipes here
   
+  //Create Chunk Loader
+  event.replaceInput({mod: 'createchunkloading'}, 'minecraft:beacon', 'chunkloaders:single_chunk_loader')
+  
   //Custom Recipe to create lava from flint + Crimson Bark
   event.recipes.createMixing(Fluid.of('minecraft:lava', 250),[
   'minecraft:flint',
