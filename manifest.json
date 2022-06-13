@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Rising Civilizations",
-  "version": "0.62",
+  "version": "0.63",
   "author": "GRMikeatron",
   "files": [
     {
@@ -22,6 +22,11 @@
     {
       "projectID": 442354,
       "fileID": 3606847,
+      "required": true
+    },
+    {
+      "projectID": 317269,
+      "fileID": 3519536,
       "required": true
     },
     {
@@ -102,6 +107,11 @@
     {
       "projectID": 314002,
       "fileID": 3055679,
+      "required": true
+    },
+    {
+      "projectID": 402256,
+      "fileID": 3147020,
       "required": true
     },
     {

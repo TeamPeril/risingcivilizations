@@ -9,7 +9,7 @@ console.info('Hello, World! (You will see this line every time server resources 
 
 onEvent('recipes', event => {
   // Change recipes here
-  
+
   //Replace All instances of other coppers with the create copper
   event.remove({id: 'mekanism:processing/copper/ingot/from_ore_smelting'})
   event.replaceInput({}, 'mekanism:ingot_copper', 'create:copper_ingot')
