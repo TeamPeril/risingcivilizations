@@ -7,14 +7,14 @@ settings.logErroringRecipes = true
 
 console.info('Hello, World! (You will see this line every time server resources reload)')
 
-onEvent('recipes', event => {
-  // Change recipes here
+onEvent('recipes', event => {  
   
   //Create Chunk Loader
   event.replaceInput({mod: 'createchunkloading'}, 'minecraft:beacon', 'chunkloaders:single_chunk_loader')
   
-  //Custom Recipe to create lava from flint + Crimson Bark
-  event.recipes.createMixing(Fluid.of('minecraft:lava', 250),[
+  //Custom Recipe to create lava & sulfur from flint + Crimson Bark
+  event.remove({id: 'create:mixing/lava_from_cobble'})
+  event.recipes.createMixing([Fluid.of('minecraft:lava', 100), Item.of('eidolon:sulfur').withChance(0.2), Item.of('minecraft:blackstone')],[
   'minecraft:flint',
   '#minecraft:crimson_stems'
   ]).heated()

@@ -41,17 +41,33 @@ onEvent('item.registry', event => {
   .tooltip('Created by using a mechanical saw on enriched redstone.')
   .maxStackSize(64)
   
-  event.create('assembled_control_circuit')
-  .displayName('Assembled Control Circuit')
-  .maxStackSize(64)
-
-  
   event.create('incomplete_basic_control_circuit')
   .type('create:sequenced_assembly')
   .displayName('Incomplete Assembeled Basic Control Circuit')
+  
+  event.create('assembled_control_circuit')
+  .displayName('Assembled Control Circuit')
+  .maxStackSize(64)
+  
+  event.create('rubber')
+  .displayName('Rubber')
+  .maxStackSize(64)
+  
+  event.create('rubber_raw')
+  .displayName('Raw Rubber')
+  .maxStackSize(64)
+  
+  event.create('silicon_plate')
+  .displayName('Silicon Plate')
+  .maxStackSize(64)
+
+  
 })
 
 onEvent('block.registry', event => {
   // Register new blocks here
   // event.create('example_block').material('wood').hardness(1.0).displayName('Example Block')
+  
+  event.create('quartz_sand').material('sand').hardness('0.5').displayName('Quartz Sand')
+  event.create('silicon_block_processed').material('stone').hardness('0.5').displayName('Processed Silicon Block')
 })

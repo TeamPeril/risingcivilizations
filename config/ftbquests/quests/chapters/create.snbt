@@ -54,6 +54,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "3DF0A5B106621C09"
+					type: "item"
+					item: "mekanism:basic_control_circuit"
+				}
 			]
 		}
 		{
@@ -1951,18 +1956,11 @@
 				"11A67654E5F45183"
 			]
 			id: "7CD75735438C7334"
-			tasks: [
-				{
-					id: "4A938F6A98E2F609"
-					type: "item"
-					item: "cgm:workbench"
-				}
-				{
-					id: "04DA3A0D3D855585"
-					type: "item"
-					item: "timeless_and_classic:timeless_workbench"
-				}
-			]
+			tasks: [{
+				id: "4A938F6A98E2F609"
+				type: "item"
+				item: "cgm:workbench"
+			}]
 			rewards: [
 				{
 					id: "77AD4C520B3B3685"
@@ -1973,6 +1971,7 @@
 					id: "18E240E9F7169E06"
 					type: "item"
 					item: "calemiutils:money_bag_rich"
+					count: 3
 				}
 			]
 		}
@@ -2500,6 +2499,255 @@
 					item: "calemiutils:money_bag_cheap"
 				}
 			]
+		}
+		{
+			x: 22.5d
+			y: 20.0d
+			dependencies: ["316CE5A053F21EF6"]
+			id: "6AB264BD6CA2A7B8"
+			tasks: [{
+				id: "17787DFE5ED8D2CD"
+				type: "checkmark"
+				title: "Tools"
+			}]
+		}
+		{
+			x: 22.5d
+			y: 22.0d
+			subtitle: "A tool that can survey the nearby area for points of interest like ore."
+			dependencies: ["6AB264BD6CA2A7B8"]
+			id: "58507D6323799ACC"
+			tasks: [{
+				id: "1B74C3E9C12FDED6"
+				type: "item"
+				item: "scannable:scanner"
+			}]
+			rewards: [
+				{
+					id: "2334AEF4EA1DFFA1"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+				{
+					id: "67833B8D650F5755"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 26.5d
+			y: 22.0d
+			subtitle: "Allows you to build structures using a set of different Building Modes."
+			dependencies: ["1922AEAA8526738C"]
+			id: "07F01B75B29AF6DD"
+			tasks: [{
+				id: "4944BDFAEFD811D8"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_building"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "60A59905AFDE7030"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "41F9A600F561B3A5"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 26.5d
+			y: 24.0d
+			subtitle: "Provides basic exchanging abilities using a set of different Exchanging Modes."
+			dependencies: ["1922AEAA8526738C"]
+			id: "4B8BC98F2BC219C7"
+			tasks: [{
+				id: "7DB731B03A0058F3"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_exchanging"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2498195B35A4DD02"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5FCBFAD143A1371B"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 24.5d
+			y: 24.0d
+			subtitle: "Allows you to select a large radius to copy and paste in a different location."
+			dependencies: ["1922AEAA8526738C"]
+			id: "6F538DA04B81C23E"
+			tasks: [{
+				id: "1251F578C9B618EA"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_copy_paste"
+					Count: 1b
+					tag: {
+						mode: 0b
+						template_id: [I;
+							-1868966053
+							-289585239
+							-1827217809
+							-1933664309
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7DFD8394AC544869"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7F3B6FE0B5493386"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: 26.5d
+			y: 20.0d
+			subtitle: "Allows you to void a large area."
+			dependencies: ["1922AEAA8526738C"]
+			id: "2487EFE8441F5CB6"
+			tasks: [{
+				id: "591070C4C167B0D2"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_destruction"
+					Count: 1b
+					tag: {
+						overlay: 1b
+						fuzzy: 1b
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "09D3A99929E361A3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "73DF3495787CFEF5"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			title: "Scanner Upgrades"
+			x: 22.5d
+			y: 24.0d
+			subtitle: "Up to three modules may be installed at the same time."
+			dependencies: ["58507D6323799ACC"]
+			id: "0F0A970D5A16B177"
+			tasks: [
+				{
+					id: "091B07CCA6E277A2"
+					type: "item"
+					item: "scannable:module_range"
+				}
+				{
+					id: "7F74F0B8330BD704"
+					type: "item"
+					item: "scannable:module_entity"
+				}
+				{
+					id: "71909198ABFE9280"
+					type: "item"
+					item: "scannable:module_animal"
+				}
+				{
+					id: "4A04B814449DA0B0"
+					type: "item"
+					item: "scannable:module_monster"
+				}
+				{
+					id: "6FD9483E546A738E"
+					type: "item"
+					item: "scannable:module_block"
+				}
+				{
+					id: "349D6529B69AABA0"
+					type: "item"
+					item: "scannable:module_ore_common"
+				}
+				{
+					id: "4E3FE2159C205E7E"
+					type: "item"
+					item: "scannable:module_ore_rare"
+				}
+				{
+					id: "37646BB8E7C6ECC2"
+					type: "item"
+					item: "scannable:module_fluid"
+				}
+			]
+			rewards: [
+				{
+					id: "21C753F7B3F6B71D"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+					count: 3
+				}
+				{
+					id: "1BC08C7D5834D51F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 24.5d
+			y: 20.0d
+			subtitle: "Sometimes, building large structures can be a little tedious, and take a lot of effort. Building Gadgets aims to make building a little bit easier."
+			dependencies: ["6AB264BD6CA2A7B8"]
+			id: "1922AEAA8526738C"
+			tasks: [{
+				id: "67B47ECBAB8315EC"
+				type: "checkmark"
+				title: "Building Gadgets"
+			}]
 		}
 	]
 }
