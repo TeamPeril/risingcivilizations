@@ -12,6 +12,7 @@ onEvent('recipes', event => {
   // Change recipes here
   
   //Make all Honey Comb Blocks crushable
+  event.recipes.mekanism.crushing('4x minecraft:honeycomb', 'minecraft:honeycomb_block')
   event.recipes.mekanism.crushing('9x resourcefulbees:catnip_honeycomb', 'resourcefulbees:catnip_honeycomb_block')
   event.recipes.mekanism.crushing('9x resourcefulbees:starry_honeycomb', 'resourcefulbees:starry_honeycomb_block')
   event.recipes.mekanism.crushing('9x resourcefulbees:coal_honeycomb', 'resourcefulbees:coal_honeycomb_block')
@@ -30,6 +31,8 @@ onEvent('recipes', event => {
   event.recipes.mekanism.crushing('9x resourcefulbees:skeleton_honeycomb', 'resourcefulbees:skeleton_honeycomb_block')
   event.recipes.mekanism.crushing('9x resourcefulbees:wither_honeycomb', 'resourcefulbees:wither_honeycomb_block')
   event.recipes.mekanism.crushing('9x resourcefulbees:zombie_honeycomb', 'resourcefulbees:zombie_honeycomb_block')
+  
+  event.shapeless('4x minecraft:honeycomb', 'minecraft:honeycomb_block')
   
   //Replace Recipe for Apirary
   event.remove({id: 'resourcefulbees:t1_apiary'})  
@@ -139,8 +142,4 @@ onEvent('recipes', event => {
   
   //Replace Recipe for honey generator
   event.replaceInput({id: 'resourcefulbees:honey_generator'}, 'minecraft:redstone', 'create:refined_radiance')
-})
-
-onEvent('item.tags', event => {
-
 })
