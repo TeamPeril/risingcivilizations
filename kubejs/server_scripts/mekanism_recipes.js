@@ -9,7 +9,25 @@ console.info('Hello, World! (You will see this line every time server resources 
 
 onEvent('recipes', event => {
   // Change recipes here
-
+  
+  //Remove Combiner Recipes related to ore
+  event.remove({id: 'mekanism:processing/copper/ore/from_dust'})
+  event.remove({id: 'mekanism:processing/fluorite/to_ore'})
+  event.remove({id: 'mekanism:processing/lead/ore/from_dust'})
+  event.remove({id: 'mekanism:processing/osmium/ore/from_dust'})
+  event.remove({id: 'mekanism:processing/tin/ore/from_dust'})
+  event.remove({id: 'mekanism:processing/uranium/ore/from_dust'})
+  event.remove({id: 'mekanism:processing/netherite/dust_to_ancient_debris'})
+  event.remove({id: 'mekanism:processing/coal/to_ore'})
+  event.remove({id: 'mekanism:processing/diamond/to_ore'})
+  event.remove({id: 'mekanism:processing/emerald/to_ore'})
+  event.remove({id: 'mekanism:processing/gold/ore/from_dust'})
+  event.remove({id: 'mekanism:processing/gold/ore/nether_from_dust'})
+  event.remove({id: 'mekanism:processing/iron/ore/from_dust'})
+  event.remove({id: 'mekanism:processing/lapis_lazuli/to_ore'})
+  event.remove({id: 'mekanism:processing/quartz/to_ore'})
+  event.remove({id: 'mekanism:processing/redstone/to_ore'})
+  
   //Replace All instances of other coppers with the create copper
   event.remove({id: 'mekanism:processing/copper/ingot/from_ore_smelting'})
   event.replaceInput({}, 'mekanism:ingot_copper', 'create:copper_ingot')
@@ -93,14 +111,19 @@ onEvent('recipes', event => {
   event.remove({id: 'mekanism:module_magnetic_attraction_unit'})
   event.remove({id: 'mekanism:module_inhalation_purification_unit'})
   
-  //Adding Compatability between Farmer's Delight and the Bio Generator
+  //Adding Compatability between Farmer's Delight and the Bio Fuel
   event.recipes.mekanism.crushing('5x mekanism:bio_fuel', 'farmersdelight:cabbage')
   event.recipes.mekanism.crushing('5x mekanism:bio_fuel', 'farmersdelight:tomato')
   event.recipes.mekanism.crushing('5x mekanism:bio_fuel', 'farmersdelight:onion')
   event.recipes.mekanism.crushing('4x mekanism:bio_fuel', 'farmersdelight:rice_panicle')
   event.recipes.mekanism.crushing('4x mekanism:bio_fuel', 'farmersdelight:rice')
-  event.recipes.mekanism.crushing('4x mekanism:bio_fuel', 'farmersdelight:cabbage_seeds')
-  event.recipes.mekanism.crushing('4x mekanism:bio_fuel', 'farmersdelight:tomato_seeds')
+  event.recipes.mekanism.crushing('2x mekanism:bio_fuel', 'farmersdelight:cabbage_seeds')
+  event.recipes.mekanism.crushing('2x mekanism:bio_fuel', 'farmersdelight:tomato_seeds')
+  
+  //Add Compatability between Supplementary and Bio Fuel
+  event.recipes.mekanism.crushing('2x mekanism:bio_fuel', 'supplementaries:flax_seeds')
+  event.recipes.mekanism.crushing('4x mekanism:bio_fuel', 'supplementaries:flax')
+  event.recipes.mekanism.crushing('36x mekanism:bio_fuel', 'supplementaries:flax_block')
   
   //Crushing Ores for x2 yield
   

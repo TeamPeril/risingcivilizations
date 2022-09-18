@@ -5,6 +5,37 @@ console.info('Hello, World! (You will see this line every time client resources 
 onEvent('jei.hide.items', event => {
   // Hide items in JEI here
   // event.hide('minecraft:cobblestone')
+  event.hide('/caves_and_cliffs_mod:spyglass/')
+  
+  event.hide('/caves_and_cliffs_mod:polished_grimstone/')
+  event.hide('/caves_and_cliffs_mod:polished_grimstone_stairs/')
+  event.hide('/caves_and_cliffs_mod:polished_grimstone_slab/')
+  event.hide('/caves_and_cliffs_mod:polished_grimstone_wall/')
+  
+  event.hide('/caves_and_cliffs_mod:polished_grimstone_bricks/')
+  event.hide('/caves_and_cliffs_mod:polished_grimstone_bricks_stairs/')
+  event.hide('/caves_and_cliffs_mod:polished_grimstone_bricks_slab/')
+  event.hide('/caves_and_cliffs_mod:polished_grimstone_bricks_wall/')
+  
+  event.hide('/caves_and_cliffs_mod:polished_grimstone_tiles/')
+  event.hide('/caves_and_cliffs_mod:polished_grimstone_tiles_stairs/')
+  event.hide('/caves_and_cliffs_mod:polished_grimstone_tiles_slab/')
+  event.hide('/caves_and_cliffs_mod:polished_grimstone_tiles_wall/')
+  
+  event.hide('/caves_and_cliffs_mod:chiseled_deepslate/')
+  event.hide('/caves_and_cliffs_mod:deepslate/')
+  event.hide('/caves_and_cliffs_mod:cobbled_deepslate/')
+  
+  event.hide('/caves_and_cliffs_mod:cracked_deepslate_tiles/')
+  event.hide('/caves_and_cliffs_mod:cracked_deepslate_bricks/')
+  event.hide('/caves_and_cliffs_mod:cracked_deepslate/')
+  
+  event.hide('/caves_and_cliffs_mod:cobbled_deepslate_stairs/')
+  event.hide('/caves_and_cliffs_mod:cobbled_deepslate_slab/')
+  event.hide('/caves_and_cliffs_mod:cobbled_deepslate_wall/')
+  
+
+  //Mekanism
   event.hide('/mekanism:mekasuit_helmet/')
   event.hide('/mekanism:mekasuit_bodyarmor/')
   event.hide('/mekanism:mekasuit_pants/')

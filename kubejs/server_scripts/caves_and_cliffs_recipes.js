@@ -8,7 +8,8 @@ settings.logErroringRecipes = true
 console.info('Hello, World! (You will see this line every time server resources reload)')
 
 onEvent('recipes', event => {
-
+  //Remove Spyglass since useless
+  event.remove({id: 'caves_and_cliffs_mod:spyglass_recipe'})
 	
   //Remove All Instances of Recipes involving this copper
   event.replaceInput({}, 'caves_and_cliffs_mod:copper_ingot', 'create:copper_ingot')

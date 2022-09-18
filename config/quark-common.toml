@@ -230,7 +230,7 @@
 [management]
 	"Chests In Boats" = true
 	"Easy Transfering" = true
-	"Hotbar Changer" = true
+	"Hotbar Changer" = false
 	"Inventory Sorting" = true
 	"Item Sharing" = true
 	"Right Click Armor" = true
