@@ -5,26 +5,43 @@ console.info('Hello, World! (You will see this line every time client resources 
 onEvent('jei.hide.items', event => {
   // Hide items in JEI here
   // event.hide('minecraft:cobblestone')
+  
+  event.hide('/caves_and_cliffs_mod:tinted_glass/')
+  
+  event.hide('/caves_and_cliffs_mod:sculk_sensor/')
+  event.hide('/caves_and_cliffs_mod:sculk_full_block/')
+  event.hide('/caves_and_cliffs_mod:sculk_end_block/')
+  event.hide('/caves_and_cliffs_mod:sculk_trap/')
+  event.hide('/caves_and_cliffs_mod:sculk_carpet/')
+  
   event.hide('/caves_and_cliffs_mod:spyglass/')
+  event.hide('/caves_and_cliffs_mod:brush/')
+  event.hide('/caves_and_cliffs_mod:rusty_brush/')
+  event.hide('/caves_and_cliffs_mod:blue_ceramic_shard/')
+  event.hide('/caves_and_cliffs_mod:orange_ceramic_shard/')
+  event.hide('/caves_and_cliffs_mod:ceramic_shard_1/')
+  event.hide('/caves_and_cliffs_mod:ceramic_shard_2/')
+  event.hide('/caves_and_cliffs_mod:ceramic_shard_3/')
   
   event.hide('/caves_and_cliffs_mod:polished_grimstone/')
   event.hide('/caves_and_cliffs_mod:polished_grimstone_stairs/')
   event.hide('/caves_and_cliffs_mod:polished_grimstone_slab/')
   event.hide('/caves_and_cliffs_mod:polished_grimstone_wall/')
   
-  event.hide('/caves_and_cliffs_mod:polished_grimstone_bricks/')
-  event.hide('/caves_and_cliffs_mod:polished_grimstone_bricks_stairs/')
-  event.hide('/caves_and_cliffs_mod:polished_grimstone_bricks_slab/')
-  event.hide('/caves_and_cliffs_mod:polished_grimstone_bricks_wall/')
+  event.hide('/caves_and_cliffs_mod:grimstone_bricks/')
+  event.hide('/caves_and_cliffs_mod:grimstone_bricks_stairs/')
+  event.hide('/caves_and_cliffs_mod:grimstone_bricks_slab/')
+  event.hide('/caves_and_cliffs_mod:grimstone_bricks_wall/')
   
-  event.hide('/caves_and_cliffs_mod:polished_grimstone_tiles/')
-  event.hide('/caves_and_cliffs_mod:polished_grimstone_tiles_stairs/')
-  event.hide('/caves_and_cliffs_mod:polished_grimstone_tiles_slab/')
-  event.hide('/caves_and_cliffs_mod:polished_grimstone_tiles_wall/')
+  event.hide('/caves_and_cliffs_mod:grimstone_tiles/')
+  event.hide('/caves_and_cliffs_mod:grimstone_tiles_stairs/')
+  event.hide('/caves_and_cliffs_mod:grimstone_tiles_slab/')
+  event.hide('/caves_and_cliffs_mod:grimstone_tiles_wall/')
   
   event.hide('/caves_and_cliffs_mod:chiseled_deepslate/')
   event.hide('/caves_and_cliffs_mod:deepslate/')
   event.hide('/caves_and_cliffs_mod:cobbled_deepslate/')
+  event.hide('/caves_and_cliffs_mod:infested_deepslate/')
   
   event.hide('/caves_and_cliffs_mod:cracked_deepslate_tiles/')
   event.hide('/caves_and_cliffs_mod:cracked_deepslate_bricks/')
