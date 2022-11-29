@@ -1,4 +1,4 @@
-Reccommended Forge Version: Forge-1.16.5-36.2.34
+Reccommended Forge Version: Forge-1.16.5-36.2.39
 Please set the following in your server.properties files when it generates, for stability and compatibility:
 
 allow-flight=true

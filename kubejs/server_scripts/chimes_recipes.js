@@ -26,6 +26,6 @@ onEvent('recipes', event => {
 	  ], {
 		S: 'minecraft:string',
 		W: '#minecraft:wooden_slabs',
-		A: 'caves_and_cliffs_mod:amethyst_shard'
+		A: 'minecraft:diamond'
 	  })
 })
