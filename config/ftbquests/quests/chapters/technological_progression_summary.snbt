@@ -51,11 +51,22 @@
 				title: "Enter the Stone Age to Unlock"
 				stage: "StoneAge"
 			}]
-			rewards: [{
-				id: "58C4B485053580BF"
-				type: "item"
-				item: "calemiutils:money_bag_rich"
-			}]
+			rewards: [
+				{
+					id: "58C4B485053580BF"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+				{
+					id: "48C584779AD590A4"
+					type: "item"
+					item: {
+						id: "calemiutils:wallet"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
 		}
 		{
 			title: "The Modern Age"

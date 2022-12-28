@@ -70,6 +70,7 @@
 			y: 9.0d
 			subtitle: "A cheap, but reliable pickaxe."
 			dependencies: ["5B3BF9A76FA2B11E"]
+			hide: true
 			id: "7854878BEFB1487A"
 			tasks: [{
 				id: "476D91742A54F6B7"
@@ -133,6 +134,7 @@
 			y: 6.0d
 			shape: "gear"
 			dependencies: ["049D865533E63AD0"]
+			hide: true
 			id: "0F563605F9256D11"
 			tasks: [{
 				id: "4C3B821C7372AE6B"
@@ -152,6 +154,7 @@
 			y: 6.0d
 			shape: "gear"
 			dependencies: ["049D865533E63AD0"]
+			hide: true
 			id: "3472E448856AB5A9"
 			tasks: [{
 				id: "2B66C0BF7178EC07"
@@ -165,6 +168,7 @@
 			y: 6.0d
 			shape: "gear"
 			dependencies: ["049D865533E63AD0"]
+			hide: true
 			id: "2FB222739017589E"
 			tasks: [{
 				id: "1E6827FA149C03A8"
@@ -176,6 +180,7 @@
 			y: 7.5d
 			subtitle: "Used to store items. Placing two chests next to each other creates a double chest with double the storage."
 			dependencies: ["0F563605F9256D11"]
+			hide: true
 			id: "6549DF34460927B1"
 			tasks: [{
 				id: "669616AF9143C476"
@@ -226,6 +231,7 @@
 			y: 10.5d
 			subtitle: "Coal and Charcoal can be used as a fuel source for furnaces."
 			dependencies: ["7854878BEFB1487A"]
+			hide: true
 			id: "26C5C048B1750470"
 			tasks: [{
 				id: "67BDB55EF7281349"
@@ -266,6 +272,7 @@
 			y: 11.0d
 			subtitle: "Cheap simple combat weapon."
 			dependencies: ["4D943BA614B61653"]
+			hide: true
 			id: "08ED006D99B62237"
 			tasks: [{
 				id: "670B9CC9E59712E1"
@@ -296,6 +303,7 @@
 			y: 13.5d
 			subtitle: "One of the most resources in the game. Put ore into a furnace to cook it into ingots."
 			dependencies: ["2223E5231660ABD6"]
+			hide: true
 			id: "01F098A347CDF82A"
 			tasks: [{
 				id: "0554227C3010DF98"
@@ -320,6 +328,7 @@
 			y: 15.0d
 			subtitle: "Your standard mining tool. Can mine all ore types except obsidian."
 			dependencies: ["01F098A347CDF82A"]
+			hide: true
 			id: "7B6F332CEAAA50E3"
 			tasks: [{
 				id: "6451106F5DB91859"
@@ -372,6 +381,7 @@
 			y: 17.0d
 			subtitle: "Found between height levels between 1 and 33."
 			dependencies: ["7B6F332CEAAA50E3"]
+			hide_text_until_complete: true
 			id: "08BBFFC9038DC958"
 			tasks: [{
 				id: "20F523D9ACA1A833"
@@ -399,6 +409,7 @@
 				"2C467A82E19BBC54"
 				"08BBFFC9038DC958"
 			]
+			hide: true
 			dependency_requirement: "one_completed"
 			id: "656C4565E976C460"
 			tasks: [{
@@ -438,6 +449,7 @@
 				"6549DF34460927B1"
 				"01F098A347CDF82A"
 			]
+			hide_text_until_complete: true
 			id: "69C09BDBCB1FB97F"
 			tasks: [{
 				id: "64ACDAA112EBAF68"
@@ -455,6 +467,7 @@
 			y: 8.5d
 			subtitle: "Mobile storage on your character that you can open by pressing 'b'."
 			dependencies: ["6549DF34460927B1"]
+			hide: true
 			id: "2C6DC21FC3E13A3D"
 			tasks: [{
 				id: "0E97C46F5184C44F"
@@ -475,6 +488,7 @@
 				"2C6DC21FC3E13A3D"
 				"01F098A347CDF82A"
 			]
+			hide_text_until_complete: true
 			id: "7429560B7EF95784"
 			tasks: [{
 				id: "6FE444F7BC3C6625"
@@ -495,6 +509,7 @@
 				"7429560B7EF95784"
 				"08BBFFC9038DC958"
 			]
+			hide: true
 			id: "5C5C929D9AD1ABC5"
 			tasks: [{
 				id: "7E8954816F755C6E"
@@ -515,6 +530,7 @@
 				"5C5C929D9AD1ABC5"
 				"656C4565E976C460"
 			]
+			hide: true
 			id: "0360F2D75356201D"
 			tasks: [{
 				id: "0042EAB4645011AF"
@@ -535,6 +551,7 @@
 				"69C09BDBCB1FB97F"
 				"08BBFFC9038DC958"
 			]
+			hide: true
 			id: "0EB3608C77C8A912"
 			tasks: [{
 				id: "2F38A62B7684585B"
@@ -555,6 +572,7 @@
 				"0EB3608C77C8A912"
 				"656C4565E976C460"
 			]
+			hide: true
 			id: "442CB85E5957E987"
 			tasks: [{
 				id: "3945CFBC09F2494C"
@@ -575,6 +593,7 @@
 				"08ED006D99B62237"
 				"01F098A347CDF82A"
 			]
+			hide: true
 			id: "540C3F29A5A213C0"
 			tasks: [{
 				id: "3B6DA174C8D28450"
@@ -605,6 +624,7 @@
 			y: 10.0d
 			subtitle: "Used to till grass/dirt so that you can plant seeds. tilled land must b e within 4 blocks of a water source."
 			dependencies: ["63479147BF185C4B"]
+			hide: true
 			id: "5610BA994F7BF6D3"
 			tasks: [{
 				id: "3B36CB692A72B2C6"
@@ -631,6 +651,7 @@
 				"01F098A347CDF82A"
 				"5610BA994F7BF6D3"
 			]
+			hide: true
 			id: "32529ADAA7B3AC89"
 			tasks: [{
 				id: "4BCF5D9B9DEF65A9"
@@ -654,6 +675,7 @@
 			y: 8.0d
 			subtitle: "To find wheat seeds, break grass sticking out from the ground."
 			dependencies: ["2FB222739017589E"]
+			hide: true
 			id: "63479147BF185C4B"
 			tasks: [{
 				id: "32420F59C056BE99"
@@ -679,6 +701,7 @@
 			y: 10.0d
 			subtitle: "Used to block damage."
 			dependencies: ["4D943BA614B61653"]
+			hide: true
 			id: "0F46775EDEF5D669"
 			tasks: [{
 				id: "671183BBF72A7BF5"
@@ -712,6 +735,7 @@
 				"0F46775EDEF5D669"
 				"01F098A347CDF82A"
 			]
+			hide: true
 			id: "1CFF2CACC8099995"
 			tasks: [{
 				id: "5E3AF1A660EC76EB"
@@ -742,6 +766,7 @@
 			y: 12.0d
 			subtitle: "Used to cook/smelt items ranging from food to ore."
 			dependencies: ["26C5C048B1750470"]
+			hide: true
 			id: "2223E5231660ABD6"
 			tasks: [{
 				id: "28D7113182EAD056"
@@ -772,6 +797,7 @@
 			subtitle: "Gathered from mining stone with a pickaxe."
 			description: ["Cobblestone is used to make stone tools. It is also a very cheap building material and can be smelted back into stone."]
 			dependencies: ["3472E448856AB5A9"]
+			hide: true
 			id: "5B3BF9A76FA2B11E"
 			tasks: [{
 				id: "4B6F2B328F4B658B"
@@ -789,6 +815,7 @@
 			y: 8.5d
 			subtitle: "A pickaxe-like mining tool that can mine in a 3x3 area all at once."
 			dependencies: ["7854878BEFB1487A"]
+			hide: true
 			id: "28C064B2365C60F7"
 			tasks: [{
 				id: "08F6C15C2ADDF0E0"
@@ -825,6 +852,7 @@
 			y: 8.5d
 			subtitle: "A shovel-like mining tool that can mine in a 3x3 area all at once."
 			dependencies: ["7854878BEFB1487A"]
+			hide: true
 			id: "4A265C22D4D60E51"
 			tasks: [{
 				id: "0111F640FCAE5536"
@@ -861,6 +889,7 @@
 			y: 13.0d
 			subtitle: "A pickaxe-like mining tool that can mine in a 3x3 area all at once."
 			dependencies: ["01F098A347CDF82A"]
+			hide: true
 			id: "3C054E857E886AA6"
 			tasks: [{
 				id: "6B15659E30C0BDBE"
@@ -897,6 +926,7 @@
 			y: 13.0d
 			subtitle: "A shovel-like mining tool that can mine in a 3x3 area all at once."
 			dependencies: ["01F098A347CDF82A"]
+			hide: true
 			id: "7B3D5F07209833DA"
 			tasks: [{
 				id: "2C501F5CF1ED4876"
@@ -933,6 +963,7 @@
 			y: 17.0d
 			subtitle: "Redstone ore is found between height levels 1 and 17."
 			dependencies: ["7B6F332CEAAA50E3"]
+			hide: true
 			id: "2C467A82E19BBC54"
 			tasks: [{
 				id: "2FD2B9127C48C92D"
@@ -957,6 +988,7 @@
 			y: 18.5d
 			subtitle: "A pickaxe-like mining tool that can mine in a 3x3 area all at once."
 			dependencies: ["656C4565E976C460"]
+			hide: true
 			id: "163470E3221593E5"
 			tasks: [{
 				id: "310E13794311CEB3"
@@ -993,6 +1025,7 @@
 			y: 18.5d
 			subtitle: "A shovel-like mining tool that can mine in a 3x3 area all at once."
 			dependencies: ["656C4565E976C460"]
+			hide: true
 			id: "7B97C6E538BE13EE"
 			tasks: [{
 				id: "74368DD2E7B3647F"
@@ -1029,6 +1062,7 @@
 			y: 12.0d
 			subtitle: "Like a regular furnace, but cooks ore faster. Can only cook ore though."
 			dependencies: ["2223E5231660ABD6"]
+			hide: true
 			id: "54BAEDB123F2B44C"
 			tasks: [{
 				id: "3ABD3FF5875953F6"
@@ -1046,6 +1080,7 @@
 			y: 12.0d
 			subtitle: "The ultimate furance. Its upgradable and can store xp from cooking."
 			dependencies: ["54BAEDB123F2B44C"]
+			hide: true
 			id: "6142727FDD6B3A9C"
 			tasks: [{
 				id: "57E6CCE8433BC8A6"
@@ -1108,6 +1143,7 @@
 			y: 10.5d
 			subtitle: "Doubles the amount of XP gained."
 			dependencies: ["6142727FDD6B3A9C"]
+			hide: true
 			id: "19C5BDD7E725FC3E"
 			tasks: [{
 				id: "2172A4FFE3DC2389"
@@ -1125,6 +1161,7 @@
 			y: 10.5d
 			subtitle: "Decreases the amount of fuel needed to cook something."
 			dependencies: ["6142727FDD6B3A9C"]
+			hide: true
 			id: "56385CBF57539E1A"
 			tasks: [{
 				id: "35F5CA159C2A5DDD"
@@ -1142,6 +1179,7 @@
 			y: 10.5d
 			subtitle: "Increases cook speed."
 			dependencies: ["6142727FDD6B3A9C"]
+			hide: true
 			id: "30DCF2B134B222E6"
 			tasks: [{
 				id: "5F8C13079ADBB023"
@@ -1159,6 +1197,7 @@
 			y: 12.0d
 			subtitle: "Used to store more xp from the furnace."
 			dependencies: ["6142727FDD6B3A9C"]
+			hide: true
 			id: "61EAFF6C41CBFE05"
 			tasks: [{
 				id: "350E234DC66AB56D"
@@ -1184,6 +1223,7 @@
 				"01F098A347CDF82A"
 				"308E42D9416A1642"
 			]
+			hide: true
 			id: "12EDC574AAC45C4C"
 			tasks: [
 				{
@@ -1257,6 +1297,7 @@
 				"540C3F29A5A213C0"
 				"656C4565E976C460"
 			]
+			hide: true
 			id: "5D34F571CBFD2345"
 			tasks: [{
 				id: "41A63A0E3EC1205C"
@@ -1292,6 +1333,7 @@
 				"12EDC574AAC45C4C"
 				"656C4565E976C460"
 			]
+			hide: true
 			id: "261754CE6D962D9B"
 			tasks: [
 				{
@@ -1366,6 +1408,7 @@
 				"1CFF2CACC8099995"
 				"656C4565E976C460"
 			]
+			hide: true
 			id: "63E4A046AED1E5BA"
 			tasks: [{
 				id: "52A021A80170AC9E"
@@ -1400,6 +1443,7 @@
 				"32529ADAA7B3AC89"
 				"656C4565E976C460"
 			]
+			hide: true
 			id: "66A7128EB18C7933"
 			tasks: [{
 				id: "3CFD30B2B4372F6F"
@@ -1423,6 +1467,7 @@
 			y: 10.5d
 			subtitle: "Used to stop bleeding. You always want this on you."
 			dependencies: ["4D943BA614B61653"]
+			hide: true
 			id: "308E42D9416A1642"
 			tasks: [{
 				id: "3845F976C5143502"
@@ -1448,6 +1493,7 @@
 			y: 16.5d
 			subtitle: "Used to locate biomes."
 			dependencies: ["2C467A82E19BBC54"]
+			hide: true
 			id: "149139F46405A3E2"
 			tasks: [{
 				id: "7758CF337DC3D681"
@@ -1471,6 +1517,7 @@
 			y: 9.5d
 			shape: "gear"
 			dependencies: ["4D943BA614B61653"]
+			hide: true
 			id: "70BE0C8FE5726B1F"
 			tasks: [{
 				id: "40D0551A0EC409EB"
@@ -1478,46 +1525,11 @@
 			}]
 		}
 		{
-			title: "Visit the Twilight Forest"
-			icon: "twilightforest:twilight_portal_miniature_structure"
-			x: -17.5d
-			y: 9.5d
-			dependencies: ["70BE0C8FE5726B1F"]
-			id: "0FEF5F3DB9D0A520"
-			tasks: [{
-				id: "2A94503F26FF2F90"
-				type: "dimension"
-				dimension: "twilightforest:twilightforest"
-			}]
-			rewards: [
-				{
-					id: "35BDC9670C712E88"
-					type: "item"
-					item: "twilightforest:magic_map_empty"
-				}
-				{
-					id: "4E044F733D701D0C"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "2241AFF3A62642DC"
-					type: "item"
-					item: {
-						id: "patchouli:guide_book"
-						Count: 1b
-						tag: {
-							"patchouli:book": "twilightforest:guide"
-						}
-					}
-				}
-			]
-		}
-		{
 			x: -13.5d
 			y: 24.0d
 			subtitle: "Obtained From Mining Ancient Debris. Ancient Debris is most common below lava level in the nether. Will not spawn exposed to air."
 			dependencies: ["51F05AE61F38EA3F"]
+			hide: true
 			id: "45B1EBBDC051D1E5"
 			tasks: [{
 				id: "2EA9BB2BF7AD53D3"
@@ -1539,6 +1551,7 @@
 				"70BE0C8FE5726B1F"
 				"5D34F571CBFD2345"
 			]
+			hide: true
 			id: "51F05AE61F38EA3F"
 			tasks: [{
 				id: "6F48F82B9C9D5B70"
@@ -1563,6 +1576,7 @@
 			y: 23.0d
 			subtitle: "Obtained from killing Blazes. Most commonly found in Nether Fortresses."
 			dependencies: ["51F05AE61F38EA3F"]
+			hide: true
 			id: "36F2CEDF0BD422BC"
 			tasks: [{
 				id: "1F2D82CFB4E386BC"
@@ -1580,6 +1594,7 @@
 			y: 23.0d
 			subtitle: "Obtained from killing Magma slimes."
 			dependencies: ["51F05AE61F38EA3F"]
+			hide: true
 			id: "13E663BC3632608E"
 			tasks: [{
 				id: "5C609634BED4F6DD"
@@ -1601,6 +1616,7 @@
 				"45B1EBBDC051D1E5"
 				"656C4565E976C460"
 			]
+			hide: true
 			id: "3AD016CBFF6F7A87"
 			tasks: [{
 				id: "1C8C2D5B46627F91"
@@ -1636,6 +1652,7 @@
 			y: 23.0d
 			subtitle: "A shovel-like mining tool that can mine in a 3x3 area all at once."
 			dependencies: ["3AD016CBFF6F7A87"]
+			hide_text_until_complete: true
 			id: "03814D206EB0DACA"
 			tasks: [{
 				id: "0233F07CF8ECCDAA"
@@ -1672,6 +1689,7 @@
 			y: 23.0d
 			subtitle: "A pickaxe-like mining tool that can mine in a 3x3 area all at once."
 			dependencies: ["3AD016CBFF6F7A87"]
+			hide_text_until_complete: true
 			id: "303D8680F1C6D4E4"
 			tasks: [{
 				id: "6C141262316A509B"
@@ -1711,6 +1729,7 @@
 				"5D34F571CBFD2345"
 				"3AD016CBFF6F7A87"
 			]
+			hide: true
 			id: "09FDEE2C982F10A3"
 			tasks: [{
 				id: "711F9C6C6E5F20AC"
@@ -1746,6 +1765,7 @@
 				"261754CE6D962D9B"
 				"3AD016CBFF6F7A87"
 			]
+			hide: true
 			id: "0595F29847C7AF15"
 			tasks: [
 				{
@@ -1820,6 +1840,7 @@
 				"63E4A046AED1E5BA"
 				"3AD016CBFF6F7A87"
 			]
+			hide: true
 			id: "54E4EC073D9406F1"
 			tasks: [{
 				id: "5968C31149483A65"
@@ -1851,6 +1872,7 @@
 			y: 25.5d
 			subtitle: "Increased Storage Capacity."
 			dependencies: ["0360F2D75356201D"]
+			hide: true
 			id: "3548CC2CE57D70BC"
 			tasks: [{
 				id: "4981734F47D223B0"
@@ -1868,6 +1890,7 @@
 			y: 25.0d
 			subtitle: "A better version of the diamond hoe that has more durability."
 			dependencies: ["66A7128EB18C7933"]
+			hide: true
 			id: "7AA0ADD251DAE228"
 			tasks: [{
 				id: "4D7465A4AA0CA777"
@@ -1891,6 +1914,7 @@
 			y: 25.0d
 			subtitle: "Used to Find the End Stronghold. Craft with Blaze Powder and Ender Pearl."
 			dependencies: ["36F2CEDF0BD422BC"]
+			hide: true
 			id: "16D6856CBD466A7F"
 			tasks: [{
 				id: "45EB7DA7779C96BC"
@@ -1909,6 +1933,7 @@
 			y: 21.0d
 			subtitle: "Obtained from killing Wither Skeletons. Wither Skeletons can be found in mega dungeons in the overworld or Nether Fortresses in the Nether."
 			dependencies: ["51F05AE61F38EA3F"]
+			hide: true
 			id: "209CB5AE645C20BF"
 			tasks: [{
 				id: "12F46C8EBD828EC8"
@@ -1927,6 +1952,7 @@
 			y: 23.0d
 			subtitle: "Build a T-Shape with the soul sand and place 3 wither skulls on top."
 			dependencies: ["209CB5AE645C20BF"]
+			hide: true
 			id: "609F8C92C3618FC7"
 			tasks: [
 				{
@@ -1954,6 +1980,7 @@
 			y: 25.0d
 			subtitle: "Kill the Wither to get a Nether Star"
 			dependencies: ["609F8C92C3618FC7"]
+			hide: true
 			id: "1D857369B41BAA44"
 			tasks: [{
 				id: "4AE228D421B5C831"
@@ -1974,361 +2001,6 @@
 			]
 		}
 		{
-			title: "Kill the Naga"
-			icon: "twilightforest:naga_trophy"
-			x: -19.0d
-			y: 9.5d
-			subtitle: "Defeat The Naga and touch one of his magic scales to enter the next area. It can be found in a maze that commonly spawns."
-			dependencies: ["0FEF5F3DB9D0A520"]
-			id: "60C57571561C7F90"
-			tasks: [{
-				id: "04A5DA5BE2BC3DF3"
-				type: "item"
-				item: "twilightforest:naga_scale"
-			}]
-			rewards: [
-				{
-					id: "40CD3A615F3D94DB"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
-					id: "3BCD0692CE4F2E83"
-					type: "item"
-					item: {
-						id: "minecraft:splash_potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:strong_regeneration"
-						}
-					}
-				}
-				{
-					id: "054D2929B8C2759F"
-					type: "item"
-					item: {
-						id: "minecraft:splash_potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:strong_healing"
-						}
-					}
-				}
-				{
-					id: "6AA5437391DF5695"
-					type: "item"
-					item: "calemiutils:money_bag_cheap"
-				}
-			]
-		}
-		{
-			title: "Kill The Litch"
-			x: -22.0d
-			y: 9.5d
-			subtitle: "Find the Litch's Tower and Kill Him."
-			dependencies: ["60C57571561C7F90"]
-			id: "151E3BD24CEEBDD3"
-			tasks: [{
-				id: "0784966EAC14B499"
-				type: "item"
-				item: "twilightforest:lich_trophy"
-			}]
-			rewards: [
-				{
-					id: "19558A274C600603"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
-					id: "3832FF7364A483B4"
-					type: "item"
-					item: "minecraft:enchanted_golden_apple"
-				}
-				{
-					id: "0037CAC426E8B75F"
-					type: "item"
-					item: "calemiutils:money_bag_cheap"
-				}
-			]
-		}
-		{
-			title: "Kill the Alpha Yeti"
-			x: -26.0d
-			y: 5.5d
-			subtitle: "Find and kill the Alpha Yeti in the Snow Forest."
-			description: ["These somewhat square-shaped hills are placed near the center of the snow forest regions. There are four natural entrances. Inside, you may find a pack of yetis, lorded over by the massive Alpha Yeti. Defeating the Alpha Yeti in combat, and claiming some of his downy fur will make the Glacier available to you."]
-			dependencies: ["151E3BD24CEEBDD3"]
-			id: "68D2CE7E89D2BFAC"
-			tasks: [{
-				id: "0F36E507305D6327"
-				type: "item"
-				item: "twilightforest:yeti_trophy"
-			}]
-			rewards: [
-				{
-					id: "40E87243BC719B0B"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
-					id: "6B29F75776EB8FAB"
-					type: "item"
-					item: "minecraft:golden_apple"
-				}
-				{
-					id: "6E0F08A9BC1FADBA"
-					type: "item"
-					item: "calemiutils:money_bag_cheap"
-				}
-			]
-		}
-		{
-			title: "Kill The Snow Queen"
-			x: -30.0d
-			y: 5.5d
-			subtitle: "Kill the Snow Queen in the Aurora Palace"
-			description: ["Kill the Snow Queen in the Aurora Palace"]
-			dependencies: ["68D2CE7E89D2BFAC"]
-			id: "318A1300B2C8FA65"
-			tasks: [{
-				id: "4FEF04C1E80330B6"
-				type: "item"
-				item: "twilightforest:snow_queen_trophy"
-			}]
-			rewards: [
-				{
-					id: "1584CBA1D9874C26"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
-					id: "14D9948CF64F579F"
-					type: "item"
-					item: "minecraft:golden_apple"
-				}
-				{
-					id: "7556B2A05964EC26"
-					type: "item"
-					item: "calemiutils:money_bag_cheap"
-				}
-			]
-		}
-		{
-			title: "You got the beans?"
-			x: -34.0d
-			y: 9.5d
-			subtitle: "Find the Troll's Cave and steal his beans."
-			description: ["The Troll Caves lie beneath the highlands. They consist of both tunnel-style caves and vast underground chambers. Your first destination is in the underground mushroom gardens. Inside a small obsidian vault, you'll find a chest holding the troll's treasure, namely the Magic Beans."]
-			dependencies: [
-				"318A1300B2C8FA65"
-				"3E91B3FB9DB26728"
-				"6EDD701162F24EE8"
-			]
-			id: "59CF938B9D1090B6"
-			tasks: [{
-				id: "1BB436C5679472FA"
-				type: "item"
-				item: "twilightforest:magic_beans"
-			}]
-			rewards: [
-				{
-					id: "27B809FE5F7FA71B"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
-					id: "53EFECAF02A2C2C6"
-					type: "item"
-					item: "minecraft:golden_apple"
-				}
-			]
-		}
-		{
-			title: "Kill The Knight Phantom"
-			x: -26.0d
-			y: 13.5d
-			subtitle: "Enter the Dark Forest and Kill a Knight Phantom"
-			description: ["Beneath the Dark Forest (and sometimes the surrounding areas) lay the fallen Strongholds of the Twilight Knights. The lower levels of the strongholds are completely sealed, and before you enter, you will have to complete a small initiation ceremony. You will have to find a specific room in the upper ruins of the stronghold. The room contains a Trophy Pedestal and a shallow pit blocked by Stronghold Shields. Placing a trophy from one of the previous bosses on the pedestal will remove the shield and allow access to the lower levels.Once inside the main part of the stronghold, you will eventually have to find the Knight Phantoms to proceed. Sending the phantoms to their final rest will make the strange devices of the Dark Tower obey you."]
-			dependencies: ["151E3BD24CEEBDD3"]
-			id: "2CC93F6F589E8906"
-			tasks: [{
-				id: "17DC783973DA5887"
-				type: "item"
-				item: "twilightforest:knight_phantom_trophy"
-			}]
-			rewards: [
-				{
-					id: "463E41781F80CEB7"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
-					id: "229E4057322CE838"
-					type: "item"
-					item: "minecraft:golden_apple"
-				}
-				{
-					id: "68CE0ADA06D578AD"
-					type: "item"
-					item: "calemiutils:money_bag_cheap"
-				}
-			]
-		}
-		{
-			title: "Kill the Ur-Ghast"
-			x: -30.0d
-			y: 13.5d
-			subtitle: "Kill the Ur-Ghast in the Dark Tower."
-			description: ["The Dark Tower is found in a small clearing in the center of the dark forest. The center area has reddish, autumnal leaves and faded grass. The Dark Tower is the site of many eldritch experiments. The Ur-Ghast has taken over the top of the tower and must be vanquished to complete the Dark Forest phase of the adventure."]
-			dependencies: ["2CC93F6F589E8906"]
-			id: "3E91B3FB9DB26728"
-			tasks: [{
-				id: "1F02C139A0CE66E5"
-				type: "item"
-				item: "twilightforest:ur_ghast_trophy"
-			}]
-			rewards: [
-				{
-					id: "7385683632271042"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
-					id: "38E2BA496C03C365"
-					type: "item"
-					item: "upgradednetherite:netherite_apple"
-				}
-				{
-					id: "257A76BCC8DD1255"
-					type: "item"
-					item: "calemiutils:money_bag_cheap"
-				}
-			]
-		}
-		{
-			title: "Kill the Minoshroom."
-			icon: "twilightforest:minoshroom_trophy"
-			x: -26.0d
-			y: 9.5d
-			description: ["There are several Labyrinths buried under the swamp. You may locate a natural entrance through a chasm or cave, or you may find the entrance in a small mound. There is more information on the Labyrinth page. Your goal is to find and slay the Minoshroom.Killing the Minoshroom, and eating some of his Meef Stroganoff will allow you to enter the Fire Swamp without being burnt."]
-			dependencies: ["151E3BD24CEEBDD3"]
-			id: "5CFE3641D12B2270"
-			tasks: [{
-				id: "42B11F21D30C1308"
-				type: "item"
-				item: "twilightforest:meef_stroganoff"
-			}]
-			rewards: [
-				{
-					id: "6DDB327FAE446B36"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
-					id: "1C4629B7AF7C731A"
-					type: "item"
-					item: {
-						id: "minecraft:splash_potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:strong_healing"
-						}
-					}
-				}
-				{
-					id: "14652281A1CCEC25"
-					type: "item"
-					item: {
-						id: "minecraft:splash_potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:strong_regeneration"
-						}
-					}
-				}
-				{
-					id: "4BC9354B7669E18D"
-					type: "item"
-					item: "calemiutils:money_bag_cheap"
-				}
-			]
-		}
-		{
-			title: "Find and Kill the Hydra."
-			x: -30.0d
-			y: 9.5d
-			description: ["The fearsome Hydra is found in a converted Hollow Hill in the middle of the Fire Swamp. There is no maze or dungeon to navigate, as the hydra does not need any protection from intruders. Good luck! If you survive, make contact with the Hydra's Fiery Blood and the Swamp phase of the adventure will be complete."]
-			dependencies: ["5CFE3641D12B2270"]
-			id: "6EDD701162F24EE8"
-			tasks: [{
-				id: "0B3D1940612E7F29"
-				type: "item"
-				item: "twilightforest:hydra_trophy"
-			}]
-			rewards: [
-				{
-					id: "3135338C7619EC70"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
-					id: "6D6F1EB77C5A57B7"
-					type: "item"
-					item: "minecraft:golden_apple"
-				}
-				{
-					id: "4E987F1AAA59F0EF"
-					type: "item"
-					item: "calemiutils:money_bag_cheap"
-				}
-			]
-		}
-		{
-			title: "The Cottages"
-			x: -36.0d
-			y: 9.5d
-			subtitle: "Steal a Giant's Pickaxe from the Cloud Cottages and enter the thorn forest."
-			description: ["Take what treasure you can, but you will need the Giant's Pickaxe to continue.With the Giant's Pickaxe you can open the huge obsidian vault in the center of the Troll Caves. Inside the vault, you will find the Lamp of Cinders. The power of the lamp can burn the thorns in the nearby Thornlands."]
-			dependencies: ["59CF938B9D1090B6"]
-			id: "071D7EC3732B396E"
-			tasks: [
-				{
-					id: "093B445000EC61FA"
-					type: "item"
-					item: {
-						id: "twilightforest:giant_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "4A1DE4BC4055C936"
-					type: "item"
-					item: {
-						id: "twilightforest:lamp_of_cinders"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [
-				{
-					id: "20A383C792B14501"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
-					id: "46D22E6FD8F21C51"
-					type: "item"
-					item: "minecraft:enchanted_golden_apple"
-				}
-			]
-		}
-		{
 			title: "Kill The Enderdragon"
 			icon: "minecraft:dragon_head"
 			x: -12.5d
@@ -2336,6 +2008,7 @@
 			shape: "octagon"
 			subtitle: "Go to the end and kill the Ender Dragon!"
 			dependencies: ["16D6856CBD466A7F"]
+			hide: true
 			id: "7AD2834D795BB7B3"
 			tasks: [{
 				id: "3E20A630DD70051E"
@@ -2376,6 +2049,7 @@
 			y: 7.0d
 			subtitle: "Grows Carrots"
 			dependencies: ["63479147BF185C4B"]
+			hide: true
 			id: "4F448F5ADE13014A"
 			tasks: [{
 				id: "6233C8EC39226D7B"
@@ -2393,6 +2067,7 @@
 			y: 8.0d
 			subtitle: "Grows Potatos"
 			dependencies: ["63479147BF185C4B"]
+			hide: true
 			id: "55A8E5477F091A23"
 			tasks: [{
 				id: "5593ED4535BBD527"
@@ -2410,6 +2085,7 @@
 			y: 9.0d
 			subtitle: "Grows Beetroots"
 			dependencies: ["63479147BF185C4B"]
+			hide: true
 			id: "434B053C50CC20B7"
 			tasks: [{
 				id: "7ECF8B7E236359CF"
@@ -2428,6 +2104,7 @@
 			subtitle: "Grows Melons. Needs an adjecent empty space with a dirt block under it for melons to grow."
 			description: [""]
 			dependencies: ["63479147BF185C4B"]
+			hide: true
 			id: "14BF0E6E7D05AC8F"
 			tasks: [{
 				id: "2C81938F5B87E632"
@@ -2445,6 +2122,7 @@
 			y: 10.0d
 			subtitle: "Grows Pumkins. Needs an adjecent empty space with a dirt block under it for pumkin to grow."
 			dependencies: ["63479147BF185C4B"]
+			hide: true
 			id: "3BD11EC570D4B9E3"
 			tasks: [{
 				id: "01DB87199E094E12"
@@ -2461,6 +2139,7 @@
 			x: 9.0d
 			y: 7.0d
 			dependencies: ["4F448F5ADE13014A"]
+			hide: true
 			id: "155148BEA4A95393"
 			tasks: [{
 				id: "777B979C4F10AB1B"
@@ -2478,6 +2157,7 @@
 			y: 8.0d
 			subtitle: "Taste way better than raw potatos"
 			dependencies: ["55A8E5477F091A23"]
+			hide: true
 			id: "09ABDDDAF97AB252"
 			tasks: [{
 				id: "6A71411D12AADE32"
@@ -2494,6 +2174,7 @@
 			x: 9.0d
 			y: 9.0d
 			dependencies: ["434B053C50CC20B7"]
+			hide: true
 			id: "1AB8B24975B8A738"
 			tasks: [{
 				id: "22DF03FAE414F83D"
@@ -2510,6 +2191,7 @@
 			x: 9.0d
 			y: 6.0d
 			dependencies: ["14BF0E6E7D05AC8F"]
+			hide: true
 			id: "11FC3E7DD6F2A27E"
 			tasks: [{
 				id: "6FA33BD5AFC780BD"
@@ -2527,6 +2209,7 @@
 			y: 10.0d
 			subtitle: "One of the best foods in the game"
 			dependencies: ["3BD11EC570D4B9E3"]
+			hide: true
 			id: "74C043DC4256D0DE"
 			tasks: [{
 				id: "2DFB3C60E850BDEF"
@@ -2553,6 +2236,7 @@
 				"Pickaxe and Shovel : Auto-smelting."
 			]
 			dependencies: ["3AD016CBFF6F7A87"]
+			hide: true
 			id: "554B5D8A82C2C602"
 			tasks: [{
 				id: "352C30FE4D387B99"
@@ -2588,6 +2272,7 @@
 				"Pickaxe and Shovel Effect : Teleport Loot to target chest."
 			]
 			dependencies: ["3AD016CBFF6F7A87"]
+			hide: true
 			id: "4710E492A373F4D4"
 			tasks: [{
 				id: "187AA682F49AB763"
@@ -2617,6 +2302,7 @@
 				"Sword and Axe and Bow Effect : Chance to apply Wither (Sometimes Wither II) on hit."
 			]
 			dependencies: ["3AD016CBFF6F7A87"]
+			hide: true
 			id: "7816988DAF2D0F29"
 			tasks: [{
 				id: "5E451F4EDECCAED9"
@@ -2646,6 +2332,7 @@
 				"Sword and Axe and Bow Effect : Chance to apply Poison on hit."
 			]
 			dependencies: ["3AD016CBFF6F7A87"]
+			hide: true
 			id: "1F9EAFD5E9E70619"
 			tasks: [{
 				id: "041EC95E2782B12F"
@@ -2679,6 +2366,7 @@
 				"Pickaxe, Shovel and Bow Effect : All the living entities around you glowing and Increase Reach by 2."
 			]
 			dependencies: ["3AD016CBFF6F7A87"]
+			hide: true
 			id: "479E6EE63CC98040"
 			tasks: [{
 				id: "5A701364843FE954"
@@ -2712,6 +2400,7 @@
 				"Bow Effect : Apply Attraction effect. (Attract nearby Living Entity.)"
 			]
 			dependencies: ["3AD016CBFF6F7A87"]
+			hide: true
 			id: "7C564F8B11C5E52F"
 			tasks: [{
 				id: "600DE57116E21DB8"
@@ -2747,6 +2436,7 @@
 				"Pickaxe and Shovel Effect : Increase Fortune Level by 1. Fortune III(or more) increase Fortune Level by 1."
 			]
 			dependencies: ["3AD016CBFF6F7A87"]
+			hide: true
 			id: "3EA6F0522B45F771"
 			tasks: [{
 				id: "7EE4ACACB29B2899"
@@ -2778,6 +2468,7 @@
 				"Pickaxe and Shovel Effect : Increase Mining Speed underwater."
 			]
 			dependencies: ["3AD016CBFF6F7A87"]
+			hide: true
 			id: "78AC0C0B9BECAD6F"
 			tasks: [{
 				id: "5B4BD92489017FBE"
@@ -2798,789 +2489,11 @@
 			]
 		}
 		{
-			title: "Phantom Armor"
-			x: -26.5d
-			y: 15.5d
-			subtitle: "This armor is never lost on death."
-			dependencies: ["2CC93F6F589E8906"]
-			id: "7FF509372CA698D6"
-			tasks: [
-				{
-					id: "7EF503A448C7B178"
-					type: "item"
-					item: {
-						id: "twilightforest:phantom_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "03F4C98E3ECA4241"
-					type: "item"
-					item: {
-						id: "twilightforest:phantom_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "7819ABBCE6FB78CA"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
-		}
-		{
-			x: -22.5d
-			y: 11.5d
-			subtitle: "Summons shields around the player or target entity."
-			dependencies: ["151E3BD24CEEBDD3"]
-			id: "1926DC5D1192E841"
-			tasks: [{
-				id: "406E70D3797F5960"
-				type: "item"
-				item: {
-					id: "twilightforest:shield_scepter"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "12BD1B4E1F15B31A"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "7C07FE39B085FD36"
-					type: "item"
-					item: {
-						id: "minecraft:splash_potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:strong_healing"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -22.5d
-			y: 7.5d
-			subtitle: "This scepter shoots projectiles identical to the Lich's projectiles whenever it is right-clicked."
-			dependencies: ["151E3BD24CEEBDD3"]
-			id: "47C0914CAD893A8D"
-			tasks: [{
-				id: "202B10F8FC115448"
-				type: "item"
-				item: {
-					id: "twilightforest:twilight_scepter"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "7F7FF30FC359E587"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "4D75449096109D36"
-					type: "item"
-					item: {
-						id: "minecraft:splash_potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:strong_healing"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -21.5d
-			y: 7.5d
-			subtitle: "Summons zombie minions. Zombies summoned are extra-strong, extra-fast, immune to sunlight, and instantly ready to attack your enemies."
-			dependencies: ["151E3BD24CEEBDD3"]
-			id: "7D941EE1295E4303"
-			tasks: [{
-				id: "76911EDCC13915E1"
-				type: "item"
-				item: {
-					id: "twilightforest:zombie_scepter"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "0D3015B8150FFCA8"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "5ACB2986C823DCE8"
-					type: "item"
-					item: {
-						id: "minecraft:splash_potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:strong_healing"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -21.5d
-			y: 11.5d
-			subtitle: "Drains the life energy of whatever mob is right-clicked."
-			dependencies: ["151E3BD24CEEBDD3"]
-			id: "1A5DB297B589EAD9"
-			tasks: [{
-				id: "092A287215BFA281"
-				type: "item"
-				item: {
-					id: "twilightforest:lifedrain_scepter"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "43591DD4720A377A"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "7FE4E11B11A69CF9"
-					type: "item"
-					item: {
-						id: "minecraft:splash_potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:strong_healing"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -30.0d
-			y: 12.0d
-			subtitle: "Used to craft Fiery Ingots. This then can be made to make a new set of tools and armor."
-			dependencies: ["3E91B3FB9DB26728"]
-			id: "6E43ECAECFDC90F8"
-			tasks: [{
-				id: "46BE52A60313202C"
-				type: "item"
-				item: "twilightforest:fiery_tears"
-			}]
-			rewards: [{
-				id: "48D544AFA5563F27"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-		}
-		{
-			x: -30.0d
-			y: 11.0d
-			subtitle: "Used to craft Fiery Ingots. This then can be made to make a new set of tools and armor."
-			dependencies: ["6EDD701162F24EE8"]
-			id: "6F402492AC4FF812"
-			tasks: [{
-				id: "2CAD838F5EA1F731"
-				type: "item"
-				item: "twilightforest:fiery_blood"
-			}]
-		}
-		{
-			x: -30.0d
-			y: 15.5d
-			subtitle: "Carminite is an item that is used for various crafting recipies. Can be used to craft the various Dark Tower Devices."
-			dependencies: ["3E91B3FB9DB26728"]
-			id: "30D01917A24B71A3"
-			tasks: [{
-				id: "14A86D892B7E949C"
-				type: "item"
-				item: "twilightforest:carminite"
-			}]
-			rewards: [{
-				id: "36A8E470A68D8A7B"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-		}
-		{
-			title: "Yeti Armor"
-			x: -26.0d
-			y: 7.5d
-			subtitle: "Chills attackers, default protection II, and reduced fall damage."
-			dependencies: ["68D2CE7E89D2BFAC"]
-			id: "21C715595B04DCDD"
-			tasks: [
-				{
-					id: "56004913BA7F2935"
-					type: "item"
-					item: {
-						id: "twilightforest:yeti_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								lvl: 2s
-								id: "minecraft:protection"
-							}]
-						}
-					}
-				}
-				{
-					id: "71DFD9455E4FA9BD"
-					type: "item"
-					item: {
-						id: "twilightforest:yeti_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								lvl: 2s
-								id: "minecraft:protection"
-							}]
-						}
-					}
-				}
-				{
-					id: "674A0F185BEAE976"
-					type: "item"
-					item: {
-						id: "twilightforest:yeti_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								lvl: 2s
-								id: "minecraft:protection"
-							}]
-						}
-					}
-				}
-				{
-					id: "65F25966F064436C"
-					type: "item"
-					item: {
-						id: "twilightforest:yeti_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-							Enchantments: [
-								{
-									lvl: 2s
-									id: "minecraft:protection"
-								}
-								{
-									lvl: 4s
-									id: "minecraft:feather_falling"
-								}
-							]
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "01AD08B41D39E765"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
-		}
-		{
-			x: -26.0d
-			y: 3.5d
-			subtitle: "Throwable bombs that freeze and kill enenmies in a radius."
-			dependencies: ["68D2CE7E89D2BFAC"]
-			id: "1DF6B272CAE19AED"
-			tasks: [{
-				id: "0170B9B9BA13722B"
-				type: "item"
-				item: "twilightforest:ice_bomb"
-			}]
-			rewards: [{
-				id: "7F3DD9F1031DD789"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-		}
-		{
-			x: -30.5d
-			y: 3.5d
-			subtitle: "Shoots 3 arrows at once vertically, while only using up 1 arrow and 1 durability."
-			dependencies: ["318A1300B2C8FA65"]
-			id: "2F19FCC7BC524C09"
-			tasks: [{
-				id: "6D3E7E3D0E9689C7"
-				type: "item"
-				item: {
-					id: "twilightforest:triple_bow"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "0F5944018FBF8B15"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "56C944B1BCDBF1E5"
-					type: "item"
-					item: "minecraft:arrow"
-					count: 16
-				}
-			]
-		}
-		{
-			x: -30.0d
-			y: 7.5d
-			subtitle: "This bow's projectiles rarely miss."
-			dependencies: ["318A1300B2C8FA65"]
-			id: "647F5D82A919CF2A"
-			tasks: [{
-				id: "43854060CDA7E181"
-				type: "item"
-				item: {
-					id: "twilightforest:seeker_bow"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "2BA88BAB6355C801"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "72805179D13BAB17"
-					type: "item"
-					item: "minecraft:arrow"
-					count: 16
-				}
-			]
-		}
-		{
-			x: -26.0d
-			y: 11.5d
-			subtitle: "Bonus damage while sprinting."
-			dependencies: ["5CFE3641D12B2270"]
-			id: "2956BDFA1BED4AE1"
-			tasks: [{
-				id: "066AFBCAD8F73150"
-				type: "item"
-				item: {
-					id: "twilightforest:minotaur_axe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "68BB1DF86B74F694"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "5A4D8B05DFEB55D5"
-					type: "item"
-					item: {
-						id: "minecraft:splash_potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:strong_healing"
-						}
-					}
-				}
-			]
-		}
-		{
-			title: "Fiery Armor"
-			x: -29.0d
-			y: 11.5d
-			subtitle: "Burns attackers."
-			dependencies: [
-				"6F402492AC4FF812"
-				"6E43ECAECFDC90F8"
-			]
-			dependency_requirement: "one_completed"
-			id: "127F307F0E3C7ED0"
-			tasks: [
-				{
-					id: "66216370B6E05737"
-					type: "item"
-					item: {
-						id: "twilightforest:fiery_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "43C0420F1D70C703"
-					type: "item"
-					item: {
-						id: "twilightforest:fiery_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "6B44AD744AE97EC6"
-					type: "item"
-					item: {
-						id: "twilightforest:fiery_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "20EE9E6CB2980816"
-					type: "item"
-					item: {
-						id: "twilightforest:fiery_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [
-				{
-					id: "00FD6EE121A531FD"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "631AB25770A227C5"
-					type: "item"
-					item: "minecraft:golden_apple"
-				}
-			]
-		}
-		{
-			title: "Fiery Sword and Pickaxe"
-			x: -31.0d
-			y: 11.5d
-			subtitle: "Sword does fire damage. Pickaxe auto-smelts."
-			dependencies: [
-				"6F402492AC4FF812"
-				"6E43ECAECFDC90F8"
-			]
-			dependency_requirement: "one_completed"
-			id: "7C8FE1879BF25305"
-			tasks: [
-				{
-					id: "7C60819E0244EDC1"
-					type: "item"
-					item: {
-						id: "twilightforest:fiery_sword"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "42E3A785BF2A2E7B"
-					type: "item"
-					item: {
-						id: "twilightforest:fiery_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [
-				{
-					id: "397B35FBDD6375EE"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
-					id: "46DAEA90707FC7A5"
-					type: "item"
-					item: "minecraft:golden_apple"
-				}
-			]
-		}
-		{
-			x: -29.5d
-			y: 3.5d
-			subtitle: "The Ice Bow acts like a normal bow, but when an arrow from an Ice Bow hits a target, they will be covered in ice and inflicted with Frosted III for 10 seconds."
-			dependencies: ["318A1300B2C8FA65"]
-			id: "554C35D39CCAB1FC"
-			tasks: [{
-				id: "687F095AFFB9A55B"
-				type: "item"
-				item: {
-					id: "twilightforest:ice_bow"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "08818C8A62FDCFA4"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "3BDB8B840EF40BA1"
-					type: "item"
-					item: "minecraft:arrow"
-					count: 16
-				}
-			]
-		}
-		{
-			x: -25.5d
-			y: 15.5d
-			subtitle: "Armor Shards are dropped from slain Block and Chain Goblins, Goblin Knights and Helmet Crabs, as well as loot from Goblin Knight Strongholds."
-			dependencies: ["2CC93F6F589E8906"]
-			id: "79D27E1857D7B6C5"
-			tasks: [{
-				id: "7D78A06C977FBDCC"
-				type: "item"
-				item: "twilightforest:armor_shard"
-			}]
-			rewards: [{
-				id: "778B4988EDD85A7C"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-		}
-		{
-			x: -22.5d
-			y: 15.5d
-			subtitle: "Used to create various tools."
-			dependencies: ["79D27E1857D7B6C5"]
-			id: "001FB660A30ADEE7"
-			tasks: [{
-				id: "7C9FDC70ABFDDE54"
-				type: "item"
-				item: "twilightforest:knightmetal_ingot"
-			}]
-			rewards: [{
-				id: "194D1B0361385BAD"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-		}
-		{
-			title: "Knightmetal Armor"
-			x: -21.0d
-			y: 15.5d
-			subtitle: "High protection and durability armor."
-			dependencies: ["001FB660A30ADEE7"]
-			id: "6D52DD21CD358336"
-			tasks: [
-				{
-					id: "67C747B9C794E9D8"
-					type: "item"
-					item: {
-						id: "twilightforest:knightmetal_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "2C784050E9EDFEA9"
-					type: "item"
-					item: {
-						id: "twilightforest:knightmetal_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "19A5ECF112AD5585"
-					type: "item"
-					item: {
-						id: "twilightforest:knightmetal_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "070554C19BD64980"
-					type: "item"
-					item: {
-						id: "twilightforest:knightmetal_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "22474CA108D0195C"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-		}
-		{
-			x: -22.5d
-			y: 14.0d
-			subtitle: "Extra damage to armored foes."
-			dependencies: ["001FB660A30ADEE7"]
-			id: "54C862E27F8999D0"
-			tasks: [{
-				id: "4CDF9FC9D6EF0E44"
-				type: "item"
-				item: {
-					id: "twilightforest:knightmetal_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "32249CD8F5D3C0DA"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-		}
-		{
-			x: -21.0d
-			y: 14.0d
-			subtitle: "High durability shield."
-			dependencies: ["001FB660A30ADEE7"]
-			id: "47293EAAF1C25F53"
-			tasks: [{
-				id: "0B60FD67D7A50475"
-				type: "item"
-				item: {
-					id: "twilightforest:knightmetal_shield"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "7CCE3A39E4E99877"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-		}
-		{
-			x: -24.0d
-			y: 14.0d
-			subtitle: "A beast mid-range weapon capable of doing high damage and breaking blocks."
-			dependencies: ["001FB660A30ADEE7"]
-			id: "22D925BB009E8D79"
-			tasks: [{
-				id: "5F1CE30EB25F4FC5"
-				type: "item"
-				item: {
-					id: "twilightforest:block_and_chain"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "05C207D2FEBABBF1"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-		}
-		{
-			title: "Naga Scale Armor"
-			x: -19.0d
-			y: 11.5d
-			subtitle: "Similar to Diamond Armor."
-			dependencies: ["60C57571561C7F90"]
-			id: "492669EC35FE5AF8"
-			tasks: [
-				{
-					id: "400308C2D95A3DEC"
-					type: "item"
-					item: {
-						id: "twilightforest:naga_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								lvl: 3s
-								id: "minecraft:fire_protection"
-							}]
-						}
-					}
-				}
-				{
-					id: "4F28B4002A7DC19B"
-					type: "item"
-					item: {
-						id: "twilightforest:naga_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								lvl: 3s
-								id: "minecraft:protection"
-							}]
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "261622BD923AC27F"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-		}
-		{
 			x: 0.5d
 			y: 16.5d
 			subtitle: "Used to buy and sell items from/to other players. Use a wrench to edit the post."
 			dependencies: ["08BBFFC9038DC958"]
+			hide: true
 			id: "57BDDBD32D833B52"
 			tasks: [{
 				id: "0491ED5DB00115A4"
@@ -3611,6 +2524,7 @@
 			y: 15.5d
 			subtitle: "Collects money from all connected trade posts."
 			dependencies: ["08BBFFC9038DC958"]
+			hide: true
 			id: "0F0A5E1B4D83A95A"
 			tasks: [
 				{
@@ -3642,6 +2556,7 @@
 			y: 15.5d
 			subtitle: "Used to locate structures."
 			dependencies: ["2C467A82E19BBC54"]
+			hide: true
 			id: "1F605853E1D608B9"
 			tasks: [{
 				id: "5D3C523B488F3A38"
@@ -3664,6 +2579,7 @@
 			subtitle: "The ultimate tool for breaking down entire trees."
 			description: ["This tool is the result of drunk engineering and a need for fast and effective destruction."]
 			dependencies: ["656C4565E976C460"]
+			hide_text_until_complete: true
 			id: "33734BB16442380D"
 			tasks: [{
 				id: "5634C48F76D37B1D"
@@ -3702,6 +2618,7 @@
 			y: 29.0d
 			subtitle: "An ore found on the end."
 			dependencies: ["7AD2834D795BB7B3"]
+			hide: true
 			id: "78674DAE16EB2528"
 			tasks: [{
 				id: "7A7ADCFAAFECD92F"
@@ -3720,6 +2637,7 @@
 			y: 29.0d
 			subtitle: "An ore found on the end."
 			dependencies: ["7AD2834D795BB7B3"]
+			hide: true
 			id: "27BA0F0B96446983"
 			tasks: [{
 				id: "3F4FB8A1F0B904B1"
@@ -3736,6 +2654,7 @@
 			x: -11.5d
 			y: 31.0d
 			dependencies: ["78674DAE16EB2528"]
+			hide: true
 			id: "0D347CA08ADF4262"
 			tasks: [{
 				id: "3BDCD27D0BDC4C22"
@@ -3778,6 +2697,7 @@
 			y: 29.0d
 			subtitle: "Loads an area of 5x5 chunks."
 			dependencies: ["0D9402D0AEFBA99A"]
+			hide: true
 			id: "745A325DD20FDC2C"
 			tasks: [{
 				id: "3BA0FBD48356886A"
@@ -3802,6 +2722,7 @@
 			y: 31.0d
 			subtitle: "Loads an area of 7x7 chunks."
 			dependencies: ["745A325DD20FDC2C"]
+			hide: true
 			id: "36EB907786D68C94"
 			tasks: [{
 				id: "4705AAEE7497D321"
@@ -3825,6 +2746,7 @@
 			x: -12.5d
 			y: 33.0d
 			dependencies: ["0D347CA08ADF4262"]
+			hide: true
 			id: "63ED73C8629F05EF"
 			tasks: [{
 				id: "51DCC95832373427"
@@ -3849,6 +2771,7 @@
 			y: 33.0d
 			subtitle: "Armor that is slightly better than Netherite."
 			dependencies: ["0D347CA08ADF4262"]
+			hide: true
 			id: "7EAB730FE797CB95"
 			tasks: [
 				{
@@ -3908,6 +2831,7 @@
 			x: -10.5d
 			y: 33.0d
 			dependencies: ["0D347CA08ADF4262"]
+			hide: true
 			id: "31E9F8898612707B"
 			tasks: [
 				{
@@ -3973,6 +2897,7 @@
 			y: 26.5d
 			subtitle: "Deeds can be used to claim land."
 			dependencies: ["1D857369B41BAA44"]
+			hide: true
 			id: "754BFFCC99449034"
 			tasks: [
 				{

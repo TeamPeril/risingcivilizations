@@ -1,5 +1,5 @@
 version:2586
-autoJump:true
+autoJump:false
 autoSuggestions:true
 chatColors:true
 chatLinks:true
@@ -19,11 +19,11 @@ bobView:true
 toggleCrouch:false
 toggleSprint:false
 mouseSensitivity:0.5
-fov:0.0
+fov:0.5
 screenEffectScale:1.0
 fovEffectScale:1.0
-gamma:0.0
-renderDistance:12
+gamma:1.0
+renderDistance:18
 entityDistanceScaling:1.0
 guiScale:4
 particles:0
@@ -33,12 +33,12 @@ graphicsMode:1
 ao:2
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","mod_resources","quark:emote_resources","resourcefulbees"]
-incompatibleResourcePacks:["quark:emote_resources"]
+resourcePacks:["vanilla","mod_resources","quark:emote_resources","resourcefulbees","openloader/resources/rising_civilizations_resourcepack","file/xali\u0027s Enhanced Vanilla v1.9.2 Fabric.zip"]
+incompatibleResourcePacks:["quark:emote_resources","file/xali\u0027s Enhanced Vanilla v1.9.2 Fabric.zip"]
 lastServer:
 lang:en_us
 chatVisibility:0
-chatOpacity:1.0
+chatOpacity:0.5633803009986877
 chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
@@ -48,10 +48,10 @@ pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
 heldItemTooltips:true
-chatHeightFocused:1.0
+chatHeightFocused:0.5968309640884399
 chatDelay: 0.0
 chatHeightUnfocused:0.44366195797920227
-chatScale:1.0
+chatScale:0.6760563254356384
 chatWidth:1.0
 mipmapLevels:4
 useNativeTransport:true
@@ -102,7 +102,7 @@ key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_key.secondarySprint:key.keyboard.w
 key_key.dismount:key.keyboard.left.shift
-key_key.narrator:key.keyboard.unknown
+key_key.narrator:key.keyboard.b:CONTROL
 key_key.pause:key.keyboard.escape
 key_key.gui:key.keyboard.f1
 key_key.debugInfo:key.keyboard.f3
@@ -110,41 +110,6 @@ key_key.enchdesc.show:key.keyboard.left.shift
 key_Reload Menu | CTRL + ALT + :key.keyboard.unknown
 key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.unknown
 key_key.carry.desc:key.keyboard.left.shift
-key_key.curios.open.desc:key.keyboard.unknown
-key_key.refinedstorage.focusSearchBar:key.keyboard.unknown
-key_key.refinedstorage.clearGridCraftingMatrix:key.keyboard.unknown
-key_key.refinedstorage.openWirelessGrid:key.keyboard.unknown
-key_key.refinedstorage.openWirelessFluidGrid:key.keyboard.unknown
-key_key.refinedstorage.openWirelessCraftingMonitor:key.keyboard.unknown
-key_key.refinedstorage.openPortableGrid:key.keyboard.unknown
-key_key.invtweaks_sort_player.desc:key.keyboard.unknown
-key_key.invtweaks_sort_inventory.desc:key.keyboard.grave.accent
-key_key.invtweaks_sort_either.desc:key.mouse.middle
-key_Open Wallet:key.keyboard.unknown
-key_Toggle Torch Belt:key.keyboard.unknown
-key_key.mekanism.mode:key.keyboard.unknown
-key_key.mekanism.head_mode:key.keyboard.unknown
-key_key.mekanism.chest_mode:key.keyboard.unknown
-key_key.mekanism.legs_mode:key.keyboard.unknown
-key_key.mekanism.feet_mode:key.keyboard.unknown
-key_key.mekanism.details:key.keyboard.left.shift
-key_key.mekanism.description:key.keyboard.n:SHIFT
-key_key.mekanism.module_tweaker:key.keyboard.backslash
-key_key.mekanism.key_boost:key.keyboard.left.control
-key_key.mekanism.key_hud:key.keyboard.h
-key_sndctrl.text.quickvolumemenu.open:key.keyboard.v:CONTROL
-key_sndctrl.text.soundconfig.open:key.keyboard.i:CONTROL
-key_key.push_to_talk:key.keyboard.v
-key_key.whisper:key.keyboard.unknown
-key_key.mute_microphone:key.keyboard.unknown
-key_key.disable_voice_chat:key.keyboard.unknown
-key_key.hide_icons:key.keyboard.unknown
-key_key.voice_chat:key.keyboard.c
-key_key.voice_chat_settings:key.keyboard.unknown
-key_key.voice_chat_group:key.keyboard.unknown
-key_key.voice_chat_toggle_recording:key.keyboard.unknown
-key_key.voice_chat_adjust_volumes:key.keyboard.unknown
-key_cos.key.opencosarmorinventory:key.keyboard.unknown
 key_keybind.advancedperipherals.description:key.keyboard.left.control
 key_placebo.toggleWings:key.keyboard.unknown
 key_placebo.toggleTrails:key.keyboard.unknown
@@ -156,21 +121,41 @@ key_key.buildinggadgets.fuzzy:key.keyboard.unknown
 key_key.buildinggadgets.connected_area:key.keyboard.unknown
 key_key.buildinggadgets.rotate_mirror:key.keyboard.unknown
 key_key.buildinggadgets.material_list:key.keyboard.m
-key_Show comparison tooltip:key.keyboard.left.shift
-key_key.vehicle.horn:key.keyboard.h
-key_key.vehicle.cycle_seats:key.keyboard.c
+key_key.refinedstorage.focusSearchBar:key.keyboard.unknown
+key_key.refinedstorage.clearGridCraftingMatrix:key.keyboard.unknown
+key_key.refinedstorage.openWirelessGrid:key.keyboard.unknown
+key_key.refinedstorage.openWirelessFluidGrid:key.keyboard.unknown
+key_key.refinedstorage.openWirelessCraftingMonitor:key.keyboard.unknown
+key_key.refinedstorage.openPortableGrid:key.keyboard.unknown
+key_key.curios.open.desc:key.keyboard.unknown
 key_key.ftbquests.quests:key.keyboard.unknown
 key_key.moreoverlays.lightoverlay.desc:key.keyboard.f7
 key_key.moreoverlays.chunkbounds.desc:key.keyboard.f9
+key_chunkloaders.keys.open_screen:key.keyboard.unknown
 key_servertabinfo.keys.show:key.keyboard.tab:CONTROL
+key_key.vehicle.horn:key.keyboard.h
+key_key.vehicle.cycle_seats:key.keyboard.c
 key_key.cgm.reload:key.keyboard.r
 key_key.cgm.unload:key.keyboard.u
 key_key.cgm.attachments:key.keyboard.z
-key_key.waila.config:key.keyboard.keypad.0
-key_key.waila.show_overlay:key.keyboard.keypad.1
-key_key.waila.toggle_liquid:key.keyboard.keypad.2
-key_quark.keybind.back:key.mouse.4
-key_quark.keybind.lock_rotation:key.keyboard.unknown
+key_Open Wallet:key.keyboard.unknown
+key_Toggle Torch Belt:key.keyboard.unknown
+key_key.invtweaks_sort_player.desc:key.keyboard.unknown
+key_key.invtweaks_sort_inventory.desc:key.keyboard.grave.accent
+key_key.invtweaks_sort_either.desc:key.mouse.middle
+key_merchantmarkers.key.showMarkers:key.keyboard.left.alt
+key_key.mekanism.mode:key.keyboard.n:CONTROL
+key_key.mekanism.head_mode:key.keyboard.unknown
+key_key.mekanism.chest_mode:key.keyboard.h
+key_key.mekanism.legs_mode:key.keyboard.unknown
+key_key.mekanism.feet_mode:key.keyboard.unknown
+key_key.mekanism.details:key.keyboard.left.shift
+key_key.mekanism.description:key.keyboard.n:SHIFT
+key_key.mekanism.module_tweaker:key.keyboard.backslash
+key_key.mekanism.key_boost:key.keyboard.left.control
+key_key.mekanism.key_hud:key.keyboard.h
+key_sndctrl.text.quickvolumemenu.open:key.keyboard.v:CONTROL
+key_sndctrl.text.soundconfig.open:key.keyboard.i:CONTROL
 key_gui.xaero_switch_waypoint_set:key.keyboard.unknown
 key_gui.xaero_instant_waypoint:key.keyboard.keypad.add
 key_gui.xaero_toggle_slime:key.keyboard.unknown
@@ -188,11 +173,23 @@ key_gui.xaero_toggle_light_overlay:key.keyboard.unknown
 key_gui.xaero_toggle_entity_radar:key.keyboard.unknown
 key_gui.xaero_reverse_entity_radar:key.keyboard.unknown
 key_gui.xaero_toggle_manual_cave_mode:key.keyboard.unknown
+key_gui.xaero_alternative_list_players:key.keyboard.unknown
 key_gui.xaero_minimap_settings:key.keyboard.unknown
-key_quark.keybind.change_hotbar:key.keyboard.unknown
+key_key.waila.config:key.keyboard.keypad.0
+key_key.waila.show_overlay:key.keyboard.keypad.1
+key_key.waila.toggle_liquid:key.keyboard.keypad.2
+key_key.push_to_talk:key.keyboard.v
+key_key.whisper:key.keyboard.unknown
+key_key.mute_microphone:key.keyboard.unknown
+key_key.disable_voice_chat:key.keyboard.unknown
+key_key.hide_icons:key.keyboard.unknown
+key_key.voice_chat:key.keyboard.c
+key_key.voice_chat_settings:key.keyboard.unknown
+key_key.voice_chat_group:key.keyboard.unknown
+key_key.voice_chat_toggle_recording:key.keyboard.unknown
+key_key.voice_chat_adjust_volumes:key.keyboard.unknown
+key_key.diet.open.desc:key.keyboard.unknown
 key_quark.keybind.camera_mode:key.keyboard.f12
-key_quark.keybind.sort_player:key.keyboard.unknown
-key_quark.keybind.sort_container:key.keyboard.unknown
 key_quark.emote.no:key.keyboard.unknown
 key_quark.emote.yes:key.keyboard.unknown
 key_quark.emote.wave:key.keyboard.unknown
@@ -211,11 +208,16 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
+key_quark.keybind.autorun:key.keyboard.caps.lock
+key_quark.keybind.back:key.mouse.4
 key_quark.keybind.transfer_insert:key.keyboard.unknown
 key_quark.keybind.transfer_extract:key.keyboard.unknown
 key_quark.keybind.shift_lock:key.keyboard.unknown
-key_quark.keybind.autorun:key.keyboard.caps.lock
-key_key.diet.open.desc:key.keyboard.unknown
+key_quark.keybind.sort_player:key.keyboard.unknown
+key_quark.keybind.sort_container:key.keyboard.unknown
+key_quark.keybind.lock_rotation:key.keyboard.k
+key_quark.keybind.change_hotbar:key.keyboard.unknown
+key_cos.key.opencosarmorinventory:key.keyboard.unknown
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_gui.xaero_open_map:key.keyboard.m
@@ -232,6 +234,7 @@ key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
+key_key.configured.open_mod_list:key.keyboard.unknown
 key_key.jei.toggleOverlay:key.keyboard.o:CONTROL
 key_key.jei.focusSearch:key.keyboard.f:CONTROL
 key_key.jei.toggleCheatMode:key.keyboard.unknown
@@ -247,8 +250,8 @@ key_key.jei.bookmark:key.keyboard.unknown
 key_key.jei.toggleBookmarkOverlay:key.keyboard.unknown
 key_key.waila.show_recipes:key.keyboard.keypad.3
 key_key.waila.show_uses:key.keyboard.keypad.4
-soundCategory_master:1.0
-soundCategory_music:0.06866197
+soundCategory_master:0.09271523
+soundCategory_music:0.52816904
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

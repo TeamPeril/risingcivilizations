@@ -54,6 +54,7 @@
 			x: 2.0d
 			y: 0.0d
 			dependencies: ["7D0BE0D675A350BB"]
+			hide: true
 			id: "04B025714200567F"
 			tasks: [{
 				id: "7BC0CA6979827884"
@@ -65,6 +66,7 @@
 			x: 0.0d
 			y: 1.5d
 			dependencies: ["7D0BE0D675A350BB"]
+			hide: true
 			id: "4D5D8E0A8D819AD4"
 			tasks: [{
 				id: "673045B00B5DBC96"
@@ -99,6 +101,7 @@
 			x: 0.0d
 			y: 3.0d
 			dependencies: ["4D5D8E0A8D819AD4"]
+			hide: true
 			id: "7037EF56B1807B50"
 			tasks: [{
 				id: "7DB52F86C1D2524B"
@@ -128,6 +131,7 @@
 			x: 0.0d
 			y: 4.5d
 			dependencies: ["7037EF56B1807B50"]
+			hide: true
 			id: "0EDB53334D960629"
 			tasks: [{
 				id: "2F976B084FCAB202"
@@ -157,6 +161,7 @@
 			x: 0.0d
 			y: 6.0d
 			dependencies: ["0EDB53334D960629"]
+			hide: true
 			id: "651FC3EBCF16D77E"
 			tasks: [{
 				id: "22DAFE252CC6202C"
@@ -186,6 +191,7 @@
 			x: 4.0d
 			y: -1.0d
 			dependencies: ["04B025714200567F"]
+			hide: true
 			id: "27B8BBBE79F51D67"
 			tasks: [{
 				id: "7C53594E1024A67C"
@@ -197,6 +203,7 @@
 			x: 4.0d
 			y: 1.0d
 			dependencies: ["04B025714200567F"]
+			hide: true
 			id: "468296465CD13F9A"
 			tasks: [{
 				id: "7D6E26E8ABA26145"
@@ -211,6 +218,7 @@
 				"468296465CD13F9A"
 				"27B8BBBE79F51D67"
 			]
+			hide: true
 			dependency_requirement: "one_completed"
 			id: "4CF879F017DFA0AB"
 			tasks: [{
@@ -224,6 +232,7 @@
 			y: 0.0d
 			subtitle: "Used to extract resources from honeycomb."
 			dependencies: ["7D0BE0D675A350BB"]
+			hide: true
 			id: "78E4FD4775EE60C0"
 			tasks: [{
 				id: "4D003F142E79E242"
@@ -266,6 +275,7 @@
 			y: 0.0d
 			subtitle: "Using energy, you can automate honeycomb resource extraction."
 			dependencies: ["78E4FD4775EE60C0"]
+			hide: true
 			id: "1965DE4B961BF91C"
 			tasks: [{
 				id: "178866A2E70E9386"
@@ -283,6 +293,7 @@
 			x: 0.0d
 			y: 7.5d
 			dependencies: ["651FC3EBCF16D77E"]
+			hide: true
 			id: "442DC8B6440D56A2"
 			tasks: [{
 				id: "71FDBC89DFF85F1D"
@@ -312,6 +323,7 @@
 			x: 1.5d
 			y: 7.5d
 			dependencies: ["442DC8B6440D56A2"]
+			hide: true
 			id: "273DFC1DD42FFCB1"
 			tasks: [{
 				id: "1F355A05D3A48424"
@@ -336,6 +348,7 @@
 			x: 3.0d
 			y: 7.5d
 			dependencies: ["273DFC1DD42FFCB1"]
+			hide: true
 			id: "40160E7E5E1B3BEA"
 			tasks: [{
 				id: "42E1FEBB279A1910"
@@ -365,6 +378,7 @@
 			x: 4.5d
 			y: 7.5d
 			dependencies: ["40160E7E5E1B3BEA"]
+			hide: true
 			id: "2FA4259510957641"
 			tasks: [{
 				id: "196EADD2AAFAACF4"
@@ -394,6 +408,7 @@
 			x: -1.5d
 			y: 7.5d
 			dependencies: ["442DC8B6440D56A2"]
+			hide: true
 			id: "3B456AEDED35BB40"
 			tasks: [{
 				id: "088270FA9EF3B7EF"
@@ -418,6 +433,7 @@
 			x: 0.0d
 			y: 9.0d
 			dependencies: ["442DC8B6440D56A2"]
+			hide: true
 			id: "41D4380C6A470E5B"
 			tasks: [{
 				id: "1B77C81D6426D82B"
@@ -442,6 +458,7 @@
 			x: -1.0d
 			y: 10.5d
 			dependencies: ["41D4380C6A470E5B"]
+			hide: true
 			id: "14CCAA617213BD1B"
 			tasks: [{
 				id: "34FCA89A7EA27082"
@@ -458,6 +475,7 @@
 			x: 1.0d
 			y: 10.5d
 			dependencies: ["41D4380C6A470E5B"]
+			hide: true
 			id: "398E16B497A5CE4F"
 			tasks: [{
 				id: "4BF4864F2F1FB7EF"
@@ -474,6 +492,7 @@
 			x: -3.0d
 			y: 7.5d
 			dependencies: ["3B456AEDED35BB40"]
+			hide: true
 			id: "76CAE8AB3DA149C5"
 			tasks: [{
 				id: "1188499BD69A0F2F"
@@ -490,6 +509,7 @@
 			x: -4.5d
 			y: 7.5d
 			dependencies: ["76CAE8AB3DA149C5"]
+			hide: true
 			id: "1CFA3897A3B2F84D"
 			tasks: [{
 				id: "41710832682A2421"
@@ -506,6 +526,7 @@
 			x: -6.0d
 			y: 7.5d
 			dependencies: ["1CFA3897A3B2F84D"]
+			hide: true
 			id: "17D2035633BEE42E"
 			tasks: [{
 				id: "7DCD758F084A963C"
@@ -522,6 +543,7 @@
 			x: -7.5d
 			y: 7.5d
 			dependencies: ["17D2035633BEE42E"]
+			hide: true
 			id: "493EDAFE5144F6AB"
 			tasks: [{
 				id: "74AEFE949A36E220"
@@ -540,6 +562,7 @@
 			y: 0.0d
 			subtitle: "Use the Help Book to Construct."
 			dependencies: ["1965DE4B961BF91C"]
+			hide: true
 			id: "2DF9BE46633DF8D3"
 			tasks: [
 				{
@@ -567,6 +590,7 @@
 			subtitle: "Craft Empty Jars to Catch Bees."
 			description: ["Right click a bee with the jar to catch it."]
 			dependencies: ["6927DF791C670A9B"]
+			hide: true
 			id: "7D0BE0D675A350BB"
 			tasks: [{
 				id: "3912EFB301741B8A"
@@ -585,6 +609,7 @@
 			y: 2.5d
 			subtitle: "Can be used to generate power from honey."
 			dependencies: ["468296465CD13F9A"]
+			hide: true
 			id: "284BF6CBE1AC1248"
 			tasks: [{
 				id: "6BFA0CC0ACF0097F"
@@ -611,6 +636,7 @@
 			subtitle: "Turns honey into blocks."
 			description: ["When rightclicked with a honey bucket or piped into directly, it can turn honey into blocks."]
 			dependencies: ["468296465CD13F9A"]
+			hide: true
 			id: "469AADA0EF5FF055"
 			tasks: [{
 				id: "66A61D0CA135D7E2"
@@ -636,6 +662,7 @@
 			subtitle: "Stores 8 Buckets of Liquid Honey."
 			description: [""]
 			dependencies: ["468296465CD13F9A"]
+			hide: true
 			id: "5AF14F5149DA0CF6"
 			tasks: [{
 				id: "28716DDD69590A9F"
@@ -653,6 +680,7 @@
 			y: 4.0d
 			subtitle: "Stores 32 Buckets of Liquid Honey."
 			dependencies: ["5AF14F5149DA0CF6"]
+			hide: true
 			id: "4E4EC3C4E69130A8"
 			tasks: [{
 				id: "2F39158CA7D81502"
@@ -670,6 +698,7 @@
 			y: 5.5d
 			subtitle: "Stores 128 Buckets of Liquid Honey."
 			dependencies: ["4E4EC3C4E69130A8"]
+			hide: true
 			id: "3CC65CB917CAECA6"
 			tasks: [{
 				id: "605FF9FBC675C4B3"

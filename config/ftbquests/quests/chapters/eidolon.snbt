@@ -40,6 +40,7 @@
 			y: 1.0d
 			subtitle: "Craft 8x Pewter Blend"
 			dependencies: ["2123AC9876F51465"]
+			hide: true
 			id: "56F547CE545B7378"
 			tasks: [{
 				id: "4444BCB1D6C7C600"
@@ -66,6 +67,7 @@
 			y: 2.0d
 			subtitle: "Smelt 8 Pewter Blend Into Ingots"
 			dependencies: ["56F547CE545B7378"]
+			hide: true
 			id: "6B4EDF5AA51D60B2"
 			tasks: [{
 				id: "5C93BCF048B18B4F"
@@ -85,6 +87,7 @@
 			subtitle: "Make a wooden altar and place an effigy. You can pray once a day to gain knowledge. Thunder will strike if you are successful. To pray, select 3 whicked sign chants. To get the whicked sign chant, give this book to a witch and collect it after she drops it."
 			description: ["Chants can be performed in the whicked signs section of your magic book."]
 			dependencies: ["0591E392DC4011E3"]
+			hide: true
 			id: "0EF6DCC8313A4C83"
 			tasks: [
 				{
@@ -109,6 +112,7 @@
 			y: 3.0d
 			subtitle: "This is your basic ritual set up. Place down the brazier with the stone hands close by."
 			dependencies: ["6B4EDF5AA51D60B2"]
+			hide: true
 			id: "0591E392DC4011E3"
 			tasks: [
 				{
@@ -156,6 +160,7 @@
 			subtitle: "Place the bonemeal on the brazier. Place the rest of the ingredience on the stone hands. Once you have an undead mob near by, light the brazier with a flint and steel."
 			description: [""]
 			dependencies: ["11607494318257B2"]
+			hide: true
 			id: "513F96D0EE7F7475"
 			tasks: [
 				{
@@ -194,6 +199,7 @@
 			y: 4.0d
 			subtitle: "Can be used to trap mobs. They cannot walk over it."
 			dependencies: ["0591E392DC4011E3"]
+			hide: true
 			id: "11607494318257B2"
 			tasks: [{
 				id: "4FE255451F742095"
@@ -207,6 +213,7 @@
 			y: 5.0d
 			subtitle: "Some recipies require this."
 			dependencies: ["11607494318257B2"]
+			hide: true
 			id: "2C3CFD9CB06D3B80"
 			tasks: [{
 				id: "2E44EF8ADF860F01"
@@ -241,6 +248,7 @@
 			y: 5.0d
 			subtitle: "Used to craft higher level recipies"
 			dependencies: ["1BD7B627DAA02533"]
+			hide: true
 			id: "5A66A582223A94C5"
 			tasks: [{
 				id: "2A869C3D8EAE0DB0"
@@ -258,6 +266,7 @@
 			y: 5.0d
 			subtitle: "Essential Crafting Component"
 			dependencies: ["1BD7B627DAA02533"]
+			hide: true
 			id: "10D6B802BAF48681"
 			tasks: [{
 				id: "03C36FD111BD5D0B"
@@ -275,6 +284,7 @@
 			y: 6.5d
 			subtitle: "The harder the material, the faster it breaks it. The softer the material, the slower it breaks it."
 			dependencies: ["5A66A582223A94C5"]
+			hide: true
 			id: "53A17795A95B9629"
 			tasks: [{
 				id: "1135E81EC6E4DF08"
@@ -305,6 +315,7 @@
 			y: 7.0d
 			subtitle: "Harvest soul shards from the undead."
 			dependencies: ["237E61658414058C"]
+			hide: true
 			id: "6BE2A2B899FF0C95"
 			tasks: [{
 				id: "1C077FB9BBF99D0C"
@@ -335,6 +346,7 @@
 			y: 6.0d
 			subtitle: "Slow but powerful weapon. Increased rate for creature to drop it's head."
 			dependencies: ["237E61658414058C"]
+			hide: true
 			id: "1A03D662F318AB04"
 			tasks: [{
 				id: "46F45C38A4F23F55"
@@ -368,6 +380,7 @@
 				"5A66A582223A94C5"
 				"10D6B802BAF48681"
 			]
+			hide: true
 			id: "194C39A10E7741A2"
 			tasks: [{
 				id: "0A21A4A35F261692"
@@ -398,6 +411,7 @@
 			y: 5.0d
 			subtitle: "Shoots projectiles that do magic damage and causes the bone chill effect."
 			dependencies: ["5A66A582223A94C5"]
+			hide: true
 			id: "24B0F81839FEA948"
 			tasks: [{
 				id: "71B44481DE03BA61"
@@ -428,6 +442,7 @@
 			y: 6.0d
 			subtitle: "Does wither damage. Wither damage done heals you."
 			dependencies: ["2C3CFD9CB06D3B80"]
+			hide: true
 			id: "34B95AB0B62B181C"
 			tasks: [{
 				id: "4D41647F8B6B59F4"
@@ -458,6 +473,7 @@
 			y: 6.0d
 			subtitle: "Stores regenerated health for healing. Can store up to 20 hearts."
 			dependencies: ["2C3CFD9CB06D3B80"]
+			hide: true
 			id: "73499432B631C96B"
 			tasks: [{
 				id: "61D3C00FFCAAE6E3"
@@ -515,6 +531,7 @@
 				"0EF6DCC8313A4C83"
 				"10D6B802BAF48681"
 			]
+			hide: true
 			id: "35908CB84D37F321"
 			tasks: [{
 				id: "3EC18892584357FC"
@@ -532,6 +549,7 @@
 			y: 6.5d
 			subtitle: "After learning the soul chant from sacraficing animals, perform the soul chant while staring at pewter inlay dropped on the ground to create this."
 			dependencies: ["35908CB84D37F321"]
+			hide: true
 			id: "237E61658414058C"
 			tasks: [{
 				id: "13FAA0D95E512624"
@@ -549,6 +567,7 @@
 			y: 7.5d
 			subtitle: "The most powerful chants you’ll unlock may only be performed on an upgraded altar made from stone, with an Elder Statue on top."
 			dependencies: ["237E61658414058C"]
+			hide: true
 			id: "6BC0D756C8714319"
 			tasks: [
 				{
@@ -580,6 +599,7 @@
 			y: 2.5d
 			subtitle: "Can brew without blaze powder. Cannot lengthen or strengthen potions."
 			dependencies: ["1BD7B627DAA02533"]
+			hide: true
 			id: "7EB0BF8DBC5861A5"
 			tasks: [{
 				id: "3EBAA93E3D9ABB9B"
@@ -598,6 +618,7 @@
 			subtitle: "Prevents unwanted invaders into your head. Allows you to keep 3/4 of your experience on death. Immune to nausea."
 			description: [""]
 			dependencies: ["5A66A582223A94C5"]
+			hide: true
 			id: "6EC7F50826D9C36F"
 			tasks: [{
 				id: "15492A3039086478"
@@ -622,6 +643,7 @@
 			y: 6.0d
 			subtitle: "Applies benefits for magic users. Check the Ars Ecclesia for more info."
 			dependencies: ["237E61658414058C"]
+			hide: true
 			id: "423DB93C51816323"
 			tasks: [
 				{
@@ -676,6 +698,7 @@
 			y: 2.0d
 			subtitle: "Wearer is less affected by gravity."
 			dependencies: ["08F337B045FB9B08"]
+			hide: true
 			id: "1F7F1F941ABDDF8E"
 			tasks: [{
 				id: "256FB53556255FC2"
@@ -700,6 +723,7 @@
 			y: 2.0d
 			subtitle: "Do 2x Damage at the cost of being 4x vulnerable to damage."
 			dependencies: ["7AE64F53C90AB243"]
+			hide: true
 			id: "5A1539C1EA22D0C7"
 			tasks: [{
 				id: "5684EB228B5ED4A2"
@@ -724,6 +748,7 @@
 			y: 6.0d
 			subtitle: "Doubles your reach."
 			dependencies: ["5A66A582223A94C5"]
+			hide: true
 			id: "1AE148DD57F5A578"
 			tasks: [{
 				id: "3042B01D70A5F29A"
@@ -748,6 +773,7 @@
 			y: 2.0d
 			subtitle: "Any knockback taken will be completely reflected to attacker."
 			dependencies: ["08F337B045FB9B08"]
+			hide: true
 			id: "2070060954D4C31E"
 			tasks: [{
 				id: "27B7890AEC2B89A0"
@@ -772,6 +798,7 @@
 			y: 7.0d
 			subtitle: "Defends from magic attacks"
 			dependencies: ["5A66A582223A94C5"]
+			hide: true
 			id: "49712DBD12F75A31"
 			tasks: [{
 				id: "7DE23B1AB4D19A4C"
@@ -796,6 +823,7 @@
 			y: 3.0d
 			subtitle: "+1 Armor Toughness on wearer."
 			dependencies: ["5A66A582223A94C5"]
+			hide: true
 			id: "08F337B045FB9B08"
 			tasks: [{
 				id: "2D1E4BEDAED276EB"
@@ -808,6 +836,7 @@
 			y: 3.0d
 			subtitle: "+1 Armor Toughness on wearer."
 			dependencies: ["5A66A582223A94C5"]
+			hide: true
 			id: "7AE64F53C90AB243"
 			tasks: [{
 				id: "0F99867FAE9BA2D9"
@@ -820,6 +849,7 @@
 			y: 2.0d
 			subtitle: "Can absorb a projectile once every 10 seconds."
 			dependencies: ["7AE64F53C90AB243"]
+			hide: true
 			id: "10BEF85DFCEEE345"
 			tasks: [{
 				id: "3381518812C1861F"
@@ -844,6 +874,7 @@
 			y: 1.0d
 			subtitle: "Can be used to supplement nether wart in creating akward potions."
 			dependencies: ["7EB0BF8DBC5861A5"]
+			hide: true
 			id: "04B5A2C33A930ADD"
 			tasks: [{
 				id: "203B15811E983A8C"

@@ -66,6 +66,7 @@
 			y: 14.5d
 			subtitle: "A Heat Generator converts heat energy into power."
 			dependencies: ["4C64E160BFB128C7"]
+			hide: true
 			id: "335678B686FFEAB5"
 			tasks: [{
 				id: "4F95715BBC6A9990"
@@ -92,6 +93,7 @@
 			y: 16.5d
 			subtitle: "Used to make several useful materials."
 			dependencies: ["335678B686FFEAB5"]
+			hide: true
 			id: "316CE5A053F21EF6"
 			tasks: [{
 				id: "36423C0D84A564A6"
@@ -127,6 +129,7 @@
 			y: 20.0d
 			subtitle: "The Solar Generator harnesses sunlight to create power."
 			dependencies: ["3BAC521219BE70EE"]
+			hide: true
 			id: "1894178D56BC4BEE"
 			tasks: [{
 				id: "3F4EB05E45DF2A56"
@@ -156,6 +159,7 @@
 			y: 21.5d
 			subtitle: "The Advanced Solar Generator is a highly upgraded version of the basic Solar Generator."
 			dependencies: ["1894178D56BC4BEE"]
+			hide: true
 			id: "619CC6395CC7260F"
 			tasks: [{
 				id: "2E44F98A991B766E"
@@ -186,6 +190,7 @@
 			subtitle: "A Wind Turbine's giant blades harness the force of the wind to generate power. "
 			description: ["Each Wind Turbine requires a fairly large 1x1x5 area. The machine will generate power day and night, in sun or rain, but the turbine must have a clear view of the sky (over the rotor housing at the top of the tower).The power output increases linearly with its elevation, to a maximum output of 480 J/t (9.6kJ/s)."]
 			dependencies: ["1894178D56BC4BEE"]
+			hide: true
 			id: "527A5DDE96ACF099"
 			tasks: [{
 				id: "1E97067DC61B3E1A"
@@ -203,6 +208,7 @@
 			y: 24.5d
 			subtitle: "Bio-Generators produce electricity from Bio Fuel."
 			dependencies: ["1894178D56BC4BEE"]
+			hide: true
 			id: "523676DC550ABF2F"
 			tasks: [
 				{
@@ -222,6 +228,7 @@
 			y: 22.0d
 			subtitle: "An Energy Cube is an advanced type of battery that is compatible with multiple energy systems. Energy can be input from 5 sides, and output on 1 side."
 			dependencies: ["43D102FC70025975"]
+			hide: true
 			id: "481F70847298A6AB"
 			tasks: [{
 				id: "130F5F60C2FF8C9C"
@@ -254,6 +261,7 @@
 			subtitle: "Putting water into an electrolytic seperator, exctracting hydrogen, then giving it to the gas-burning generator; you can generate energy."
 			description: ["It is important to note that the pump and electrolytic generator require energy to kick-start the process. It is important to take note of which sides of the machins takes input and output. This can be viewed from the GUI when you right-click a machine. You can also modify which side outputs/inputs specific things. If you want to make this process more efficient, replace the electric pump with something else that can pump without electricity or use renewable energy to power pump."]
 			dependencies: ["1894178D56BC4BEE"]
+			hide: true
 			dependency_requirement: "one_completed"
 			id: "410E8C0E8665FA49"
 			tasks: [
@@ -313,6 +321,7 @@
 			y: 20.0d
 			subtitle: "By putting ore into a crusher, then feeding the output to a furnace, you can double the ingots you get from 1 ore."
 			dependencies: ["780B9F574A3426DC"]
+			hide: true
 			id: "364594847718DED8"
 			tasks: [
 				{
@@ -360,6 +369,7 @@
 			y: 18.0d
 			subtitle: "The Precision Sawmill is used for reclaiming wood from wooden items and turn logs into planks with a 50% better yield (6 instead of 4). Also makes sawdust for use in making Cardboard Box."
 			dependencies: ["780B9F574A3426DC"]
+			hide: true
 			id: "39B39218C09CC832"
 			tasks: [{
 				id: "273B935B593F54C1"
@@ -391,6 +401,7 @@
 			y: 18.0d
 			subtitle: "Uses liquid Osmium to create useful materials."
 			dependencies: ["780B9F574A3426DC"]
+			hide: true
 			id: "5537D5AB0F219D12"
 			tasks: [{
 				id: "5706A92E7F611AFF"
@@ -422,6 +433,7 @@
 				"565AA49E75D30C0C"
 				"410E8C0E8665FA49"
 			]
+			hide: true
 			id: "77D0561C59D7FC0D"
 			tasks: [
 				{
@@ -454,6 +466,7 @@
 			y: 20.0d
 			subtitle: "The Electrolytic Separator causes fluids to break down into useful gasses."
 			dependencies: ["780B9F574A3426DC"]
+			hide: true
 			id: "565AA49E75D30C0C"
 			tasks: [{
 				id: "4FD287E3672A9B93"
@@ -483,6 +496,7 @@
 			x: 20.5d
 			y: 24.0d
 			dependencies: ["481F70847298A6AB"]
+			hide: true
 			id: "54AA7656FB10FDBA"
 			tasks: [{
 				id: "6732FEAA173F9368"
@@ -528,6 +542,7 @@
 			x: 20.5d
 			y: 26.0d
 			dependencies: ["54AA7656FB10FDBA"]
+			hide: true
 			id: "0AD7A689B9F15676"
 			tasks: [{
 				id: "18E98A1105F7EF97"
@@ -573,6 +588,7 @@
 			x: 20.5d
 			y: 28.0d
 			dependencies: ["0AD7A689B9F15676"]
+			hide: true
 			id: "4652571505328262"
 			tasks: [{
 				id: "7AA2CE789037698D"
@@ -618,6 +634,7 @@
 			x: 8.5d
 			y: 18.5d
 			dependencies: ["316CE5A053F21EF6"]
+			hide: true
 			id: "780B9F574A3426DC"
 			tasks: [{
 				id: "5678F3D905A4834C"
@@ -641,6 +658,7 @@
 			x: 1.5d
 			y: 18.5d
 			dependencies: ["316CE5A053F21EF6"]
+			hide: true
 			id: "3BAC521219BE70EE"
 			tasks: [{
 				id: "51E29A7FBFF6E4C6"
@@ -656,7 +674,9 @@
 		{
 			x: 20.5d
 			y: 20.0d
+			shape: "gear"
 			dependencies: ["316CE5A053F21EF6"]
+			hide: true
 			id: "43D102FC70025975"
 			tasks: [{
 				id: "7F83673C33046E26"
@@ -674,6 +694,7 @@
 			y: 23.0d
 			subtitle: "A machine that can be used to produce specific materials including plastic. Can also be used to produce hydrogen, oxygen, or ethylene as a by-product."
 			dependencies: ["41589E9E32815283"]
+			hide: true
 			id: "39067CF351DBCBF8"
 			tasks: [{
 				id: "2D2B7A5FC22BC134"
@@ -699,6 +720,7 @@
 			y: 20.0d
 			subtitle: "This machine uses energy to extract dusts out of certain blocks and ores, making it essential to producing different kinds of tools."
 			dependencies: ["780B9F574A3426DC"]
+			hide: true
 			id: "41589E9E32815283"
 			tasks: [{
 				id: "3E837BB70CB5301A"
@@ -731,6 +753,7 @@
 			subtitle: "In a Pressurized Reaction Chamber, Ethylene + Oxygen = HDPE Pellets"
 			description: ["Besides burning it for power, Ethylene may also be re-processed to create HDPE, a high quality plastic useful for making several advanced machines."]
 			dependencies: ["195C5E1C6EF646B3"]
+			hide: true
 			id: "3A76EE866A7A9340"
 			tasks: [{
 				id: "5E693A429B804CCC"
@@ -765,6 +788,7 @@
 				"39067CF351DBCBF8"
 				"523676DC550ABF2F"
 			]
+			hide: true
 			id: "195C5E1C6EF646B3"
 			tasks: [{
 				id: "0AB822406CDFCEC1"
@@ -788,6 +812,7 @@
 			x: 12.0d
 			y: 20.0d
 			dependencies: ["780B9F574A3426DC"]
+			hide: true
 			id: "079298226D3FA2A1"
 			tasks: [{
 				id: "07B8E17BC4788184"
@@ -812,6 +837,7 @@
 			x: 10.0d
 			y: 20.0d
 			dependencies: ["780B9F574A3426DC"]
+			hide: true
 			id: "5A8CC4A7FDD26807"
 			tasks: [{
 				id: "455F8F58D1391567"
@@ -829,17 +855,14 @@
 			icon: "mekanism:sulfur_dioxide_bucket"
 			x: 11.5d
 			y: 23.0d
-			subtitle: "In a Chemical Oxidizer, Sulfur Dust = Sulfur Dioxide."
-			dependencies: [
-				"5A8CC4A7FDD26807"
-				"4EDD7D9AD472AC55"
-			]
+			subtitle: "In a Chemical Oxidizer, Sulfur = Sulfur Dioxide."
+			dependencies: ["5A8CC4A7FDD26807"]
 			hide: true
 			id: "1B48CB38C1DBEF6A"
 			tasks: [{
 				id: "127DD2A0DA90FF16"
 				type: "item"
-				item: "mekanism:dust_sulfur"
+				item: "eidolon:sulfur"
 			}]
 			rewards: [
 				{
@@ -858,6 +881,7 @@
 			x: 9.0d
 			y: 20.0d
 			dependencies: ["780B9F574A3426DC"]
+			hide: true
 			id: "0B2CF25DF3D3B8B4"
 			tasks: [{
 				id: "0C4910971396755A"
@@ -879,35 +903,6 @@
 			]
 		}
 		{
-			x: 9.0d
-			y: 23.0d
-			subtitle: "Can be created from Pressurized Reaction Chamber or Chemical Injector."
-			dependencies: [
-				"0B2CF25DF3D3B8B4"
-				"39067CF351DBCBF8"
-			]
-			dependency_requirement: "one_completed"
-			id: "4EDD7D9AD472AC55"
-			tasks: [{
-				id: "7E42F2CC1F955A8C"
-				type: "item"
-				item: "mekanism:dust_sulfur"
-			}]
-			rewards: [
-				{
-					id: "66F2591E78039ABD"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "2335C5E492819F85"
-					type: "item"
-					item: "mekanism:dust_sulfur"
-					count: 8
-				}
-			]
-		}
-		{
 			title: "Sulfur Trioxide"
 			icon: "mekanism:sulfur_trioxide_bucket"
 			x: 13.0d
@@ -918,6 +913,7 @@
 				"079298226D3FA2A1"
 				"1B48CB38C1DBEF6A"
 			]
+			hide: true
 			id: "3D4ACC00A8610B11"
 			tasks: [
 				{
@@ -948,6 +944,7 @@
 			x: 14.0d
 			y: 20.0d
 			dependencies: ["780B9F574A3426DC"]
+			hide: true
 			id: "0953EB130382742A"
 			tasks: [{
 				id: "1F733F750E84AAB0"
@@ -973,6 +970,7 @@
 			y: 23.0d
 			subtitle: "Water inside a Rotary Condensenator creates Water Vapor."
 			dependencies: ["0953EB130382742A"]
+			hide: true
 			id: "7F690EC5A2C62827"
 			tasks: [{
 				id: "52B0AE9C024824CD"
@@ -1017,6 +1015,7 @@
 				"3D4ACC00A8610B11"
 				"7F690EC5A2C62827"
 			]
+			hide: true
 			id: "24FEE2A70AD745EA"
 			tasks: [
 				{
@@ -1047,6 +1046,7 @@
 			x: 15.0d
 			y: 20.0d
 			dependencies: ["780B9F574A3426DC"]
+			hide: true
 			id: "66918EF700E1B166"
 			tasks: [{
 				id: "257005BF70EE527A"
@@ -1071,6 +1071,7 @@
 			x: 17.5d
 			y: 20.0d
 			dependencies: ["780B9F574A3426DC"]
+			hide: true
 			id: "3E246AAA1AA37511"
 			tasks: [{
 				id: "253F26EFE535C175"
@@ -1120,6 +1121,7 @@
 				"016DD987D28317D5"
 				"5A8CC4A7FDD26807"
 			]
+			hide: true
 			id: "63A79D090C85237B"
 			tasks: [{
 				id: "0AB4AF4645E81EF9"
@@ -1143,6 +1145,7 @@
 			y: 22.0d
 			subtitle: "In an enrichment chamber, Uranium = Yellow Cake Uranium"
 			dependencies: ["41589E9E32815283"]
+			hide: true
 			id: "016DD987D28317D5"
 			tasks: [{
 				id: "6877581BF057F265"
@@ -1176,6 +1179,7 @@
 				"24FEE2A70AD745EA"
 				"66918EF700E1B166"
 			]
+			hide: true
 			id: "331F77DE083C2EB7"
 			tasks: [
 				{
@@ -1221,6 +1225,7 @@
 				"331F77DE083C2EB7"
 				"63A79D090C85237B"
 			]
+			hide: true
 			id: "7A401FEEA875DAC8"
 			tasks: [{
 				id: "116012B8C779BB10"
@@ -1249,6 +1254,7 @@
 				"3E246AAA1AA37511"
 				"7A401FEEA875DAC8"
 			]
+			hide: true
 			id: "1282541EBE022CC8"
 			tasks: [{
 				id: "3DAD20E73288DA28"
@@ -1283,6 +1289,7 @@
 				""
 			]
 			dependencies: ["1282541EBE022CC8"]
+			hide: true
 			id: "6C6547145844BBBE"
 			tasks: [
 				{
@@ -1360,6 +1367,7 @@
 				"9. Fill the remaining walls and ceiling with turbine casings and/or turbine vents."
 			]
 			dependencies: ["6C6547145844BBBE"]
+			hide: true
 			id: "5A85A7FE26543151"
 			tasks: [
 				{
@@ -1434,6 +1442,7 @@
 				"3A76EE866A7A9340"
 				"5A85A7FE26543151"
 			]
+			hide: true
 			id: "2BD62A6355E24576"
 			tasks: [{
 				id: "3CF48788AAF518B8"
@@ -1466,6 +1475,7 @@
 			y: 30.0d
 			subtitle: "In a Solar Neutron Activator, Nuclear Waste = Polonium."
 			dependencies: ["2BD62A6355E24576"]
+			hide: true
 			id: "11AEE38005346BC2"
 			tasks: [{
 				id: "0C58676D0B79773B"
@@ -1484,6 +1494,7 @@
 			y: 23.0d
 			subtitle: "Turn Water Into Brine or Brine into Lithium"
 			dependencies: ["619CC6395CC7260F"]
+			hide: true
 			id: "0CFB8ED64142069A"
 			tasks: [
 				{
@@ -1535,6 +1546,7 @@
 			y: 24.5d
 			subtitle: "In a Thermal Evaporation Plant, Water = Brine."
 			dependencies: ["0CFB8ED64142069A"]
+			hide: true
 			id: "6E02BB7547FB957D"
 			tasks: [{
 				id: "77DFF3058BD18B19"
@@ -1564,6 +1576,7 @@
 				"6E02BB7547FB957D"
 				"0CFB8ED64142069A"
 			]
+			hide: true
 			id: "1614B3755B8792BB"
 			tasks: [{
 				id: "2E11694E1663D07C"
@@ -1588,6 +1601,7 @@
 			y: 32.0d
 			subtitle: "In a Pressurized Reaction Chamber, Polonium + Water + Flourite Dust = Polonium Pellet + Spent Nuclear Waste"
 			dependencies: ["11AEE38005346BC2"]
+			hide: true
 			id: "3EB1B67CC783FC7C"
 			tasks: [{
 				id: "294A96AD5E5B3D1D"
@@ -1622,6 +1636,7 @@
 				"3E246AAA1AA37511"
 				"5A85A7FE26543151"
 			]
+			hide: true
 			id: "02CEF7499FB4191F"
 			tasks: [{
 				id: "17C49CEF2FD2A9AB"
@@ -1646,6 +1661,7 @@
 			y: 32.0d
 			subtitle: "In a Pressurized Reaction Chamber, Water + Plutonium = Plutonium Pellet + Spent Nuclear Waste"
 			dependencies: ["02CEF7499FB4191F"]
+			hide: true
 			id: "11A67654E5F45183"
 			tasks: [{
 				id: "5D960BE8B5AD64AC"
@@ -1673,6 +1689,7 @@
 				"3EB1B67CC783FC7C"
 				"11A67654E5F45183"
 			]
+			hide: true
 			dependency_requirement: "one_completed"
 			id: "5CA40AE549F20F90"
 			tasks: [{
@@ -1753,6 +1770,7 @@
 			x: 20.5d
 			y: 32.0d
 			dependencies: ["54BCB9D250868D88"]
+			hide: true
 			id: "656040978F96A29F"
 			tasks: [
 				{
@@ -1783,6 +1801,7 @@
 			x: 20.5d
 			y: 34.0d
 			dependencies: ["656040978F96A29F"]
+			hide: true
 			id: "788F1F4E83D81F85"
 			tasks: [
 				{
@@ -1813,6 +1832,7 @@
 			x: 20.5d
 			y: 36.0d
 			dependencies: ["788F1F4E83D81F85"]
+			hide: true
 			id: "54BCB8BE6663CBEC"
 			tasks: [
 				{
@@ -1847,6 +1867,7 @@
 				"3A76EE866A7A9340"
 				"3EB1B67CC783FC7C"
 			]
+			hide: true
 			id: "460812F53EEB50EC"
 			tasks: [{
 				id: "0AFF9BAE95FB16EE"
@@ -1883,6 +1904,7 @@
 			y: 26.0d
 			subtitle: "The Jetpack is an item that allows the player to fly, equippable in the chestplate slot. It uses Hydrogen gas as a fuel, of which it can store up to 24,000 mB."
 			dependencies: ["3A76EE866A7A9340"]
+			hide: true
 			id: "5C5E69C2B91F3E33"
 			tasks: [{
 				id: "3D9CB66DAC58A775"
@@ -1914,6 +1936,7 @@
 			y: 26.0d
 			subtitle: "The Armored Jetpack is an upgraded version of the Jetpack. It provides 12 armor points, offering slightly better protection than a diamond chestplate with Protection IV."
 			dependencies: ["5C5E69C2B91F3E33"]
+			hide: true
 			id: "72926F3A948D92A5"
 			tasks: [{
 				id: "7D15FBDAB24B070B"
@@ -1955,6 +1978,7 @@
 				"3EB1B67CC783FC7C"
 				"11A67654E5F45183"
 			]
+			hide: true
 			id: "7CD75735438C7334"
 			tasks: [{
 				id: "4A938F6A98E2F609"
@@ -1982,6 +2006,7 @@
 			subtitle: "Used to store large quantities of different items."
 			description: ["QIO is a way of storing large amounts of items that can be stored, searched, and accessed remotely in late game. It's comprised of at least one QIO Drive (to store items), a QIO Drive Array (to hold the QIO Drives), and at least one QIO Dashboard (to access items in the QIO Drive Array). Both the drive and drive array must be set to the same frequency in order to work together."]
 			dependencies: ["3EB1B67CC783FC7C"]
+			hide: true
 			id: "48AA304CCE2CD06E"
 			tasks: [
 				{
@@ -2019,6 +2044,7 @@
 			y: 38.0d
 			subtitle: "Stores a total of 128,000 items. Can only have 256 different types of items."
 			dependencies: ["0FE994202F2E9F3F"]
+			hide: true
 			id: "1A486CB56886EF94"
 			tasks: [{
 				id: "6634F46A39D43EDD"
@@ -2036,6 +2062,7 @@
 			y: 40.0d
 			subtitle: "Stores a total of 1,048,000 items. Can only have 1,024 different types of items."
 			dependencies: ["1A486CB56886EF94"]
+			hide: true
 			id: "1B8D54CD5734FC17"
 			tasks: [{
 				id: "5C0396567E0339C9"
@@ -2056,6 +2083,7 @@
 				"1B8D54CD5734FC17"
 				"62C80F7C2365DB5D"
 			]
+			hide: true
 			id: "1E6433D8761AF514"
 			tasks: [{
 				id: "4B2B5B4A2E6365AB"
@@ -2080,6 +2108,7 @@
 			y: 36.0d
 			subtitle: "Access system from anywhere."
 			dependencies: ["48AA304CCE2CD06E"]
+			hide: true
 			id: "3D32DEDD8C080B1D"
 			tasks: [{
 				id: "30DD978C13632780"
@@ -2098,6 +2127,7 @@
 			y: 36.0d
 			subtitle: "Take items in and out of your system."
 			dependencies: ["48AA304CCE2CD06E"]
+			hide: true
 			id: "22382BD854DD82CE"
 			tasks: [
 				{
@@ -2122,6 +2152,7 @@
 			y: 36.0d
 			subtitle: "Stores a total of 16,000 items. Can only have 128 different types of items."
 			dependencies: ["48AA304CCE2CD06E"]
+			hide: true
 			id: "0FE994202F2E9F3F"
 			tasks: [{
 				id: "3F2A72C75BC6FE2C"
@@ -2144,6 +2175,7 @@
 				"3EB1B67CC783FC7C"
 				"11A67654E5F45183"
 			]
+			hide: true
 			id: "537B46FB36E21525"
 			tasks: [
 				{
@@ -2199,6 +2231,7 @@
 			y: 37.0d
 			subtitle: "In a chemical crystalizer, Antimatter = Antimatter Pellet."
 			dependencies: ["537B46FB36E21525"]
+			hide: true
 			id: "62C80F7C2365DB5D"
 			tasks: [{
 				id: "090401453126CD96"
@@ -2245,6 +2278,7 @@
 				"598A12D61F9233AB"
 				"2F80F6DC9EB13A70"
 			]
+			hide: true
 			id: "5B7CDEF0624F5576"
 			tasks: [
 				{
@@ -2307,6 +2341,7 @@
 				"2BD62A6355E24576"
 				"4B73B7E544C4A87D"
 			]
+			hide: true
 			id: "598A12D61F9233AB"
 			tasks: [{
 				id: "0E2DFF53F862C850"
@@ -2326,6 +2361,7 @@
 			y: 26.0d
 			subtitle: "In a Rotary Condensentrator, Liquid Lithum = Non-Liquid Lithium"
 			dependencies: ["1614B3755B8792BB"]
+			hide: true
 			id: "4B73B7E544C4A87D"
 			tasks: [{
 				id: "65097F8A7ED4D194"
@@ -2362,6 +2398,7 @@
 			y: 32.0d
 			subtitle: "In an Electrolytic Seperator, Heavy Water = Deuterium + Oxygen"
 			dependencies: ["4763E8FFEE3A245C"]
+			hide: true
 			id: "3DF8CD4D0DEB2265"
 			tasks: [{
 				id: "063123777E5E2120"
@@ -2378,6 +2415,7 @@
 			x: -0.5d
 			y: 31.0d
 			dependencies: ["5E103D8A95A0F0A0"]
+			hide: true
 			id: "2F80F6DC9EB13A70"
 			tasks: [{
 				id: "158EF238DAB23C13"
@@ -2399,6 +2437,7 @@
 				"3DF8CD4D0DEB2265"
 				"598A12D61F9233AB"
 			]
+			hide: true
 			id: "5E103D8A95A0F0A0"
 			tasks: [{
 				id: "67E1724270E3F271"
@@ -2416,6 +2455,7 @@
 			y: 42.0d
 			subtitle: "Use Antimatter to turn cheap materials like coal, into expensive materials like Diamond."
 			dependencies: ["62C80F7C2365DB5D"]
+			hide: true
 			id: "16DA71F7743DC9E2"
 			tasks: [{
 				id: "69DFAE51CA9977E3"
@@ -2446,6 +2486,7 @@
 			subtitle: "Allows for long distance teleportation using power."
 			description: ["Build a 3 x 4 ring with the bottom-middle block being the teleporter and the outer layer of the ring being telepoter frame. The two center-middle blocks should be air."]
 			dependencies: ["11A67654E5F45183"]
+			hide: true
 			id: "2DF574725050642A"
 			tasks: [
 				{
@@ -2481,6 +2522,7 @@
 				"2DF574725050642A"
 				"62C80F7C2365DB5D"
 			]
+			hide: true
 			id: "60F289D160AC4355"
 			tasks: [{
 				id: "64F965AD63AD44AC"
@@ -2503,7 +2545,9 @@
 		{
 			x: 22.5d
 			y: 20.0d
+			shape: "gear"
 			dependencies: ["316CE5A053F21EF6"]
+			hide: true
 			id: "6AB264BD6CA2A7B8"
 			tasks: [{
 				id: "17787DFE5ED8D2CD"
@@ -2516,6 +2560,7 @@
 			y: 22.0d
 			subtitle: "A tool that can survey the nearby area for points of interest like ore."
 			dependencies: ["6AB264BD6CA2A7B8"]
+			hide: true
 			id: "58507D6323799ACC"
 			tasks: [{
 				id: "1B74C3E9C12FDED6"
@@ -2540,6 +2585,7 @@
 			y: 22.0d
 			subtitle: "Allows you to build structures using a set of different Building Modes."
 			dependencies: ["1922AEAA8526738C"]
+			hide: true
 			id: "07F01B75B29AF6DD"
 			tasks: [{
 				id: "4944BDFAEFD811D8"
@@ -2576,6 +2622,7 @@
 			y: 24.0d
 			subtitle: "Provides basic exchanging abilities using a set of different Exchanging Modes."
 			dependencies: ["1922AEAA8526738C"]
+			hide: true
 			id: "4B8BC98F2BC219C7"
 			tasks: [{
 				id: "7DB731B03A0058F3"
@@ -2612,6 +2659,7 @@
 			y: 24.0d
 			subtitle: "Allows you to select a large radius to copy and paste in a different location."
 			dependencies: ["1922AEAA8526738C"]
+			hide: true
 			id: "6F538DA04B81C23E"
 			tasks: [{
 				id: "1251F578C9B618EA"
@@ -2648,6 +2696,7 @@
 			y: 20.0d
 			subtitle: "Allows you to void a large area."
 			dependencies: ["1922AEAA8526738C"]
+			hide: true
 			id: "2487EFE8441F5CB6"
 			tasks: [{
 				id: "591070C4C167B0D2"
@@ -2680,6 +2729,7 @@
 			y: 24.0d
 			subtitle: "Up to three modules may be installed at the same time."
 			dependencies: ["58507D6323799ACC"]
+			hide: true
 			id: "0F0A970D5A16B177"
 			tasks: [
 				{
@@ -2740,8 +2790,10 @@
 		{
 			x: 24.5d
 			y: 20.0d
+			shape: "gear"
 			subtitle: "Sometimes, building large structures can be a little tedious, and take a lot of effort. Building Gadgets aims to make building a little bit easier."
 			dependencies: ["6AB264BD6CA2A7B8"]
+			hide: true
 			id: "1922AEAA8526738C"
 			tasks: [{
 				id: "67B47ECBAB8315EC"

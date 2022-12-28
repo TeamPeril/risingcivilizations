@@ -47,6 +47,7 @@
 			shape: "gear"
 			subtitle: "Create rotational energy to power contraptions"
 			dependencies: ["5D8448CBEE78535E"]
+			hide: true
 			id: "3AC31D8B313C38B6"
 			tasks: [{
 				id: "05C9F4AE8336DAFF"
@@ -72,6 +73,7 @@
 			subtitle: "Produces power from  manual cranking. Very weak, but easy."
 			description: ["The Hand Crank generates a small amount of Rotational Force through player interaction."]
 			dependencies: ["3AC31D8B313C38B6"]
+			hide: true
 			id: "6FA970E4AEA1EDD7"
 			tasks: [{
 				id: "11D045D02BD4C73E"
@@ -104,6 +106,7 @@
 			subtitle: "Produces power from wind. Very powerful."
 			description: ["Any block can be attached to the front of the Windmill Bearing but only Wool and Sails will produce power. The wool or sail can be placed in any configuration and shape does not matter. Super Glue is needed to attach blocks together. Sails will connect to each other and blocks that have already been attached without needing to use Super Glue."]
 			dependencies: ["3AC31D8B313C38B6"]
+			hide: true
 			id: "4CDF9B6A6A311643"
 			tasks: [
 				{
@@ -147,6 +150,7 @@
 				"Due to the fact that the materials required to craft it are easily accessible in the early-game, the Water Wheel serves as the earliest generator that can be made."
 			]
 			dependencies: ["3AC31D8B313C38B6"]
+			hide: true
 			id: "782F3508B83BA1D8"
 			tasks: [{
 				id: "40068A2576BA3172"
@@ -183,6 +187,7 @@
 				"17F9B90263C0C364"
 				"551AF2AA89646AE1"
 			]
+			hide: true
 			dependency_requirement: "one_completed"
 			id: "052EA445F5002A67"
 			tasks: [{
@@ -204,6 +209,7 @@
 				"5C279CE42A621F6D"
 				"077173EEE622F0D8"
 			]
+			hide: true
 			dependency_requirement: "one_completed"
 			optional: true
 			id: "168C124AEE48CA23"
@@ -219,6 +225,7 @@
 			y: 8.0d
 			shape: "gear"
 			dependencies: ["052EA445F5002A67"]
+			hide: true
 			id: "18212C2BDEBE7882"
 			tasks: [{
 				id: "3A16FBDB48484D92"
@@ -232,6 +239,7 @@
 			y: 8.0d
 			shape: "gear"
 			dependencies: ["052EA445F5002A67"]
+			hide: true
 			id: "4A3A7241A133674E"
 			tasks: [{
 				id: "4B04FE50037FF5A1"
@@ -244,6 +252,7 @@
 			y: 8.0d
 			shape: "gear"
 			dependencies: ["052EA445F5002A67"]
+			hide: true
 			id: "7B9AE8C954CE598F"
 			tasks: [{
 				id: "0D89ABB4308AB87C"
@@ -261,6 +270,7 @@
 				"The Mechanical Press is powered by an internal Shaft, accessed from two opposite sides. Much like Shafts, Presses will relay rotation along their axis. It processes items faster when it receives faster rotational power."
 			]
 			dependencies: ["052EA445F5002A67"]
+			hide: true
 			id: "68AF9ADE1A3A2B06"
 			tasks: [{
 				id: "37B24064F144BFFF"
@@ -300,6 +310,7 @@
 				"A Millstone will take some time to process inserted ingredients and will show particles while it is working. Once finished, the Millstone will not drop or output the result by itself, but there are two ways to remove processed items: Right-clicking and Hoppers, Extractors, Transposers, etc."
 			]
 			dependencies: ["052EA445F5002A67"]
+			hide: true
 			id: "0A9DC24D2B9C8F32"
 			tasks: [{
 				id: "3FA27BD2B193F34B"
@@ -326,6 +337,7 @@
 			subtitle: "A mechanical component that applies Mixing recipes and shapeless Crafting recipes to items in Basins."
 			description: ["To work, a Mixer must be placed directly above a Basin, with a 1 block gap. When a valid recipe is inserted by throwing the ingredients in the Mixer, the Mixer will automatically combine the ingredients."]
 			dependencies: ["68458F050274D1B9"]
+			hide: true
 			id: "4769DCE70DC1A30F"
 			tasks: [
 				{
@@ -355,6 +367,7 @@
 				"The Deployer simulates right clicks by default. It can be adjusted to left click instead with a Wrench. While in left-click mode, the Deployer can use normal tools, such as pickaxes and swords. The tools will behave as if the player was holding them, including mobs dropping rare items when slain by a Deployer."
 			]
 			dependencies: ["68458F050274D1B9"]
+			hide: true
 			id: "4E54A1173F1869F3"
 			tasks: [{
 				id: "02662C97F5FE9A6A"
@@ -377,6 +390,7 @@
 				"The Encased Fan connects to other rotational components from the back."
 			]
 			dependencies: ["68458F050274D1B9"]
+			hide: true
 			id: "4DEE13483C2B30DF"
 			tasks: [{
 				id: "26BB2901FCAEEE1D"
@@ -402,6 +416,7 @@
 			y: 10.0d
 			subtitle: "Sheets are used in multiple crafting recipes."
 			dependencies: ["68AF9ADE1A3A2B06"]
+			hide: true
 			id: "68458F050274D1B9"
 			tasks: [{
 				id: "582998BB62AD0ED2"
@@ -423,6 +438,7 @@
 				"0A9DC24D2B9C8F32"
 				"7CEA2F558CFC0C20"
 			]
+			hide: true
 			dependency_requirement: "one_completed"
 			id: "4C6F349F663EA04C"
 			tasks: [{
@@ -454,6 +470,7 @@
 				"When powered by rotational force, Mechanical Crafters will send their items to adjacent crafters. For a successful recipe, the items must eventually meet in one crafter. Once all of the items reach the final Crafter, they will turn into the product. Crafters with Crafter Slot Covers act as empty spaces in a recipe; they can also be used to connect the inventory of otherwise separate crafters. Crafter Slot Covers will not move as recipe items will."
 			]
 			dependencies: ["4B2CF8135CCA12E2"]
+			hide: true
 			id: "22A06F977557EAF0"
 			tasks: [{
 				id: "084E467ACCB02431"
@@ -476,6 +493,7 @@
 				"Two Crushing Wheels must be placed next to each other horizontally or vertically one block apart. Both wheels must be given equal and opposite rotational force. Any items to be crushed must be inserted where the wheels rotate inwards."
 			]
 			dependencies: ["22A06F977557EAF0"]
+			hide: true
 			id: "7CEA2F558CFC0C20"
 			tasks: [{
 				id: "2AB1FDA7662B4604"
@@ -507,6 +525,7 @@
 			subtitle: "Blaze Burners are used for Heating and Super-Heating Basins when doing Mixing recipes."
 			description: ["Right-clicking a Blaze Burner with any item that can be used as Furnace fuel will temporarily allow Heated recipes. Right-clicking a Blaze Burner with a Blaze Cake will temporarily allow Super-Heated recipes."]
 			dependencies: ["4769DCE70DC1A30F"]
+			hide: true
 			id: "4B2CF8135CCA12E2"
 			tasks: [{
 				id: "603E3DA6A166EA29"
@@ -533,6 +552,7 @@
 			subtitle: "The shaft is a basic mechanical component in Create."
 			description: ["A shaft can be used to connect two mechanical components such that the rotation of one rotates the other, and shafts serve as the only blocks upon which Mechanical Belts can be placed."]
 			dependencies: ["06AA9C05882F342E"]
+			hide: true
 			id: "766FA6DEB896082D"
 			tasks: [{
 				id: "582B31AF28BB6CAB"
@@ -562,6 +582,7 @@
 				"6FA970E4AEA1EDD7"
 				"4CDF9B6A6A311643"
 			]
+			hide: true
 			dependency_requirement: "one_completed"
 			id: "06AA9C05882F342E"
 			tasks: [{
@@ -576,6 +597,7 @@
 			subtitle: "The Gearbox is a block used to transfer Rotational power."
 			description: ["The Gearbox can relay rotational power in four horizontal directions. The vertical counterpart, like the normal version, can relay power in four vertical directions."]
 			dependencies: ["06AA9C05882F342E"]
+			hide: true
 			id: "17F9B90263C0C364"
 			tasks: [
 				{
@@ -608,6 +630,7 @@
 			subtitle: "The Encased Chain Drive is a block that can transfer rotation much like the Mechanical Belt."
 			description: ["The Encased Chain Drive can connect to other drives either vertically or horizontally. If a connected chain drive is facing a different way, rotation will be relayed in that direction."]
 			dependencies: ["06AA9C05882F342E"]
+			hide: true
 			id: "230F208B34F3B6CE"
 			tasks: [{
 				id: "79CCCE923B0F2256"
@@ -634,6 +657,7 @@
 			subtitle: "A mechanical component that conveys rotation and moves items and entities."
 			description: ["A Mechanical Belt is a mechanical component that conveys rotation and moves items and entities."]
 			dependencies: ["06AA9C05882F342E"]
+			hide: true
 			id: "02B86667FD6B86BB"
 			tasks: [
 				{
@@ -674,6 +698,7 @@
 				"4DEE13483C2B30DF"
 				"7CEA2F558CFC0C20"
 			]
+			hide: true
 			id: "451BA2487C9222A5"
 			tasks: [{
 				id: "7484D864ECDE8A9D"
@@ -687,6 +712,7 @@
 			shape: "gear"
 			subtitle: "An important crafting component"
 			dependencies: ["4E54A1173F1869F3"]
+			hide: true
 			id: "10B5013DA804F25E"
 			tasks: [{
 				id: "793BA9FE4CF869DD"
@@ -723,6 +749,7 @@
 				"The Large Cogwheel is a larger variant of the cogwheel that can relay rotation around corners and power Rotation Speed Controllers."
 			]
 			dependencies: ["06AA9C05882F342E"]
+			hide: true
 			id: "551AF2AA89646AE1"
 			tasks: [
 				{
@@ -761,6 +788,7 @@
 				"To generate power with a Furnace Engine, place it adjacent a Furnace block, then place the Flywheel one block away from the Furnace Engine (there must be air between the two). They should be in a line, spanning 4 blocks in total."
 			]
 			dependencies: ["22A06F977557EAF0"]
+			hide: true
 			id: "08D58FF40A2488EC"
 			tasks: [
 				{
@@ -799,6 +827,7 @@
 			subtitle: "The Rotation Speed Controller is a mechanical component that allows the player to precisely control rotational speed."
 			description: ["The Rotation Speed Controller, when powered by the Large Cogwheel, outputs any desired speed of rotational force from its sides. It also does the opposite; when powered from its sides, it controls the speed of the Large Cogwheel."]
 			dependencies: ["10B5013DA804F25E"]
+			hide: true
 			id: "355CA0DA86727245"
 			tasks: [{
 				id: "043CC7BB6BF05F97"
@@ -825,6 +854,7 @@
 			subtitle: "A mechanical component that conveys rotation and moves items and entities."
 			description: ["A Mechanical Belt is a mechanical component that conveys rotation and moves items and entities."]
 			dependencies: ["7B9AE8C954CE598F"]
+			hide: true
 			id: "6457E7AE8525A702"
 			tasks: [
 				{
@@ -851,6 +881,7 @@
 			subtitle: "Verticle Item Transportation"
 			description: ["Chutes can insert or extract from inventories above or below them.Connected chutes will pass items along, similarly to a Mechanical Belt. Chutes can be connected to other chutes diagonally."]
 			dependencies: ["7B9AE8C954CE598F"]
+			hide: true
 			id: "0177177D4FFDE7B4"
 			tasks: [{
 				id: "276949CC127B23C5"
@@ -869,6 +900,7 @@
 			subtitle: "Verticle item transportation with ability to support filters."
 			description: ["Smart Chutes behave similarly to Brass Funnels. They can be filtered to only extract certain items, and be stopped with a redstone signal. Unlike funnels, they can insert and extract at the same time, but can only function vertically."]
 			dependencies: ["0177177D4FFDE7B4"]
+			hide: true
 			id: "26231B31A141CDE8"
 			tasks: [{
 				id: "7EE70D463F19EE86"
@@ -891,6 +923,7 @@
 				"The amount of items ejected can be adjusted with a Wrench after the Ejector is fully wound up. The Ejector will wait until it has the appropriate amount of items. The Ejector can also be rotated along with the target block with a wrench."
 			]
 			dependencies: ["7B9AE8C954CE598F"]
+			hide: true
 			id: "4567FA61980E43DF"
 			tasks: [{
 				id: "500EBF0F0DE29259"
@@ -909,6 +942,7 @@
 			subtitle: "Fluid Pipes are blocks used to transport and deal with fluids."
 			description: ["Fluid Pipes require Fluid Pumps to move liquid. Fluid Pumps have a maximum range of 16 blocks around them.Fluid Pipes can only move one liquid at a time; if different liquids intersect, the pipe will clog."]
 			dependencies: ["4A3A7241A133674E"]
+			hide: true
 			id: "5FA424C74CD3F60B"
 			tasks: [
 				{
@@ -933,6 +967,7 @@
 			y: 12.0d
 			subtitle: "Smart Pipes can allow only a certain liquid to pass through them."
 			dependencies: ["5FA424C74CD3F60B"]
+			hide: true
 			id: "336A2B3FB71A9F66"
 			tasks: [{
 				id: "2E9B241F6FA01C85"
@@ -950,6 +985,7 @@
 			y: 12.0d
 			subtitle: "Hault the flow of liquids."
 			dependencies: ["5FA424C74CD3F60B"]
+			hide: true
 			id: "768739C28A3E98EC"
 			tasks: [
 				{
@@ -975,6 +1011,7 @@
 			subtitle: "The Hose Pulley lets down a hose that can drain bodies of liquids."
 			description: ["When Rotational Force is given to the Hose Pully, it can extend the hose infinitely. A Fluid Pump is required for the hose to drain liquids. It will drain a body of liquid down to the level of the hose."]
 			dependencies: ["5FA424C74CD3F60B"]
+			hide: true
 			id: "533D8DE93335E512"
 			tasks: [{
 				id: "22912ED5AD8C2FA9"
@@ -993,6 +1030,7 @@
 			subtitle: "The Spout is a block used for filling liquid containers such as bottles or buckets, or crafting with liquids."
 			description: ["The Spout can be filled with up to 1 bucket of any one liquid via Fluid Pipes. It will then spout the fluid at appropriate items that pass under it via a Conveyor Belt or Depot."]
 			dependencies: ["5FA424C74CD3F60B"]
+			hide: true
 			id: "75E169DF38CC9984"
 			tasks: [{
 				id: "3EEA0EA98D886D29"
@@ -1020,6 +1058,7 @@
 				"4B2CF8135CCA12E2"
 				"75E169DF38CC9984"
 			]
+			hide: true
 			id: "2DC178B9891E6B67"
 			tasks: [{
 				id: "79B4981FE02313D6"
@@ -1049,6 +1088,7 @@
 			y: 18.0d
 			subtitle: "Chromatic Compound is a material used to create Refined Radiance."
 			dependencies: ["2DC178B9891E6B67"]
+			hide: true
 			id: "62765104068F9223"
 			tasks: [{
 				id: "58FAB54EBCB3C054"
@@ -1075,6 +1115,7 @@
 				"Fluid tanks will also merge with adjacent tanks, up to 3x32x3, allowing to store up to 2,304 buckets of any fluid."
 			]
 			dependencies: ["5FA424C74CD3F60B"]
+			hide: true
 			id: "388C9AD1696FFC43"
 			tasks: [{
 				id: "1CA1D2989630718A"
@@ -1097,6 +1138,7 @@
 				"You can then use the portable storange interface to transfer items out of the contraption."
 			]
 			dependencies: ["168C124AEE48CA23"]
+			hide: true
 			id: "368B1413C1ADB96F"
 			tasks: [
 				{
@@ -1140,6 +1182,7 @@
 			y: 16.5d
 			description: ["Using the mechanical bearing, you can rotate your contraption around a point and use the harvesters to collect the crops. They will automatically be replated. Use a portable storage interface to extract the crops from the contraption."]
 			dependencies: ["168C124AEE48CA23"]
+			hide: true
 			id: "4459FEFA7F5FA853"
 			tasks: [
 				{
@@ -1178,6 +1221,7 @@
 			y: 15.0d
 			description: ["This can be accomplished by setting up a normal cobblestone generator, but then adding a drill to mine it."]
 			dependencies: ["168C124AEE48CA23"]
+			hide: true
 			id: "5D1BB989BD0BD96C"
 			tasks: [{
 				id: "10096623017A0F25"
@@ -1203,6 +1247,7 @@
 			y: 16.5d
 			description: ["This can easily be built by using a mechanical bearing to rotate the contraption around a point. Then use the harvesters to collect the kelp. It then can be transported out of the contraption using a portable interface."]
 			dependencies: ["168C124AEE48CA23"]
+			hide: true
 			id: "46A8D1CBED549605"
 			tasks: [
 				{
@@ -1240,6 +1285,7 @@
 			y: 12.0d
 			subtitle: "Spins contraptions."
 			dependencies: ["0733F2C4A0A3EE51"]
+			hide: true
 			id: "423FDF3ECC4B59E3"
 			tasks: [{
 				id: "6405E8E25C44AA32"
@@ -1257,6 +1303,7 @@
 			y: 12.0d
 			subtitle: "Able to attach contraptions to it."
 			dependencies: ["0733F2C4A0A3EE51"]
+			hide: true
 			id: "1E15C01EB21DF533"
 			tasks: [{
 				id: "78E34E636598F909"
@@ -1275,6 +1322,7 @@
 			y: 12.0d
 			subtitle: "Used to connect blocks to contraptions without glue."
 			dependencies: ["4AC86931C52B0F8D"]
+			hide: true
 			id: "5C279CE42A621F6D"
 			tasks: [
 				{
@@ -1305,6 +1353,7 @@
 			y: 10.0d
 			shape: "gear"
 			dependencies: ["18212C2BDEBE7882"]
+			hide: true
 			id: "4AC86931C52B0F8D"
 			tasks: [{
 				id: "5EEBE58402AB595D"
@@ -1322,6 +1371,7 @@
 				"Cart Contraptions can be taken into the inventory by right clicking them with a Wrench. Excluding entities, this keeps all storage and cart configuration."
 			]
 			dependencies: ["4AC86931C52B0F8D"]
+			hide: true
 			id: "077173EEE622F0D8"
 			tasks: [{
 				id: "3914D9AD853BFDDB"
@@ -1340,6 +1390,7 @@
 			y: 10.0d
 			shape: "gear"
 			dependencies: ["18212C2BDEBE7882"]
+			hide: true
 			id: "0733F2C4A0A3EE51"
 			tasks: [{
 				id: "175304AC28CA289D"
@@ -1352,6 +1403,7 @@
 			y: 12.0d
 			subtitle: "Used to connect blocks to contraptions."
 			dependencies: ["4AC86931C52B0F8D"]
+			hide: true
 			id: "69883DF678DAB24C"
 			tasks: [{
 				id: "7DC1178BFD63D8F8"
@@ -1375,6 +1427,7 @@
 			y: 12.0d
 			subtitle: "Moves contraptions linearly across a gantry shaft."
 			dependencies: ["0733F2C4A0A3EE51"]
+			hide: true
 			id: "55209A2921D99F37"
 			tasks: [
 				{
@@ -1400,6 +1453,7 @@
 			subtitle: "Refined Radiance is a material used to craft the Wand Of Symmetry."
 			description: ["Refined Radiance is created by dropping Chromatic Compound into a Beacon's light beam, or by dropping Chromatic Compound on the ground and surrounding it with light sources (which it will absorb)."]
 			dependencies: ["62765104068F9223"]
+			hide: true
 			id: "534B571DC707ECBF"
 			tasks: [{
 				id: "0F4E534A2A2AD78C"
@@ -1422,6 +1476,7 @@
 				"When used with Copper Backtank, does not consume durability."
 			]
 			dependencies: ["10B5013DA804F25E"]
+			hide: true
 			id: "4D8F605E218612FA"
 			tasks: [{
 				id: "6FCD707D2BC075AB"
@@ -1467,6 +1522,7 @@
 				"Place or destroy blocks around the wand to have it mirror the action to the other side(s). Placing takes the appropriate blocks from the inventory, and destroying spawns all the items at the block destroyed by the player."
 			]
 			dependencies: ["534B571DC707ECBF"]
+			hide: true
 			id: "0CAFF71A4901BF60"
 			tasks: [{
 				id: "7DEB5C3A6F0D853D"
@@ -1498,6 +1554,7 @@
 				"Filters are used to adjust the treatment of multiple items at once."
 			]
 			dependencies: ["7B9AE8C954CE598F"]
+			hide: true
 			id: "2745604B9473A46E"
 			tasks: [
 				{
@@ -1558,6 +1615,7 @@
 				"Attribute filters focus only on data. The filter can Allow items with any of the desired attributes, only allow them if they have all of the desired attributes, or deny items with any of the selected attributes. A reference item is required to show and choose attributes, but attributes can be added by multiple items."
 			]
 			dependencies: ["2745604B9473A46E"]
+			hide: true
 			id: "3D2341D9FCF62CE4"
 			tasks: [
 				{
@@ -1607,6 +1665,7 @@
 			y: 17.0d
 			subtitle: "When used with a Copper Backtank, it does not use any durability to fire, and instead, 4.5 seconds of air is used."
 			dependencies: ["10B5013DA804F25E"]
+			hide: true
 			id: "0A71E68306B03198"
 			tasks: [{
 				id: "23755028CADC4D8E"
@@ -1638,6 +1697,7 @@
 			subtitle: "The Mechanical Arm is a block used to transfer items is a flexible manner."
 			description: ["With the Mechanical Arm in hand, right clicking valid inventories in a 4 block radius will select them to be taken from, or deposited to if the inventory cannot be taken from. From there, further right clicking will toggle between taking from and depositing to. The Mechanical Arm can then be placed by right clicking on a block, and powered."]
 			dependencies: ["7B9AE8C954CE598F"]
+			hide: true
 			id: "4DF10080A40AD8FC"
 			tasks: [{
 				id: "3EE2BD199D9529C1"
@@ -1662,6 +1722,7 @@
 			y: 14.0d
 			subtitle: "A crafting device used to craft vehicles."
 			dependencies: ["10B5013DA804F25E"]
+			hide: true
 			id: "553E3E1BFF60987F"
 			tasks: [{
 				id: "41588BE1DF982C22"
@@ -1673,6 +1734,7 @@
 			x: 13.0d
 			y: 17.0d
 			dependencies: ["10B5013DA804F25E"]
+			hide: true
 			id: "09057709BE8E6A94"
 			tasks: [{
 				id: "767B519C59A394E9"
@@ -1692,6 +1754,7 @@
 			y: 13.0d
 			subtitle: "Made from Ender Pearls in a mixer."
 			dependencies: ["553E3E1BFF60987F"]
+			hide: true
 			id: "05A9DFF0993E3E53"
 			tasks: [{
 				id: "458665799D62E427"
@@ -1711,6 +1774,7 @@
 			y: 15.0d
 			subtitle: "Made from Blaze Rods in a mixer."
 			dependencies: ["553E3E1BFF60987F"]
+			hide: true
 			id: "23FD66511E499568"
 			tasks: [{
 				id: "77349426525596B5"
@@ -1728,6 +1792,7 @@
 			y: 14.0d
 			subtitle: "Used as fuel for vehicles. Made from mixing Fuelium Clumps."
 			dependencies: ["6DE5A1C7D0750F5C"]
+			hide: true
 			id: "4CCAF9F23D42B353"
 			tasks: [{
 				id: "6BD071E4E1A598DE"
@@ -1751,6 +1816,7 @@
 			x: 21.0d
 			y: 14.0d
 			dependencies: ["4CCAF9F23D42B353"]
+			hide: true
 			id: "5C2C98A25DBAE3C6"
 			tasks: [{
 				id: "049D21B792BED98D"
@@ -1767,6 +1833,7 @@
 			x: 21.0d
 			y: 12.5d
 			dependencies: ["4CCAF9F23D42B353"]
+			hide: true
 			id: "03F9DBD14E5B5355"
 			tasks: [{
 				id: "22E5820D76E24BE9"
@@ -1783,6 +1850,7 @@
 			x: 21.0d
 			y: 15.5d
 			dependencies: ["4CCAF9F23D42B353"]
+			hide: true
 			id: "32794971F2F40FDB"
 			tasks: [{
 				id: "0AFDA431AF7B570A"
@@ -1799,6 +1867,7 @@
 			x: 22.5d
 			y: 12.5d
 			dependencies: ["03F9DBD14E5B5355"]
+			hide: true
 			id: "57D37365E1339C88"
 			tasks: [{
 				id: "64563276877BDBC5"
@@ -1815,6 +1884,7 @@
 			x: 25.5d
 			y: 12.5d
 			dependencies: ["1D60611406F33B4E"]
+			hide: true
 			id: "2587DF9674B521F9"
 			tasks: [{
 				id: "0C105597073DB9BC"
@@ -1831,6 +1901,7 @@
 			x: 27.0d
 			y: 12.5d
 			dependencies: ["2587DF9674B521F9"]
+			hide: true
 			id: "24FED5A31F7752A7"
 			tasks: [{
 				id: "1C8F8D45AB616E8C"
@@ -1847,6 +1918,7 @@
 			x: 22.5d
 			y: 14.0d
 			dependencies: ["5C2C98A25DBAE3C6"]
+			hide: true
 			id: "2982715234E124E6"
 			tasks: [{
 				id: "4345F0153D763F26"
@@ -1863,6 +1935,7 @@
 			x: 24.0d
 			y: 14.0d
 			dependencies: ["2982715234E124E6"]
+			hide: true
 			id: "02BA390DD93D34A9"
 			tasks: [{
 				id: "60EA15E5BAA46FDE"
@@ -1879,6 +1952,7 @@
 			x: 24.0d
 			y: 12.5d
 			dependencies: ["57D37365E1339C88"]
+			hide: true
 			id: "1D60611406F33B4E"
 			tasks: [{
 				id: "4EB719D7A7A7553F"
@@ -1895,6 +1969,7 @@
 			x: 25.5d
 			y: 14.0d
 			dependencies: ["02BA390DD93D34A9"]
+			hide: true
 			id: "5007FB05548EE5B0"
 			tasks: [{
 				id: "397AA18E4EEE9FBA"
@@ -1911,6 +1986,7 @@
 			x: 27.0d
 			y: 14.0d
 			dependencies: ["5007FB05548EE5B0"]
+			hide: true
 			id: "53B953F5EE881A3E"
 			tasks: [{
 				id: "4EB1B137282F642E"
@@ -1934,6 +2010,7 @@
 			x: 22.5d
 			y: 15.5d
 			dependencies: ["32794971F2F40FDB"]
+			hide: true
 			id: "2A8BA6811A106C3B"
 			tasks: [{
 				id: "3104B0B6960D6D4F"
@@ -1950,6 +2027,7 @@
 			x: 24.0d
 			y: 15.5d
 			dependencies: ["2A8BA6811A106C3B"]
+			hide: true
 			id: "055E02E4F925099E"
 			tasks: [{
 				id: "67CF859F3D7F14F9"
@@ -1966,6 +2044,7 @@
 			x: 25.5d
 			y: 15.5d
 			dependencies: ["055E02E4F925099E"]
+			hide: true
 			id: "53CCA2E4885BB829"
 			tasks: [{
 				id: "547A4CA8E472072D"
@@ -1982,6 +2061,7 @@
 			x: 27.0d
 			y: 15.5d
 			dependencies: ["53CCA2E4885BB829"]
+			hide: true
 			id: "33F321FFBB31766D"
 			tasks: [{
 				id: "2E685BFD77630FA3"
@@ -2006,6 +2086,7 @@
 			y: 17.0d
 			subtitle: "Places torches automatically when in inventory."
 			dependencies: ["09057709BE8E6A94"]
+			hide: true
 			id: "185A365CFDD6DEE7"
 			tasks: [{
 				id: "34C69A0C92CD4899"
@@ -2027,6 +2108,7 @@
 			y: 19.0d
 			subtitle: "Places torches automatically in dark locations."
 			dependencies: ["09057709BE8E6A94"]
+			hide: true
 			id: "43FB35FE4AF00C56"
 			tasks: [{
 				id: "39B44A499F6A05DE"
@@ -2044,6 +2126,7 @@
 			y: 19.0d
 			subtitle: "Stops mobs from spawning in a chunk."
 			dependencies: ["09057709BE8E6A94"]
+			hide: true
 			id: "1CBED62DE5CCF88B"
 			tasks: [{
 				id: "7D72E3E06616CEA0"
@@ -2067,6 +2150,7 @@
 			x: 17.0d
 			y: 19.0d
 			dependencies: ["43FB35FE4AF00C56"]
+			hide: true
 			id: "1F0C61CD264FDF5A"
 			tasks: [{
 				id: "0D368E904C0AB7A4"
@@ -2083,6 +2167,7 @@
 			x: 15.0d
 			y: 21.0d
 			dependencies: ["43FB35FE4AF00C56"]
+			hide: true
 			id: "0AFDE9A67D61CA93"
 			tasks: [{
 				id: "7611DECA1A7E10BB"
@@ -2100,6 +2185,7 @@
 			y: 12.5d
 			subtitle: "Used to easily fuel vehicles."
 			dependencies: ["4CCAF9F23D42B353"]
+			hide: true
 			id: "62119707A3883551"
 			tasks: [{
 				id: "47994571CAB42E1F"
@@ -2133,6 +2219,7 @@
 				"Gravel can be obtained from crushing cobblestone."
 			]
 			dependencies: ["4B2CF8135CCA12E2"]
+			hide: true
 			id: "24DA897352247BCC"
 			tasks: [
 				{
@@ -2162,6 +2249,7 @@
 				"10B5013DA804F25E"
 				"534B571DC707ECBF"
 			]
+			hide: true
 			id: "346B9E98482DFA3C"
 			tasks: [{
 				id: "1E26A7CBF55AC30D"
@@ -2177,6 +2265,7 @@
 				"05A9DFF0993E3E53"
 				"23FD66511E499568"
 			]
+			hide: true
 			id: "6DE5A1C7D0750F5C"
 			tasks: [{
 				id: "218C09B0AF892F31"

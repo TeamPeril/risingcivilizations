@@ -107,11 +107,29 @@
 				type: "checkmark"
 				title: "Click to Complete Quest"
 			}]
-			rewards: [{
-				id: "2D7BE9FBB93897C8"
-				type: "item"
-				item: "farmersdelight:steak_and_potatoes"
-			}]
+			rewards: [
+				{
+					id: "2D7BE9FBB93897C8"
+					type: "item"
+					item: "farmersdelight:steak_and_potatoes"
+				}
+				{
+					id: "3A859B5743D436A7"
+					type: "item"
+					item: "craftabledeeds:deed_pedestal"
+					count: 2
+				}
+				{
+					id: "00D38B97B82CB7E1"
+					type: "item"
+					item: "craftabledeeds:empty_deed"
+				}
+				{
+					id: "1BF6332B29C6AF54"
+					type: "item"
+					item: "craftabledeeds:empty_deed"
+				}
+			]
 		}
 		{
 			title: "Singleplayer Tips"

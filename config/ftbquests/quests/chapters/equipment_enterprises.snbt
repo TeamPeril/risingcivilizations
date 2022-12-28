@@ -1,0 +1,1405 @@
+{
+	id: "535729DF22F39B65"
+	group: "061E125B4A827A51"
+	order_index: 3
+	filename: "equipment_enterprises"
+	title: "Equipment Enterprises"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	images: [{
+		x: 5.5d
+		y: -1.5d
+		width: 16.0d
+		height: 2.5d
+		rotation: 0.0d
+		image: "custom_images:textures/store_buy.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "Category: Transportation"
+			icon: "vehicle:racing_wheel"
+			x: 0.0d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "Buy any trasportation related goods you need!"
+			id: "590A2E45BCCDF73B"
+		}
+		{
+			title: "Buy Rails"
+			icon: "minecraft:rail"
+			x: 0.0d
+			y: 1.0d
+			subtitle: "128x for 100 credits"
+			id: "7516C7357C574D40"
+			tasks: [{
+				id: "0B37C8DE883A6233"
+				type: "item"
+				item: "calemiutils:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2417108C064A2E40"
+					type: "item"
+					item: "minecraft:rail"
+					count: 64
+				}
+				{
+					id: "67138083EB6B0EC3"
+					type: "item"
+					item: "minecraft:rail"
+					count: 64
+				}
+				{
+					id: "44CE0E0BB4614B74"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Powered Rails"
+			icon: "minecraft:powered_rail"
+			x: 0.0d
+			y: 2.0d
+			subtitle: "128x for 100 credits"
+			id: "58EBF8974AF1A871"
+			tasks: [{
+				id: "418248346EB61550"
+				type: "item"
+				item: "calemiutils:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1C9AC74C211D0633"
+					type: "item"
+					item: "minecraft:powered_rail"
+					count: 64
+				}
+				{
+					id: "316694B26C664CE7"
+					type: "item"
+					item: "minecraft:powered_rail"
+					count: 64
+				}
+				{
+					id: "64ADFE072C07406C"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Detector Rails"
+			icon: "minecraft:detector_rail"
+			x: 0.0d
+			y: 3.0d
+			subtitle: "128x for 100 credits"
+			id: "52E27215E8B6C78D"
+			tasks: [{
+				id: "7CD9983960E68676"
+				type: "item"
+				item: "calemiutils:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7357EAC7ED2C48BD"
+					type: "item"
+					item: "minecraft:detector_rail"
+					count: 64
+				}
+				{
+					id: "3107B5E37A69E08A"
+					type: "item"
+					item: "minecraft:detector_rail"
+					count: 64
+				}
+				{
+					id: "4F8FCCC39AC269C3"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Activator Rails"
+			icon: "minecraft:activator_rail"
+			x: 0.0d
+			y: 4.0d
+			subtitle: "128x for 100 credits"
+			id: "3A5A28525E2B8375"
+			tasks: [{
+				id: "19D77762B4D02A80"
+				type: "item"
+				item: "calemiutils:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "611D015EA656E0C3"
+					type: "item"
+					item: "minecraft:activator_rail"
+					count: 64
+				}
+				{
+					id: "5BE38B6421E3294A"
+					type: "item"
+					item: "minecraft:activator_rail"
+					count: 64
+				}
+				{
+					id: "228E2E3C136EE429"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Controller Rails"
+			icon: "create:controller_rail"
+			x: 0.0d
+			y: 5.0d
+			subtitle: "128x for 100 credits"
+			id: "04D78C756E1D8567"
+			tasks: [{
+				id: "10A4DE981BF1B1EB"
+				type: "item"
+				item: "calemiutils:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "31B8F7808E562FC3"
+					type: "item"
+					item: "create:controller_rail"
+					count: 64
+				}
+				{
+					id: "2BDA1DE17F929CBB"
+					type: "item"
+					item: "create:controller_rail"
+					count: 64
+				}
+				{
+					id: "1000B4BCC94096DB"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Minecart"
+			icon: "minecraft:minecart"
+			x: 0.0d
+			y: 6.0d
+			subtitle: "2x for 25 credits"
+			id: "5648AFDAB097D174"
+			tasks: [{
+				id: "4FF79BC65E405FA7"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4C6260C02E13D591"
+					type: "item"
+					item: "minecraft:minecart"
+				}
+				{
+					id: "6633B89674538507"
+					type: "item"
+					item: "minecraft:minecart"
+				}
+				{
+					id: "14DDD677DE2B9CC6"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Category: Tools"
+			icon: "create:wrench"
+			x: 4.5d
+			y: 0.0d
+			shape: "diamond"
+			id: "6986CEDB5428E3E8"
+		}
+		{
+			title: "Buy Torch Belt"
+			icon: {
+				id: "calemiutils:torch_belt"
+				Count: 1b
+				tag: { }
+			}
+			x: 4.0d
+			y: 1.0d
+			subtitle: "1x for 50 Credits"
+			description: ["When activated, places torches in inventory at player's feet when it is dark."]
+			id: "4B8961B90370C0E0"
+			tasks: [{
+				id: "43D6A44468C2D661"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3724286F1657CB5E"
+					type: "item"
+					item: {
+						id: "calemiutils:torch_belt"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "7711CEC7CB0A6DDF"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Torch Placer"
+			icon: "calemiutils:torch_placer"
+			x: 4.0d
+			y: 2.0d
+			subtitle: "1x for 100 Credits"
+			description: ["Automatically places torches in dark surrounding areas. Does not work well in day time."]
+			id: "46D294229D6B38CB"
+			tasks: [{
+				id: "16DDCC9760BD2F22"
+				type: "item"
+				item: "calemiutils:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2901A3A9661F7336"
+					type: "item"
+					item: "calemiutils:torch_placer"
+				}
+				{
+					id: "74314B5CFEDF5F86"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Mob Beacon"
+			icon: "calemiutils:mob_beacon"
+			x: 4.0d
+			y: 3.0d
+			subtitle: "1x for 100 Credits"
+			description: ["Prevent mobs from spawning in the chunk it is placed in."]
+			id: "75CD4891B76DC25E"
+			tasks: [{
+				id: "2233DFFFE4D00231"
+				type: "item"
+				item: "calemiutils:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1953F095794BFBBF"
+				type: "item"
+				item: "calemiutils:mob_beacon"
+			}]
+		}
+		{
+			title: "Buy Trading Combo Pack"
+			icon: "calemiutils:trading_post"
+			x: 4.0d
+			y: 4.0d
+			subtitle: "Combo for 50 Credits"
+			id: "03D45D95C8277B1E"
+			tasks: [{
+				id: "0C986F3E8F6092D2"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5AC570A24D0D8FA7"
+					type: "item"
+					item: "calemiutils:trading_post"
+					count: 8
+				}
+				{
+					id: "4BEB7F249FCDE34E"
+					type: "item"
+					item: "calemiutils:network_cable"
+					count: 16
+				}
+				{
+					id: "162F320E1A3363D6"
+					type: "item"
+					item: "calemiutils:network_gate"
+				}
+				{
+					id: "60B49CB16AA0A4A7"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Create Wrench"
+			icon: "create:wrench"
+			x: 5.0d
+			y: 1.0d
+			subtitle: "1x for 10 Credits"
+			dependencies: ["3A45C2E903E7E7F1"]
+			id: "59556DE7CE7C806B"
+			tasks: [{
+				id: "3C9A60C1DC95D94B"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "52CDE62457795253"
+					type: "item"
+					item: "create:wrench"
+				}
+				{
+					id: "6A84938310B50174"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Mekanism Configurator"
+			icon: "mekanism:configurator"
+			x: 5.0d
+			y: 2.0d
+			subtitle: "1x for 15 Credits"
+			dependencies: ["398F7FA4DE015797"]
+			id: "6100C88A800ED10F"
+			tasks: [{
+				id: "1891F7207659B4DC"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "38A31E131240AAEB"
+					type: "item"
+					item: "mekanism:configurator"
+				}
+				{
+					id: "51FFEAB452F0216F"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Refined Storage Wrench"
+			icon: "refinedstorage:wrench"
+			x: 5.0d
+			y: 3.0d
+			subtitle: "1x for 10 credits"
+			dependencies: ["469FA040974A8E7E"]
+			id: "0AA5E8ABF245CCB7"
+			tasks: [{
+				id: "5FA58BFA67B20E25"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "29868341C5C169A7"
+					type: "item"
+					item: "refinedstorage:wrench"
+				}
+				{
+					id: "3857AA6079375EE6"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Trading Post Wrench"
+			icon: "calemiutils:security_wrench"
+			x: 5.0d
+			y: 4.0d
+			subtitle: "1x for 10 credits"
+			id: "7A4E6BD8659E4836"
+			tasks: [{
+				id: "52A1DF19C836C906"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5DC43CF3F5E0E141"
+					type: "item"
+					item: "calemiutils:security_wrench"
+				}
+				{
+					id: "123E1658466AD3F3"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Category: Special Items"
+			icon: "minecraft:totem_of_undying"
+			x: 12.0d
+			y: 0.0d
+			shape: "diamond"
+			id: "2747DB04CD7F3AD8"
+		}
+		{
+			title: "Buy Totem of Undying"
+			icon: "minecraft:totem_of_undying"
+			x: 12.0d
+			y: 1.0d
+			subtitle: "1x for 1000 Credits"
+			id: "6F0EEFE8AC8C4D4F"
+			tasks: [{
+				id: "0B47AED17131B019"
+				type: "item"
+				item: "calemiutils:coin_platinum"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4DF1ED90F3151DBF"
+					type: "item"
+					item: "minecraft:totem_of_undying"
+				}
+				{
+					id: "1B1B6DA19F3B0AF3"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Conduit Structure"
+			icon: "minecraft:conduit"
+			x: 12.0d
+			y: 2.0d
+			subtitle: "Structure for 300 credits"
+			description: ["When activated, conduits give the \"Conduit Power\" effect to all players in contact with rain or water, within a spherical range of 32-96 blocks. This effect restores oxygen, gives underwater night vision and increases mining speed by 16.7% (1/6th). Conduits also damage any hostile mobs, like drowned, guardians, and elder guardians, within a range of 8 blocks of the conduit."]
+			id: "451C2BF6856DC812"
+			tasks: [{
+				id: "34EC6C5A9E30E0FB"
+				type: "item"
+				item: "calemiutils:coin_platinum"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "362E339B9F342B0D"
+					type: "item"
+					item: "minecraft:conduit"
+				}
+				{
+					id: "7C05895AAE237C44"
+					type: "item"
+					item: "minecraft:dark_prismarine"
+					count: 42
+				}
+				{
+					id: "5F28E1FAA0682715"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Heart of Diamond"
+			icon: "quark:diamond_heart"
+			x: 12.0d
+			y: 3.0d
+			subtitle: "1x for 1000 Credits"
+			id: "0C76E2CA20C9EE08"
+			tasks: [{
+				id: "4B8B62AB73F9BC92"
+				type: "item"
+				item: "calemiutils:coin_platinum"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "60690E4875214D19"
+					type: "item"
+					item: "quark:diamond_heart"
+				}
+				{
+					id: "0B6CD0ACBDBBA890"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Ore Scanner"
+			icon: "scannable:scanner"
+			x: 5.0d
+			y: 5.0d
+			subtitle: "1x for 15 Credits"
+			dependencies: ["398F7FA4DE015797"]
+			id: "68EA497490A5C7D9"
+			tasks: [{
+				id: "77FD97DD06101AA6"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4776C49054B5F0FA"
+					type: "item"
+					auto: "disabled"
+					item: "scannable:scanner"
+				}
+				{
+					id: "0ECAE6860AC45578"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Jerry Can of Fuel"
+			icon: "vehicle:jerry_can"
+			x: 1.0d
+			y: 1.0d
+			subtitle: "1x for 10 Credits"
+			id: "6697138E72CF7097"
+			tasks: [{
+				id: "094C51069CB4919B"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2B20FAAA2DC2B7B6"
+					type: "item"
+					item: {
+						id: "vehicle:jerry_can"
+						Count: 1b
+						tag: {
+							Fuel: 5000
+						}
+					}
+				}
+				{
+					id: "0DF394A32EEBDAE4"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy ATV"
+			icon: {
+				id: "vehicle:vehicle_crate"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Vehicle: "vehicle:aluminum_boat"
+						WheelType: 0
+						EngineTier: 0
+					}
+				}
+			}
+			x: 1.0d
+			y: 3.0d
+			subtitle: "1x for 2000 Credits"
+			id: "71446224B8F7C120"
+			tasks: [{
+				id: "172F2FE035F08D3B"
+				type: "item"
+				item: "calemiutils:coin_platinum"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "486E84A3D29FA046"
+					type: "item"
+					item: {
+						id: "vehicle:vehicle_crate"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Vehicle: "vehicle:atv"
+								WheelType: 0
+								EngineTier: 0
+							}
+						}
+					}
+				}
+				{
+					id: "682B8FF32F504D64"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Dune Buggy"
+			icon: {
+				id: "vehicle:vehicle_crate"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Vehicle: "vehicle:aluminum_boat"
+						WheelType: 0
+						EngineTier: 0
+					}
+				}
+			}
+			x: 1.0d
+			y: 4.0d
+			subtitle: "1x for 2500 Credits"
+			id: "7762C0DCB06E8B8F"
+			tasks: [{
+				id: "0017FE09760C2FCE"
+				type: "item"
+				item: "calemiutils:coin_platinum"
+				count: 25L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2C95CF286557A79B"
+					type: "item"
+					item: {
+						id: "vehicle:vehicle_crate"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Vehicle: "vehicle:dune_buggy"
+								WheelType: 0
+								EngineTier: 0
+							}
+						}
+					}
+				}
+				{
+					id: "5A1E41C2ACEF0BC7"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Mini Bus"
+			icon: {
+				id: "vehicle:vehicle_crate"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Vehicle: "vehicle:aluminum_boat"
+						WheelType: 0
+						EngineTier: 0
+					}
+				}
+			}
+			x: 1.0d
+			y: 5.0d
+			subtitle: "1x for 3000 Credits"
+			id: "342DE6D5771DCD3D"
+			tasks: [{
+				id: "515BFE5F6F7F830C"
+				type: "item"
+				item: "calemiutils:coin_platinum"
+				count: 30L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "342F7686E35CD4E2"
+					type: "item"
+					item: {
+						id: "vehicle:vehicle_crate"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Vehicle: "vehicle:mini_bus"
+								WheelType: 0
+								EngineTier: 0
+							}
+						}
+					}
+				}
+				{
+					id: "52DF7943BE091E32"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Off Roader"
+			icon: {
+				id: "vehicle:vehicle_crate"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Vehicle: "vehicle:aluminum_boat"
+						WheelType: 0
+						EngineTier: 0
+					}
+				}
+			}
+			x: 1.0d
+			y: 6.0d
+			subtitle: "1x for 2500 Credits"
+			id: "1B2B8699B9925B6A"
+			tasks: [{
+				id: "1044ADC68BAC3964"
+				type: "item"
+				item: "calemiutils:coin_platinum"
+				count: 25L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "48874745E0C14ED8"
+					type: "item"
+					item: {
+						id: "vehicle:vehicle_crate"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Vehicle: "vehicle:off_roader"
+								WheelType: 0
+								EngineTier: 0
+							}
+						}
+					}
+				}
+				{
+					id: "47E85DDA4728B8E4"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Smart Car"
+			icon: {
+				id: "vehicle:vehicle_crate"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Vehicle: "vehicle:aluminum_boat"
+						WheelType: 0
+						EngineTier: 0
+					}
+				}
+			}
+			x: 1.0d
+			y: 7.0d
+			subtitle: "1x for 3000 Credits"
+			id: "2EA5BB923E3B91F4"
+			tasks: [{
+				id: "05F3FF73225A50C8"
+				type: "item"
+				item: "calemiutils:coin_platinum"
+				count: 30L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "274A3A4E98F323AB"
+					type: "item"
+					item: {
+						id: "vehicle:vehicle_crate"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Vehicle: "vehicle:smart_car"
+								WheelType: 0
+								EngineTier: 0
+							}
+						}
+					}
+				}
+				{
+					id: "0A71BF14EA295271"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Vehicle Maintainance Bundle"
+			icon: "vehicle:jack"
+			x: 1.0d
+			y: 2.0d
+			subtitle: "A jack, wrench, and hammer for 50 Credits"
+			description: [
+				"The jack is for changing out vehicle parts and repairs. Place vehicle on jack."
+				"The wrench is used to modify vehicle parts."
+				"The Hammer is for repairing the vehicle."
+			]
+			id: "73F1A01E9E2C9638"
+			tasks: [{
+				id: "479A487758FB5174"
+				type: "item"
+				item: "calemiutils:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "737BCF906E2C8FA3"
+					type: "item"
+					item: "vehicle:jack"
+				}
+				{
+					id: "7B1193686C3DAE89"
+					type: "item"
+					item: "vehicle:wrench"
+				}
+				{
+					id: "7326CF0F3934D6E5"
+					type: "item"
+					item: {
+						id: "vehicle:hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2BCDCCC1ABEDDF9A"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Category: Music Disc"
+			icon: "infernalexp:music_disc_flush"
+			x: 8.5d
+			y: 0.0d
+			shape: "diamond"
+			id: "2444850933FF2B10"
+		}
+		{
+			title: "Buy Disk \"13\" by C418"
+			icon: "minecraft:music_disc_13"
+			x: 8.0d
+			y: 1.0d
+			subtitle: "1x for 100 Credits"
+			id: "6E330EE7CCC5B6E3"
+			tasks: [{
+				id: "62322469E439D647"
+				type: "item"
+				item: "calemiutils:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "72A0A41480F04C6F"
+					type: "item"
+					item: "minecraft:music_disc_13"
+				}
+				{
+					id: "30B4567B003E831B"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Disk \"Cat\" by C418"
+			icon: "minecraft:music_disc_cat"
+			x: 9.0d
+			y: 1.0d
+			subtitle: "1x for 100 Credits"
+			id: "275FFD82535CE797"
+			tasks: [{
+				id: "32BC31B59DC70E1C"
+				type: "item"
+				item: "calemiutils:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0380847D9FE63AB7"
+					type: "item"
+					item: "minecraft:music_disc_cat"
+				}
+				{
+					id: "7314BF24FEA0DBD5"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Disk \"Blocks\" by C418"
+			icon: "minecraft:music_disc_blocks"
+			x: 8.0d
+			y: 2.0d
+			subtitle: "1x for 100 Credits"
+			id: "1B720C4E205886BE"
+			tasks: [{
+				id: "7246CB6AA6292265"
+				type: "item"
+				item: "calemiutils:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1464596370CB7ECB"
+					type: "item"
+					item: "minecraft:music_disc_blocks"
+				}
+				{
+					id: "4A4E07324DA7ECD7"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Disk \"Chirp\" by C418"
+			icon: "minecraft:music_disc_chirp"
+			x: 9.0d
+			y: 2.0d
+			subtitle: "1x for 100 Credits"
+			id: "646B7F1D1A400EDE"
+			tasks: [{
+				id: "40DE018A2ED70217"
+				type: "item"
+				item: "calemiutils:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "50E339BF84757EA1"
+					type: "item"
+					item: "minecraft:music_disc_chirp"
+				}
+				{
+					id: "23FB46079549C837"
+					type: "custom"
+					title: "Complete Transcation"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Disk \"Far\" by C418"
+			icon: "minecraft:music_disc_far"
+			x: 8.0d
+			y: 3.0d
+			subtitle: "1x for 100 Credits"
+			id: "59FCFE7D697C1DE1"
+			tasks: [{
+				id: "665B8252CBE7CC18"
+				type: "item"
+				item: "calemiutils:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7BB11447705D0F24"
+					type: "item"
+					item: "minecraft:music_disc_far"
+				}
+				{
+					id: "2A044571EA9AC1D2"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Disk \"Mall\" by C418"
+			icon: "minecraft:music_disc_mall"
+			x: 9.0d
+			y: 3.0d
+			subtitle: "1x for 100 Credits"
+			id: "604565FE64387942"
+			tasks: [{
+				id: "674FB6A4A9D58317"
+				type: "item"
+				item: "calemiutils:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "65BAE99D07AEE6BD"
+					type: "item"
+					item: "minecraft:music_disc_mall"
+				}
+				{
+					id: "209152F7A3133584"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Disk \"Mellohi\" by C418"
+			icon: "minecraft:music_disc_mellohi"
+			x: 8.0d
+			y: 4.0d
+			subtitle: "1x for 100 Credits"
+			id: "79997B4F3D715167"
+			tasks: [{
+				id: "05DE3748B06FD2AF"
+				type: "item"
+				item: "calemiutils:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1E8A3665833F5020"
+					type: "item"
+					item: "minecraft:music_disc_mellohi"
+				}
+				{
+					id: "0EA95B5CCBDA0170"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Disk \"Stal\" by C418"
+			icon: "minecraft:music_disc_stal"
+			x: 9.0d
+			y: 4.0d
+			subtitle: "1x for 100 Credits"
+			id: "675052CD9140C124"
+			tasks: [{
+				id: "6A380ED1B74B09EE"
+				type: "item"
+				item: "calemiutils:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "19CFE1107CC23BCF"
+					type: "item"
+					item: "minecraft:music_disc_stal"
+				}
+				{
+					id: "4EA0DDD7AA40B8F4"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Disk \"Strad\" by C418"
+			icon: "minecraft:music_disc_strad"
+			x: 8.0d
+			y: 5.0d
+			subtitle: "1x for 100 Credits"
+			id: "46EFC6D3E34DF95D"
+			tasks: [{
+				id: "1EA64649F19ED500"
+				type: "item"
+				item: "calemiutils:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "27CFAB46F9B0BC71"
+					type: "item"
+					item: "minecraft:music_disc_strad"
+				}
+				{
+					id: "10401B7FD493934D"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Disk \"Ward\" by C418"
+			icon: "minecraft:music_disc_ward"
+			x: 9.0d
+			y: 5.0d
+			subtitle: "1x for 100 Credits"
+			id: "75CF0B3CEDC2657A"
+			tasks: [{
+				id: "40E42BF9DAA0DCA0"
+				type: "item"
+				item: "calemiutils:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "089C0B720F8F35ED"
+					type: "item"
+					item: "minecraft:music_disc_ward"
+				}
+				{
+					id: "26C9629CC0F275EC"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Saddles"
+			icon: "minecraft:saddle"
+			x: -1.0d
+			y: 1.0d
+			subtitle: "2x for 50 Credits"
+			id: "55AEB86729A4497A"
+			tasks: [{
+				id: "46FF21F64D662E20"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "34E70554EE5E0ED1"
+					type: "item"
+					item: "minecraft:saddle"
+				}
+				{
+					id: "2CFC9402C5725263"
+					type: "item"
+					item: "minecraft:saddle"
+				}
+				{
+					id: "701BA50D49AECD8C"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Leads"
+			icon: "minecraft:lead"
+			x: -1.0d
+			y: 2.0d
+			subtitle: "8x for 25 Credits"
+			id: "25ACF6E81A2355BA"
+			tasks: [{
+				id: "7AC84B24E1CE3686"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "74727E52DD622E01"
+					type: "item"
+					item: "minecraft:lead"
+					count: 8
+				}
+				{
+					id: "7AFCC6900C04FA9B"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Carrot on a Stick"
+			icon: {
+				id: "minecraft:carrot_on_a_stick"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.0d
+			y: 3.0d
+			subtitle: "2x for 25 Credits"
+			description: ["Used for controlling a pig's direction when saddled to it."]
+			id: "5BAE40F83CFA4192"
+			tasks: [{
+				id: "06CC0E1ABC05EA85"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1EC01B3B90A71918"
+					type: "item"
+					item: {
+						id: "minecraft:carrot_on_a_stick"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "506C287636165859"
+					type: "item"
+					item: {
+						id: "minecraft:carrot_on_a_stick"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0A093602EDD2BFC3"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Warped Fungus on a Stick"
+			icon: {
+				id: "minecraft:warped_fungus_on_a_stick"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.0d
+			y: 4.0d
+			subtitle: "2x for 25 Credits"
+			description: ["Used for controlling a strider's direction when saddled to it."]
+			id: "7B7509F00518CB59"
+			tasks: [{
+				id: "6084158E40A62E5F"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "65204D4FD83BC8DB"
+					type: "item"
+					item: {
+						id: "minecraft:warped_fungus_on_a_stick"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "725A28FF4ED58683"
+					type: "item"
+					item: {
+						id: "minecraft:warped_fungus_on_a_stick"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+	]
+}

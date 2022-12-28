@@ -1,0 +1,3514 @@
+{
+	id: "1BF342687F05F4D1"
+	group: "061E125B4A827A51"
+	order_index: 2
+	filename: "the_color_capital"
+	title: "The Color Capital"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	images: [{
+		x: 4.0d
+		y: -1.5d
+		width: 16.0d
+		height: 2.5d
+		rotation: 0.0d
+		image: "custom_images:textures/store_buy.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "Category: Dyes"
+			icon: "minecraft:white_dye"
+			x: 1.0d
+			y: 0.0d
+			shape: "diamond"
+			id: "096E567184071B1A"
+		}
+		{
+			title: "Category: Concrete"
+			icon: "minecraft:white_concrete"
+			x: 4.0d
+			y: 0.0d
+			shape: "diamond"
+			id: "11947FC2AD76C44E"
+		}
+		{
+			title: "Category: Wool"
+			icon: "minecraft:white_wool"
+			x: -2.0d
+			y: 0.0d
+			shape: "diamond"
+			id: "4D4BB0C8AEE2B1BB"
+		}
+		{
+			title: "Category: Terracotta"
+			icon: "minecraft:white_terracotta"
+			x: 7.0d
+			y: 0.0d
+			shape: "diamond"
+			id: "735985C45E0ABF07"
+		}
+		{
+			title: "Category: Tinted Glass"
+			icon: "minecraft:white_stained_glass"
+			x: -5.0d
+			y: 0.0d
+			shape: "diamond"
+			id: "5E7034A827532E38"
+		}
+		{
+			title: "Category: Terracotta Shingles"
+			icon: "quark:white_shingles"
+			x: 10.0d
+			y: 0.0d
+			shape: "diamond"
+			id: "1A507073D21D8BD6"
+		}
+		{
+			title: "Category: Coralstone"
+			icon: "upgrade_aquatic:pillow_coralstone"
+			x: 13.0d
+			y: 0.0d
+			shape: "diamond"
+			id: "77DEF6DDA2C6074A"
+		}
+		{
+			title: "Buy White Dye"
+			icon: "minecraft:white_dye"
+			x: 1.0d
+			y: 1.5d
+			subtitle: "8x for 8 credits"
+			id: "348DFAAF10316847"
+			tasks: [{
+				id: "4F45847214B17B3A"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "26BA00F26146A5E0"
+					type: "item"
+					item: "minecraft:white_dye"
+					count: 8
+				}
+				{
+					id: "5FE9460BE17DEB3F"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Light Gray Dye"
+			icon: "minecraft:light_gray_dye"
+			x: 1.0d
+			y: 2.5d
+			subtitle: "8x for 5 credits"
+			id: "63B8A1D2F7AA4E8C"
+			tasks: [{
+				id: "50EB5B208D188B92"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "38A15E341FCB03CD"
+					type: "item"
+					icon: "minecraft:light_gray_dye"
+					item: "minecraft:light_gray_dye"
+					count: 8
+				}
+				{
+					id: "67321BE166245A6A"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Black Dye"
+			icon: "minecraft:black_dye"
+			x: 1.0d
+			y: 4.5d
+			subtitle: "8x for 5 Credits"
+			id: "7D5DE700029EE617"
+			tasks: [{
+				id: "0C79D2E6BDE39DF7"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "441519A2DA1A0E0F"
+					type: "item"
+					item: "minecraft:black_dye"
+					count: 8
+				}
+				{
+					id: "47E4BC7635C83D13"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Red Dye"
+			icon: "minecraft:red_dye"
+			x: 1.0d
+			y: 6.5d
+			subtitle: "8x for 5 Credits"
+			id: "504C1487EF102EA6"
+			tasks: [{
+				id: "258AC5F1C3734CF2"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "003F3CF8B5DAE1AF"
+					type: "item"
+					item: "minecraft:red_dye"
+					count: 8
+				}
+				{
+					id: "59C59411FB621072"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Orange Dye"
+			icon: "minecraft:orange_dye"
+			x: 1.0d
+			y: 7.5d
+			subtitle: "8x for 5 Credits"
+			id: "2CD635163ECE602D"
+			tasks: [{
+				id: "1FA9BF6C59EF7503"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4ED46A1A42191FB2"
+					type: "item"
+					item: "minecraft:orange_dye"
+					count: 8
+				}
+				{
+					id: "4184702F473B1B45"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Yellow Dye"
+			icon: "minecraft:yellow_dye"
+			x: 1.0d
+			y: 8.5d
+			subtitle: "8x for 5 Credits"
+			id: "6D4A74FAB1109C68"
+			tasks: [{
+				id: "46B3A8839F149080"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "69960B50A53AE002"
+					type: "item"
+					item: "minecraft:yellow_dye"
+					count: 8
+				}
+				{
+					id: "54DB01990E82AD6B"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Lime Dye"
+			icon: "minecraft:lime_dye"
+			x: 1.0d
+			y: 9.5d
+			subtitle: "8x for 5 Credits"
+			id: "27C418665AC40F21"
+			tasks: [{
+				id: "7FF48D74B16EC797"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "03F9977B416BF429"
+					type: "item"
+					item: "minecraft:lime_dye"
+					count: 8
+				}
+				{
+					id: "4995B7336AE0884C"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Green Dye"
+			icon: "minecraft:green_dye"
+			x: 1.0d
+			y: 10.5d
+			subtitle: "8x for 5 Credits"
+			id: "26E12D5E196B91BD"
+			tasks: [{
+				id: "7DEC7424DA317A8F"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7810D12BF577ECC7"
+					type: "item"
+					item: "minecraft:green_dye"
+					count: 8
+				}
+				{
+					id: "1E6CCC5CEEBF8F4A"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Cyan Dye"
+			icon: "minecraft:cyan_dye"
+			x: 1.0d
+			y: 11.5d
+			subtitle: "8x for 5 Credits"
+			id: "0704532B748B505E"
+			tasks: [{
+				id: "0F1F5577BA3F0B1E"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5C97F1BB09F9DFC1"
+					type: "item"
+					item: "minecraft:cyan_dye"
+					count: 8
+				}
+				{
+					id: "746F4395C8D98022"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Light Blue Dye"
+			icon: "minecraft:light_blue_dye"
+			x: 1.0d
+			y: 12.5d
+			subtitle: "8x for 5 Credits"
+			id: "5A55F7FABBA6110E"
+			tasks: [{
+				id: "4910A83F840F5441"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5A7E5255982906DB"
+					type: "item"
+					item: "minecraft:light_blue_dye"
+					count: 8
+				}
+				{
+					id: "096767A9F58902A9"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Brown Dye"
+			icon: "minecraft:brown_dye"
+			x: 1.0d
+			y: 5.5d
+			subtitle: "8x for 5 Credits"
+			id: "24E3CBFC672A5A6D"
+			tasks: [{
+				id: "39414E1A0136FB85"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "09701EAC0383C63F"
+					type: "item"
+					item: "minecraft:brown_dye"
+					count: 8
+				}
+				{
+					id: "28FB0B52182D61CE"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Blue Dye"
+			icon: "minecraft:blue_dye"
+			x: 1.0d
+			y: 13.5d
+			subtitle: "8x for 5 Credits"
+			id: "48391E2DBAB281C1"
+			tasks: [{
+				id: "0D340DC640C48F68"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "30B042AE424ED6D0"
+					type: "item"
+					item: "minecraft:blue_dye"
+					count: 8
+				}
+				{
+					id: "753CF2F983286CEA"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Purple Dye"
+			icon: "minecraft:purple_dye"
+			x: 1.0d
+			y: 14.5d
+			subtitle: "8x for 5 Credits"
+			id: "172A63FDDC9D9BDC"
+			tasks: [{
+				id: "12CE98B688D17184"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "27F8F542CFFFD91B"
+					type: "item"
+					item: "minecraft:purple_dye"
+					count: 8
+				}
+				{
+					id: "2FCE5CE1A606FFC4"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Magenta Dye"
+			icon: "minecraft:magenta_dye"
+			x: 1.0d
+			y: 15.5d
+			subtitle: "8x for 5 Credits"
+			id: "520A8BD8D53E1570"
+			tasks: [{
+				id: "3C5520CE74228835"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "696A0D9FF3140A32"
+					type: "item"
+					item: "minecraft:magenta_dye"
+					count: 8
+				}
+				{
+					id: "7453994B97776949"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Pink Dye"
+			icon: "minecraft:pink_dye"
+			x: 1.0d
+			y: 16.5d
+			subtitle: "8x for 5 Credits"
+			id: "5B3F665E9F08E805"
+			tasks: [{
+				id: "46E6F4360BD914A5"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "68DDA7C9238C1EBC"
+					type: "item"
+					item: "minecraft:magenta_dye"
+					count: 8
+				}
+				{
+					id: "2BFEEF08B1D9F1CD"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy White Concrete"
+			icon: "minecraft:white_concrete"
+			x: 4.0d
+			y: 1.5d
+			subtitle: "64x for 8 Credits"
+			id: "3268BA2C8EBC8E0E"
+			tasks: [{
+				id: "695F3B9FE5CD4EE6"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7A4801D2FC1DC01E"
+					type: "item"
+					item: "minecraft:white_concrete"
+					count: 64
+				}
+				{
+					id: "524896086B7298B7"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Light Gray Concrete"
+			icon: "minecraft:light_gray_concrete"
+			x: 4.0d
+			y: 2.5d
+			subtitle: "64x for 8 Credits"
+			id: "0F0670F06B672FE6"
+			tasks: [{
+				id: "7AA08D26BF127F2E"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "26AAD165A60443FF"
+					type: "item"
+					item: "minecraft:light_gray_concrete"
+					count: 64
+				}
+				{
+					id: "00BA62C48F5A411E"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Black Concrete"
+			icon: "minecraft:black_concrete"
+			x: 4.0d
+			y: 4.5d
+			subtitle: "64x for 8 Credits"
+			id: "27BEA5CC782FE5B1"
+			tasks: [{
+				id: "59DAD43E3EAA4231"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "094B38595B9598DA"
+					type: "item"
+					item: "minecraft:black_concrete"
+					count: 64
+				}
+				{
+					id: "74D99BB82A4A3AAD"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Brown Concrete"
+			icon: "minecraft:brown_terracotta"
+			x: 4.0d
+			y: 5.5d
+			subtitle: "64x for 8 Credits"
+			id: "6BDDB0AA89844BF0"
+			tasks: [{
+				id: "3424322378334B89"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "56B6866C001E732C"
+					type: "item"
+					item: "minecraft:brown_concrete"
+					count: 64
+				}
+				{
+					id: "1C02D53CC8AF2942"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Red Concrete"
+			icon: "minecraft:red_concrete"
+			x: 4.0d
+			y: 6.5d
+			subtitle: "64x for 8 Credits"
+			id: "432F1F3EDCD7B306"
+			tasks: [{
+				id: "706F553177826B4C"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "39195AD9F55BEF9C"
+					type: "item"
+					item: "minecraft:red_concrete"
+					count: 64
+				}
+				{
+					id: "52833ECB24D51470"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Orange Concrete"
+			icon: "minecraft:orange_concrete"
+			x: 4.0d
+			y: 7.5d
+			subtitle: "64x for 8 Credits"
+			id: "7B45217F12960572"
+			tasks: [{
+				id: "346B29A5033D927A"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "25DA6974548D1C14"
+					type: "item"
+					item: "minecraft:orange_concrete"
+					count: 64
+				}
+				{
+					id: "5D0A099121E0D28F"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Yellow Concrete"
+			icon: "minecraft:yellow_concrete"
+			x: 4.0d
+			y: 8.5d
+			subtitle: "64x for 8 Credits"
+			id: "0C426E2A45B1D2ED"
+			tasks: [{
+				id: "75E19159E27697F5"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1030194F2463552C"
+					type: "item"
+					item: "minecraft:yellow_concrete"
+					count: 64
+				}
+				{
+					id: "1002BF3483449914"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Lime Concrete"
+			icon: "minecraft:lime_concrete"
+			x: 4.0d
+			y: 9.5d
+			subtitle: "64x for 8 Credits"
+			id: "7D0BAE3CB408D1F6"
+			tasks: [{
+				id: "21377A1331003779"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3C39C461408FF4A6"
+					type: "item"
+					item: "minecraft:lime_concrete"
+					count: 64
+				}
+				{
+					id: "6BD505AFA6DB12A4"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Green Concrete"
+			icon: "minecraft:green_concrete"
+			x: 4.0d
+			y: 10.5d
+			subtitle: "64x for 8 Credits"
+			id: "058DA285BFE47FF4"
+			tasks: [{
+				id: "020A50CCAAA67787"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1A5F4EA605199AF8"
+					type: "item"
+					item: "minecraft:green_concrete"
+					count: 64
+				}
+				{
+					id: "0D30D4573732360E"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Cyan Concrete"
+			icon: "minecraft:cyan_concrete"
+			x: 4.0d
+			y: 11.5d
+			subtitle: "64x for 8 Credits"
+			id: "2667D291CD03D81D"
+			tasks: [{
+				id: "55FF4AB5E4F420AB"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "6018CA0C3B826353"
+					type: "item"
+					item: "minecraft:cyan_concrete"
+					count: 64
+				}
+				{
+					id: "79133CA18B5FE030"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Light Blue Concrete"
+			icon: "minecraft:light_blue_concrete"
+			x: 4.0d
+			y: 12.5d
+			subtitle: "64x for 8 Credits"
+			id: "40C1AE53782F4F66"
+			tasks: [{
+				id: "3D56B5A430615900"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5DB1E08C64E763FC"
+					type: "item"
+					item: "minecraft:light_blue_concrete"
+					count: 64
+				}
+				{
+					id: "088ECB4F83899B91"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Blue Concrete"
+			icon: "minecraft:blue_concrete"
+			x: 4.0d
+			y: 13.5d
+			subtitle: "64x for 8 Credits"
+			id: "66DC8C365E5235E8"
+			tasks: [{
+				id: "1D63A83432D088BA"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "04F88203D59B6D8F"
+					type: "item"
+					item: "minecraft:blue_concrete"
+					count: 64
+				}
+				{
+					id: "0DA28B674D9FA25A"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Purple Concrete"
+			icon: "minecraft:purple_concrete"
+			x: 4.0d
+			y: 14.5d
+			subtitle: "64x for 8 Credits"
+			id: "58170CC9B8AD05D7"
+			tasks: [{
+				id: "747274E9B00F0364"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "28D27A4170AEE8B6"
+					type: "item"
+					item: "minecraft:purple_concrete"
+					count: 64
+				}
+				{
+					id: "0A688900CB611371"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Magenta Concrete"
+			icon: "minecraft:magenta_concrete"
+			x: 4.0d
+			y: 15.5d
+			subtitle: "64x for 8 Credits"
+			id: "4C015E6C2306D43B"
+			tasks: [{
+				id: "2F582F41A6BD0F7E"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "6ED014ABA6FBE3F2"
+					type: "item"
+					item: "minecraft:magenta_concrete"
+					count: 64
+				}
+				{
+					id: "552FC921F2C83A79"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Pink Concrete"
+			icon: "minecraft:pink_concrete"
+			x: 4.0d
+			y: 16.5d
+			subtitle: "64x for 8 Credits"
+			id: "3364ED89616C2552"
+			tasks: [{
+				id: "0E17864CE5F557D9"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "018D0B4E521D8086"
+					type: "item"
+					item: "minecraft:pink_concrete"
+					count: 64
+				}
+				{
+					id: "36D3DFFE35CF1145"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy White Terracotta"
+			icon: "minecraft:white_terracotta"
+			x: 7.0d
+			y: 1.5d
+			subtitle: "64x for 8 Credits"
+			id: "05DB6CBD87091DE4"
+			tasks: [{
+				id: "2E8EF0C6E17ECA22"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "26686DBC4FF21047"
+					type: "item"
+					item: "minecraft:white_terracotta"
+					count: 64
+				}
+				{
+					id: "6C83DE76EA185F5B"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Light Gray Terracotta"
+			icon: "minecraft:light_gray_terracotta"
+			x: 7.0d
+			y: 2.5d
+			subtitle: "64x for 8 Credits"
+			id: "5C47BE86C5D368F2"
+			tasks: [{
+				id: "4AA0DA6D49A18E8D"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "44E1C6584FE74FCD"
+					type: "item"
+					item: "minecraft:light_gray_terracotta"
+					count: 64
+				}
+				{
+					id: "04E28B4719A8C577"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Black Terracotta"
+			icon: "minecraft:black_terracotta"
+			x: 7.0d
+			y: 4.5d
+			subtitle: "64x for 8 Credits"
+			id: "2885D75534BBEE90"
+			tasks: [{
+				id: "4FCBCD026263B70B"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "777E6765B5A0440A"
+					type: "item"
+					item: "minecraft:black_terracotta"
+					count: 64
+				}
+				{
+					id: "7B482FD69AA9E021"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Brown Terracotta"
+			icon: "minecraft:brown_terracotta"
+			x: 7.0d
+			y: 5.5d
+			subtitle: "64x for 8 Credits"
+			id: "60D005C2067EFB7F"
+			tasks: [{
+				id: "17FDD8B80DA2AB67"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5E340A150A00938B"
+				type: "item"
+				item: "minecraft:brown_terracotta"
+				count: 64
+			}]
+		}
+		{
+			title: "Buy Red Terracotta"
+			icon: "minecraft:red_terracotta"
+			x: 7.0d
+			y: 6.5d
+			subtitle: "64x for 8 Credits"
+			id: "3BD07942145C6B2B"
+			tasks: [{
+				id: "33ED43EF3B8C53AB"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0406D0553C4B3199"
+					type: "item"
+					item: "minecraft:red_terracotta"
+					count: 64
+				}
+				{
+					id: "0543A716A5A758B6"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Orange Terracotta"
+			icon: "minecraft:orange_terracotta"
+			x: 7.0d
+			y: 7.5d
+			subtitle: "64x for 8 Credits"
+			id: "2A7379BD952194A3"
+			tasks: [{
+				id: "59472C31DB9F05A6"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4F835A3376C71F0E"
+					type: "item"
+					item: "minecraft:orange_terracotta"
+					count: 64
+				}
+				{
+					id: "13FE559B0AA4DC89"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Yellow Terracotta"
+			icon: "minecraft:yellow_terracotta"
+			x: 7.0d
+			y: 8.5d
+			subtitle: "64x for 8 Credits"
+			id: "63008883457BB16B"
+			tasks: [{
+				id: "106FD696DE6D1AC4"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7FEA1FFC6ED9A9EB"
+					type: "item"
+					item: "minecraft:yellow_terracotta"
+					count: 64
+				}
+				{
+					id: "5AA7EC180460BCE2"
+					type: "custom"
+					title: "Complete Transcation"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Lime Terracotta"
+			icon: "minecraft:lime_terracotta"
+			x: 7.0d
+			y: 9.5d
+			subtitle: "64x for 8 Credits"
+			id: "598F178AA883859F"
+			tasks: [{
+				id: "4E938EBAB5726D6C"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3299C6DCB656C96E"
+					type: "item"
+					item: "minecraft:lime_terracotta"
+					count: 64
+				}
+				{
+					id: "577EBAFE8A1E4E17"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Green Terracotta"
+			icon: "minecraft:green_terracotta"
+			x: 7.0d
+			y: 10.5d
+			subtitle: "64x for 8 Credits"
+			id: "2C96EF07C9BE1579"
+			tasks: [{
+				id: "23710116D43C4C6D"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "6486589B2170F6F8"
+					type: "item"
+					item: "minecraft:green_terracotta"
+					count: 64
+				}
+				{
+					id: "17B1BDBBDFFDF46B"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Cyan Terracotta"
+			icon: "minecraft:cyan_terracotta"
+			x: 7.0d
+			y: 11.5d
+			subtitle: "64x for 8 Credits"
+			id: "304F750FCA887EBF"
+			tasks: [{
+				id: "608A9FEF447E959D"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "16030AB4F58E15FD"
+					type: "item"
+					item: "minecraft:cyan_terracotta"
+					count: 64
+				}
+				{
+					id: "0B48C0CE6BA65F26"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Light Blue Terracotta"
+			icon: "minecraft:light_blue_terracotta"
+			x: 7.0d
+			y: 12.5d
+			subtitle: "64x for 8 Credits"
+			description: [""]
+			id: "3F517ABC81BD7CB5"
+			tasks: [{
+				id: "1ED7C687F510BF82"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3C8ED5BE91A558B3"
+					type: "item"
+					item: "minecraft:light_blue_terracotta"
+					count: 64
+				}
+				{
+					id: "16D183FBFBF39B56"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Blue Terracotta"
+			icon: "minecraft:blue_terracotta"
+			x: 7.0d
+			y: 13.5d
+			subtitle: "64x for 8 Credits"
+			id: "7E37400D49DBE12F"
+			tasks: [{
+				id: "7B6991A67DCCE0C5"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1F6AFCE9C33FDDBD"
+					type: "item"
+					item: "minecraft:light_blue_terracotta"
+					count: 64
+				}
+				{
+					id: "23D7E14A3A08047A"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Purple Terracotta"
+			icon: "minecraft:purple_terracotta"
+			x: 7.0d
+			y: 14.5d
+			subtitle: "64x for 8 Credits"
+			id: "739DF54D441E1E3C"
+			tasks: [{
+				id: "16AA8A038504EE0A"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1738BA7F85D6AE56"
+					type: "item"
+					item: "minecraft:purple_terracotta"
+					count: 64
+				}
+				{
+					id: "3C85D37D2DC494BC"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Magenta Terracotta"
+			icon: "minecraft:magenta_terracotta"
+			x: 7.0d
+			y: 15.5d
+			subtitle: "64x for 8 Credits"
+			id: "144418845F27B35E"
+			tasks: [{
+				id: "4A89B97772806A2F"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "586D9E6A7E034072"
+					type: "item"
+					item: "minecraft:magenta_terracotta"
+					count: 64
+				}
+				{
+					id: "60D45E79996046E1"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Pink Terracotta"
+			icon: "minecraft:pink_terracotta"
+			x: 7.0d
+			y: 16.5d
+			subtitle: "64x for 8 Credits"
+			description: [""]
+			id: "0F2E000492A75F42"
+			tasks: [{
+				id: "09782141B82C3B67"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1E6B37AB9D6116FE"
+					type: "item"
+					item: "minecraft:pink_terracotta"
+					count: 64
+				}
+				{
+					id: "05005A96CB77C526"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy White Wool"
+			icon: "minecraft:white_wool"
+			x: -2.0d
+			y: 1.5d
+			subtitle: "64x for 50 Credits"
+			id: "21705F4A74F78F08"
+			tasks: [{
+				id: "6AB100B740B5B5E6"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "781F0E0653AC3D05"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 64
+				}
+				{
+					id: "5EEEE5605F5E352E"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Light Gray Wool"
+			icon: "minecraft:light_gray_wool"
+			x: -2.0d
+			y: 2.5d
+			subtitle: "64x for 50 Credits"
+			id: "75F509E5DCD2D49F"
+			tasks: [{
+				id: "28EE0026ED780015"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "335C476CCACB0C65"
+					type: "item"
+					item: "minecraft:light_gray_wool"
+					count: 64
+				}
+				{
+					id: "372C462ABACE9EDD"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Gray Wool"
+			icon: "minecraft:gray_wool"
+			x: -2.0d
+			y: 3.5d
+			subtitle: "64x for 50 Credits"
+			id: "65E55C0951E0E20E"
+			tasks: [{
+				id: "2A721E03DDE1B1D6"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "39F6B68C36FA927C"
+					type: "item"
+					item: "minecraft:gray_wool"
+					count: 64
+				}
+				{
+					id: "73E436825A7D41C9"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Black Wool"
+			icon: "minecraft:black_wool"
+			x: -2.0d
+			y: 4.5d
+			subtitle: "64x for 50 Credits"
+			id: "2285CDD353046C94"
+			tasks: [{
+				id: "251E6AF9164C2C03"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "67E195EFF92DB5B3"
+					type: "item"
+					item: "minecraft:black_wool"
+					count: 64
+				}
+				{
+					id: "3BE443FE7BF21D64"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Brown Wool"
+			icon: "minecraft:brown_wool"
+			x: -2.0d
+			y: 5.5d
+			subtitle: "64x for 50 Credits"
+			id: "17AB72DB676B2516"
+			tasks: [{
+				id: "6EA1AB8044519F4B"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "31B35EF07145A025"
+					type: "item"
+					item: "minecraft:brown_wool"
+					count: 64
+				}
+				{
+					id: "34E892642E4CD660"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Red Wool"
+			icon: "minecraft:red_wool"
+			x: -2.0d
+			y: 6.5d
+			subtitle: "64x for 50 Credits"
+			id: "0D0C9C3562282879"
+			tasks: [{
+				id: "14820DD7E6BDEE92"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "67AEED4EC3561D6E"
+					type: "item"
+					item: "minecraft:red_wool"
+					count: 64
+				}
+				{
+					id: "6C75BB1B565BE9F7"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Orange Wool"
+			icon: "minecraft:orange_wool"
+			x: -2.0d
+			y: 7.5d
+			subtitle: "64x for 50 Credits"
+			id: "5971A5B81CC79513"
+			tasks: [{
+				id: "4D050CC3F75324D9"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2A301FF2E5C97FDF"
+					type: "item"
+					item: "minecraft:orange_wool"
+					count: 64
+				}
+				{
+					id: "2932917D6500B98E"
+					type: "custom"
+					title: "Complete Transcation"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Yellow Wool"
+			icon: "minecraft:yellow_wool"
+			x: -2.0d
+			y: 8.5d
+			subtitle: "64x for 50 Credits"
+			id: "67F9AB43331FD50E"
+			tasks: [{
+				id: "5FD61609819DBC2E"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0AB7CDB2A194C119"
+					type: "item"
+					item: "minecraft:yellow_wool"
+					count: 64
+				}
+				{
+					id: "129C085D8B3D81CB"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Lime Wool"
+			icon: "minecraft:lime_wool"
+			x: -2.0d
+			y: 9.5d
+			subtitle: "64x for 50 Credits"
+			id: "54A84B706E86389F"
+			tasks: [{
+				id: "1FEDEA59C9B72FDA"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "77FB4846B7AB0DB3"
+					type: "item"
+					item: "minecraft:lime_wool"
+					count: 64
+				}
+				{
+					id: "103EBD3556EB0BF3"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Green Wool"
+			icon: "minecraft:green_wool"
+			x: -2.0d
+			y: 10.5d
+			subtitle: "64x for 50 Credits"
+			id: "0D78CA493E615D2C"
+			tasks: [{
+				id: "543673D9C9746BE9"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2E558B01BBD1DE0E"
+					type: "item"
+					item: "minecraft:green_wool"
+					count: 64
+				}
+				{
+					id: "0435072D5FF5965E"
+					type: "custom"
+					title: "Complete Transcation"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Cyan Wool"
+			icon: "minecraft:cyan_wool"
+			x: -2.0d
+			y: 11.5d
+			subtitle: "64x for 50 Credits"
+			id: "0D2C4F32738CE984"
+			tasks: [{
+				id: "27858932C577ADCD"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5950228A2BF14694"
+					type: "item"
+					item: "minecraft:cyan_wool"
+					count: 64
+				}
+				{
+					id: "02D8DDDEF615F2AA"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Light Blue Wool"
+			icon: "minecraft:light_blue_wool"
+			x: -2.0d
+			y: 12.5d
+			subtitle: "64x for 50 Credits"
+			id: "7F64E50B43C1C1CF"
+			tasks: [{
+				id: "25291690EBEDD4D9"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "551B8628060EADB3"
+					type: "item"
+					item: "minecraft:light_blue_wool"
+					count: 64
+				}
+				{
+					id: "2B687509119B7A34"
+					type: "custom"
+					title: "Complete Transcation"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Blue Wool"
+			icon: "minecraft:blue_wool"
+			x: -2.0d
+			y: 13.5d
+			subtitle: "64x for 50 Credits"
+			id: "4BB51FF830A9F1CA"
+			tasks: [{
+				id: "79536268B544A62C"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "31571AF7C1A5D2F3"
+					type: "item"
+					item: "minecraft:blue_wool"
+					count: 64
+				}
+				{
+					id: "543FA30C509321A2"
+					type: "custom"
+					title: "Complete Transcation"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Purple Wool"
+			icon: "minecraft:purple_wool"
+			x: -2.0d
+			y: 14.5d
+			subtitle: "64x for 50 Credits"
+			id: "0ADABAB0A0F87FAE"
+			tasks: [{
+				id: "2B1451C0FFFC923E"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3940F10F76787488"
+					type: "item"
+					item: "minecraft:purple_wool"
+					count: 64
+				}
+				{
+					id: "0DBCD29AA7D3084E"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Pink Wool"
+			icon: "minecraft:pink_wool"
+			x: -2.0d
+			y: 16.5d
+			subtitle: "64x for 50 Credits"
+			id: "7C446FAA4F42FCAB"
+			tasks: [{
+				id: "0BDF69E437CC03A1"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "16822D8BE597C4F6"
+					type: "item"
+					item: "minecraft:pink_wool"
+					count: 64
+				}
+				{
+					id: "5C8B31BA745F77F7"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Gray Dye"
+			icon: "minecraft:gray_dye"
+			x: 1.0d
+			y: 3.5d
+			subtitle: "8x for 5 Credits"
+			id: "5930A93DABAF16C7"
+			tasks: [{
+				id: "6B539FCDB57E9B6F"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0F9E9A9FB19FB773"
+					type: "item"
+					item: "minecraft:gray_dye"
+					count: 8
+				}
+				{
+					id: "2C18A66744D69FAE"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Gray Concrete"
+			icon: "minecraft:gray_concrete"
+			x: 4.0d
+			y: 3.5d
+			subtitle: "64x for 8 Credits"
+			id: "2E2D4207923F4866"
+			tasks: [{
+				id: "7FEEA9F782E3E4F9"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4A72C96F397E4BEC"
+					type: "item"
+					item: "minecraft:gray_concrete"
+					count: 64
+				}
+				{
+					id: "590D0A84B2DF6536"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Gray Terracotta"
+			icon: "minecraft:gray_terracotta"
+			x: 7.0d
+			y: 3.5d
+			subtitle: "64x for 8 Credits"
+			id: "77FA35D5F7ACB4A2"
+			tasks: [{
+				id: "4A31C121670CF434"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "135DE94B7D80FCDC"
+					type: "item"
+					item: "minecraft:gray_terracotta"
+					count: 64
+				}
+				{
+					id: "4F06C86B4285E143"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Magenta Wool"
+			icon: "minecraft:magenta_wool"
+			x: -2.0d
+			y: 15.5d
+			subtitle: "64x for 50 Credits"
+			id: "43FA674E68C2BC1D"
+			tasks: [{
+				id: "323E9113BC14BA61"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "681E20946EE355C1"
+					type: "item"
+					item: "minecraft:magenta_wool"
+					count: 64
+				}
+				{
+					id: "054F96F90C55DFE3"
+					type: "custom"
+					title: "Complete Transcation"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Brain Coralstone"
+			icon: "upgrade_aquatic:brain_coralstone"
+			x: 13.0d
+			y: 16.5d
+			subtitle: "64x for 15 Credits"
+			id: "1A15FC9E20B12900"
+			tasks: [{
+				id: "1AB39040BFD69613"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "52B90D45841ACA59"
+					type: "item"
+					item: "upgrade_aquatic:brain_coralstone"
+					count: 64
+				}
+				{
+					id: "2213AACEEE2C83BC"
+					type: "custom"
+					title: "Complete Transcation"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Bubble Coralstone"
+			icon: "upgrade_aquatic:bubble_coralstone"
+			x: 13.0d
+			y: 15.5d
+			subtitle: "64x for 15 Credits"
+			id: "3EE44DFC2E517C59"
+			tasks: [{
+				id: "0D0B204DCE7852A1"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "608797DC2312A0AE"
+					type: "item"
+					item: "upgrade_aquatic:bubble_coralstone"
+					count: 64
+				}
+				{
+					id: "763F36AD9AE4FF43"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Silk Coralstone"
+			icon: "upgrade_aquatic:silk_coralstone"
+			x: 13.0d
+			y: 14.5d
+			subtitle: "64x for 15 Credits"
+			id: "6D3BAFC290D89B4F"
+			tasks: [{
+				id: "4BB0732EAA058709"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2B7395D647F82970"
+					type: "item"
+					item: "upgrade_aquatic:silk_coralstone"
+					count: 64
+				}
+				{
+					id: "667A7311D8B147FA"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Tube Coralstone"
+			icon: "upgrade_aquatic:tube_coralstone"
+			x: 13.0d
+			y: 13.5d
+			subtitle: "64x for 15 Credits"
+			id: "73C23D62FA7E8DE5"
+			tasks: [{
+				id: "7BFFF14A3D9AA886"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2C25ACFEAC49181C"
+					type: "item"
+					item: "upgrade_aquatic:tube_coralstone"
+					count: 64
+				}
+				{
+					id: "6A8CBC37DAB6EBCC"
+					type: "custom"
+					title: "Complete Transcation"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			icon: "upgrade_aquatic:petal_coralstone"
+			x: 13.0d
+			y: 12.5d
+			subtitle: "64x for 15 Credits"
+			id: "0939853CDC400BE7"
+			tasks: [{
+				id: "6B6045589842A0F8"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "47BC2B21A55C17BA"
+					type: "item"
+					item: "upgrade_aquatic:petal_coralstone"
+					count: 64
+				}
+				{
+					id: "4F69E47B74FC4D7B"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Acan Coralstone"
+			icon: "upgrade_aquatic:acan_coralstone"
+			x: 13.0d
+			y: 11.5d
+			subtitle: "64x for 15 Credits"
+			id: "36BC2C8878C57602"
+			tasks: [{
+				id: "20D0A92F580ECD47"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0EE6EF4272A75E0E"
+					type: "item"
+					item: "upgrade_aquatic:acan_coralstone"
+					count: 64
+				}
+				{
+					id: "3FC5120C6ABEF90E"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Moss Coralstone"
+			icon: "upgrade_aquatic:moss_coralstone"
+			x: 13.0d
+			y: 10.5d
+			subtitle: "64x for 15 Credits"
+			id: "1DB133170753A28A"
+			tasks: [{
+				id: "770E103E6F0FB241"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0D5A3383C75CAF94"
+					type: "item"
+					item: "upgrade_aquatic:moss_coralstone"
+					count: 64
+				}
+				{
+					id: "1AAFE56DCACE0850"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Star Coralstone"
+			icon: "upgrade_aquatic:star_coralstone"
+			x: 13.0d
+			y: 9.5d
+			subtitle: "64x for 15 Credits"
+			id: "0D2261AAFAD526E3"
+			tasks: [{
+				id: "5B7FE5D0ABFC4642"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7EBCCF244C8806EE"
+					type: "item"
+					item: "upgrade_aquatic:star_coralstone"
+					count: 64
+				}
+				{
+					id: "78781007FDE368AF"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Horn Coralstone"
+			icon: "upgrade_aquatic:horn_coralstone"
+			x: 13.0d
+			y: 8.5d
+			subtitle: "64x for 15 Credits"
+			id: "4CCCE19C2844B8D7"
+			tasks: [{
+				id: "1FEF2C58B0AEF4DC"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "39FCCF9EFE6138FF"
+					type: "item"
+					item: "upgrade_aquatic:horn_coralstone"
+					count: 64
+				}
+				{
+					id: "5B5385AA7281B71C"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Finger Coralstone"
+			icon: "upgrade_aquatic:finger_coralstone"
+			x: 13.0d
+			y: 7.5d
+			subtitle: "64x for 15 Credits"
+			id: "797935E877DAF488"
+			tasks: [{
+				id: "3F30E00F29841529"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "78FF89A02B09AD64"
+					type: "item"
+					item: "upgrade_aquatic:finger_coralstone"
+					count: 64
+				}
+				{
+					id: "5C4964F7604024E0"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Fire Coralstone"
+			icon: "upgrade_aquatic:fire_coralstone"
+			x: 13.0d
+			y: 6.5d
+			subtitle: "64x for 15 Credits"
+			id: "3B48E485B9E3400C"
+			tasks: [{
+				id: "728E59E60F810D40"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1593C65E331CB641"
+					type: "item"
+					item: "upgrade_aquatic:fire_coralstone"
+					count: 64
+				}
+				{
+					id: "7CD2631E3A723420"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Rock Coralstone"
+			icon: "upgrade_aquatic:rock_coralstone"
+			x: 13.0d
+			y: 5.5d
+			subtitle: "64x for 15 Credits"
+			id: "1F32C425F6D6D790"
+			tasks: [{
+				id: "2CCE81F432129ECD"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "72DD958F4D4E6DF1"
+					type: "item"
+					item: "upgrade_aquatic:rock_coralstone"
+					count: 64
+				}
+				{
+					id: "5AF1B58A8CDB0D43"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Branch Coralstone"
+			icon: "upgrade_aquatic:branch_coralstone"
+			x: 13.0d
+			y: 4.5d
+			subtitle: "64x for 15 Credits"
+			id: "1156BDECEE4FC15D"
+			tasks: [{
+				id: "42742363B79A3F93"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "34E0F2A0B474982C"
+					type: "item"
+					item: "upgrade_aquatic:branch_coralstone"
+					count: 64
+				}
+				{
+					id: "5DD70BFE79B9CA2C"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Dead Coralstone"
+			icon: "upgrade_aquatic:dead_coralstone"
+			x: 13.0d
+			y: 3.5d
+			subtitle: "64x for 15 Credits"
+			id: "4888DA43D553F3C6"
+			tasks: [{
+				id: "113BA89334B5FE15"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7EBF22129BE25B4D"
+					type: "item"
+					item: "upgrade_aquatic:dead_coralstone"
+					count: 64
+				}
+				{
+					id: "37D4F0F4E127C53E"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Elder Prismarine Coralstone"
+			icon: { id: "upgrade_aquatic:elder_prismarine_coralstone", Count: 64b }
+			x: 13.0d
+			y: 2.5d
+			subtitle: "64x for 15 Credits"
+			id: "7E5977266D6C5943"
+			tasks: [{
+				id: "5471E08B3423687D"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "701E1BD7041388F1"
+					type: "item"
+					item: "upgrade_aquatic:elder_prismarine_coralstone"
+					count: 64
+				}
+				{
+					id: "22C4C0B8747B40FB"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Pillow Coralstone"
+			icon: "upgrade_aquatic:pillow_coralstone"
+			x: 13.0d
+			y: 1.5d
+			subtitle: "64x for 15 Credits"
+			id: "780286EF0FA9196F"
+			tasks: [{
+				id: "42F875BF8001053E"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "6DB48BA7DE2D3B18"
+					type: "item"
+					item: "upgrade_aquatic:pillow_coralstone"
+					count: 64
+				}
+				{
+					id: "42C1DD80B1B7370C"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy White Stained Glass"
+			icon: "minecraft:white_stained_glass"
+			x: -5.0d
+			y: 1.5d
+			subtitle: "x128 for 50 Credits"
+			id: "3392668F9A7DCC01"
+			tasks: [{
+				id: "67B0E763D4B7F205"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "562DB2A79308AC20"
+					type: "item"
+					item: "minecraft:white_stained_glass"
+					count: 64
+				}
+				{
+					id: "3BDCE9AFA6F5B76D"
+					type: "item"
+					item: "minecraft:white_stained_glass"
+					count: 64
+				}
+				{
+					id: "34D541CC628FD86C"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Light Gray Stained Glass"
+			icon: "minecraft:light_gray_stained_glass"
+			x: -5.0d
+			y: 2.5d
+			subtitle: "x128 for 50 Credits"
+			id: "1D9E1AE7C6026E85"
+			tasks: [{
+				id: "3DF1BA8B459E5F30"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "523134779D5FB933"
+					type: "item"
+					item: "minecraft:light_gray_stained_glass"
+					count: 64
+				}
+				{
+					id: "37FC3A2ADC7CF362"
+					type: "item"
+					item: "minecraft:light_gray_stained_glass"
+					count: 64
+				}
+				{
+					id: "3BA9E1259F607198"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Gray Stained Glass"
+			icon: "minecraft:gray_stained_glass"
+			x: -5.0d
+			y: 3.5d
+			subtitle: "x128 for 50 Credits"
+			id: "41DBDBA769713D07"
+			tasks: [{
+				id: "61F42D63A8A33931"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "50F3B9D807F21359"
+					type: "item"
+					item: "minecraft:gray_stained_glass"
+					count: 64
+				}
+				{
+					id: "31C1555C708E5A24"
+					type: "item"
+					item: "minecraft:gray_stained_glass"
+					count: 64
+				}
+				{
+					id: "6B0325F259EF7EF8"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Black Stained Glass"
+			icon: "minecraft:black_stained_glass"
+			x: -5.0d
+			y: 4.5d
+			subtitle: "x128 for 50 Credits"
+			id: "216D9E5B04054EFC"
+			tasks: [{
+				id: "7AB78B4CA3482F1E"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2D99DBAF3F9C7DE2"
+					type: "item"
+					item: "minecraft:black_stained_glass"
+					count: 64
+				}
+				{
+					id: "55AD94F419F02452"
+					type: "item"
+					item: "minecraft:black_stained_glass"
+					count: 64
+				}
+				{
+					id: "320E4246ADCF194B"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Brown Stained Glass"
+			icon: "minecraft:black_stained_glass"
+			x: -5.0d
+			y: 5.5d
+			subtitle: "x128 for 50 Credits"
+			id: "5AB2FA583C675DA9"
+			tasks: [{
+				id: "59B5510D7530931D"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4C238D7A25D41D84"
+					type: "item"
+					item: "minecraft:brown_stained_glass"
+					count: 64
+				}
+				{
+					id: "03FA434A4E760374"
+					type: "item"
+					item: "minecraft:brown_stained_glass"
+					count: 64
+				}
+				{
+					id: "0862FAD6E1759ECE"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Red Stained Glass"
+			icon: "minecraft:red_stained_glass"
+			x: -5.0d
+			y: 6.5d
+			subtitle: "x128 for 50 Credits"
+			id: "72E083CEA5870D99"
+			tasks: [{
+				id: "3D8F6B2D138B8047"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "20DCF81E2A668734"
+					type: "item"
+					item: "minecraft:red_stained_glass"
+					count: 64
+				}
+				{
+					id: "4A0B9A9257908BBE"
+					type: "item"
+					item: "minecraft:red_stained_glass"
+					count: 64
+				}
+				{
+					id: "2678DD3BF3D66C93"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Orange Stained Glass"
+			icon: "minecraft:orange_stained_glass"
+			x: -5.0d
+			y: 7.5d
+			subtitle: "x128 for 50 Credits"
+			id: "27A0D2A983984946"
+			tasks: [{
+				id: "159D7601037922A7"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1EB36C7F753B9795"
+					type: "item"
+					item: "minecraft:orange_stained_glass"
+					count: 64
+				}
+				{
+					id: "49ECDDC153B01F6F"
+					type: "item"
+					item: "minecraft:orange_stained_glass"
+					count: 64
+				}
+				{
+					id: "687D7FE71B58C9C0"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Yellow Stained Glass"
+			icon: "minecraft:yellow_stained_glass"
+			x: -5.0d
+			y: 8.5d
+			subtitle: "x128 for 50 Credits"
+			id: "37C17D40AAD9FC70"
+			tasks: [{
+				id: "04BE4ECA6C2E515E"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "157CDC2153BAE9F9"
+					type: "item"
+					item: "minecraft:yellow_stained_glass"
+					count: 64
+				}
+				{
+					id: "78A45D116F1B1C9E"
+					type: "item"
+					item: "minecraft:yellow_stained_glass"
+					count: 64
+				}
+				{
+					id: "6E826E5FE71D6C42"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Lime Stained Glass"
+			icon: "minecraft:lime_stained_glass"
+			x: -5.0d
+			y: 9.5d
+			subtitle: "x128 for 50 Credits"
+			id: "4A7AB15BBAE4BEDC"
+			tasks: [{
+				id: "6FE71B394E0B84B2"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "40F48FD18ED94177"
+					type: "item"
+					item: "minecraft:lime_stained_glass"
+					count: 64
+				}
+				{
+					id: "7113748D7ACC5A15"
+					type: "item"
+					item: "minecraft:lime_stained_glass"
+					count: 64
+				}
+				{
+					id: "5F696A57CBA05990"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Green Stained Glass"
+			icon: "minecraft:green_stained_glass"
+			x: -5.0d
+			y: 10.5d
+			subtitle: "x128 for 50 Credits"
+			id: "28DF3A88C5436B56"
+			tasks: [{
+				id: "10FA817210D878C7"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "00565DE0E82CD498"
+					type: "item"
+					item: "minecraft:green_stained_glass"
+					count: 64
+				}
+				{
+					id: "414C4BD44116796B"
+					type: "item"
+					item: "minecraft:green_stained_glass"
+					count: 64
+				}
+				{
+					id: "16A3CB25CBA49DAE"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Cyan Stained Glass"
+			icon: "minecraft:cyan_stained_glass"
+			x: -5.0d
+			y: 11.5d
+			subtitle: "x128 for 50 Credits"
+			id: "296F3706D765A0EA"
+			tasks: [{
+				id: "30211D65DC636A27"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "76B52E0B794D029C"
+					type: "item"
+					item: "minecraft:cyan_stained_glass"
+					count: 64
+				}
+				{
+					id: "559A25FA22562720"
+					type: "item"
+					item: "minecraft:cyan_stained_glass"
+					count: 64
+				}
+				{
+					id: "30F4810D3E5F6A6C"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Light Blue Stained Glass"
+			icon: "minecraft:light_blue_stained_glass"
+			x: -5.0d
+			y: 12.5d
+			subtitle: "x128 for 50 Credits"
+			id: "2593A9AEA682D1C0"
+			tasks: [{
+				id: "019446191DC4A010"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5013F67F5C5FAA0C"
+					type: "item"
+					item: "minecraft:light_blue_stained_glass"
+					count: 64
+				}
+				{
+					id: "0B7CB19CEC7C00A9"
+					type: "item"
+					item: "minecraft:light_blue_stained_glass"
+					count: 64
+				}
+				{
+					id: "6CAF4CBB151EB5B4"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Blue Stained Glass"
+			icon: "minecraft:blue_stained_glass"
+			x: -5.0d
+			y: 13.5d
+			subtitle: "x128 for 50 Credits"
+			id: "68EBAF3C74844269"
+			tasks: [{
+				id: "193F33A6B6F9EC13"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "467F4ED036479323"
+					type: "item"
+					item: "minecraft:blue_stained_glass"
+					count: 64
+				}
+				{
+					id: "0DFDF3BC20F13DFD"
+					type: "item"
+					item: "minecraft:blue_stained_glass"
+					count: 64
+				}
+				{
+					id: "79E4D90E7FCBAE5B"
+					type: "custom"
+					title: "Complete Transcation"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Purple Stained Glass"
+			icon: "minecraft:purple_stained_glass"
+			x: -5.0d
+			y: 14.5d
+			subtitle: "x128 for 50 Credits"
+			id: "4CBB873C4F061B48"
+			tasks: [{
+				id: "56D56480C8053E41"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0431327F5FBBE3C4"
+					type: "item"
+					item: "minecraft:purple_stained_glass"
+					count: 64
+				}
+				{
+					id: "6A07D1C9C34ECB6E"
+					type: "item"
+					item: "minecraft:purple_stained_glass"
+					count: 64
+				}
+				{
+					id: "3CFC62441DE9B182"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Pink Stained Glass"
+			icon: "minecraft:pink_stained_glass"
+			x: -5.0d
+			y: 16.5d
+			subtitle: "x128 for 50 Credits"
+			id: "53AAAF032EF5D753"
+			tasks: [{
+				id: "32BD7C2EDA5C855A"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7015D0492F30C9BA"
+					type: "item"
+					item: "minecraft:pink_stained_glass"
+					count: 64
+				}
+				{
+					id: "62FF3587FAD3836F"
+					type: "item"
+					item: "minecraft:pink_stained_glass"
+					count: 64
+				}
+				{
+					id: "55687F47A480751F"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Magenta Stained Glass"
+			icon: "minecraft:magenta_stained_glass"
+			x: -5.0d
+			y: 15.5d
+			subtitle: "x128 for 50 Credits"
+			id: "02DF4A3F8187FFC8"
+			tasks: [{
+				id: "0A1B86A81E5B4822"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5FC95CB49E5E6998"
+					type: "item"
+					item: "minecraft:magenta_stained_glass"
+					count: 64
+				}
+				{
+					id: "38B62DB8703B023B"
+					type: "item"
+					item: "minecraft:magenta_stained_glass"
+					count: 64
+				}
+				{
+					id: "30A12D08307605E2"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy White Terracotta Shingles"
+			icon: "quark:white_shingles"
+			x: 10.0d
+			y: 1.5d
+			subtitle: "x64 for 8 Credits"
+			id: "63E4F281A06971A2"
+			tasks: [{
+				id: "11342819E0D79076"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3E95AD280C022B3A"
+					type: "item"
+					item: "quark:white_shingles"
+					count: 64
+				}
+				{
+					id: "429D5CF535F42590"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Light Gray Terracotta Shingles"
+			icon: "quark:light_gray_shingles"
+			x: 10.0d
+			y: 2.5d
+			subtitle: "x64 for 50 Credits"
+			id: "274C73A2CFC9B1F3"
+			tasks: [{
+				id: "7185824EAF5698DB"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "364710189A78C7D6"
+					type: "item"
+					item: "quark:light_gray_shingles"
+					count: 64
+				}
+				{
+					id: "5E3948A412019654"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Light Gray Terracotta Shingles"
+			icon: "quark:gray_shingles"
+			x: 10.0d
+			y: 3.5d
+			subtitle: "x64 for 8 Credits"
+			id: "515E19726BC8310B"
+			tasks: [{
+				id: "40970C3BE6559AA3"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2D76CCA94C93910A"
+					type: "item"
+					item: "quark:gray_shingles"
+					count: 64
+				}
+				{
+					id: "0C511D4AF75025F5"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Black Terracotta Shingles"
+			icon: "quark:black_shingles"
+			x: 10.0d
+			y: 4.5d
+			subtitle: "x64 for 8 Credits"
+			id: "4B8EB8BC7008C3EE"
+			tasks: [{
+				id: "34C6F6786ADAF801"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "088D94B1C8540CA5"
+					type: "item"
+					item: "quark:black_shingles"
+					count: 64
+				}
+				{
+					id: "020295002EAE17BD"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Brown Terracotta Shingles"
+			icon: "quark:brown_shingles"
+			x: 10.0d
+			y: 5.5d
+			subtitle: "x64 for 8 Credits"
+			id: "0555702D53B43DE9"
+			tasks: [{
+				id: "6F0AAFDA3CD4716E"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0974C828651747B0"
+					type: "item"
+					item: "quark:brown_shingles"
+					count: 64
+				}
+				{
+					id: "374E6ED0AA27502F"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Red Terracotta Shingles"
+			icon: "quark:red_shingles"
+			x: 10.0d
+			y: 6.5d
+			subtitle: "x64 for 8 Credits"
+			id: "3E6568D5BA40436C"
+			tasks: [{
+				id: "63425963AA59BD01"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5E17EEF37CF656EE"
+					type: "item"
+					item: "quark:red_shingles"
+					count: 64
+				}
+				{
+					id: "04812AE8E9225D8A"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Orange Terracotta Shingles"
+			icon: "quark:orange_shingles"
+			x: 10.0d
+			y: 7.5d
+			subtitle: "x64 for 8 Credits"
+			id: "707BEEF5ABFDD395"
+			tasks: [{
+				id: "31B9C2835404FD70"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2BD95BF0E4866534"
+					type: "item"
+					item: "quark:orange_shingles"
+					count: 64
+				}
+				{
+					id: "4833C84DB8F6DDCD"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Yellow Terracotta Shingles"
+			icon: "quark:yellow_shingles"
+			x: 10.0d
+			y: 8.5d
+			subtitle: "x64 for 8 Credits"
+			id: "2DA8A865F61E3EB1"
+			tasks: [{
+				id: "4B669707F3C5C612"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3FEB6AE5BBC96FBC"
+					type: "item"
+					item: "quark:yellow_shingles"
+					count: 64
+				}
+				{
+					id: "5E6E00C6AFD2D44C"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Lime Terracotta Shingles"
+			icon: "quark:lime_shingles"
+			x: 10.0d
+			y: 9.5d
+			subtitle: "x64 for 8 Credits"
+			id: "2EA2559B8D07FF03"
+			tasks: [{
+				id: "6BE0F36D96A15197"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "75CF2C9734C3E004"
+					type: "item"
+					item: "quark:lime_shingles"
+					count: 64
+				}
+				{
+					id: "5D141794A923C6D0"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Terracotta Shingles"
+			icon: "quark:green_shingles"
+			x: 10.0d
+			y: 10.5d
+			subtitle: "64x for 8 Credits"
+			id: "6F4AEEBD23A1AE50"
+			tasks: [{
+				id: "0B8A8E7651E5724E"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "18129347E096E6FF"
+					type: "item"
+					item: "quark:green_shingles"
+					count: 64
+				}
+				{
+					id: "0401F10EAF3BD0F8"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Cyan Terracotta Shingles"
+			icon: "quark:cyan_shingles"
+			disable_toast: true
+			x: 10.0d
+			y: 11.5d
+			subtitle: "x64 for 8 Credits"
+			id: "4849D947A42AC99F"
+			tasks: [{
+				id: "12304BB9F83CC262"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "45BDBB3EAA04F2E2"
+					type: "item"
+					item: "quark:cyan_shingles"
+					count: 64
+				}
+				{
+					id: "3CB1E93080E00E06"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Light Blue Terracotta Shingles"
+			icon: "quark:light_blue_shingles"
+			x: 10.0d
+			y: 12.5d
+			subtitle: "x64 for 8 Credits"
+			id: "0FDC1298E5B7F388"
+			tasks: [{
+				id: "499D09E1A2385968"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7FF88A429956CCFF"
+					type: "item"
+					item: "quark:light_blue_shingles"
+					count: 64
+				}
+				{
+					id: "7A82A70CB47B2BBA"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Blue Terracotta Shingles"
+			icon: "quark:blue_shingles"
+			x: 10.0d
+			y: 13.5d
+			subtitle: "x64 for 8 Credits"
+			id: "526AB38ACF711E89"
+			tasks: [{
+				id: "791A1859D86CB3A0"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "384CE3B1F048F533"
+					type: "item"
+					item: "quark:blue_shingles"
+					count: 64
+				}
+				{
+					id: "2F7F8C8E8AAF72D6"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Purple Terracotta Shingles"
+			icon: "quark:purple_shingles"
+			disable_toast: true
+			x: 10.0d
+			y: 14.5d
+			subtitle: "x64 for 8 Credits"
+			id: "1556CEAE892DBD18"
+			tasks: [{
+				id: "1DFBDE018EA0BDBD"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "11DAD60EFE69EE65"
+					type: "item"
+					item: "quark:purple_shingles"
+					count: 64
+				}
+				{
+					id: "5F0E486734A2FAAE"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Magenta Terracotta Shingles"
+			icon: "quark:magenta_shingles"
+			x: 10.0d
+			y: 15.5d
+			subtitle: "x64 for 8 Credits"
+			id: "7D9BBE25F3EFAD76"
+			tasks: [{
+				id: "2D65516C1BC670F6"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "652F4768ABF0D707"
+					type: "item"
+					item: "quark:magenta_shingles"
+					count: 64
+				}
+				{
+					id: "5C86065CD51860E9"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+		{
+			title: "Buy Pink Terracotta Shingles"
+			icon: "quark:pink_shingles"
+			x: 10.0d
+			y: 16.5d
+			subtitle: "64x for 8 Credits"
+			id: "1D21E5A0079BFDDE"
+			tasks: [{
+				id: "5451ABB12992B059"
+				type: "item"
+				item: "calemiutils:coin_copper"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "27E0DDF1E2FB4193"
+					type: "item"
+					item: "quark:pink_shingles"
+					count: 64
+				}
+				{
+					id: "315D4DE37808939B"
+					type: "custom"
+					title: "Complete Transaction"
+					icon: "create:empty_schematic"
+					tags: ["repeat"]
+				}
+			]
+		}
+	]
+}
