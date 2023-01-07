@@ -1,0 +1,46 @@
+{
+	id: "310A46FAA6562004"
+	order_index: 0
+	title: "Iron Age Loot Box"
+	icon: "kubejs:lootbox_iron"
+	loot_size: 1
+	rewards: [
+		{ item: "create:shaft", count: 8, weight: 5 }
+		{ item: "create:cogwheel", count: 8, weight: 5 }
+		{ item: "create:large_cogwheel", count: 8, weight: 5 }
+		{ item: "create:encased_chain_drive", count: 8, weight: 5 }
+		{ item: "create:gearbox", count: 8, weight: 5 }
+		{ item: "create:vertical_gearbox", count: 8, weight: 5 }
+		{ item: "create:andesite_alloy", count: 32, weight: 5 }
+		{ item: "create:belt_connector", count: 8, weight: 5 }
+		{ item: "create:chute", count: 8, weight: 5 }
+		{ item: "minecraft:hopper", count: 8, weight: 5 }
+		{ item: "minecraft:barrel", count: 8, weight: 5 }
+		{ item: "minecraft:iron_ingot", count: 16, weight: 5 }
+		{ item: "create:radial_chassis", count: 8, weight: 5 }
+		{
+			item: {
+				id: "create:super_glue"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 4
+		}
+		{ item: "create:linear_chassis", count: 8, weight: 5 }
+		{ item: "create:white_sail", count: 32, weight: 5 }
+		{ item: "create:refined_radiance", count: 8 }
+		{ item: "create:fluid_pipe", count: 8, weight: 5 }
+		{ item: "create:depot", count: 8, weight: 5 }
+		{ item: "create:andesite_funnel", count: 8, weight: 5 }
+		{ item: "create:brass_funnel", count: 8, weight: 4 }
+		{ item: "create:precision_mechanism", count: 8, weight: 4 }
+		{ item: "create:brass_ingot", count: 16, weight: 4 }
+		{ item: "minecraft:rail", count: 64, weight: 5 }
+		{ item: "minecraft:powered_rail", count: 32, weight: 5 }
+		{ item: "minecraft:minecart", weight: 5 }
+		{ item: "create:copper_ingot", count: 32, weight: 5 }
+		{ item: "create:zinc_ingot", count: 32, weight: 5 }
+	]
+}

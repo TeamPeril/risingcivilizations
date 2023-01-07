@@ -24,11 +24,18 @@
 				title: "Enter the Iron Age to Unlock"
 				stage: "TheIronAge"
 			}]
-			rewards: [{
-				id: "0CB63081D0BEF842"
-				type: "item"
-				item: "calemiutils:money_bag_rich"
-			}]
+			rewards: [
+				{
+					id: "0CB63081D0BEF842"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+				{
+					id: "43FAB6C98513E9D9"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			title: "The Stone Age"
@@ -84,11 +91,18 @@
 				title: "Enter the Modern Age"
 				stage: "TheModernAge"
 			}]
-			rewards: [{
-				id: "3D0109DE97AC8710"
-				type: "item"
-				item: "calemiutils:money_bag_rich"
-			}]
+			rewards: [
+				{
+					id: "3D0109DE97AC8710"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+				{
+					id: "7FB622380F062EB0"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
+			]
 		}
 	]
 }

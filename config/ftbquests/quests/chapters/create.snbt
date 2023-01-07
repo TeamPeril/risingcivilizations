@@ -83,7 +83,7 @@
 					id: "2C1847EF41B1E360"
 					type: "item"
 					item: "minecraft:charcoal"
-					count: 16
+					count: 64
 				}
 			]
 		}
@@ -121,6 +121,12 @@
 					id: "30780674F426A2D8"
 					type: "item"
 					item: "mekanism:ingot_osmium"
+					count: 16
+				}
+				{
+					id: "1BAB6C2C41251985"
+					type: "loot"
+					table_id: 7843861876017313718L
 				}
 			]
 		}
@@ -152,6 +158,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "1C1BD42F399AF381"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
 			]
 		}
 		{
@@ -182,6 +193,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "61C7EC6C27C1A427"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
 			]
 		}
 		{
@@ -197,11 +213,18 @@
 				type: "item"
 				item: "mekanismgenerators:wind_generator"
 			}]
-			rewards: [{
-				id: "07D6662CAD08C9ED"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "07D6662CAD08C9ED"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "72420C24160425EF"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -222,6 +245,11 @@
 					item: "mekanism:bio_fuel"
 				}
 			]
+			rewards: [{
+				id: "1B6FCA39CAB47E49"
+				type: "loot"
+				table_id: 7843861876017313718L
+			}]
 		}
 		{
 			x: 20.5d
@@ -251,6 +279,11 @@
 					type: "item"
 					item: "mekanism:ingot_osmium"
 					count: 16
+				}
+				{
+					id: "7EB146B0F88FB88A"
+					type: "loot"
+					table_id: 7843861876017313718L
 				}
 			]
 		}
@@ -311,7 +344,12 @@
 					id: "4B4C911DF07098D1"
 					type: "item"
 					item: "mekanism:ingot_osmium"
-					count: 4
+					count: 16
+				}
+				{
+					id: "0D8D217E63DB44DF"
+					type: "loot"
+					table_id: 7843861876017313718L
 				}
 			]
 		}
@@ -360,7 +398,12 @@
 					id: "2F99ACF1CAFC8369"
 					type: "item"
 					item: "mekanism:ingot_osmium"
-					count: 4
+					count: 16
+				}
+				{
+					id: "0184F50F6026AE46"
+					type: "loot"
+					table_id: 7843861876017313718L
 				}
 			]
 		}
@@ -386,13 +429,18 @@
 					id: "5FAC7877CE4852A8"
 					type: "item"
 					item: "minecraft:oak_log"
-					count: 8
+					count: 64
 				}
 				{
 					id: "0D5B4F82E3BA3F61"
 					type: "item"
 					item: "mekanism:ingot_osmium"
-					count: 2
+					count: 16
+				}
+				{
+					id: "314DAE75EF81E2BB"
+					type: "loot"
+					table_id: 7843861876017313718L
 				}
 			]
 		}
@@ -418,7 +466,12 @@
 					id: "7EA569341A761724"
 					type: "item"
 					item: "mekanism:ingot_osmium"
-					count: 4
+					count: 16
+				}
+				{
+					id: "01FD922184EC8B4B"
+					type: "loot"
+					table_id: 7843861876017313718L
 				}
 			]
 		}
@@ -459,6 +512,11 @@
 					type: "xp_levels"
 					xp_levels: 5
 				}
+				{
+					id: "1C2938659889CEF0"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
 			]
 		}
 		{
@@ -488,7 +546,12 @@
 					id: "736993A6697678B7"
 					type: "item"
 					item: "mekanism:ingot_osmium"
-					count: 4
+					count: 16
+				}
+				{
+					id: "20F7E713652A9C9A"
+					type: "loot"
+					table_id: 7843861876017313718L
 				}
 			]
 		}
@@ -536,6 +599,11 @@
 					item: "mekanism:ingot_osmium"
 					count: 16
 				}
+				{
+					id: "399374771C38658E"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
 			]
 		}
 		{
@@ -581,6 +649,11 @@
 					type: "item"
 					item: "mekanism:ingot_osmium"
 					count: 16
+				}
+				{
+					id: "095C6BBA36C5ED19"
+					type: "loot"
+					table_id: 7843861876017313718L
 				}
 			]
 		}
@@ -628,6 +701,11 @@
 					item: "mekanism:ingot_osmium"
 					count: 16
 				}
+				{
+					id: "2B42D7F0D0BB7C9A"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
 			]
 		}
 		{
@@ -651,6 +729,11 @@
 					id: "2E8FD74CF1D28716"
 					type: "item"
 					item: "mekanism:basic_tier_installer"
+				}
+				{
+					id: "190C57EC9DA029B5"
+					type: "loot"
+					table_id: 7843861876017313718L
 				}
 			]
 		}
@@ -713,6 +796,11 @@
 					item: "mekanism:ingot_osmium"
 					count: 4
 				}
+				{
+					id: "6971E3790DED2B63"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
 			]
 		}
 		{
@@ -743,7 +831,12 @@
 					id: "562D308F714FD78F"
 					type: "item"
 					item: "mekanism:ingot_osmium"
-					count: 4
+					count: 16
+				}
+				{
+					id: "0313522ED13F6DDE"
+					type: "loot"
+					table_id: 7843861876017313718L
 				}
 			]
 		}
@@ -777,6 +870,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "690E877B86224A35"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
 			]
 		}
 		{
@@ -806,6 +904,11 @@
 					type: "item"
 					item: "mekanism:basic_fluid_tank"
 				}
+				{
+					id: "681345C4EA94A574"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
 			]
 		}
 		{
@@ -829,7 +932,12 @@
 					id: "549AD4A7A914D322"
 					type: "item"
 					item: "mekanism:ingot_osmium"
-					count: 4
+					count: 16
+				}
+				{
+					id: "0C27230634F8494B"
+					type: "loot"
+					table_id: 7843861876017313718L
 				}
 			]
 		}
@@ -844,11 +952,18 @@
 				type: "item"
 				item: "mekanism:chemical_oxidizer"
 			}]
-			rewards: [{
-				id: "705233556502BF4C"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "705233556502BF4C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "2CDBB10D604BD527"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
+			]
 		}
 		{
 			title: "Sulfur Dioxide"
@@ -875,6 +990,11 @@
 					type: "item"
 					item: "mekanism:basic_fluid_tank"
 				}
+				{
+					id: "3C694EF7CA8C56A3"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
 			]
 		}
 		{
@@ -898,7 +1018,12 @@
 					id: "79E1FB7C1FE09EE8"
 					type: "item"
 					item: "mekanism:ingot_osmium"
-					count: 4
+					count: 16
+				}
+				{
+					id: "14607E00086EAF75"
+					type: "loot"
+					table_id: 7843861876017313718L
 				}
 			]
 		}
@@ -938,6 +1063,11 @@
 					type: "item"
 					item: "mekanism:basic_fluid_tank"
 				}
+				{
+					id: "1F09E8B2CD55E2B3"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
 			]
 		}
 		{
@@ -961,7 +1091,12 @@
 					id: "5C7B91D2C2BFCE5D"
 					type: "item"
 					item: "mekanism:ingot_osmium"
-					count: 4
+					count: 16
+				}
+				{
+					id: "64F9E1970E6CE99D"
+					type: "loot"
+					table_id: 7843861876017313718L
 				}
 			]
 		}
@@ -1003,6 +1138,11 @@
 					type: "item"
 					item: "mekanism:basic_chemical_tank"
 				}
+				{
+					id: "56FD01EBAD83FC2C"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
 			]
 		}
 		{
@@ -1040,6 +1180,11 @@
 					type: "item"
 					item: "mekanism:basic_fluid_tank"
 				}
+				{
+					id: "3429C359BD00F857"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
 			]
 		}
 		{
@@ -1063,7 +1208,12 @@
 					id: "565CEB5230253DBB"
 					type: "item"
 					item: "mekanism:ingot_osmium"
-					count: 8
+					count: 16
+				}
+				{
+					id: "032442E23C048CA7"
+					type: "loot"
+					table_id: 7843861876017313718L
 				}
 			]
 		}
@@ -1094,6 +1244,11 @@
 					type: "item"
 					item: "mekanism:ingot_osmium"
 					count: 16
+				}
+				{
+					id: "16AF58D467DB480E"
+					type: "loot"
+					table_id: 7843861876017313718L
 				}
 			]
 		}
@@ -1138,6 +1293,11 @@
 					type: "item"
 					item: "mekanism:basic_chemical_tank"
 				}
+				{
+					id: "08D0EFEB5A775AA2"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
 			]
 		}
 		{
@@ -1168,6 +1328,11 @@
 					id: "17CB6B6296FCA5AC"
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "67E221D3CDF419E4"
+					type: "loot"
+					table_id: 7843861876017313718L
 				}
 			]
 		}
@@ -1208,11 +1373,18 @@
 					item: "mekanism:fluorite_gem"
 				}
 			]
-			rewards: [{
-				id: "5109B5EF29635898"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "5109B5EF29635898"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "6CC5786C4549778D"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
+			]
 		}
 		{
 			title: "Uranium Hexafluoride"
@@ -1241,6 +1413,11 @@
 					id: "3A0CCB429CC6E04C"
 					type: "item"
 					item: "mekanism:basic_chemical_tank"
+				}
+				{
+					id: "6C1D9F801189374F"
+					type: "loot"
+					table_id: 7843861876017313718L
 				}
 			]
 		}
@@ -1271,6 +1448,11 @@
 					id: "06D1AEC485A3570F"
 					type: "xp_levels"
 					xp_levels: 5
+				}
+				{
+					id: "25AA179D0939A4C7"
+					type: "loot"
+					table_id: 7843861876017313718L
 				}
 			]
 		}
@@ -1339,6 +1521,16 @@
 					type: "item"
 					item: "mekanism:osmium_ore"
 					count: 32
+				}
+				{
+					id: "4DD5CD3AC3289663"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
+				{
+					id: "1ACB8F7168FC2F2E"
+					type: "loot"
+					table_id: 7843861876017313718L
 				}
 			]
 		}
@@ -1432,6 +1624,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_rich"
 				}
+				{
+					id: "19273698E7C678CC"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
 			]
 		}
 		{
@@ -1466,6 +1663,11 @@
 					item: "mekanism:ingot_osmium"
 					count: 4
 				}
+				{
+					id: "0C4C1DF1487332AE"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
 			]
 		}
 		{
@@ -1482,11 +1684,18 @@
 				type: "checkmark"
 				title: "Polonium"
 			}]
-			rewards: [{
-				id: "4FCC12BD50BAB69B"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "4FCC12BD50BAB69B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "33C05B7065C8FFF2"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
+			]
 		}
 		{
 			title: "Thermal Evaporation Plant"
@@ -1535,11 +1744,18 @@
 					item: "mekanismgenerators:advanced_solar_generator"
 				}
 			]
-			rewards: [{
-				id: "3D30BEBC1B497032"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
+			rewards: [
+				{
+					id: "3D30BEBC1B497032"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "6D44305031235C08"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
+			]
 		}
 		{
 			x: -1.0d
@@ -1564,6 +1780,11 @@
 					id: "66F1E99B8B705505"
 					type: "item"
 					item: "mekanism:basic_fluid_tank"
+				}
+				{
+					id: "01715646EC104F06"
+					type: "loot"
+					table_id: 7843861876017313718L
 				}
 			]
 		}
@@ -1593,6 +1814,11 @@
 					id: "077C4FFA1D465DB0"
 					type: "item"
 					item: "mekanism:basic_fluid_tank"
+				}
+				{
+					id: "5F30F6F61D0DCF00"
+					type: "loot"
+					table_id: 7843861876017313718L
 				}
 			]
 		}
@@ -1624,6 +1850,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_rich"
 				}
+				{
+					id: "3908B5A7048F439F"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
 			]
 		}
 		{
@@ -1654,6 +1885,11 @@
 					type: "xp_levels"
 					xp_levels: 5
 				}
+				{
+					id: "3D53FF27EDBAA094"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
 			]
 		}
 		{
@@ -1678,6 +1914,11 @@
 					id: "7A3F3B91C9CBE642"
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "7B808E5A16FE6A75"
+					type: "loot"
+					table_id: 7843861876017313718L
 				}
 			]
 		}
@@ -1708,6 +1949,11 @@
 					id: "1B3C89018C253E37"
 					type: "item"
 					item: "mekanism:basic_chemical_tank"
+				}
+				{
+					id: "2DF13C05C292F5ED"
+					type: "loot"
+					table_id: 7843861876017313718L
 				}
 			]
 		}
@@ -1764,6 +2010,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "5FB57AD054B13D38"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
 			]
 		}
 		{
@@ -1794,6 +2045,11 @@
 					id: "2FE2987D842DF0F4"
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "5DB98EBEB1C76471"
+					type: "loot"
+					table_id: 7843861876017313718L
 				}
 			]
 		}
@@ -1826,6 +2082,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "45B21CA2272E7F8F"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
 			]
 		}
 		{
@@ -1856,6 +2117,11 @@
 					id: "66B846667940B9E5"
 					type: "item"
 					item: "calemiutils:money_bag_rich"
+				}
+				{
+					id: "201A50423E5A4AC0"
+					type: "loot"
+					table_id: 7843861876017313718L
 				}
 			]
 		}
@@ -1897,6 +2163,11 @@
 					item: "mekanism:ingot_osmium"
 					count: 4
 				}
+				{
+					id: "5D9E93B34260F40C"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
 			]
 		}
 		{
@@ -1929,6 +2200,11 @@
 					item: "mekanism:ingot_osmium"
 					count: 3
 				}
+				{
+					id: "7FB96274DE6E3B08"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
 			]
 		}
 		{
@@ -1959,6 +2235,11 @@
 					type: "item"
 					item: "mekanism:ingot_osmium"
 					count: 4
+				}
+				{
+					id: "29B2618404C1163F"
+					type: "loot"
+					table_id: 7843861876017313718L
 				}
 			]
 		}
@@ -1996,6 +2277,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_rich"
 					count: 3
+				}
+				{
+					id: "32B4CC91768FE9B6"
+					type: "loot"
+					table_id: 7843861876017313718L
 				}
 			]
 		}
@@ -2037,6 +2323,11 @@
 					item: "mekanism:ingot_osmium"
 					count: 16
 				}
+				{
+					id: "6294822208FD8E43"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
 			]
 		}
 		{
@@ -2051,11 +2342,18 @@
 				type: "item"
 				item: "mekanism:qio_drive_hyper_dense"
 			}]
-			rewards: [{
-				id: "580EB9A02645BF34"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
+			rewards: [
+				{
+					id: "580EB9A02645BF34"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "0E6DE764F24D8168"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
+			]
 		}
 		{
 			x: 7.0d
@@ -2069,11 +2367,18 @@
 				type: "item"
 				item: "mekanism:qio_drive_time_dilating"
 			}]
-			rewards: [{
-				id: "6BF41D89D3EF666A"
-				type: "xp_levels"
-				xp_levels: 15
-			}]
+			rewards: [
+				{
+					id: "6BF41D89D3EF666A"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "20C185643D6C1707"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
+			]
 		}
 		{
 			x: 7.0d
@@ -2101,6 +2406,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_rich"
 				}
+				{
+					id: "4424DA0839E8BC3F"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
 			]
 		}
 		{
@@ -2115,11 +2425,18 @@
 				type: "item"
 				item: "mekanism:portable_qio_dashboard"
 			}]
-			rewards: [{
-				id: "5E92A33789BF95CA"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "5E92A33789BF95CA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "183FA7849918F82E"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
+			]
 		}
 		{
 			title: "QIO Import/Export"
@@ -2141,11 +2458,18 @@
 					item: "mekanism:qio_exporter"
 				}
 			]
-			rewards: [{
-				id: "3F59A1F1CB7C8D85"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "3F59A1F1CB7C8D85"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "316D62C576394EF4"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
+			]
 		}
 		{
 			x: 7.0d
@@ -2159,11 +2483,18 @@
 				type: "item"
 				item: "mekanism:qio_drive_base"
 			}]
-			rewards: [{
-				id: "3FB7D4535F4E210E"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "3FB7D4535F4E210E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "524424B862BD20A8"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
+			]
 		}
 		{
 			title: "Supercritical Phase Shifter (SPS)"
@@ -2254,6 +2585,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_rich"
 				}
+				{
+					id: "2424B59872659080"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
 			]
 		}
 		{
@@ -2331,6 +2667,16 @@
 					type: "item"
 					item: "calemiutils:money_bag_rich"
 				}
+				{
+					id: "38A71ADE3EEDCBFD"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
+				{
+					id: "663C2C09C707AE12"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
 			]
 		}
 		{
@@ -2349,11 +2695,18 @@
 				title: "Tritium"
 				icon: "mekanism:basic_chemical_tank"
 			}]
-			rewards: [{
-				id: "735786BDE1AC8241"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "735786BDE1AC8241"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4958EE3F836552BB"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
+			]
 		}
 		{
 			title: "Non-Liquid Lithium"
@@ -2369,11 +2722,18 @@
 				title: "Non-liquid Lithium"
 				icon: "mekanism:advanced_chemical_tank"
 			}]
-			rewards: [{
-				id: "153CE4DDADA7B0D6"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "153CE4DDADA7B0D6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4B4D2B24BE3EAEB9"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
+			]
 		}
 		{
 			icon: "mekanism:heavy_water_bucket"
@@ -2405,11 +2765,18 @@
 				type: "checkmark"
 				title: "Deuterium"
 			}]
-			rewards: [{
-				id: "26EA9BEDA7842EB2"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "26EA9BEDA7842EB2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7DA381A314035D52"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
+			]
 		}
 		{
 			x: -0.5d
@@ -2422,11 +2789,18 @@
 				type: "item"
 				item: "mekanismgenerators:hohlraum"
 			}]
-			rewards: [{
-				id: "6D0546A1C2CDA7EF"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "6D0546A1C2CDA7EF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "518295C7B126A45B"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
+			]
 		}
 		{
 			icon: "mekanism:ultimate_chemical_tank"
@@ -2444,11 +2818,18 @@
 				type: "checkmark"
 				title: "D-T Fuel"
 			}]
-			rewards: [{
-				id: "2BD723BBF1D8D801"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "2BD723BBF1D8D801"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4992BA0F9BE179F0"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
+			]
 		}
 		{
 			x: 12.0d
@@ -2477,6 +2858,26 @@
 					id: "1067C19D5E8DCB86"
 					type: "item"
 					item: "calemiutils:money_bag_rich"
+				}
+				{
+					id: "7F5CD41517714175"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
+				{
+					id: "607AE919054B1B02"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
+				{
+					id: "34323027E94722E3"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
+				{
+					id: "21D22828EA3CD179"
+					type: "loot"
+					table_id: 7843861876017313718L
 				}
 			]
 		}
@@ -2540,6 +2941,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "787BDE1627932ACD"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
 			]
 		}
 		{
@@ -2578,6 +2984,11 @@
 					type: "xp_levels"
 					xp_levels: 1
 				}
+				{
+					id: "36A4F8761390A602"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
 			]
 		}
 		{
@@ -2614,6 +3025,11 @@
 					id: "41F9A600F561B3A5"
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "6DB9BC348D266026"
+					type: "loot"
+					table_id: 7843861876017313718L
 				}
 			]
 		}
@@ -2652,6 +3068,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "591C44AE1A7A8D80"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
 			]
 		}
 		{
@@ -2689,6 +3110,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "49789BDCA7C9CD80"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
 			]
 		}
 		{
@@ -2720,6 +3146,11 @@
 					id: "73DF3495787CFEF5"
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "150FBA8138C87876"
+					type: "loot"
+					table_id: 7843861876017313718L
 				}
 			]
 		}
@@ -2784,6 +3215,11 @@
 					id: "1BC08C7D5834D51F"
 					type: "xp_levels"
 					xp_levels: 1
+				}
+				{
+					id: "508CF76841183736"
+					type: "loot"
+					table_id: 7843861876017313718L
 				}
 			]
 		}

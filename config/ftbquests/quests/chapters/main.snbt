@@ -63,6 +63,11 @@
 					type: "xp_levels"
 					xp_levels: 1
 				}
+				{
+					id: "4D307DCC35B6F78F"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
 			]
 		}
 		{
@@ -105,6 +110,11 @@
 					id: "3A94578FF64841A7"
 					type: "xp_levels"
 					xp_levels: 1
+				}
+				{
+					id: "7B55AD82E952B209"
+					type: "loot"
+					table_id: 1163093020815070129L
 				}
 			]
 		}
@@ -174,6 +184,11 @@
 				id: "1E6827FA149C03A8"
 				type: "checkmark"
 			}]
+			rewards: [{
+				id: "4F2176A9F927305B"
+				type: "loot"
+				table_id: 4862069733972096572L
+			}]
 		}
 		{
 			x: 1.5d
@@ -219,11 +234,18 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "07D0544754EDA4BE"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "07D0544754EDA4BE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0676450F3C04E1C7"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+			]
 		}
 		{
 			title: "Get a Fuel Source"
@@ -265,6 +287,16 @@
 					type: "xp_levels"
 					xp_levels: 1
 				}
+				{
+					id: "4055F1415FC6C063"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "5A57138658380264"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
 			]
 		}
 		{
@@ -296,6 +328,11 @@
 					type: "xp_levels"
 					xp_levels: 1
 				}
+				{
+					id: "6147D0139FF21CFF"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
 			]
 		}
 		{
@@ -320,6 +357,16 @@
 					id: "54AEF9F21680AFB6"
 					type: "xp_levels"
 					xp_levels: 1
+				}
+				{
+					id: "1018B962B757027C"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "472EA8D5BEE05A70"
+					type: "loot"
+					table_id: 4862069733972096572L
 				}
 			]
 		}
@@ -374,6 +421,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "48C4A8D67CDBC1C9"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
 			]
 		}
 		{
@@ -398,6 +450,16 @@
 					id: "43F8C88E0DD92B29"
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "368331D419A405CD"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "637A5D155FC5A930"
+					type: "loot"
+					table_id: 4862069733972096572L
 				}
 			]
 		}
@@ -439,6 +501,16 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "15EB9F2DCE43ABF8"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "2D77CBCE042E25F5"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
 			]
 		}
 		{
@@ -456,11 +528,18 @@
 				type: "item"
 				item: "ironchest:wood_to_iron_chest_upgrade"
 			}]
-			rewards: [{
-				id: "552AB75EC8FF03EC"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "552AB75EC8FF03EC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "70ADF603B5EA256E"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -474,11 +553,23 @@
 				type: "item"
 				item: "sophisticatedbackpacks:backpack"
 			}]
-			rewards: [{
-				id: "40F0997A0F532575"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "40F0997A0F532575"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4178B06D84E2C9CB"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "7251FF10C2322650"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -495,11 +586,18 @@
 				type: "item"
 				item: "sophisticatedbackpacks:iron_backpack"
 			}]
-			rewards: [{
-				id: "2A730FEB6225A7F5"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "2A730FEB6225A7F5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "133EF69A3E38D3DA"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -516,11 +614,18 @@
 				type: "item"
 				item: "sophisticatedbackpacks:gold_backpack"
 			}]
-			rewards: [{
-				id: "673DBAB804D6C072"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "673DBAB804D6C072"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "33795A46B2BB55D8"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -537,11 +642,18 @@
 				type: "item"
 				item: "sophisticatedbackpacks:diamond_backpack"
 			}]
-			rewards: [{
-				id: "4B5417CF61888367"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "4B5417CF61888367"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "2BF13F3ABB371F66"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -558,11 +670,18 @@
 				type: "item"
 				item: "ironchest:iron_to_gold_chest_upgrade"
 			}]
-			rewards: [{
-				id: "0400F57BDD54D1B5"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "0400F57BDD54D1B5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "543BDA78A5266B9D"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -579,11 +698,18 @@
 				type: "item"
 				item: "ironchest:gold_to_diamond_chest_upgrade"
 			}]
-			rewards: [{
-				id: "0D98A8A51265A67A"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "0D98A8A51265A67A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "716261A288D705E5"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+			]
 		}
 		{
 			x: -7.0d
@@ -617,6 +743,11 @@
 					type: "xp_levels"
 					xp_levels: 1
 				}
+				{
+					id: "4ADE574A624D59D5"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
 			]
 		}
 		{
@@ -637,11 +768,23 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "6761B9DD8018D603"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6761B9DD8018D603"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "49A2F1FEB51B3776"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "11B133836DAC440B"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
+			]
 		}
 		{
 			x: 5.0d
@@ -664,11 +807,23 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "6451BACE8DC4C6D2"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6451BACE8DC4C6D2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "30BFD74E92D4F46C"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "1B5848D8A420B08E"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
+			]
 		}
 		{
 			x: 5.0d
@@ -693,6 +848,16 @@
 					id: "5EC42C2CD45FC636"
 					type: "xp_levels"
 					xp_levels: 1
+				}
+				{
+					id: "040C3D224B41A405"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "614B3D7B42B6CA74"
+					type: "loot"
+					table_id: 4862069733972096572L
 				}
 			]
 		}
@@ -724,6 +889,11 @@
 					id: "2F0C10699BD45277"
 					type: "xp_levels"
 					xp_levels: 1
+				}
+				{
+					id: "24CECB7B5E846444"
+					type: "loot"
+					table_id: 1163093020815070129L
 				}
 			]
 		}
@@ -759,6 +929,11 @@
 					type: "xp_levels"
 					xp_levels: 1
 				}
+				{
+					id: "72BAC37AC39AE9EB"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
 			]
 		}
 		{
@@ -789,6 +964,11 @@
 					type: "xp_levels"
 					xp_levels: 1
 				}
+				{
+					id: "639B3ACCB2A841A4"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
 			]
 		}
 		{
@@ -804,11 +984,18 @@
 				type: "item"
 				item: "minecraft:cobblestone"
 			}]
-			rewards: [{
-				id: "53AA725607CB4458"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "53AA725607CB4458"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "49D2704AB92D2EC4"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -844,6 +1031,11 @@
 					id: "1A720546EDC403DB"
 					type: "xp_levels"
 					xp_levels: 1
+				}
+				{
+					id: "7FDD230F9E30AF77"
+					type: "loot"
+					table_id: 1163093020815070129L
 				}
 			]
 		}
@@ -882,6 +1074,11 @@
 					type: "xp_levels"
 					xp_levels: 1
 				}
+				{
+					id: "69DCFA2D493B0B67"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
 			]
 		}
 		{
@@ -918,6 +1115,11 @@
 					id: "3F740F426CAD90F5"
 					type: "xp_levels"
 					xp_levels: 1
+				}
+				{
+					id: "1D62C74B83FA4AA5"
+					type: "loot"
+					table_id: 1163093020815070129L
 				}
 			]
 		}
@@ -956,6 +1158,11 @@
 					type: "xp_levels"
 					xp_levels: 1
 				}
+				{
+					id: "715DF1E5D1DD94E6"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
 			]
 		}
 		{
@@ -980,6 +1187,16 @@
 					id: "5525C80B831E1C40"
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "28C0983894156712"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "587B13C4A02CF994"
+					type: "loot"
+					table_id: 4862069733972096572L
 				}
 			]
 		}
@@ -1018,6 +1235,16 @@
 					type: "xp_levels"
 					xp_levels: 2
 				}
+				{
+					id: "57D6588398E30D54"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "5C477446319033D1"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
 			]
 		}
 		{
@@ -1055,6 +1282,16 @@
 					type: "xp_levels"
 					xp_levels: 2
 				}
+				{
+					id: "14892824D83A8A35"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "094459E9E8B70067"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
 			]
 		}
 		{
@@ -1069,11 +1306,18 @@
 				type: "item"
 				item: "minecraft:blast_furnace"
 			}]
-			rewards: [{
-				id: "708C71C9D8AFAA53"
-				type: "item"
-				item: "minecraft:furnace"
-			}]
+			rewards: [
+				{
+					id: "708C71C9D8AFAA53"
+					type: "item"
+					item: "minecraft:furnace"
+				}
+				{
+					id: "5BD0D2735CF64FE5"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+			]
 		}
 		{
 			x: -4.5d
@@ -1109,6 +1353,16 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "23E3BB4E4EAE931F"
+					type: "random"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "7A7D78370BB3DB4D"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
 			]
 		}
 		{
@@ -1136,6 +1390,11 @@
 					type: "xp_levels"
 					xp_levels: 1
 				}
+				{
+					id: "5318EE931EC8B689"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
 			]
 		}
 		{
@@ -1150,11 +1409,18 @@
 				type: "item"
 				item: "furnacemk2:experience_core"
 			}]
-			rewards: [{
-				id: "60D44C8BF4B3E1A5"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "60D44C8BF4B3E1A5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "28232DA30A1B6078"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+			]
 		}
 		{
 			x: -4.5d
@@ -1168,11 +1434,18 @@
 				type: "item"
 				item: "furnacemk2:insulation_core"
 			}]
-			rewards: [{
-				id: "4EEDA6B51F2B2C33"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4EEDA6B51F2B2C33"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0E2E97C42914E424"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+			]
 		}
 		{
 			x: -3.5d
@@ -1186,11 +1459,18 @@
 				type: "item"
 				item: "furnacemk2:thermal_core"
 			}]
-			rewards: [{
-				id: "160C772C51AFFE98"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "160C772C51AFFE98"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6545ADBEF4768BF9"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+			]
 		}
 		{
 			x: -5.5d
@@ -1208,11 +1488,18 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "726A03C421C99BFE"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "726A03C421C99BFE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6F721DB6ED8EE90D"
+					type: "random"
+					table_id: 1163093020815070129L
+				}
+			]
 		}
 		{
 			title: "Iron Armor"
@@ -1287,6 +1574,16 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "4D11EAFD120D1EB2"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "23B2D2EC97C36802"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
 			]
 		}
 		{
@@ -1321,6 +1618,11 @@
 					id: "596720A2AA2F6E12"
 					type: "xp_levels"
 					xp_levels: 2
+				}
+				{
+					id: "580D7F884FAE2444"
+					type: "loot"
+					table_id: 1163093020815070129L
 				}
 			]
 		}
@@ -1398,6 +1700,16 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "36CED01261A9B90A"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "1EF2558285011A75"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
 			]
 		}
 		{
@@ -1433,6 +1745,11 @@
 					type: "xp_levels"
 					xp_levels: 2
 				}
+				{
+					id: "736AB6DE4D3B360D"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
 			]
 		}
 		{
@@ -1456,11 +1773,23 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "350DDD18F5F1992B"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "350DDD18F5F1992B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "18B18296E506916C"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "5D52AB5DEDCC67EC"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
+			]
 		}
 		{
 			x: -8.0d
@@ -1486,6 +1815,16 @@
 					type: "xp_levels"
 					xp_levels: 1
 				}
+				{
+					id: "1B768C523D7F587B"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "1DBA9CD1AB828766"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
 			]
 		}
 		{
@@ -1504,11 +1843,18 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "70FEC5DE42BA2F69"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "70FEC5DE42BA2F69"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "693F8E5FB9811F7F"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+			]
 		}
 		{
 			title: "Sub-Chapter: Adventure"
@@ -1536,11 +1882,23 @@
 				type: "item"
 				item: "minecraft:netherite_scrap"
 			}]
-			rewards: [{
-				id: "0A467E7883B391E2"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "0A467E7883B391E2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7D62319575F94AE8"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "0BA6D3A7A0719065"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
+			]
 		}
 		{
 			title: "Visit The Nether"
@@ -1569,6 +1927,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "10E26E7DB168CFFF"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
 			]
 		}
 		{
@@ -1583,11 +1946,18 @@
 				type: "item"
 				item: "minecraft:blaze_rod"
 			}]
-			rewards: [{
-				id: "5AE1543556CAE642"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "5AE1543556CAE642"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "66A1A99473AE3D9D"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+			]
 		}
 		{
 			x: -14.5d
@@ -1601,11 +1971,18 @@
 				type: "item"
 				item: "minecraft:magma_cream"
 			}]
-			rewards: [{
-				id: "09EBC0A4C80FFCBF"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "09EBC0A4C80FFCBF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "14E070634270CF6E"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+			]
 		}
 		{
 			x: -1.5d
@@ -1645,6 +2022,16 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "108CD746B73A0AC6"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "3C32F09E7E725702"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
 			]
 		}
 		{
@@ -1681,6 +2068,16 @@
 					id: "77ED6806933FB8EE"
 					type: "xp_levels"
 					xp_levels: 5
+				}
+				{
+					id: "559B56329DBF5966"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "128CA4D868D7CC15"
+					type: "loot"
+					table_id: 4862069733972096572L
 				}
 			]
 		}
@@ -1719,6 +2116,16 @@
 					type: "xp_levels"
 					xp_levels: 5
 				}
+				{
+					id: "5EE84384E1DF1EFC"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "07D057046C874E95"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
 			]
 		}
 		{
@@ -1753,6 +2160,11 @@
 					id: "11FE9C3D98D67308"
 					type: "xp_levels"
 					xp_levels: 5
+				}
+				{
+					id: "11EE4374DEC502BE"
+					type: "loot"
+					table_id: 1163093020815070129L
 				}
 			]
 		}
@@ -1830,6 +2242,16 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "673BEB8684859FA4"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "2DF955D0C04B9319"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
 			]
 		}
 		{
@@ -1865,6 +2287,11 @@
 					type: "xp_levels"
 					xp_levels: 5
 				}
+				{
+					id: "1A20ABD7BF12B89C"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
 			]
 		}
 		{
@@ -1879,11 +2306,18 @@
 				type: "item"
 				item: "sophisticatedbackpacks:netherite_backpack"
 			}]
-			rewards: [{
-				id: "19DC25B568C1F5C1"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "19DC25B568C1F5C1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "007BF7CA1602117C"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+			]
 		}
 		{
 			x: 5.0d
@@ -1903,11 +2337,23 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "720AD0B5201DBF58"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "720AD0B5201DBF58"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4BED6ADFDDB39AB3"
+					type: "random"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "3F48388A25F2D2CE"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
+			]
 		}
 		{
 			x: -12.5d
@@ -1922,11 +2368,23 @@
 				item: "minecraft:ender_eye"
 				count: 12L
 			}]
-			rewards: [{
-				id: "61A1C7DB3413E3FB"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "61A1C7DB3413E3FB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "03933A127F01BD56"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "50117705BC07BDF0"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
+			]
 		}
 		{
 			x: -16.0d
@@ -1940,11 +2398,23 @@
 				type: "item"
 				item: "minecraft:wither_skeleton_skull"
 			}]
-			rewards: [{
-				id: "4BD50D79EEEEA8AB"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "4BD50D79EEEEA8AB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "41DEF910DE40A2D3"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "0E299B57578FF021"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
+			]
 		}
 		{
 			title: "Spawn The Wither"
@@ -1968,11 +2438,23 @@
 					count: 4L
 				}
 			]
-			rewards: [{
-				id: "5A9B0683E9842FFD"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "5A9B0683E9842FFD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "595E3EFF840610CC"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "427C5A9B4D5199A4"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
+			]
 		}
 		{
 			title: "Nether Star"
@@ -1997,6 +2479,16 @@
 					id: "7D4DDA6400756092"
 					type: "item"
 					item: "calemiutils:money_bag_rich"
+				}
+				{
+					id: "5EBB4AF0525F267F"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "73A6E1939E5AFD47"
+					type: "loot"
+					table_id: 4862069733972096572L
 				}
 			]
 		}
@@ -2042,6 +2534,16 @@
 					type: "item"
 					item: "minecraft:enchanted_golden_apple"
 				}
+				{
+					id: "2BDD4D9A5F5A9DA6"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "6C931E0A20CDC1A2"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
 			]
 		}
 		{
@@ -2056,11 +2558,23 @@
 				type: "item"
 				item: "minecraft:carrot"
 			}]
-			rewards: [{
-				id: "0F767D8CF686A99F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "0F767D8CF686A99F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0F00795908BE4888"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "7C48BD994AB56D59"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
+			]
 		}
 		{
 			x: 7.0d
@@ -2074,11 +2588,23 @@
 				type: "item"
 				item: "minecraft:potato"
 			}]
-			rewards: [{
-				id: "32A281266AE7C4A7"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "32A281266AE7C4A7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5DB9D8BB4038E29E"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "7A765C0F24846DBC"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
+			]
 		}
 		{
 			x: 7.0d
@@ -2092,11 +2618,23 @@
 				type: "item"
 				item: "minecraft:beetroot_seeds"
 			}]
-			rewards: [{
-				id: "3FEC92F54A262ADC"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "3FEC92F54A262ADC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0150C3F2739D6955"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "3C327F3DA41CF2B5"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
+			]
 		}
 		{
 			x: 7.0d
@@ -2111,11 +2649,23 @@
 				type: "item"
 				item: "minecraft:melon_seeds"
 			}]
-			rewards: [{
-				id: "0725A782FFB991BC"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "0725A782FFB991BC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0A745D060D8DC116"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "1F2C437E029EE679"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
+			]
 		}
 		{
 			x: 7.0d
@@ -2129,11 +2679,23 @@
 				type: "item"
 				item: "minecraft:pumpkin_seeds"
 			}]
-			rewards: [{
-				id: "7EAA0B00D8C780C2"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "7EAA0B00D8C780C2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "57BF2BFEC6E9247E"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "38324F0EA720682C"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
+			]
 		}
 		{
 			x: 9.0d
@@ -2146,11 +2708,23 @@
 				type: "item"
 				item: "minecraft:golden_carrot"
 			}]
-			rewards: [{
-				id: "3B537D1511E7DFCD"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "3B537D1511E7DFCD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0E25B3217CDBEFCC"
+					type: "random"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "5B2C294E5AEFF1D7"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
+			]
 		}
 		{
 			x: 9.0d
@@ -2164,11 +2738,23 @@
 				type: "item"
 				item: "minecraft:baked_potato"
 			}]
-			rewards: [{
-				id: "489FA3295A041559"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "489FA3295A041559"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "5090145FCCC85C15"
+					type: "random"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "5DDD0E3B481F92AE"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
+			]
 		}
 		{
 			x: 9.0d
@@ -2181,11 +2767,23 @@
 				type: "item"
 				item: "minecraft:beetroot_soup"
 			}]
-			rewards: [{
-				id: "31BD23E9163E0869"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "31BD23E9163E0869"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "5530F17ABC9AF930"
+					type: "random"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "2328285FC9CA5EFA"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
+			]
 		}
 		{
 			x: 9.0d
@@ -2198,11 +2796,23 @@
 				type: "item"
 				item: "minecraft:glistering_melon_slice"
 			}]
-			rewards: [{
-				id: "43C5F995C140F82A"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "43C5F995C140F82A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0FD0AED2474947A1"
+					type: "random"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "44D2FB38BC4049D1"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
+			]
 		}
 		{
 			x: 9.0d
@@ -2216,11 +2826,23 @@
 				type: "item"
 				item: "minecraft:pumpkin_pie"
 			}]
-			rewards: [{
-				id: "2DB7763E37E083B6"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "2DB7763E37E083B6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "28E452B6EF27768B"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "6DF7B3494F08F351"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
+			]
 		}
 		{
 			x: -2.0d
@@ -2253,6 +2875,11 @@
 					id: "5F05EBBFA664756A"
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "15DD3DE7E11D7DB8"
+					type: "loot"
+					table_id: 1163093020815070129L
 				}
 			]
 		}
@@ -2290,6 +2917,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "57465F6907B57BA5"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
 			]
 		}
 		{
@@ -2320,6 +2952,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "6E3C3DF6AE60BF60"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
 			]
 		}
 		{
@@ -2349,6 +2986,11 @@
 					id: "155C73E44CB914C6"
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "2E12DB0B186FC364"
+					type: "loot"
+					table_id: 1163093020815070129L
 				}
 			]
 		}
@@ -2384,6 +3026,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "7944F7D2E2A345EF"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
 			]
 		}
 		{
@@ -2417,6 +3064,11 @@
 					id: "777F2DEDF83E164C"
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "3C4FB9A48C3E19A7"
+					type: "loot"
+					table_id: 1163093020815070129L
 				}
 			]
 		}
@@ -2454,6 +3106,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "5196E0D8F5509CA0"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
 			]
 		}
 		{
@@ -2486,6 +3143,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "7E15EA6E1CAA7957"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
 			]
 		}
 		{
@@ -2515,6 +3177,11 @@
 					id: "7F8E83EE1DAD44E7"
 					type: "item"
 					item: "calemiutils:security_wrench"
+				}
+				{
+					id: "219619CC886D0499"
+					type: "loot"
+					table_id: 1163093020815070129L
 				}
 			]
 		}
@@ -2549,6 +3216,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "3FE3DC9E99277882"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
 			]
 		}
 		{
@@ -2567,11 +3239,18 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "245AAB1EECB9D697"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "245AAB1EECB9D697"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "206CDA290009833C"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -2609,6 +3288,16 @@
 						}
 					}
 				}
+				{
+					id: "3540AC3195B908F9"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "1743F80FE161C244"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
 			]
 		}
 		{
@@ -2625,11 +3314,23 @@
 				type: "item"
 				item: "majruszs_difficulty:end_shard"
 			}]
-			rewards: [{
-				id: "0561E2889D198D07"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "0561E2889D198D07"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "15BDAC83F0902625"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "1275AB332D82AACE"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
+			]
 		}
 		{
 			icon: "quark:biotite_ore"
@@ -2644,11 +3345,23 @@
 				type: "item"
 				item: "quark:biotite"
 			}]
-			rewards: [{
-				id: "740D375465882A71"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "740D375465882A71"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "11D326ACE16B8D5D"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "11CCEDBE5E8189B5"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
+			]
 		}
 		{
 			x: -11.5d
@@ -2661,11 +3374,23 @@
 				type: "item"
 				item: "majruszs_difficulty:end_ingot"
 			}]
-			rewards: [{
-				id: "233081F78B1E8D2E"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "233081F78B1E8D2E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0E8B06D05A52A55E"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "1D739A215EF3A3A3"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
+			]
 		}
 		{
 			x: -8.0d
@@ -2689,6 +3414,16 @@
 					id: "67DA9965D24F90CC"
 					type: "item"
 					item: "calemiutils:money_bag_rich"
+				}
+				{
+					id: "34531840AA318618"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "68361D278BD84FB8"
+					type: "loot"
+					table_id: 4862069733972096572L
 				}
 			]
 		}
@@ -2715,6 +3450,16 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "6B0F87675ABC88FD"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "2AE9CD6F9A810D42"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
 			]
 		}
 		{
@@ -2740,6 +3485,16 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "4A7C64F76CEA6EE7"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "358B667856D1A4D4"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
 			]
 		}
 		{
@@ -2759,11 +3514,23 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "09EFC02710634A24"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "09EFC02710634A24"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "17749BF9A096E967"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "6326F33AFEFE6D2F"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
+			]
 		}
 		{
 			title: "End Armor"
@@ -2820,11 +3587,23 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "526790CE31F4C26D"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "526790CE31F4C26D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "056BFE6A7CF4999F"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "0355D6ACEAD2A8A8"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
+			]
 		}
 		{
 			title: "End Tools"
@@ -2868,11 +3647,23 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "3CEB9896ABFC5784"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "3CEB9896ABFC5784"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5C64B1A157B3C4D7"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "0CB76932D15802C4"
+					type: "loot"
+					table_id: 4862069733972096572L
+				}
+			]
 		}
 		{
 			x: -1.5d
@@ -2921,6 +3712,16 @@
 					id: "4BF05E76E44BC241"
 					type: "xp_levels"
 					xp_levels: 2
+				}
+				{
+					id: "47388C29D3F668C8"
+					type: "loot"
+					table_id: 1163093020815070129L
+				}
+				{
+					id: "2C9395D097A892B5"
+					type: "loot"
+					table_id: 4862069733972096572L
 				}
 			]
 		}

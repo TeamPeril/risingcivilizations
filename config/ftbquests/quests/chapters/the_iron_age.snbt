@@ -39,6 +39,11 @@
 					type: "xp_levels"
 					xp_levels: 1
 				}
+				{
+					id: "0E824004D3BC4D0A"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
 			]
 		}
 		{
@@ -97,6 +102,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "5D4CCDDD11D9714D"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
 			]
 		}
 		{
@@ -138,6 +148,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_rich"
 				}
+				{
+					id: "62F1B7BCF44B9813"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
 			]
 		}
 		{
@@ -174,6 +189,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "7A837735C8D4BBF6"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
 			]
 		}
 		{
@@ -194,6 +214,11 @@
 				id: "741A69AE572F671F"
 				type: "checkmark"
 				title: "Material Processing"
+			}]
+			rewards: [{
+				id: "68CF45538E6487DC"
+				type: "loot"
+				table_id: 3533714899972005892L
 			}]
 		}
 		{
@@ -287,16 +312,19 @@
 					id: "4360AE437952A45D"
 					type: "item"
 					item: "create:copper_sheet"
+					count: 8
 				}
 				{
 					id: "1EE923699B5F2A49"
 					type: "item"
 					item: "create:iron_sheet"
+					count: 8
 				}
 				{
 					id: "63EE063C4C3CD873"
 					type: "item"
 					item: "create:golden_sheet"
+					count: 8
 				}
 			]
 		}
@@ -327,7 +355,7 @@
 					id: "484DF185FF3B389B"
 					type: "item"
 					item: "minecraft:iron_ore"
-					count: 8
+					count: 16
 				}
 			]
 		}
@@ -351,11 +379,18 @@
 					item: "create:basin"
 				}
 			]
-			rewards: [{
-				id: "66E8353804F4B0EA"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "66E8353804F4B0EA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0E6469BBF6927AB9"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: 6.0d
@@ -374,11 +409,18 @@
 				type: "item"
 				item: "create:deployer"
 			}]
-			rewards: [{
-				id: "44CAE7EACD3E4E7A"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "44CAE7EACD3E4E7A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "31B6E755699C0068"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -408,6 +450,11 @@
 					type: "item"
 					item: "create:encased_fan"
 				}
+				{
+					id: "6791B57422DE5B8E"
+					type: "random"
+					table_id: 3533714899972005892L
+				}
 			]
 		}
 		{
@@ -423,11 +470,18 @@
 				type: "item"
 				item: "create:copper_sheet"
 			}]
-			rewards: [{
-				id: "7DA1FBE03881F927"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "7DA1FBE03881F927"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2E677C12966D37CD"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			title: "Crushed Ore"
@@ -451,7 +505,7 @@
 					id: "50B6191E4C46A75B"
 					type: "item"
 					item: "create:copper_ore"
-					count: 4
+					count: 16
 				}
 				{
 					id: "0D2FB9CAC03FC2AD"
@@ -477,11 +531,23 @@
 				type: "item"
 				item: "create:mechanical_crafter"
 			}]
-			rewards: [{
-				id: "5DB6996AF0EEE1D8"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5DB6996AF0EEE1D8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "24DF97831D27D76A"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+				{
+					id: "6D901C9D06F54726"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -543,6 +609,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "62FAD09AB2F9BE2A"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
 			]
 		}
 		{
@@ -570,6 +641,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "669AD9C199FC58E6"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
 			]
 		}
 		{
@@ -577,6 +653,7 @@
 			x: 0.0d
 			y: 2.0d
 			shape: "gear"
+			subtitle: "Allows for rotational power to be transported over distances."
 			dependencies: [
 				"782F3508B83BA1D8"
 				"6FA970E4AEA1EDD7"
@@ -622,6 +699,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "317E77BCE16DF81A"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
 			]
 		}
 		{
@@ -647,6 +729,11 @@
 					id: "1FD946BD405497DA"
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "248B659D13C278E8"
+					type: "loot"
+					table_id: 3533714899972005892L
 				}
 			]
 		}
@@ -682,6 +769,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "634181DF4EF58C22"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
 			]
 		}
 		{
@@ -713,6 +805,7 @@
 			subtitle: "An important crafting component"
 			dependencies: ["4E54A1173F1869F3"]
 			hide: true
+			size: 2.0d
 			id: "10B5013DA804F25E"
 			tasks: [{
 				id: "793BA9FE4CF869DD"
@@ -736,6 +829,16 @@
 					id: "4A68C6ACF780C669"
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "5A7D3783AAE14D64"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+				{
+					id: "02A8EC2C2419BCC7"
+					type: "loot"
+					table_id: 3533714899972005892L
 				}
 			]
 		}
@@ -773,6 +876,11 @@
 					id: "20101A364BCBEDD3"
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "499708AEC7409577"
+					type: "loot"
+					table_id: 3533714899972005892L
 				}
 			]
 		}
@@ -817,7 +925,12 @@
 					id: "714A0E92ECED9EC1"
 					type: "item"
 					item: "minecraft:charcoal"
-					count: 16
+					count: 64
+				}
+				{
+					id: "759FBE99CEA1D465"
+					type: "loot"
+					table_id: 3533714899972005892L
 				}
 			]
 		}
@@ -845,6 +958,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_rich"
 				}
+				{
+					id: "48F4251C34007557"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
 			]
 		}
 		{
@@ -868,11 +986,18 @@
 					item: "create:belt_connector"
 				}
 			]
-			rewards: [{
-				id: "363E293AA6724157"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "363E293AA6724157"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "38A526C8721EB93D"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			title: "Chutes"
@@ -888,11 +1013,18 @@
 				type: "item"
 				item: "create:chute"
 			}]
-			rewards: [{
-				id: "202A1C6E8BB7D4EF"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "202A1C6E8BB7D4EF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6E1E23835882553E"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: 5.0d
@@ -907,11 +1039,18 @@
 				type: "item"
 				item: "create:smart_chute"
 			}]
-			rewards: [{
-				id: "3FA9DCAA712C4F0C"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "3FA9DCAA712C4F0C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "4A46FC284AE227BB"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: 8.0d
@@ -930,11 +1069,18 @@
 				type: "item"
 				item: "create:weighted_ejector"
 			}]
-			rewards: [{
-				id: "5EC79ADFE6665F62"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5EC79ADFE6665F62"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "176AE8AB806525D1"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: 11.0d
@@ -956,11 +1102,18 @@
 					item: "create:mechanical_pump"
 				}
 			]
-			rewards: [{
-				id: "3C938B34449850FB"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "3C938B34449850FB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "392BF70C45E032AC"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: 11.0d
@@ -974,11 +1127,18 @@
 				type: "item"
 				item: "create:smart_fluid_pipe"
 			}]
-			rewards: [{
-				id: "1F08531E6F6E43A7"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "1F08531E6F6E43A7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "524A827647FDB4E1"
+					type: "random"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: 12.0d
@@ -999,11 +1159,18 @@
 					item: "create:copper_valve_handle"
 				}
 			]
-			rewards: [{
-				id: "5D4C71B62BB7B859"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5D4C71B62BB7B859"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7C84D399123519F6"
+					type: "random"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: 10.0d
@@ -1018,11 +1185,18 @@
 				type: "item"
 				item: "create:hose_pulley"
 			}]
-			rewards: [{
-				id: "5C5D9C07F9FEAC23"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5C5D9C07F9FEAC23"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7889FB0496A7ABE5"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: 9.0d
@@ -1047,6 +1221,11 @@
 					id: "27FC821BBF9A8950"
 					type: "item"
 					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "5276816ABAB2DFCB"
+					type: "loot"
+					table_id: 3533714899972005892L
 				}
 			]
 		}
@@ -1081,6 +1260,11 @@
 					type: "item"
 					item: "create:blaze_cake"
 				}
+				{
+					id: "2A66792D54E7FDFA"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
 			]
 		}
 		{
@@ -1099,11 +1283,18 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "28358891474AF48A"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "28358891474AF48A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "200F33AA292CAB25"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: 13.0d
@@ -1122,11 +1313,18 @@
 				type: "item"
 				item: "create:fluid_tank"
 			}]
-			rewards: [{
-				id: "58F19ADD7C82906F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "58F19ADD7C82906F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "751B070D6EDA9798"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			title: "Automated Wood Gathering"
@@ -1174,6 +1372,11 @@
 					type: "xp_levels"
 					xp_levels: 2
 				}
+				{
+					id: "0DAD04B7E8840F8B"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
 			]
 		}
 		{
@@ -1213,6 +1416,11 @@
 					type: "xp_levels"
 					xp_levels: 2
 				}
+				{
+					id: "7B455CAD7870E070"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
 			]
 		}
 		{
@@ -1238,6 +1446,11 @@
 					id: "596C7C780DA9ABF9"
 					type: "xp_levels"
 					xp_levels: 2
+				}
+				{
+					id: "131AB1859201EEAB"
+					type: "loot"
+					table_id: 3533714899972005892L
 				}
 			]
 		}
@@ -1278,6 +1491,11 @@
 					type: "xp_levels"
 					xp_levels: 2
 				}
+				{
+					id: "3FAB9DFAF3F4DEA8"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
 			]
 		}
 		{
@@ -1292,11 +1510,18 @@
 				type: "item"
 				item: "create:mechanical_bearing"
 			}]
-			rewards: [{
-				id: "61CAB1A4E44DF52D"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "61CAB1A4E44DF52D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "21D4B64C2E55D412"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: -9.0d
@@ -1310,11 +1535,18 @@
 				type: "item"
 				item: "minecraft:minecart"
 			}]
-			rewards: [{
-				id: "7C3AA0826E673C1A"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "7C3AA0826E673C1A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "610B0ADE7307FE88"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			title: "Chassis"
@@ -1341,11 +1573,18 @@
 					item: "create:radial_chassis"
 				}
 			]
-			rewards: [{
-				id: "6CE8D8252A800982"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6CE8D8252A800982"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "291CFB920C0383A0"
+					type: "random"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			title: "Attaching Blocks to Contraptions"
@@ -1378,11 +1617,18 @@
 				type: "item"
 				item: "create:cart_assembler"
 			}]
-			rewards: [{
-				id: "07325E9FCB6FBF85"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "07325E9FCB6FBF85"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "53D7E1BFDF82F6A2"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			title: "Ways of Moving Contraptions"
@@ -1416,11 +1662,18 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "649945621C4399FF"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "649945621C4399FF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "76BA51CB3429FD32"
+					type: "random"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: -7.0d
@@ -1441,11 +1694,18 @@
 					item: "create:gantry_carriage"
 				}
 			]
-			rewards: [{
-				id: "5DFD71C0F25F5A1C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5DFD71C0F25F5A1C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5E0B9F9836FACDB5"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: 6.0d
@@ -1460,11 +1720,18 @@
 				type: "item"
 				item: "create:refined_radiance"
 			}]
-			rewards: [{
-				id: "1E87C985C525CA22"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "1E87C985C525CA22"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "37D2BB6B94C282CE"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: 9.0d
@@ -1506,6 +1773,11 @@
 						}
 					}
 				}
+				{
+					id: "4B5C15E373B5DFF3"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
 			]
 		}
 		{
@@ -1539,6 +1811,11 @@
 					id: "36C7F1E9B474B352"
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "5CEE5514EF05F564"
+					type: "loot"
+					table_id: 3533714899972005892L
 				}
 			]
 		}
@@ -1600,6 +1877,7 @@
 							Items: { }
 						}
 					}
+					count: 4
 				}
 			]
 		}
@@ -1657,6 +1935,12 @@
 						Count: 1b
 						tag: { }
 					}
+					count: 4
+				}
+				{
+					id: "550F5B3800BECAD0"
+					type: "loot"
+					table_id: 3533714899972005892L
 				}
 			]
 		}
@@ -1689,6 +1973,11 @@
 					type: "item"
 					item: "farmersdelight:potato_crate"
 				}
+				{
+					id: "621BCD7B06B67326"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
 			]
 		}
 		{
@@ -1715,6 +2004,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "0C113372E1D94F49"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
 			]
 		}
 		{
@@ -1729,6 +2023,11 @@
 				type: "item"
 				item: "vehicle:workstation"
 			}]
+			rewards: [{
+				id: "21A5C2C8C6B13499"
+				type: "loot"
+				table_id: 3533714899972005892L
+			}]
 		}
 		{
 			x: 13.0d
@@ -1741,11 +2040,18 @@
 				type: "item"
 				item: "calemiutils:motor"
 			}]
-			rewards: [{
-				id: "3D63867AD97C1476"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "3D63867AD97C1476"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "72DE77C144934CA2"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			title: "Ender Sap"
@@ -1761,11 +2067,18 @@
 				type: "item"
 				item: "minecraft:ender_pearl"
 			}]
-			rewards: [{
-				id: "0269C574024B1AFA"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "0269C574024B1AFA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7104F2509759955A"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			title: "Blaze Juice"
@@ -1781,11 +2094,18 @@
 				type: "item"
 				item: "minecraft:blaze_rod"
 			}]
-			rewards: [{
-				id: "4AB04E49330FB716"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4AB04E49330FB716"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1ECAAB5FA4FB32A9"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: 19.0d
@@ -1810,6 +2130,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "76E1FEDC0290F662"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
 			]
 		}
 		{
@@ -1823,11 +2148,18 @@
 				type: "item"
 				item: "vehicle:wood_large_engine"
 			}]
-			rewards: [{
-				id: "49240020B55D966B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "49240020B55D966B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "41772A21E85AC0A0"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: 21.0d
@@ -1840,11 +2172,18 @@
 				type: "item"
 				item: "vehicle:wood_small_engine"
 			}]
-			rewards: [{
-				id: "3C624286CC7FB76F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "3C624286CC7FB76F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "10EC622639C75B14"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: 21.0d
@@ -1857,11 +2196,18 @@
 				type: "item"
 				item: "vehicle:wood_electric_engine"
 			}]
-			rewards: [{
-				id: "76432C255B5282AF"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "76432C255B5282AF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "28DBDC79240B096D"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: 22.5d
@@ -1874,11 +2220,18 @@
 				type: "item"
 				item: "vehicle:stone_small_engine"
 			}]
-			rewards: [{
-				id: "3E64278E6EA96D78"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "3E64278E6EA96D78"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3CA2EFEB50A1E7A7"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: 25.5d
@@ -1891,11 +2244,18 @@
 				type: "item"
 				item: "vehicle:gold_small_engine"
 			}]
-			rewards: [{
-				id: "51EEC0707DE896C5"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "51EEC0707DE896C5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "111BAF123F4DF62A"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: 27.0d
@@ -1908,11 +2268,18 @@
 				type: "item"
 				item: "vehicle:diamond_small_engine"
 			}]
-			rewards: [{
-				id: "472ABCB4CCFA94D5"
-				type: "item"
-				item: "calemiutils:money_bag_cheap"
-			}]
+			rewards: [
+				{
+					id: "472ABCB4CCFA94D5"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "559D234280EAFEE4"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: 22.5d
@@ -1925,11 +2292,18 @@
 				type: "item"
 				item: "vehicle:stone_large_engine"
 			}]
-			rewards: [{
-				id: "43C31FF66426392F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "43C31FF66426392F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "48FF79B3937370A9"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: 24.0d
@@ -1942,11 +2316,18 @@
 				type: "item"
 				item: "vehicle:iron_large_engine"
 			}]
-			rewards: [{
-				id: "50EE92DB7DB37949"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "50EE92DB7DB37949"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3CACB884A71E27D3"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: 24.0d
@@ -1959,11 +2340,18 @@
 				type: "item"
 				item: "vehicle:iron_small_engine"
 			}]
-			rewards: [{
-				id: "437A26205B7A49FE"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "437A26205B7A49FE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "14126FEBCAD10E8A"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: 25.5d
@@ -1976,11 +2364,18 @@
 				type: "item"
 				item: "vehicle:gold_large_engine"
 			}]
-			rewards: [{
-				id: "074773BFC74264DD"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "074773BFC74264DD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "469E41EE5227A27F"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: 27.0d
@@ -2004,6 +2399,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "519F04BD69FE767B"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
 			]
 		}
 		{
@@ -2017,11 +2417,18 @@
 				type: "item"
 				item: "vehicle:stone_electric_engine"
 			}]
-			rewards: [{
-				id: "579626C734445C79"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "579626C734445C79"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0821548A655583C0"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: 24.0d
@@ -2034,11 +2441,18 @@
 				type: "item"
 				item: "vehicle:iron_electric_engine"
 			}]
-			rewards: [{
-				id: "1FA0AAB9F5F00EAE"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "1FA0AAB9F5F00EAE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7A07CF4E5D6233D8"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: 25.5d
@@ -2051,11 +2465,18 @@
 				type: "item"
 				item: "vehicle:gold_electric_engine"
 			}]
-			rewards: [{
-				id: "3D182741C4B53C4D"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "3D182741C4B53C4D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5F3EDC2CCA8B5CEA"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: 27.0d
@@ -2079,6 +2500,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "173B45A9B2A23B0E"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
 			]
 		}
 		{
@@ -2097,11 +2523,18 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "6DB9F9518247BECF"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6DB9F9518247BECF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2C53841E9D381FE6"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: 15.0d
@@ -2115,11 +2548,18 @@
 				type: "item"
 				item: "calemiutils:torch_placer"
 			}]
-			rewards: [{
-				id: "6AEE7691C99573ED"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6AEE7691C99573ED"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "59F431DBC37B9A19"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: 13.0d
@@ -2144,6 +2584,11 @@
 					type: "item"
 					item: "calemiutils:money_bag_cheap"
 				}
+				{
+					id: "2E17ACC3594DF6EF"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
 			]
 		}
 		{
@@ -2157,11 +2602,18 @@
 				type: "item"
 				item: "calemiutils:speed_upgrade"
 			}]
-			rewards: [{
-				id: "7DEF038053863813"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "7DEF038053863813"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0FC80F827224C479"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: 15.0d
@@ -2174,11 +2626,18 @@
 				type: "item"
 				item: "calemiutils:range_upgrade"
 			}]
-			rewards: [{
-				id: "0FB44D9AE2BCB516"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "0FB44D9AE2BCB516"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "075DDEC825F2DD5C"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: 19.0d
@@ -2202,6 +2661,11 @@
 					id: "7D229E363023DECA"
 					type: "item"
 					item: "vehicle:fuelium_bucket"
+				}
+				{
+					id: "1E41A9B9B55DD28E"
+					type: "loot"
+					table_id: 3533714899972005892L
 				}
 			]
 		}
@@ -2233,11 +2697,18 @@
 					item: "minecraft:flint"
 				}
 			]
-			rewards: [{
-				id: "72A5686AB5A20C80"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "72A5686AB5A20C80"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6568C2D2FABBA2F4"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			icon: "mekanism:basic_control_circuit"
@@ -2256,6 +2727,24 @@
 				type: "checkmark"
 				title: "The Modern Age"
 			}]
+			rewards: [
+				{
+					id: "07D6064DC68C72C1"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+					count: 8
+				}
+				{
+					id: "04D4A845DF4C8DCF"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+				{
+					id: "27B9AA9F3D516CC8"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
 		}
 		{
 			x: 17.0d
@@ -2271,6 +2760,11 @@
 				id: "218C09B0AF892F31"
 				type: "item"
 				item: "kubejs:fuelium_clump"
+			}]
+			rewards: [{
+				id: "153464595C719E75"
+				type: "loot"
+				table_id: 3533714899972005892L
 			}]
 		}
 	]

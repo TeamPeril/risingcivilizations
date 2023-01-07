@@ -11,6 +11,7 @@ onEvent('recipes', event => {
   // Change recipes here
   
   //Remove Combiner Recipes related to ore
+
   event.remove({id: 'mekanism:processing/copper/ore/from_dust'})
   event.remove({id: 'mekanism:processing/fluorite/to_ore'})
   event.remove({id: 'mekanism:processing/lead/ore/from_dust'})
@@ -27,6 +28,7 @@ onEvent('recipes', event => {
   event.remove({id: 'mekanism:processing/lapis_lazuli/to_ore'})
   event.remove({id: 'mekanism:processing/quartz/to_ore'})
   event.remove({id: 'mekanism:processing/redstone/to_ore'})
+  
   
   //Replace All instances of other coppers with the create copper
   event.remove({id: 'mekanism:processing/copper/ingot/from_ore_smelting'})

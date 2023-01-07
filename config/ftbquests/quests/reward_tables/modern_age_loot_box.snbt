@@ -1,0 +1,36 @@
+{
+	id: "6CDAFED1533DB7B6"
+	order_index: 1
+	title: "Modern Age Loot Box"
+	icon: "kubejs:lootbox_modern"
+	loot_size: 1
+	rewards: [
+		{ item: "mekanism:alloy_infused", count: 32, weight: 3 }
+		{ item: "mekanism:basic_control_circuit", count: 16, weight: 3 }
+		{ item: "mekanism:ingot_steel", count: 32, weight: 3 }
+		{ item: "minecraft:coal", count: 32, weight: 3 }
+		{ item: "minecraft:redstone", count: 32, weight: 3 }
+		{ item: "create:copper_ingot", count: 32, weight: 3 }
+		{ item: "minecraft:iron_ingot", count: 32, weight: 3 }
+		{ item: "refinedstorage:quartz_enriched_iron", count: 32, weight: 2 }
+		{ item: "minecraft:gold_ingot", count: 32, weight: 3 }
+		{ item: "minecraft:diamond", count: 32 }
+		{ item: "mekanism:enriched_carbon", count: 8, weight: 3 }
+		{ item: "mekanism:enriched_redstone", count: 8, weight: 3 }
+		{ item: "mekanism:enriched_diamond", count: 8, weight: 2 }
+		{ item: "mekanism:enriched_refined_obsidian", count: 8, weight: 2 }
+		{ item: "mekanism:alloy_reinforced", count: 32, weight: 2 }
+		{ item: "mekanism:alloy_atomic", count: 32 }
+		{ item: "mekanism:teleportation_core", count: 8 }
+		{ item: "mekanism:pellet_antimatter", count: 4 }
+		{ item: "mekanism:advanced_control_circuit", count: 16, weight: 3 }
+		{ item: "mekanism:elite_control_circuit", count: 16, weight: 2 }
+		{ item: "mekanism:ultimate_control_circuit", count: 16 }
+		{ item: "mekanism:ingot_tin", count: 32, weight: 3 }
+		{ item: "eidolon:lead_ingot", count: 32 }
+		{ item: "mekanism:hdpe_pellet", count: 64, weight: 2 }
+		{ item: "minecraft:obsidian", count: 32, weight: 2 }
+		{ item: "mekanism:ingot_osmium", count: 32, weight: 3 }
+		{ item: "mekanism:quantum_entangloporter" }
+	]
+}
