@@ -22,7 +22,7 @@
 		{ item: "mekanism:alloy_reinforced", count: 32, weight: 2 }
 		{ item: "mekanism:alloy_atomic", count: 32 }
 		{ item: "mekanism:teleportation_core", count: 8 }
-		{ item: "mekanism:pellet_antimatter", count: 4 }
+		{ item: "mekanism:pellet_antimatter", count: 4, weight: 2 }
 		{ item: "mekanism:advanced_control_circuit", count: 16, weight: 3 }
 		{ item: "mekanism:elite_control_circuit", count: 16, weight: 2 }
 		{ item: "mekanism:ultimate_control_circuit", count: 16 }
@@ -32,5 +32,17 @@
 		{ item: "minecraft:obsidian", count: 32, weight: 2 }
 		{ item: "mekanism:ingot_osmium", count: 32, weight: 3 }
 		{ item: "mekanism:quantum_entangloporter" }
+		{ item: "vehicle:fuel_drum", weight: 3 }
+		{ item: "mekanism:logistical_sorter", weight: 3 }
+		{ item: "mekanism:basic_logistical_transporter", count: 32, weight: 3 }
+		{ item: "mekanism:fluorite_gem", count: 64, weight: 3 }
+		{ item: "eidolon:sulfur", count: 32, weight: 3 }
+		{ item: "mekanism:basic_mechanical_pipe", count: 32, weight: 3 }
+		{ item: "mekanism:basic_fluid_tank", count: 4, weight: 3 }
+		{ item: "mekanism:basic_chemical_tank", count: 4, weight: 3 }
+		{ item: "mekanism:basic_tier_installer", count: 4, weight: 3 }
+		{ item: "mekanism:advanced_tier_installer", count: 3, weight: 3 }
+		{ item: "mekanism:elite_tier_installer", count: 2, weight: 2 }
+		{ item: "mekanism:ultimate_tier_installer" }
 	]
 }

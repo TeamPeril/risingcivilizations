@@ -51,5 +51,24 @@
 		{ item: "abnormals_delight:pike_with_beetroot", count: 16 }
 		{ item: "abnormals_delight:pickerelweed_juice", count: 16 }
 		{ item: "abnormals_delight:mulberry_cookie", count: 16 }
+		{ item: "minecraft:cooked_beef", count: 16, weight: 2 }
+		{ item: "minecraft:cooked_porkchop", count: 16, weight: 2 }
+		{ item: "minecraft:cooked_chicken", count: 16, weight: 2 }
+		{ item: "minecraft:cooked_mutton", count: 16, weight: 2 }
+		{ item: "minecraft:apple", count: 32, weight: 2 }
+		{ item: "minecraft:honey_bottle", count: 16, weight: 2 }
+		{ item: "minecraft:egg", count: 16, weight: 2 }
+		{ item: "minecraft:baked_potato", count: 16, weight: 2 }
+		{ item: "minecraft:mushroom_stew", count: 16, weight: 2 }
+		{ item: "minecraft:beetroot_soup", count: 16, weight: 2 }
+		{ item: "minecraft:bread", count: 16, weight: 2 }
+		{ item: "upgrade_aquatic:mulberry_bread", count: 16 }
+		{ item: "minecraft:carrot", count: 16, weight: 2 }
+		{ item: "minecraft:cake", weight: 2 }
+		{ item: "create:honeyed_apple", count: 16 }
+		{ item: "create:bar_of_chocolate", count: 16 }
+		{ item: "create:sweet_roll", count: 16 }
+		{ item: "create:chocolate_glazed_berries", count: 16 }
+		{ item: "create:builders_tea", count: 16 }
 	]
 }

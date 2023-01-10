@@ -20,5 +20,5 @@ onEvent('item.tooltip', tooltip => {
 	tooltip.add(['craftabledeeds:empty_deed'], 'Use to claim a 8x8 chunk area of land.')
 	tooltip.add(['craftabledeeds:deed_pedestal'], 
 	'Place non-empty deed on this to activate land protection. Warning: If a player finds your deed pedestal they can deactivate it by right clicking it, resulting in a explosion and the drop of a nether star, the area becoming claimable again by others after an hour.')
-
+	tooltip.add(['create:deployer'], ("\u00A7c" + "Warning: Will not work in claimed land by default. Make an exception in your deed pedestal for a rogue deployer."))
 })

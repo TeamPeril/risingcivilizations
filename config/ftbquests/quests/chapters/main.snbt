@@ -116,6 +116,17 @@
 					type: "loot"
 					table_id: 1163093020815070129L
 				}
+				{
+					id: "1C926FDC352BAFF3"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:spider_gate_small"
+						}
+					}
+				}
 			]
 		}
 		{
@@ -297,6 +308,17 @@
 					type: "loot"
 					table_id: 4862069733972096572L
 				}
+				{
+					id: "1A363D4EB2B8BA91"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:spider_gate"
+						}
+					}
+				}
 			]
 		}
 		{
@@ -332,6 +354,17 @@
 					id: "6147D0139FF21CFF"
 					type: "loot"
 					table_id: 1163093020815070129L
+				}
+				{
+					id: "44BF89C2ED714A34"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:zombie_gate_small"
+						}
+					}
 				}
 			]
 		}
@@ -510,6 +543,28 @@
 					id: "2D77CBCE042E25F5"
 					type: "loot"
 					table_id: 4862069733972096572L
+				}
+				{
+					id: "2F11BCA2F7A11B6E"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:enderman_gate_small"
+						}
+					}
+				}
+				{
+					id: "64E5202216F95A31"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:spider_gate"
+						}
+					}
 				}
 			]
 		}
@@ -748,6 +803,17 @@
 					type: "loot"
 					table_id: 1163093020815070129L
 				}
+				{
+					id: "1DFD1ADED7A1BC54"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:spider_gate"
+						}
+					}
+				}
 			]
 		}
 		{
@@ -895,6 +961,17 @@
 					type: "loot"
 					table_id: 1163093020815070129L
 				}
+				{
+					id: "04F07428F677CDCD"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:skeleton_gate_small"
+						}
+					}
+				}
 			]
 		}
 		{
@@ -934,6 +1011,17 @@
 					type: "loot"
 					table_id: 1163093020815070129L
 				}
+				{
+					id: "420CC2C31385E3E4"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:zombie_gate"
+						}
+					}
+				}
 			]
 		}
 		{
@@ -968,6 +1056,17 @@
 					id: "639B3ACCB2A841A4"
 					type: "loot"
 					table_id: 1163093020815070129L
+				}
+				{
+					id: "5F9BCE5423479F4C"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:skeleton_gate_small"
+						}
+					}
 				}
 			]
 		}
@@ -1584,6 +1683,17 @@
 					type: "loot"
 					table_id: 4862069733972096572L
 				}
+				{
+					id: "3BDD8967D7E18C70"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:skeleton_gate"
+						}
+					}
+				}
 			]
 		}
 		{
@@ -1623,6 +1733,17 @@
 					id: "580D7F884FAE2444"
 					type: "loot"
 					table_id: 1163093020815070129L
+				}
+				{
+					id: "58E9A6F479919A4E"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:spider_gate"
+						}
+					}
 				}
 			]
 		}
@@ -1710,6 +1831,17 @@
 					type: "loot"
 					table_id: 4862069733972096572L
 				}
+				{
+					id: "42E1A6602953AC8D"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:skeleton_gate"
+						}
+					}
+				}
 			]
 		}
 		{
@@ -1749,6 +1881,17 @@
 					id: "736AB6DE4D3B360D"
 					type: "loot"
 					table_id: 1163093020815070129L
+				}
+				{
+					id: "19A1404C5C4CB460"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:zombie_gate"
+						}
+					}
 				}
 			]
 		}
@@ -1825,6 +1968,17 @@
 					type: "loot"
 					table_id: 4862069733972096572L
 				}
+				{
+					id: "051E38B87D1BD8B6"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:spider_gate_large"
+						}
+					}
+				}
 			]
 		}
 		{
@@ -1898,6 +2052,17 @@
 					type: "loot"
 					table_id: 4862069733972096572L
 				}
+				{
+					id: "73A0EE103A4B4EEF"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:blaze_gate"
+						}
+					}
+				}
 			]
 		}
 		{
@@ -1932,6 +2097,17 @@
 					type: "loot"
 					table_id: 1163093020815070129L
 				}
+				{
+					id: "78C84FE8DA626B7B"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:blaze_gate_small"
+						}
+					}
+				}
 			]
 		}
 		{
@@ -1957,6 +2133,17 @@
 					type: "loot"
 					table_id: 1163093020815070129L
 				}
+				{
+					id: "621DB7A46FDCF250"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:blaze_gate"
+						}
+					}
+				}
 			]
 		}
 		{
@@ -1981,6 +2168,17 @@
 					id: "14E070634270CF6E"
 					type: "loot"
 					table_id: 1163093020815070129L
+				}
+				{
+					id: "37BE6A57D9CE1AD5"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:magma_cube_gate"
+						}
+					}
 				}
 			]
 		}
@@ -2166,6 +2364,17 @@
 					type: "loot"
 					table_id: 1163093020815070129L
 				}
+				{
+					id: "4DFFB3741354D10C"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:enderman_gate"
+						}
+					}
+				}
 			]
 		}
 		{
@@ -2252,6 +2461,17 @@
 					type: "loot"
 					table_id: 4862069733972096572L
 				}
+				{
+					id: "49C603CC3071CF1C"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:spider_gate"
+						}
+					}
+				}
 			]
 		}
 		{
@@ -2291,6 +2511,17 @@
 					id: "1A20ABD7BF12B89C"
 					type: "loot"
 					table_id: 1163093020815070129L
+				}
+				{
+					id: "3820080562B37B45"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:witch_gate"
+						}
+					}
 				}
 			]
 		}
@@ -2384,6 +2615,17 @@
 					type: "loot"
 					table_id: 4862069733972096572L
 				}
+				{
+					id: "3D2DCE9170743BFB"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:enderman_gate_large"
+						}
+					}
+				}
 			]
 		}
 		{
@@ -2413,6 +2655,17 @@
 					id: "0E299B57578FF021"
 					type: "loot"
 					table_id: 4862069733972096572L
+				}
+				{
+					id: "7A801AABD1272370"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:ghast_gate"
+						}
+					}
 				}
 			]
 		}
@@ -2454,6 +2707,17 @@
 					type: "loot"
 					table_id: 4862069733972096572L
 				}
+				{
+					id: "5ADCF73D6B0FED51"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:skeleton_gate"
+						}
+					}
+				}
 			]
 		}
 		{
@@ -2489,6 +2753,17 @@
 					id: "73A6E1939E5AFD47"
 					type: "loot"
 					table_id: 4862069733972096572L
+				}
+				{
+					id: "39B5856462804673"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:blaze_gate_large"
+						}
+					}
 				}
 			]
 		}
@@ -2543,6 +2818,28 @@
 					id: "6C931E0A20CDC1A2"
 					type: "loot"
 					table_id: 4862069733972096572L
+				}
+				{
+					id: "690BFA652E3CD360"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:enderman_gate"
+						}
+					}
+				}
+				{
+					id: "7C3C5AC0BBDFF579"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:shulker_gate"
+						}
+					}
 				}
 			]
 		}
@@ -3298,6 +3595,28 @@
 					type: "loot"
 					table_id: 4862069733972096572L
 				}
+				{
+					id: "72D44AF38EB3E2EF"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:creeper_gate_small"
+						}
+					}
+				}
+				{
+					id: "7747BB313DFA4B91"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:creeper_gate"
+						}
+					}
+				}
 			]
 		}
 		{
@@ -3330,6 +3649,17 @@
 					type: "loot"
 					table_id: 4862069733972096572L
 				}
+				{
+					id: "6B7B9C6EE1A173DE"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:enderman_gate"
+						}
+					}
+				}
 			]
 		}
 		{
@@ -3360,6 +3690,17 @@
 					id: "11CCEDBE5E8189B5"
 					type: "loot"
 					table_id: 4862069733972096572L
+				}
+				{
+					id: "2B7FF42400C2591B"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:shulker_gate"
+						}
+					}
 				}
 			]
 		}

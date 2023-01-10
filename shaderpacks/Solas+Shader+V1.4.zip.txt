@@ -1,0 +1,5 @@
+#Mon Jan 09 17:31:29 EST 2023
+BLOCKY_CLOUDS=true
+TAA=false
+VC=false
+FXAA=true

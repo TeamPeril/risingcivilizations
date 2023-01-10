@@ -23,7 +23,7 @@
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
 	"mainOutputWeight": 0.01,
-    "mainOutput": "minecraft:emerald_ingot"
+    "mainOutput": "minecraft:emerald"
   },
   "SpawnData": {
     "canSpawnInWorld": true,

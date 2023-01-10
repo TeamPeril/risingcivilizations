@@ -14,9 +14,10 @@ onEvent('recipes', event => {
   
   //Custom Recipe to create lava & sulfur from flint + Crimson Bark
   event.remove({id: 'create:mixing/lava_from_cobble'})
-  event.recipes.createMixing([Fluid.of('minecraft:lava', 100), Item.of('eidolon:sulfur').withChance(0.2), Item.of('minecraft:blackstone')],[
+  event.recipes.createMixing([Fluid.of('minecraft:lava', 100), Item.of('eidolon:sulfur').withChance(0.2), Item.of('minecraft:blackstone'), Item.of('minecraft:magma_block')],[
   'minecraft:flint',
-  '#minecraft:crimson_stems'
+  'minecraft:sand',
+  'minecraft:cobblestone'
   ]).heated()
   
 
