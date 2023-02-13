@@ -22,7 +22,7 @@
 		{ item: "mekanism:alloy_reinforced", count: 32, weight: 2 }
 		{ item: "mekanism:alloy_atomic", count: 32 }
 		{ item: "mekanism:teleportation_core", count: 8 }
-		{ item: "mekanism:pellet_antimatter", count: 4, weight: 2 }
+		{ item: "mekanism:pellet_antimatter" }
 		{ item: "mekanism:advanced_control_circuit", count: 16, weight: 3 }
 		{ item: "mekanism:elite_control_circuit", count: 16, weight: 2 }
 		{ item: "mekanism:ultimate_control_circuit", count: 16 }
