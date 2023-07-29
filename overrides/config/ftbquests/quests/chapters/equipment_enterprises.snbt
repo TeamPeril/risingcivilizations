@@ -1,0 +1,1084 @@
+{
+	id: "535729DF22F39B65"
+	group: "62B3B3B908C107D7"
+	order_index: 3
+	filename: "equipment_enterprises"
+	title: "Equipment Enterprises"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	images: [{
+		x: 5.5d
+		y: -1.5d
+		width: 16.0d
+		height: 2.5d
+		rotation: 0.0d
+		image: "custom_images:textures/store_buy.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "Category: Transportation"
+			icon: "minecraft:minecart"
+			x: 0.0d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "Buy any trasportation related goods you need!"
+			id: "590A2E45BCCDF73B"
+		}
+		{
+			title: "Buy Rails"
+			icon: "minecraft:rail"
+			x: 0.5d
+			y: 1.0d
+			subtitle: "128x for 100 credits"
+			can_repeat: true
+			id: "7516C7357C574D40"
+			tasks: [{
+				id: "0B37C8DE883A6233"
+				type: "item"
+				item: "calemieconomy:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2417108C064A2E40"
+					type: "item"
+					item: "minecraft:rail"
+					count: 64
+				}
+				{
+					id: "67138083EB6B0EC3"
+					type: "item"
+					item: "minecraft:rail"
+					count: 64
+				}
+			]
+		}
+		{
+			title: "Buy Powered Rails"
+			icon: "minecraft:powered_rail"
+			x: 0.5d
+			y: 2.0d
+			subtitle: "128x for 100 credits"
+			can_repeat: true
+			id: "58EBF8974AF1A871"
+			tasks: [{
+				id: "418248346EB61550"
+				type: "item"
+				item: "calemieconomy:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1C9AC74C211D0633"
+					type: "item"
+					item: "minecraft:powered_rail"
+					count: 64
+				}
+				{
+					id: "316694B26C664CE7"
+					type: "item"
+					item: "minecraft:powered_rail"
+					count: 64
+				}
+			]
+		}
+		{
+			title: "Buy Detector Rails"
+			icon: "minecraft:detector_rail"
+			x: 0.5d
+			y: 3.0d
+			subtitle: "128x for 100 credits"
+			can_repeat: true
+			id: "52E27215E8B6C78D"
+			tasks: [{
+				id: "7CD9983960E68676"
+				type: "item"
+				item: "calemieconomy:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7357EAC7ED2C48BD"
+					type: "item"
+					item: "minecraft:detector_rail"
+					count: 64
+				}
+				{
+					id: "3107B5E37A69E08A"
+					type: "item"
+					item: "minecraft:detector_rail"
+					count: 64
+				}
+			]
+		}
+		{
+			title: "Buy Activator Rails"
+			icon: "minecraft:activator_rail"
+			x: 0.5d
+			y: 4.0d
+			subtitle: "128x for 100 credits"
+			can_repeat: true
+			id: "3A5A28525E2B8375"
+			tasks: [{
+				id: "19D77762B4D02A80"
+				type: "item"
+				item: "calemieconomy:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "611D015EA656E0C3"
+					type: "item"
+					item: "minecraft:activator_rail"
+					count: 64
+				}
+				{
+					id: "5BE38B6421E3294A"
+					type: "item"
+					item: "minecraft:activator_rail"
+					count: 64
+				}
+			]
+		}
+		{
+			title: "Buy Controller Rails"
+			icon: "create:controller_rail"
+			x: 0.5d
+			y: 5.0d
+			subtitle: "128x for 100 credits"
+			can_repeat: true
+			id: "04D78C756E1D8567"
+			tasks: [{
+				id: "10A4DE981BF1B1EB"
+				type: "item"
+				item: "calemieconomy:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "31B8F7808E562FC3"
+					type: "item"
+					item: "create:controller_rail"
+					count: 64
+				}
+				{
+					id: "2BDA1DE17F929CBB"
+					type: "item"
+					item: "create:controller_rail"
+					count: 64
+				}
+			]
+		}
+		{
+			title: "Buy Minecart"
+			icon: "minecraft:minecart"
+			x: -0.5d
+			y: 5.0d
+			subtitle: "2x for 25 credits"
+			can_repeat: true
+			id: "5648AFDAB097D174"
+			tasks: [{
+				id: "4FF79BC65E405FA7"
+				type: "item"
+				item: "calemieconomy:coin_gold"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4C6260C02E13D591"
+					type: "item"
+					item: "minecraft:minecart"
+				}
+				{
+					id: "6633B89674538507"
+					type: "item"
+					item: "minecraft:minecart"
+				}
+			]
+		}
+		{
+			title: "Category: Tools"
+			icon: "create:wrench"
+			x: 4.5d
+			y: 0.0d
+			shape: "diamond"
+			id: "6986CEDB5428E3E8"
+		}
+		{
+			title: "Buy Trading Combo Pack"
+			icon: "calemieconomy:trading_post"
+			x: 3.5d
+			y: 1.0d
+			subtitle: "Combo for 50 Credits"
+			can_repeat: true
+			id: "03D45D95C8277B1E"
+			tasks: [{
+				id: "0C986F3E8F6092D2"
+				type: "item"
+				item: "calemieconomy:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5AC570A24D0D8FA7"
+					type: "item"
+					item: "calemieconomy:trading_post"
+					count: 8
+				}
+				{
+					id: "4BEB7F249FCDE34E"
+					type: "item"
+					item: "calemieconomy:currency_network_cable"
+					count: 16
+				}
+				{
+					id: "162F320E1A3363D6"
+					type: "item"
+					item: "calemieconomy:bank"
+				}
+			]
+		}
+		{
+			title: "Buy Create Wrench"
+			icon: "create:wrench"
+			x: 4.5d
+			y: 1.0d
+			subtitle: "1x for 10 Credits"
+			can_repeat: true
+			id: "59556DE7CE7C806B"
+			tasks: [{
+				id: "3C9A60C1DC95D94B"
+				type: "item"
+				item: "calemieconomy:coin_silver"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "52CDE62457795253"
+				type: "item"
+				item: "create:wrench"
+			}]
+		}
+		{
+			title: "Buy Refined Storage Wrench"
+			icon: "refinedstorage:wrench"
+			x: 5.5d
+			y: 1.0d
+			subtitle: "1x for 10 credits"
+			can_repeat: true
+			id: "0AA5E8ABF245CCB7"
+			tasks: [{
+				id: "5FA58BFA67B20E25"
+				type: "item"
+				item: "calemieconomy:coin_silver"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "29868341C5C169A7"
+				type: "item"
+				item: "refinedstorage:wrench"
+			}]
+		}
+		{
+			title: "Buy Trading Post Wrench"
+			icon: "calemieconomy:security_wrench"
+			x: 3.5d
+			y: 2.0d
+			subtitle: "1x for 10 credits"
+			can_repeat: true
+			id: "7A4E6BD8659E4836"
+			tasks: [{
+				id: "52A1DF19C836C906"
+				type: "item"
+				item: "calemieconomy:coin_silver"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5DC43CF3F5E0E141"
+				type: "item"
+				item: "calemieconomy:security_wrench"
+			}]
+		}
+		{
+			title: "Category: Special Items"
+			icon: "minecraft:totem_of_undying"
+			x: 12.0d
+			y: 0.0d
+			shape: "diamond"
+			id: "2747DB04CD7F3AD8"
+		}
+		{
+			title: "Buy Totem of Undying"
+			icon: "minecraft:totem_of_undying"
+			x: 11.5d
+			y: 1.0d
+			subtitle: "1x for 1000 Credits"
+			can_repeat: true
+			id: "6F0EEFE8AC8C4D4F"
+			tasks: [{
+				id: "0B47AED17131B019"
+				type: "item"
+				item: "calemieconomy:coin_platinum"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4DF1ED90F3151DBF"
+				type: "item"
+				item: "minecraft:totem_of_undying"
+			}]
+		}
+		{
+			title: "Buy Ore Scanner"
+			icon: "scannable:scanner"
+			x: 4.5d
+			y: 2.0d
+			subtitle: "1x for 15 Credits"
+			can_repeat: true
+			id: "68EA497490A5C7D9"
+			tasks: [{
+				id: "77FD97DD06101AA6"
+				type: "item"
+				item: "calemieconomy:coin_silver"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4776C49054B5F0FA"
+				type: "item"
+				auto: "disabled"
+				item: "scannable:scanner"
+			}]
+		}
+		{
+			title: "Category: Music Disc"
+			icon: "cataclysm:music_disc_netherite_monstrosity"
+			x: 8.5d
+			y: 0.0d
+			shape: "diamond"
+			id: "2444850933FF2B10"
+		}
+		{
+			title: "Buy Disk \"13\" by C418"
+			icon: "minecraft:music_disc_13"
+			x: 8.0d
+			y: 1.0d
+			subtitle: "1x for 100 Credits"
+			can_repeat: true
+			id: "6E330EE7CCC5B6E3"
+			tasks: [{
+				id: "62322469E439D647"
+				type: "item"
+				item: "calemieconomy:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "72A0A41480F04C6F"
+				type: "item"
+				item: "minecraft:music_disc_13"
+			}]
+		}
+		{
+			title: "Buy Disk \"Cat\" by C418"
+			icon: "minecraft:music_disc_cat"
+			x: 9.0d
+			y: 1.0d
+			subtitle: "1x for 100 Credits"
+			can_repeat: true
+			id: "275FFD82535CE797"
+			tasks: [{
+				id: "32BC31B59DC70E1C"
+				type: "item"
+				item: "calemieconomy:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0380847D9FE63AB7"
+				type: "item"
+				item: "minecraft:music_disc_cat"
+			}]
+		}
+		{
+			title: "Buy Disk \"Blocks\" by C418"
+			icon: "minecraft:music_disc_blocks"
+			x: 8.0d
+			y: 2.0d
+			subtitle: "1x for 100 Credits"
+			can_repeat: true
+			id: "1B720C4E205886BE"
+			tasks: [{
+				id: "7246CB6AA6292265"
+				type: "item"
+				item: "calemieconomy:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1464596370CB7ECB"
+				type: "item"
+				item: "minecraft:music_disc_blocks"
+			}]
+		}
+		{
+			title: "Buy Disk \"Chirp\" by C418"
+			icon: "minecraft:music_disc_chirp"
+			x: 9.0d
+			y: 2.0d
+			subtitle: "1x for 100 Credits"
+			can_repeat: true
+			id: "646B7F1D1A400EDE"
+			tasks: [{
+				id: "40DE018A2ED70217"
+				type: "item"
+				item: "calemieconomy:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "50E339BF84757EA1"
+				type: "item"
+				item: "minecraft:music_disc_chirp"
+			}]
+		}
+		{
+			title: "Buy Disk \"Far\" by C418"
+			icon: "minecraft:music_disc_far"
+			x: 8.0d
+			y: 3.0d
+			subtitle: "1x for 100 Credits"
+			can_repeat: true
+			id: "59FCFE7D697C1DE1"
+			tasks: [{
+				id: "665B8252CBE7CC18"
+				type: "item"
+				item: "calemieconomy:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7BB11447705D0F24"
+				type: "item"
+				item: "minecraft:music_disc_far"
+			}]
+		}
+		{
+			title: "Buy Disk \"Mall\" by C418"
+			icon: "minecraft:music_disc_mall"
+			x: 9.0d
+			y: 3.0d
+			subtitle: "1x for 100 Credits"
+			can_repeat: true
+			id: "604565FE64387942"
+			tasks: [{
+				id: "674FB6A4A9D58317"
+				type: "item"
+				item: "calemieconomy:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "65BAE99D07AEE6BD"
+				type: "item"
+				item: "minecraft:music_disc_mall"
+			}]
+		}
+		{
+			title: "Buy Disk \"Mellohi\" by C418"
+			icon: "minecraft:music_disc_mellohi"
+			x: 8.0d
+			y: 4.0d
+			subtitle: "1x for 100 Credits"
+			can_repeat: true
+			id: "79997B4F3D715167"
+			tasks: [{
+				id: "05DE3748B06FD2AF"
+				type: "item"
+				item: "calemieconomy:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1E8A3665833F5020"
+				type: "item"
+				item: "minecraft:music_disc_mellohi"
+			}]
+		}
+		{
+			title: "Buy Disk \"Stal\" by C418"
+			icon: "minecraft:music_disc_stal"
+			x: 9.0d
+			y: 4.0d
+			subtitle: "1x for 100 Credits"
+			can_repeat: true
+			id: "675052CD9140C124"
+			tasks: [{
+				id: "6A380ED1B74B09EE"
+				type: "item"
+				item: "calemieconomy:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "19CFE1107CC23BCF"
+				type: "item"
+				item: "minecraft:music_disc_stal"
+			}]
+		}
+		{
+			title: "Buy Disk \"Strad\" by C418"
+			icon: "minecraft:music_disc_strad"
+			x: 8.0d
+			y: 5.0d
+			subtitle: "1x for 100 Credits"
+			can_repeat: true
+			id: "46EFC6D3E34DF95D"
+			tasks: [{
+				id: "1EA64649F19ED500"
+				type: "item"
+				item: "calemieconomy:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "27CFAB46F9B0BC71"
+				type: "item"
+				item: "minecraft:music_disc_strad"
+			}]
+		}
+		{
+			title: "Buy Disk \"Ward\" by C418"
+			icon: "minecraft:music_disc_ward"
+			x: 9.0d
+			y: 5.0d
+			subtitle: "1x for 100 Credits"
+			can_repeat: true
+			id: "75CF0B3CEDC2657A"
+			tasks: [{
+				id: "40E42BF9DAA0DCA0"
+				type: "item"
+				item: "calemieconomy:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "089C0B720F8F35ED"
+				type: "item"
+				item: "minecraft:music_disc_ward"
+			}]
+		}
+		{
+			title: "Buy Saddles"
+			icon: "minecraft:saddle"
+			x: -0.5d
+			y: 1.0d
+			subtitle: "2x for 50 Credits"
+			can_repeat: true
+			id: "55AEB86729A4497A"
+			tasks: [{
+				id: "46FF21F64D662E20"
+				type: "item"
+				item: "calemieconomy:coin_gold"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "34E70554EE5E0ED1"
+					type: "item"
+					item: "minecraft:saddle"
+				}
+				{
+					id: "2CFC9402C5725263"
+					type: "item"
+					item: "minecraft:saddle"
+				}
+			]
+		}
+		{
+			title: "Buy Leads"
+			icon: "minecraft:lead"
+			x: -0.5d
+			y: 2.0d
+			subtitle: "8x for 25 Credits"
+			can_repeat: true
+			id: "25ACF6E81A2355BA"
+			tasks: [{
+				id: "7AC84B24E1CE3686"
+				type: "item"
+				item: "calemieconomy:coin_gold"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "74727E52DD622E01"
+				type: "item"
+				item: "minecraft:lead"
+				count: 8
+			}]
+		}
+		{
+			title: "Buy Carrot on a Stick"
+			icon: {
+				id: "minecraft:carrot_on_a_stick"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -0.5d
+			y: 3.0d
+			subtitle: "2x for 25 Credits"
+			description: ["Used for controlling a pig's direction when saddled to it."]
+			can_repeat: true
+			id: "5BAE40F83CFA4192"
+			tasks: [{
+				id: "06CC0E1ABC05EA85"
+				type: "item"
+				item: "calemieconomy:coin_gold"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1EC01B3B90A71918"
+					type: "item"
+					item: {
+						id: "minecraft:carrot_on_a_stick"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "506C287636165859"
+					type: "item"
+					item: {
+						id: "minecraft:carrot_on_a_stick"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Buy Warped Fungus on a Stick"
+			icon: {
+				id: "minecraft:warped_fungus_on_a_stick"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -0.5d
+			y: 4.0d
+			subtitle: "2x for 25 Credits"
+			description: ["Used for controlling a strider's direction when saddled to it."]
+			can_repeat: true
+			id: "7B7509F00518CB59"
+			tasks: [{
+				id: "6084158E40A62E5F"
+				type: "item"
+				item: "calemieconomy:coin_gold"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "65204D4FD83BC8DB"
+					type: "item"
+					item: {
+						id: "minecraft:warped_fungus_on_a_stick"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "725A28FF4ED58683"
+					type: "item"
+					item: {
+						id: "minecraft:warped_fungus_on_a_stick"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Buy Creeper Gate Pearl"
+			icon: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "gateways:creeper_gate"
+				}
+			}
+			x: 12.5d
+			y: 1.0d
+			subtitle: "100 Credits"
+			can_repeat: true
+			id: "5FE09AFF8F24DA27"
+			tasks: [{
+				id: "4F7817D09A7346BD"
+				type: "item"
+				item: "calemieconomy:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "68E6382A51BB55CF"
+				type: "item"
+				item: {
+					id: "gateways:gate_pearl"
+					Count: 1b
+					tag: {
+						gateway: "gateways:creeper_gate"
+					}
+				}
+			}]
+		}
+		{
+			title: "Buy Skeleton Gate Pearl"
+			icon: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "gateways:skeleton_gate"
+				}
+			}
+			x: 11.5d
+			y: 2.0d
+			subtitle: "100 Credits"
+			can_repeat: true
+			id: "1A7CB01A800BD836"
+			tasks: [{
+				id: "4EA4F6D9F77A7340"
+				type: "item"
+				item: "calemieconomy:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3DBB31A1823C9769"
+				type: "item"
+				item: {
+					id: "gateways:gate_pearl"
+					Count: 1b
+					tag: {
+						gateway: "gateways:skeleton_gate"
+					}
+				}
+			}]
+		}
+		{
+			title: "Buy Zombie Gate"
+			icon: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "gateways:zombie_gate"
+				}
+			}
+			x: 12.5d
+			y: 2.0d
+			subtitle: "100 Credits"
+			can_repeat: true
+			id: "4F050B129EB19E89"
+			tasks: [{
+				id: "7E8EB05014C8C171"
+				type: "item"
+				item: "calemieconomy:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5DEF927C79C5C93D"
+				type: "item"
+				item: {
+					id: "gateways:gate_pearl"
+					Count: 1b
+					tag: {
+						gateway: "gateways:zombie_gate"
+					}
+				}
+			}]
+		}
+		{
+			title: "Buy Spider Gate"
+			icon: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "gateways:spider_gate"
+				}
+			}
+			x: 11.5d
+			y: 3.0d
+			subtitle: "100 Credits"
+			can_repeat: true
+			id: "4DB063C3CB6DCA79"
+			tasks: [{
+				id: "419D750E352A4CA0"
+				type: "item"
+				item: "calemieconomy:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7FA077252A28266F"
+				type: "item"
+				item: {
+					id: "gateways:gate_pearl"
+					Count: 1b
+					tag: {
+						gateway: "gateways:spider_gate"
+					}
+				}
+			}]
+		}
+		{
+			title: "Buy Witch Gate"
+			icon: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "gateways:witch_gate"
+				}
+			}
+			x: 12.5d
+			y: 3.0d
+			subtitle: "100 Credits"
+			can_repeat: true
+			id: "2351F2734E18DED6"
+			tasks: [{
+				id: "7B282262A8B143BA"
+				type: "item"
+				item: "calemieconomy:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6C1AA3B626652F81"
+				type: "item"
+				item: {
+					id: "gateways:gate_pearl"
+					Count: 1b
+					tag: {
+						gateway: "gateways:witch_gate"
+					}
+				}
+			}]
+		}
+		{
+			title: "Buy Slime Gate"
+			icon: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "gateways:slime_gate"
+				}
+			}
+			x: 11.5d
+			y: 4.0d
+			subtitle: "100 Credits"
+			can_repeat: true
+			id: "5D364EE5C7521A3D"
+			tasks: [{
+				id: "069F30C2996049A0"
+				type: "item"
+				item: "calemieconomy:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "03A0EAF34D346F80"
+				type: "item"
+				item: {
+					id: "gateways:gate_pearl"
+					Count: 1b
+					tag: {
+						gateway: "gateways:slime_gate"
+					}
+				}
+			}]
+		}
+		{
+			title: "Buy Enderman Gate"
+			icon: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "gateways:enderman_gate"
+				}
+			}
+			x: 12.5d
+			y: 4.0d
+			subtitle: "100 Credits"
+			can_repeat: true
+			id: "545B46638C8DD942"
+			tasks: [{
+				id: "0218C8911CE41513"
+				type: "item"
+				item: "calemieconomy:coin_platinum"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3EFDBE052BC66003"
+				type: "item"
+				item: {
+					id: "gateways:gate_pearl"
+					Count: 1b
+					tag: {
+						gateway: "gateways:enderman_gate"
+					}
+				}
+			}]
+		}
+		{
+			title: "Buy Temporal Pouch"
+			icon: {
+				id: "gag:time_sand_pouch"
+				Count: 1b
+				tag: { }
+			}
+			x: 5.5d
+			y: 2.0d
+			subtitle: "300 Credits"
+			can_repeat: true
+			id: "2300C8FD55CF819D"
+			tasks: [{
+				id: "2AE75858FA670D74"
+				type: "item"
+				item: "calemieconomy:coin_platinum"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "102693DF64CDC842"
+				type: "item"
+				item: {
+					id: "gag:time_sand_pouch"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Buy Recruit Table"
+			icon: "recruits:recruit_block"
+			x: 3.5d
+			y: 3.0d
+			subtitle: "25 Credits"
+			can_repeat: true
+			id: "503805F6D0A8855E"
+			tasks: [{
+				id: "289EA72370E746E2"
+				type: "item"
+				item: "calemieconomy:coin_gold"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "18A7DDA229CCD1FC"
+				type: "item"
+				item: "recruits:recruit_block"
+			}]
+		}
+		{
+			title: "Buy Bowman Table"
+			icon: "recruits:bowman_block"
+			x: 4.5d
+			y: 3.0d
+			subtitle: "25 Credits"
+			can_repeat: true
+			id: "0BA05A8EFE1F560A"
+			tasks: [{
+				id: "41E01242A03C30A2"
+				type: "item"
+				item: "calemieconomy:coin_gold"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1CC447F7655513C1"
+				type: "item"
+				item: "recruits:bowman_block"
+			}]
+		}
+		{
+			title: "Buy Shieldman Table"
+			icon: "recruits:recruit_shield_block"
+			x: 5.5d
+			y: 3.0d
+			subtitle: "25 Credits"
+			can_repeat: true
+			id: "5AF1F72CECDB509A"
+			tasks: [{
+				id: "0A5B74CB09180411"
+				type: "item"
+				item: "calemieconomy:coin_gold"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1CE66F5D38019E67"
+				type: "item"
+				item: "recruits:recruit_shield_block"
+			}]
+		}
+		{
+			title: "Buy Crossbow Man Table"
+			icon: "recruits:crossbowman_block"
+			x: 3.5d
+			y: 4.0d
+			subtitle: "25 Credits"
+			can_repeat: true
+			id: "33FFD2A4E121D364"
+			tasks: [{
+				id: "699E32F6A7174A2E"
+				type: "item"
+				item: "calemieconomy:coin_gold"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "32B4CB449B744F77"
+				type: "item"
+				item: "recruits:crossbowman_block"
+			}]
+		}
+		{
+			title: "Buy Horseman Table"
+			icon: "recruits:horseman_block"
+			x: 4.5d
+			y: 4.0d
+			subtitle: "25 Credits"
+			can_repeat: true
+			id: "350EB5600D3B5CB3"
+			tasks: [{
+				id: "00F452ED974A618D"
+				type: "item"
+				item: "calemieconomy:coin_gold"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "65912DF281CA0E83"
+				type: "item"
+				item: "recruits:horseman_block"
+			}]
+		}
+		{
+			title: "Buy Nomad's Table"
+			icon: "recruits:nomad_block"
+			x: 5.5d
+			y: 4.0d
+			subtitle: "25 Credits"
+			can_repeat: true
+			id: "0C74EDAF46F8D096"
+			tasks: [{
+				id: "2DD29C502FC42D2F"
+				type: "item"
+				item: "calemieconomy:coin_gold"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "36393AB40028C43B"
+				type: "item"
+				item: "recruits:nomad_block"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

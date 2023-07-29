@@ -1,0 +1,105 @@
+{
+	id: "370C3D7D2452704A"
+	group: "1AD132C89B776C92"
+	order_index: 1
+	filename: "technological_progression_summary"
+	title: "Ages of Technology"
+	icon: "create:cogwheel"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "The Iron Age"
+			icon: "create:cogwheel"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Marvelous Mechanical Machines"
+			description: ["The Iron Age is Dominated by the Create Mod, where you use rotational power from sources sych as water wheels, wind mills, or furnace engines to power contraptions."]
+			dependencies: ["725A4B3894F1B5FC"]
+			size: 2.0d
+			id: "58DEA2610CDC5ED4"
+			tasks: [{
+				id: "3A45C2E903E7E7F1"
+				type: "gamestage"
+				title: "Enter the Iron Age to Unlock"
+				stage: "IronAge"
+			}]
+			rewards: [
+				{
+					id: "0CB63081D0BEF842"
+					type: "item"
+					item: "calemieconomy:money_bag_rich"
+				}
+				{
+					id: "43FAB6C98513E9D9"
+					type: "loot"
+					table_id: 3533714899972005892L
+				}
+			]
+		}
+		{
+			title: "The Stone Age"
+			icon: {
+				id: "minecraft:stone_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -4.0d
+			y: 0.0d
+			subtitle: "Sticks, stones, and bones."
+			description: ["The Stone Age is dominated by the vanilla experience of surviving, conquering dungeons/dimensions, and very basic technologies like furnaces, crafting tables, etc."]
+			size: 2.0d
+			id: "725A4B3894F1B5FC"
+			tasks: [{
+				id: "32D3A99D35A6874D"
+				type: "gamestage"
+				title: "Enter the Stone Age to Unlock"
+				stage: "StoneAge"
+			}]
+			rewards: [
+				{
+					id: "58C4B485053580BF"
+					type: "item"
+					item: "calemieconomy:money_bag_rich"
+				}
+				{
+					id: "48C584779AD590A4"
+					type: "item"
+					item: "calemieconomy:wallet"
+				}
+			]
+		}
+		{
+			title: "The Modern Age"
+			icon: "createaddition:alternator"
+			x: 4.0d
+			y: 0.0d
+			subtitle: "Electricity!"
+			description: ["The Modern Age is dominated by Mekanism where you use electricity to power advanced technologies. This technology can then be used to automate and create useful utilities like mass storage systems, jetpacks, or guns."]
+			dependencies: ["58DEA2610CDC5ED4"]
+			size: 2.0d
+			id: "469FA040974A8E7E"
+			tasks: [{
+				id: "398F7FA4DE015797"
+				type: "gamestage"
+				title: "Enter the Modern Age"
+				stage: "ModernAge"
+			}]
+			rewards: [
+				{
+					id: "3D0109DE97AC8710"
+					type: "item"
+					item: "calemieconomy:money_bag_rich"
+				}
+				{
+					id: "7FB622380F062EB0"
+					type: "loot"
+					table_id: 7843861876017313718L
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

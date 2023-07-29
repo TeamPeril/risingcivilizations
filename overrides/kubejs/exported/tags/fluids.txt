@@ -1,0 +1,90 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jul 27, 2023, 1:58:28 PM
+
+#forge:crude_oil
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+- create:flowing_honey
+- create:honey
+- create:flowing_chocolate
+- create:chocolate
+- create_central_kitchen:flowing_sap?
+- create_central_kitchen:sap?
+- create_central_kitchen:flowing_syrup?
+- create_central_kitchen:syrup?
+- create_central_kitchen:flowing_tomato_sauce?
+- create_central_kitchen:tomato_sauce?
+- createindustry:crude_oil_fluid
+- createindustry:crude_oil_flowing
+- createindustry:napalm
+- createindustry:diesel
+- createindustry:gasoline
+- createindustry:kerosene
+- createindustry:naphta
+- createindustry:heavy_oil
+- createindustry:lubrication_oil
+- createindustry:flowing_napalm
+- createindustry:flowing_diesel
+- createindustry:flowing_gasoline
+- createindustry:flowing_kerosene
+- createindustry:flowing_naphta
+- createindustry:flowing_heavy_oil
+- createindustry:flowing_lubrication_oil
+- create_enchantment_industry:flowing_ink
+- create_enchantment_industry:ink
+- createaddition:flowing_seed_oil
+- createaddition:seed_oil
+
+#forge:milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+
+#forge:tea
+- create:flowing_tea
+- create:tea
+
+#forge:biofuel
+- createaddition:flowing_bioethanol
+- createaddition:bioethanol
+
+#forge:plantoil
+- createaddition:flowing_seed_oil
+- createaddition:seed_oil
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#create_enchantment_industry:printer_input
+- create_enchantment_industry:flowing_experience
+- create_enchantment_industry:experience
+- create_enchantment_industry:flowing_hyper_experience
+- create_enchantment_industry:hyper_experience
+- #forge:ink
+
+#create:bottomless/deny
+
+#create_enchantment_industry:blaze_enchanter_input
+- create_enchantment_industry:flowing_experience
+- create_enchantment_industry:experience
+- create_enchantment_industry:flowing_hyper_experience
+- create_enchantment_industry:hyper_experience
+
+#forge:chocolate
+- create:flowing_chocolate
+- create:chocolate
+
+#create:bottomless/allow
+- minecraft:water
+- minecraft:lava
+
+#forge:honey
+- create:flowing_honey
+- create:honey
+
+#forge:creosote
+
+#forge:ink
+- create_enchantment_industry:flowing_ink
+- create_enchantment_industry:ink

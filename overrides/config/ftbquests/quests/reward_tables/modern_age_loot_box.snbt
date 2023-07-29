@@ -1,0 +1,31 @@
+{
+	id: "6CDAFED1533DB7B6"
+	order_index: 1
+	title: "Modern Age Loot Box"
+	icon: "kubejs:lootbox_modern"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:coal", count: 32, weight: 3 }
+		{ item: "minecraft:iron_ingot", count: 32, weight: 3 }
+		{ item: "refinedstorage:quartz_enriched_iron", count: 32, weight: 2 }
+		{ item: "minecraft:gold_ingot", count: 32, weight: 3 }
+		{ item: "minecraft:diamond", count: 32 }
+		{ item: "immersiveengineering:ore_silver", count: 32, weight: 2 }
+		{ item: "immersiveengineering:ore_lead", count: 32, weight: 2 }
+		{ item: "immersiveengineering:ore_aluminum", count: 32, weight: 2 }
+		{ item: "immersiveengineering:slag", count: 64, weight: 3 }
+		{ item: "immersiveengineering:ingot_steel", count: 32, weight: 3 }
+		{ item: "immersiveengineering:coal_coke", count: 32, weight: 2 }
+		{ item: "immersiveengineering:hemp_fabric", count: 32, weight: 3 }
+		{ item: "immersiveengineering:fluid_pipe", count: 32, weight: 2 }
+		{ item: "immersiveengineering:treated_wood_horizontal", count: 32, weight: 3 }
+		{ item: "createaddition:barbed_wire", count: 64, weight: 3 }
+		{ item: "immersiveengineering:wirecoil_copper", count: 16, weight: 2 }
+		{ item: "createaddition:biomass", count: 16, weight: 2 }
+		{ item: "immersiveengineering:ore_nickel", count: 32, weight: 2 }
+		{ item: "immersiveengineering:ore_uranium", count: 16, weight: 2 }
+		{ item: "immersiveengineering:rs_engineering", count: 16, weight: 2 }
+		{ item: "immersiveengineering:heavy_engineering", count: 16, weight: 2 }
+		{ item: "immersiveengineering:light_engineering", count: 16, weight: 2 }
+	]
+}

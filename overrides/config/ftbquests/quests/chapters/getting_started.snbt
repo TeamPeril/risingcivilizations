@@ -1,0 +1,164 @@
+{
+	id: "0000000000000044"
+	group: "1AD132C89B776C92"
+	order_index: 0
+	filename: "getting_started"
+	title: "Getting Started"
+	icon: "minecraft:nether_star"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: -8.0d
+		width: 8.31d
+		height: 2.742d
+		rotation: 0.0d
+		image: "custom_images:textures/rclogo_big.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "&eWelcome!"
+			icon: "minecraft:oak_sapling"
+			x: 0.0d
+			y: -6.0d
+			description: [
+				"Welcome to &6Rising Civilizations&r, we're glad to have you :D"
+				""
+			]
+			size: 1.5d
+			min_width: 300
+			id: "0000000000000045"
+			tasks: [{
+				id: "0000000000000046"
+				type: "checkmark"
+				icon: "minecraft:oak_sapling"
+			}]
+			rewards: [
+				{
+					id: "711E2FBE941B097B"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4862069733972096572L
+				}
+				{
+					id: "113B1B08A46A5F55"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1163093020815070129L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "minecraft:diamond_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: -4.0d
+			subtitle: "Survive and Prevail"
+			description: [
+				"Things are a little different in this version of Rising Civilziations. Opposed to the 1.16.5 version, this version is all focused around fighting the true enemy of the overworld..."
+				""
+				"&4 &lThe Mi Alliance &r"
+			]
+			dependencies: ["0000000000000045"]
+			id: "08ED2FCC27A6B6C6"
+			tasks: [{
+				id: "54A3AB745A3C44E4"
+				type: "checkmark"
+				title: "What is My Goal?"
+			}]
+			rewards: [{
+				id: "3D77045EF7E27DE7"
+				type: "item"
+				item: "farmersdelight:steak_and_potatoes"
+			}]
+		}
+		{
+			icon: "mialliance:spawnegg_mi_legionnaire"
+			x: 2.0d
+			y: -6.0d
+			subtitle: "The Ultimate Smart Faction"
+			description: [
+				"Mi Alliance introduces a powerful faction that operates like players do- building structures, exploring terrain, and fighting whoever gets in their way."
+				""
+				"The army of white blobs known as Mi’s will stop at nothing to claim what is theirs."
+			]
+			dependencies: ["0000000000000045"]
+			id: "03E7E9C681A1A0E7"
+			tasks: [{
+				id: "0D8B5C096EE32368"
+				type: "checkmark"
+				title: "Who is the Mi Alliance?"
+			}]
+			rewards: [{
+				id: "09106D2D8C990938"
+				type: "item"
+				item: "farmersdelight:steak_and_potatoes"
+			}]
+		}
+		{
+			icon: "minecraft:creeper_head"
+			x: -2.0d
+			y: -6.0d
+			subtitle: "There are no natural spawns."
+			description: [
+				"In this modpack, no hostile mobs spawn naturally."
+				""
+				"The only things that spawn are animals, neutral mobs, and the Mi Alliance."
+				""
+				"The only way to get hostile mobs is to use gates that are purchaseable in the shop."
+			]
+			dependencies: ["0000000000000045"]
+			id: "2FFF1D62DEF91C92"
+			tasks: [{
+				id: "53454EEED56233FD"
+				type: "checkmark"
+				title: "Where are the Hostile Mobs?"
+			}]
+			rewards: [
+				{
+					id: "295BA40D6635FCBD"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:creeper_gate"
+						}
+					}
+				}
+				{
+					id: "1255A40D05FA551A"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:zombie_gate"
+						}
+					}
+				}
+				{
+					id: "75D273BC587D8912"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:skeleton_gate"
+						}
+					}
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

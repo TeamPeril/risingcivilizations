@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "1AD132C89B776C92", title: "Information" }
+		{ id: "0AF92872396E1A4D", title: "Main Quests" }
+		{ id: "62B3B3B908C107D7", title: "Shop" }
+	]
+}

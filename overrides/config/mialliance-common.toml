@@ -1,0 +1,95 @@
+
+["MI ALLIANCE configuration"]
+	#Do Mi groups spawn?
+	"Do Mi Spawning?" = true
+	#
+	#Spawnrate of all Mi patrols are multiplied by this factor after applying other factors, such as difficulty.
+	#Range: 0.1 ~ 10.0
+	"Mi Spawn Rate" = 1.0
+	#
+	#Spawn size of all Mi patrols are multiplied by this factor after applying other factors, such as difficulty.
+	#Range: 0.2 ~ 5.0
+	"Mi Group Size" = 2.0
+	#
+	#How quickly Mi's become stronger in the early stages of a world. On Normal difficulty, this is at day 6, day 10 and day 20. The higher this factor, the longer it takes.
+	#Range: 0.1 ~ 5.0
+	"Mi Upgrade Time" = 1.0
+	#
+	#The growth of friendly Tubian Colonies is influenced by this factor. The higher, the faster.
+	#Range: 0.1 ~ 10.0
+	"Mi Tubian Growth" = 1.0
+	#
+	#The growth of Mi Colonies is influenced by this factor. The higher, the faster.
+	#Range: 0.1 ~ 10.0
+	"Mi Colony Growth" = 1.0
+	#
+	#The higher Leniency is, the more forgiving the Alliance will be for infractions.
+	#Range: 0.1 ~ 10.0
+	"Diplomacy Leniency" = 1.0
+	#
+	#The higher Charisma is, the more easily you will obtain additional Honor.
+	#Range: 0.1 ~ 10.0
+	"Diplomacy Charisma" = 1.0
+	#
+	#Spawn Mi group: Guardians?
+	"Spawn Guardians?" = true
+	#
+	#Spawn Mi group: Hunters?
+	"Spawn Hunters?" = true
+	#
+	#Spawn Mi group: Explorers?
+	"Spawn Explorers?" = true
+	#
+	#Spawn Mi group: Army?
+	"Spawn Army?" = true
+	#
+	#Spawn Mi group: Builders?
+	"Spawn Builders?" = true
+	#
+	#Spawn Mi group: Miners?
+	"Spawn Miners?" = true
+	#
+	#Spawn Mi group: Assassins?
+	"Spawn Assassins?" = true
+	#
+	#Spawn Mi group: Airstrike?
+	"Spawn Airstrike?" = true
+	#
+	#
+	"Spawn unit: Billoo?" = true
+	"Spawn unit: Carrymi?" = true
+	"Spawn unit: Submirine?" = true
+	"Spawn unit: Battlecruiser?" = true
+	"Spawn unit: Sniper?" = true
+	"Spawn unit: Commando?" = true
+	"Spawn unit: Wizard?" = true
+	"Spawn unit: Incinerator?" = true
+	"Spawn unit: Tonk?" = true
+	"Spawn unit: Rider?" = true
+	"Spawn unit: Gunslinger?" = true
+	#
+	#How often should Tubian ghosts attempt to spawn?
+	#Range: 0.1 ~ 10.0
+	"Tubian Ghost Spawn Rate" = 1.0
+	#
+	#Should army Mi's be able to destroy blocks?
+	"Mi Fire Griefing?" = true
+	#
+	#Should Mi's be able to destroy blocks with explosions?
+	"Mi Griefing?" = true
+	#
+	#Should worlds automatically be in Phase Two? Warning: Extremely hard for Survival.
+	"Force Phase Two?" = false
+	#
+	#Allow Level 2 Beacons from spawning small patrols of Mi legionnaires?
+	"Allow Beacon patrols?" = true
+	#
+	#Allow special voicelines for Officers, which are intended to increase character depth?
+	"Allow special voicelines for Officers?" = true
+	#
+	#Should all Friendly Mis be peaceful automatically, which makes them non-hostile to all players? Ideal for co-op adventures!
+	"Force peace?" = false
+	#
+	#The Mis know...
+	"Do they know who you are, where you live?" = true
+
