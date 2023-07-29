@@ -418,8 +418,6 @@
 			y: 1.0d
 			description: [
 				"The Crusher can be used to crush ores into dusts, which can then be smelted for a total of two ingots per ore. Certain other items can also be ground down in this way - see JEI."
-				""
-				"Note: Building Gadgets Patterns and Create Schematics are available in your Enigmatica 8 instance folder to assist with this multiblock."
 			]
 			dependencies: ["0000000000000012"]
 			hide: true
@@ -476,8 +474,6 @@
 			y: -0.5d
 			description: [
 				"The Metal Press, when supplied with a mold and power, provides a more material-efficient way to craft plates, wires, and more."
-				""
-				"Note: Building Gadgets Patterns and Create Schematics are available in your Enigmatica 8 instance folder to assist with this multiblock."
 			]
 			dependencies: ["0000000000000012"]
 			hide: true
@@ -540,8 +536,6 @@
 			y: -0.5d
 			description: [
 				"The Improved Blast Furnace makes it easier to automate input/output. You can also make it run much more quickly by attaching one or two powered Blast Furnace Preheaters on either side."
-				""
-				"Note: Building Gadgets Patterns and Create Schematics are available in your Enigmatica 8 instance folder to assist with this multiblock."
 			]
 			dependencies: ["0000000000000012"]
 			hide: true
@@ -616,8 +610,6 @@
 			y: 2.0d
 			description: [
 				"The Arc Furnace is a large, power-intensive machine that can smelt ores into ingots at a 1:2 ratio, but can also be used to quickly make alloys."
-				""
-				"Note: Building Gadgets Patterns and Create Schematics are available in your Enigmatica 8 instance folder to assist with this multiblock."
 			]
 			dependencies: [
 				"3B3D37BAC8E40971"
@@ -779,8 +771,6 @@
 			y: 2.0d
 			description: [
 				"The Sawmill operates in two stages. Without a sawblade, it strips logs; with a sawblade, it cuts stripped logs into six planks each. See the Engineer's Manual for more info, as usual."
-				""
-				"Note: Building Gadgets Patterns and Create Schematics are available in your Enigmatica 8 instance folder to assist with this multiblock."
 			]
 			dependencies: [
 				"0000000000000020"
@@ -858,8 +848,6 @@
 			y: 1.0d
 			description: [
 				"The Squeezer can make plant oil from seeds (ideally hemp) and is also necessary to make HOP Graphite for the Arc Furnace. The Fermenter produces ethanol, used with plant oil to make biodiesel."
-				""
-				"Note: Building Gadgets Patterns and Create Schematics are available in your Enigmatica 8 instance folder to assist with this multiblock."
 			]
 			dependencies: ["0000000000000012"]
 			hide: true
@@ -958,8 +946,6 @@
 			shape: "circle"
 			description: [
 				"With Biodiesel or Diesel acquired, they can be used as a fuel for the powerful (if noisy) Diesel Generator, producing respectable amounts of FE/t."
-				""
-				"Note: Building Gadgets Patterns and Create Schematics are available in your Enigmatica 8 instance folder to assist with this multiblock."
 			]
 			dependencies: ["09AEE48CED288DD1"]
 			hide: true
@@ -1043,8 +1029,6 @@
 				"Once you've determined an appropriate spot to excavate, you can build this machine there. Be warned that the Excavator requires a rather hefty amount of energy to run."
 				""
 				"There is a lot of different types of mineral veins, so be sure to check in the Engineer’s Manual under “Overview and Resources” for a full list of Mineral Deposits and how to find them!"
-				""
-				"Note: Building Gadgets Patterns and Create Schematics are available in your Enigmatica 8 instance folder to assist with this multiblock."
 			]
 			dependencies: ["0000000000000061"]
 			hide: true
@@ -1159,12 +1143,10 @@
 					}
 				}
 				{
-					id: "35731B5937BBF8EB"
-					type: "command"
-					title: "Miner's Delight"
-					icon: "kubejs:miners_delight"
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/quest_miners_delight"
-					player_command: false
+					id: "71638160A20F97A3"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 7843861876017313718L
 				}
 			]
 		}
@@ -1243,8 +1225,6 @@
 			y: -2.0d
 			description: [
 				"The Automated Workbench is a powered multiblock that can automatically process a given type of Engineer's Workbench recipe, when supplied with a blueprint. Handy!"
-				""
-				"Note: Building Gadgets Patterns and Create Schematics are available in your Enigmatica 8 instance folder to assist with this multiblock."
 			]
 			dependencies: ["0000000000000019"]
 			hide: true
@@ -1307,8 +1287,6 @@
 			y: 2.0d
 			description: [
 				"The final step in producing Biodiesel, the Refinery combines Ethanol and Plant Oil to make this liquid gold. "
-				""
-				"Note: Building Gadgets Patterns and Create Schematics are available in your Enigmatica 8 instance folder to assist with this multiblock."
 			]
 			dependencies: ["000000000000003A"]
 			hide: true
@@ -1378,8 +1356,6 @@
 				"Assembler is used to craft items like a player would in crafting bench. It has 3 slots for recipes you can set, and output of one can be used as input of another recipe set. It also has 3 fluid tanks, which can be used to replace buckets with raw fluid."
 				""
 				"To assemble it, right click one of the belts. This will be your input, and second one will be output."
-				""
-				"Note: Building Gadgets Patterns and Create Schematics are available in your Enigmatica 8 instance folder to assist with this multiblock."
 			]
 			dependencies: ["0000000000000012"]
 			hide: true
@@ -1443,8 +1419,6 @@
 			y: 1.0d
 			description: [
 				"The Mixer dissolves solids into fluids, mixing them together. It's mostly used to create Liquid concrete, but it can also do potions."
-				""
-				"Note: Building Gadgets Patterns and Create Schematics are available in your Enigmatica 8 instance folder to assist with this multiblock."
 			]
 			dependencies: ["0000000000000012"]
 			hide: true
@@ -1506,9 +1480,6 @@
 			y: 2.0d
 			description: [
 				"The Bottling Machine fills fluid containers with provided liquid. Anything that can contain liquid will work! Mekanism tank, glass bottle, a bucket."
-				""
-				"Note: Building Gadgets Patterns and Create Schematics are available in your Enigmatica 8 instance folder to assist with this multiblock."
-			]
 			dependencies: [
 				"37F3086A687795FB"
 				"0000000000000013"

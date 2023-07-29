@@ -1009,12 +1009,10 @@
 				item: "create:mechanical_pump"
 			}]
 			rewards: [{
-				id: "0000000000000D84"
-				type: "command"
-				title: "Rare Create Loot Box"
-				icon: "kubejs:rare_lootbox"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/quest_create_loot_rare"
-				player_command: false
+				id: "62F3AF4426C95CAE"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3533714899972005892L
 			}]
 		}
 		{
