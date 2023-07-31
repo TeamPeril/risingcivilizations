@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Rising Civilizations: Mi Invasion",
-  "version": "2.0.1",
+  "version": "2.0.3",
   "author": "",
   "files": [
     {
@@ -50,8 +50,8 @@
       "required": true
     },
     {
-      "projectID": 314002,
-      "fileID": 4400658,
+      "projectID": 317792,
+      "fileID": 3872365,
       "required": true
     },
     {
@@ -82,11 +82,6 @@
     {
       "projectID": 592449,
       "fileID": 4432693,
-      "required": true
-    },
-    {
-      "projectID": 318833,
-      "fileID": 4493001,
       "required": true
     },
     {
@@ -122,11 +117,6 @@
     {
       "projectID": 307152,
       "fileID": 4297619,
-      "required": true
-    },
-    {
-      "projectID": 250419,
-      "fileID": 4277221,
       "required": true
     },
     {
@@ -240,13 +230,13 @@
       "required": true
     },
     {
-      "projectID": 682515,
-      "fileID": 4441303,
+      "projectID": 240630,
+      "fileID": 3831559,
       "required": true
     },
     {
-      "projectID": 240630,
-      "fileID": 3831559,
+      "projectID": 682515,
+      "fileID": 4441303,
       "required": true
     },
     {
@@ -257,11 +247,6 @@
     {
       "projectID": 567450,
       "fileID": 3983670,
-      "required": true
-    },
-    {
-      "projectID": 636608,
-      "fileID": 4658551,
       "required": true
     },
     {
@@ -380,6 +365,11 @@
       "required": true
     },
     {
+      "projectID": 271009,
+      "fileID": 3606213,
+      "required": true
+    },
+    {
       "projectID": 670282,
       "fileID": 3974158,
       "required": true
@@ -412,7 +402,7 @@
     {
       "projectID": 263466,
       "fileID": 4503431,
-      "required": true
+      "required": false
     },
     {
       "projectID": 309674,
@@ -492,7 +482,7 @@
     {
       "projectID": 317780,
       "fileID": 4658335,
-      "required": true
+      "required": false
     },
     {
       "projectID": 470193,
@@ -691,7 +681,7 @@
     },
     {
       "projectID": 523860,
-      "fileID": 4655524,
+      "fileID": 4669456,
       "required": true
     },
     {
@@ -702,6 +692,11 @@
     {
       "projectID": 274036,
       "fileID": 3830873,
+      "required": true
+    },
+    {
+      "projectID": 399558,
+      "fileID": 4393837,
       "required": true
     }
   ],
