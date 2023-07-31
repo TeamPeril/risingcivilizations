@@ -1079,6 +1079,26 @@
 				item: "recruits:nomad_block"
 			}]
 		}
+		{
+			title: "Buy Villager"
+			icon: "minecraft:villager_spawn_egg"
+			x: 4.5d
+			y: 5.0d
+			subtitle: "25 Credits"
+			can_repeat: true
+			id: "2E27614072A69D29"
+			tasks: [{
+				id: "14B3A77D3CE024A2"
+				type: "item"
+				item: "calemieconomy:coin_gold"
+				consume_items: false
+			}]
+			rewards: [{
+				id: "6C1D969E9CA27116"
+				type: "item"
+				item: "minecraft:villager_spawn_egg"
+			}]
+		}
 	]
 	quest_links: [ ]
 }
