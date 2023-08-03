@@ -1099,6 +1099,122 @@
 				item: "minecraft:villager_spawn_egg"
 			}]
 		}
+		{
+			title: "Buy Iron Wand"
+			icon: {
+				id: "constructionwand:iron_wand"
+				Count: 1b
+				tag: {
+					wand_options: { }
+					Damage: 0
+				}
+			}
+			x: 3.5d
+			y: 5.0d
+			subtitle: "10 Credits"
+			can_repeat: true
+			id: "5097283FAD97E29B"
+			tasks: [{
+				id: "31206D4970322498"
+				type: "item"
+				item: "calemieconomy:coin_silver"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "623E3D38B825C8A4"
+				type: "item"
+				item: {
+					id: "constructionwand:iron_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Buy Sawmill"
+			icon: "corail_woodcutter:oak_woodcutter"
+			x: 5.5d
+			y: 5.0d
+			subtitle: "10 Credits"
+			can_repeat: true
+			id: "113E598958E64B83"
+			tasks: [{
+				id: "49FFA3E4367E1BA0"
+				type: "item"
+				item: "calemieconomy:coin_silver"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "28C19FCB517378BE"
+				type: "item"
+				item: "corail_woodcutter:oak_woodcutter"
+			}]
+		}
+		{
+			title: "Buy Schematic Cannon"
+			icon: "create:schematicannon"
+			x: 3.5d
+			y: 6.0d
+			subtitle: "25 Credits"
+			can_repeat: true
+			id: "48FE76858804BEA1"
+			tasks: [{
+				id: "60CE0BC90BFD8EAB"
+				type: "item"
+				item: "calemieconomy:coin_gold"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "269ED16221A7D414"
+				type: "item"
+				item: "create:schematicannon"
+			}]
+		}
+		{
+			title: "Buy Schematic Table"
+			icon: "create:schematic_table"
+			x: 4.5d
+			y: 6.0d
+			subtitle: "25 Credits"
+			can_repeat: true
+			id: "34B674323D254DEC"
+			tasks: [{
+				id: "47082797AC369793"
+				type: "item"
+				item: "calemieconomy:coin_gold"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "42090A097317983D"
+				type: "item"
+				item: "create:schematic_table"
+			}]
+		}
+		{
+			title: "Buy Empty Schematic"
+			icon: "create:empty_schematic"
+			x: 5.5d
+			y: 6.0d
+			subtitle: "25 Credits"
+			can_repeat: true
+			id: "3D8AFAED3F522363"
+			tasks: [{
+				id: "40588CE02F3B21A6"
+				type: "item"
+				item: "calemieconomy:coin_gold"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "23EC0493F7A2988F"
+				type: "item"
+				item: "create:empty_schematic"
+			}]
+		}
 	]
 	quest_links: [ ]
 }
