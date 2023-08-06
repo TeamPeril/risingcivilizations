@@ -375,7 +375,7 @@
 			tasks: [{
 				id: "0554227C3010DF98"
 				type: "item"
-				item: "minecraft:iron_ore"
+				item: "minecraft:raw_iron"
 			}]
 			rewards: [
 				{
@@ -436,17 +436,6 @@
 					xp_levels: 1
 				}
 				{
-					id: "35AD3AF57712447D"
-					type: "item"
-					item: {
-						id: "easypaxellite:stone_paxel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
 					id: "49EAADCAC0362536"
 					type: "item"
 					item: "calemieconomy:money_bag_cheap"
@@ -468,7 +457,7 @@
 			tasks: [{
 				id: "20F523D9ACA1A833"
 				type: "item"
-				item: "minecraft:gold_ore"
+				item: "minecraft:raw_gold"
 			}]
 			rewards: [
 				{

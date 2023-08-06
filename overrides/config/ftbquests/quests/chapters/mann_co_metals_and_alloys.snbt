@@ -4,6 +4,7 @@
 	order_index: 0
 	filename: "mann_co_metals_and_alloys"
 	title: "Mann Co. Metals and Alloys"
+	disable_toast: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [
@@ -157,7 +158,7 @@
 					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						value: "forge:ores/coal"
+						value: "minecraft:coals"
 					}
 				}
 				count: 64L
@@ -184,7 +185,7 @@
 					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						value: "forge:ores/lapis"
+						value: "forge:gems/lapis"
 					}
 				}
 				count: 64L
@@ -211,7 +212,7 @@
 					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						value: "forge:ores/zinc"
+						value: "forge:raw_materials/zinc"
 					}
 				}
 				count: 64L
@@ -239,7 +240,7 @@
 					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						value: "forge:ores/iron"
+						value: "forge:raw_materials/iron"
 					}
 				}
 				count: 64L
@@ -262,7 +263,13 @@
 				id: "4437FC44D564ABDB"
 				type: "item"
 				title: "Any #forge:ores/gold"
-				item: "minecraft:gold_ore"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:raw_materials/gold"
+					}
+				}
 				count: 64L
 				consume_items: true
 			}]
@@ -287,7 +294,7 @@
 					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						value: "forge:ores/redstone"
+						value: "forge:dusts/redstone"
 					}
 				}
 				count: 64L
@@ -337,7 +344,7 @@
 					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						value: "forge:ores/diamond"
+						value: "forge:gems/diamond"
 					}
 				}
 				count: 64L
@@ -492,7 +499,6 @@
 		}
 		{
 			title: "Sell Bauxite Ore"
-			icon: "immersiveengineering:ore_aluminum"
 			x: 6.0d
 			y: 0.5d
 			subtitle: "100 Credits for x64"
@@ -506,7 +512,7 @@
 					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						value: "forge:ores/aluminum"
+						value: "forge:raw_materials/aluminum"
 					}
 				}
 				count: 64L
@@ -534,7 +540,7 @@
 					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						value: "forge:ores/silver"
+						value: "forge:raw_materials/silver"
 					}
 				}
 				count: 64L
@@ -555,7 +561,7 @@
 					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						value: "forge:ores/lead"
+						value: "forge:raw_materials/lead"
 					}
 				}
 				count: 64L
@@ -582,7 +588,7 @@
 					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						value: "forge:ores/uranium"
+						value: "forge:raw_materials/uranium"
 					}
 				}
 				count: 64L
@@ -617,7 +623,7 @@
 					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						value: "forge:ores/nickel"
+						value: "forge:raw_materials/nickel"
 					}
 				}
 				count: 64L

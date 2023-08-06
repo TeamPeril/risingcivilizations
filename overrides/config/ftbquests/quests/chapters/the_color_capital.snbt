@@ -4,6 +4,7 @@
 	order_index: 2
 	filename: "the_color_capital"
 	title: "The Color Capital"
+	disable_toast: true
 	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
 	images: [{

@@ -4,6 +4,7 @@
 	order_index: 3
 	filename: "equipment_enterprises"
 	title: "Equipment Enterprises"
+	disable_toast: true
 	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
 	images: [{
@@ -1091,7 +1092,7 @@
 				id: "14B3A77D3CE024A2"
 				type: "item"
 				item: "calemieconomy:coin_gold"
-				consume_items: false
+				consume_items: true
 			}]
 			rewards: [{
 				id: "6C1D969E9CA27116"
@@ -1213,6 +1214,66 @@
 				id: "23EC0493F7A2988F"
 				type: "item"
 				item: "create:empty_schematic"
+			}]
+		}
+		{
+			title: "Buy Memory"
+			icon: "mialliance:memory"
+			x: 11.5d
+			y: 5.0d
+			subtitle: "500 Credits + 32 Mi Essence"
+			can_repeat: true
+			id: "40C90F7AB81FBA29"
+			tasks: [
+				{
+					id: "37BD1F9567D69F18"
+					type: "item"
+					item: "calemieconomy:coin_platinum"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "63B39C665C9B6078"
+					type: "item"
+					item: "mialliance:mi_essence"
+					count: 32L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "0614D1D90B41A6D2"
+				type: "item"
+				item: "mialliance:memory"
+			}]
+		}
+		{
+			title: "Buy Memory of Civilization"
+			icon: "mialliance:memory_of_civilization"
+			x: 12.5d
+			y: 5.0d
+			subtitle: "300 Credits + 32 Mi Essence"
+			can_repeat: true
+			id: "2A3DD2B91BAA1F4E"
+			tasks: [
+				{
+					id: "12691ECADE0FDCF4"
+					type: "item"
+					item: "calemieconomy:coin_platinum"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "6A8121C3F39B273D"
+					type: "item"
+					item: "mialliance:mi_essence"
+					count: 32L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "18082801C3ED88F3"
+				type: "item"
+				item: "mialliance:memory_of_civilization"
 			}]
 		}
 	]

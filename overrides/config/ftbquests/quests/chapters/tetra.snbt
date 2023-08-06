@@ -19,6 +19,7 @@
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	hide_quest_details_until_startable: true
 	quests: [
 		{
 			title: "Tier 1"
@@ -944,12 +945,10 @@
 				}
 			}]
 			rewards: [{
-				id: "0000000000000A2C"
-				type: "command"
-				title: "Farmer's Delight"
-				icon: "kubejs:farmers_delight"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/quest_farmers_delight"
-				player_command: false
+				id: "790A651804D3F452"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 4862069733972096572L
 			}]
 		}
 		{
