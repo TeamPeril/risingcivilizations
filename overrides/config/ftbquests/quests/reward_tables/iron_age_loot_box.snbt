@@ -40,7 +40,7 @@
 		{ item: "minecraft:rail", count: 64, weight: 5 }
 		{ item: "minecraft:powered_rail", count: 32, weight: 5 }
 		{ item: "minecraft:minecart", weight: 5 }
-		{ item: "create:copper_ingot", count: 32, weight: 5 }
+		{ item: "minecraft:copper_ingot", count: 32, weight: 5 }
 		{ item: "create:zinc_ingot", count: 32, weight: 5 }
 	]
 }

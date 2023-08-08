@@ -32,7 +32,7 @@ S:customgameintroskiptext = '';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = 'Rising Civilizations 1.16.5';
+S:customwindowtitle = 'Rising Civilizations: Mi Invasion!';
 [A minecraft restart is required after changing this value.]
 B:customwindowicon = 'false';
 

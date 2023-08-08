@@ -1276,6 +1276,27 @@
 				item: "mialliance:memory_of_civilization"
 			}]
 		}
+		{
+			title: "Buy Arrows"
+			icon: "minecraft:arrow"
+			x: 4.5d
+			y: 7.0d
+			subtitle: "5 Credits"
+			can_repeat: true
+			id: "3B5B75EC1B4AAF56"
+			tasks: [{
+				id: "018C0E92FAE2F7FB"
+				type: "item"
+				item: "calemieconomy:coin_silver"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "50289B9819F01951"
+				type: "item"
+				item: "minecraft:arrow"
+				count: 64
+			}]
+		}
 	]
 	quest_links: [ ]
 }
