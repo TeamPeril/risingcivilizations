@@ -544,6 +544,12 @@
 					}
 				}
 				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2BF62493FE76BD89"
+				type: "item"
+				item: "calemieconomy:coin_platinum"
 			}]
 		}
 		{

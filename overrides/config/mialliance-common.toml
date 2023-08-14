@@ -5,7 +5,7 @@
 	#
 	#Spawnrate of all Mi patrols are multiplied by this factor after applying other factors, such as difficulty.
 	#Range: 0.1 ~ 10.0
-	"Mi Spawn Rate" = 1.0
+	"Mi Spawn Rate" = 0.25
 	#
 	#Spawn size of all Mi patrols are multiplied by this factor after applying other factors, such as difficulty.
 	#Range: 0.2 ~ 5.0
@@ -17,7 +17,7 @@
 	#
 	#The growth of friendly Tubian Colonies is influenced by this factor. The higher, the faster.
 	#Range: 0.1 ~ 10.0
-	"Mi Tubian Growth" = 1.0
+	"Mi Tubian Growth" = 3.0
 	#
 	#The growth of Mi Colonies is influenced by this factor. The higher, the faster.
 	#Range: 0.1 ~ 10.0
@@ -47,7 +47,7 @@
 	"Spawn Builders?" = true
 	#
 	#Spawn Mi group: Miners?
-	"Spawn Miners?" = true
+	"Spawn Miners?" = false
 	#
 	#Spawn Mi group: Assassins?
 	"Spawn Assassins?" = true
@@ -73,10 +73,10 @@
 	"Tubian Ghost Spawn Rate" = 1.0
 	#
 	#Should army Mi's be able to destroy blocks?
-	"Mi Fire Griefing?" = true
+	"Mi Fire Griefing?" = false
 	#
 	#Should Mi's be able to destroy blocks with explosions?
-	"Mi Griefing?" = true
+	"Mi Griefing?" = false
 	#
 	#Should worlds automatically be in Phase Two? Warning: Extremely hard for Survival.
 	"Force Phase Two?" = false
